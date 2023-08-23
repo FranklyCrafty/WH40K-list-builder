@@ -4,12 +4,12 @@
     "description": "Node.js application for managing Warhammer 40k data",
     "main": "app.js",
     "scripts": {
-      "start": "node app.js"
+        "start": "node app.js"
     },
     "dependencies": {
-      "express": "^4.17.1"
+        "express": "^4.17.1",
+        "xml2js": "^0.6.2"
     },
     "author": "FranklyCrafty",
     "license": "MIT"
-  }
-  
+}

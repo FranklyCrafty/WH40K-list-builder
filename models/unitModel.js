@@ -4,6 +4,8 @@
     constructor(unitData) {
       this.id = unitData.id;
       this.name = unitData.name;
+      this.cost = unitData.cost;
+      this.keywords = unitData.keywords;
       this.movement = unitData.movement;
       this.toughness = unitData.toughness;
       this.save = unitData.save;
@@ -11,14 +13,17 @@
       this.leadership = unitData.leadership;
       this.objective_control = objective_control;
       this.invulnerableSave = unitData.invulnerableSave;
+      this.leader = unitData.leader;
       this.abilities = unitData.abilities;
-      this.upgrades = unitData.upgrades;
+      this.melee_weapons = unitData.melee;
+      this.ranged_weapons = unitData.ranged;
       this.colors = unitData.colors;
       this.image = unitData.image;
-      this.faction = faction;
+      this.faction = unitData.faction;
+      this.models = unitData.models;
     }
     
-    static fromXMLData(entry) {
+/*     static fromXMLData(entry) {
       return new Unit({
         id: entry.$.id,
         name: entry.$.name,
@@ -34,8 +39,8 @@
         colors: [], // This information is not present in the XML file
         image: [], // This information is not present in the XML file
         faction: entry.characteristics[0].characteristic.find(char => char.$.typeName === 'Faction')._
-      });
-    }
+      }); 
+    }*/
   }
   
   module.exports = Unit;

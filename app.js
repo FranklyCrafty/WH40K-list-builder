@@ -8,7 +8,7 @@ const port = process.env.PORT || 3000;
 async function startApp() {
   try {
     // Parse XML to JSON before starting the app
-    await parseXML();
+    //await parseXML();
 
     // Set up your API routes
     app.use('/api', apiRoutes);
