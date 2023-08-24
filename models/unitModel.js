@@ -15,8 +15,6 @@
       this.invulnerableSave = unitData.invulnerableSave;
       this.leader = unitData.leader;
       this.abilities = unitData.abilities;
-      this.melee_weapons = unitData.melee;
-      this.ranged_weapons = unitData.ranged;
       this.colors = unitData.colors;
       this.image = unitData.image;
       this.faction = unitData.faction;
