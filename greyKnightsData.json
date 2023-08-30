@@ -9,7 +9,8 @@
     "leadership": "6+",
     "objectiveControl": "1",
     "colors": [],
-    "image": []
+    "image": [],
+    "weapons": []
   },
   {
     "id": "aec2-ded6-fa0-3b75",
@@ -21,7 +22,8 @@
     "leadership": "6+",
     "objectiveControl": "1",
     "colors": [],
-    "image": []
+    "image": [],
+    "weapons": []
   },
   {
     "id": "2c81-4e74-8707-3117",
@@ -33,7 +35,8 @@
     "leadership": "6+",
     "objectiveControl": "1",
     "colors": [],
-    "image": []
+    "image": [],
+    "weapons": []
   },
   {
     "id": "b9b1-d698-1e98-da45",
@@ -45,7 +48,8 @@
     "leadership": "5+",
     "objectiveControl": "1",
     "colors": [],
-    "image": []
+    "image": [],
+    "weapons": []
   },
   {
     "id": "5412-1f01-b7cc-bf12",
@@ -57,7 +61,8 @@
     "leadership": "6+",
     "objectiveControl": "1",
     "colors": [],
-    "image": []
+    "image": [],
+    "weapons": []
   },
   {
     "id": "f667-5267-f241-37",
@@ -69,7 +74,8 @@
     "leadership": "6+",
     "objectiveControl": "1",
     "colors": [],
-    "image": []
+    "image": [],
+    "weapons": []
   },
   {
     "id": "a037-a89c-f59f-8b1e",
@@ -81,7 +87,8 @@
     "leadership": "6+",
     "objectiveControl": "2",
     "colors": [],
-    "image": []
+    "image": [],
+    "weapons": []
   },
   {
     "id": "9ddb-760d-8cf7-1c8a",
@@ -93,7 +100,8 @@
     "leadership": "6+",
     "objectiveControl": "1",
     "colors": [],
-    "image": []
+    "image": [],
+    "weapons": []
   },
   {
     "id": "1a56-706b-a8f1-631a",
@@ -105,7 +113,8 @@
     "leadership": "6+",
     "objectiveControl": "1",
     "colors": [],
-    "image": []
+    "image": [],
+    "weapons": []
   },
   {
     "id": "3625-f9f1-122b-bf9d",
@@ -117,7 +126,8 @@
     "leadership": "6+",
     "objectiveControl": "4",
     "colors": [],
-    "image": []
+    "image": [],
+    "weapons": []
   },
   {
     "id": "7256-bb3a-3e79-31fe",
@@ -129,7 +139,8 @@
     "leadership": "6+",
     "objectiveControl": "1",
     "colors": [],
-    "image": []
+    "image": [],
+    "weapons": []
   },
   {
     "id": "512d-b972-911e-4cac",
@@ -141,7 +152,8 @@
     "leadership": "6+",
     "objectiveControl": "5",
     "colors": [],
-    "image": []
+    "image": [],
+    "weapons": []
   },
   {
     "id": "4c63-cca-8d26-6330",
@@ -153,7 +165,8 @@
     "leadership": "6+",
     "objectiveControl": "5",
     "colors": [],
-    "image": []
+    "image": [],
+    "weapons": []
   },
   {
     "id": "ada7-eb0b-c920-d77f",
@@ -165,7 +178,8 @@
     "leadership": "6+",
     "objectiveControl": "5",
     "colors": [],
-    "image": []
+    "image": [],
+    "weapons": []
   },
   {
     "id": "841f-98b-fbf3-c8ee",
@@ -177,7 +191,8 @@
     "leadership": "6+",
     "objectiveControl": "2",
     "colors": [],
-    "image": []
+    "image": [],
+    "weapons": []
   },
   {
     "id": "5ffd-f698-a1bb-fba7",
@@ -189,7 +204,8 @@
     "leadership": "6+",
     "objectiveControl": "2",
     "colors": [],
-    "image": []
+    "image": [],
+    "weapons": []
   },
   {
     "id": "fa-e288-2107-d22e",
@@ -201,7 +217,8 @@
     "leadership": "6+",
     "objectiveControl": "0",
     "colors": [],
-    "image": []
+    "image": [],
+    "weapons": []
   },
   {
     "id": "2efe-459b-9562-e7a9",
@@ -213,7 +230,8 @@
     "leadership": "6+",
     "objectiveControl": "0",
     "colors": [],
-    "image": []
+    "image": [],
+    "weapons": []
   },
   {
     "id": "84ac-b9ea-921f-9082",
@@ -225,7 +243,8 @@
     "leadership": "6+",
     "objectiveControl": "0",
     "colors": [],
-    "image": []
+    "image": [],
+    "weapons": []
   },
   {
     "id": "bd43-b303-66e0-4c10",
@@ -237,7 +256,8 @@
     "leadership": "6+",
     "objectiveControl": "3",
     "colors": [],
-    "image": []
+    "image": [],
+    "weapons": []
   },
   {
     "id": "d9f7-71b7-8e67-7f44",
@@ -249,7 +269,8 @@
     "leadership": "6+",
     "objectiveControl": "1",
     "colors": [],
-    "image": []
+    "image": [],
+    "weapons": []
   },
   {
     "id": "7a19-5235-692b-320d",
@@ -261,7 +282,8 @@
     "leadership": "6+",
     "objectiveControl": "1",
     "colors": [],
-    "image": []
+    "image": [],
+    "weapons": []
   },
   {
     "id": "5458-a458-c51d-c4e9",
@@ -273,7 +295,8 @@
     "leadership": "6+",
     "objectiveControl": "4",
     "colors": [],
-    "image": []
+    "image": [],
+    "weapons": []
   },
   {
     "id": "6528-4634-c2cf-2840",
@@ -285,7 +308,8 @@
     "leadership": "6+",
     "objectiveControl": "1",
     "colors": [],
-    "image": []
+    "image": [],
+    "weapons": []
   },
   {
     "id": "e8ad-bd40-5952-6859",
@@ -297,7 +321,8 @@
     "leadership": "6+",
     "objectiveControl": "1",
     "colors": [],
-    "image": []
+    "image": [],
+    "weapons": []
   },
   {
     "id": "8865-df22-1629-bf02",
@@ -309,7 +334,8 @@
     "leadership": "6+",
     "objectiveControl": "1",
     "colors": [],
-    "image": []
+    "image": [],
+    "weapons": []
   },
   {
     "id": "35ed-7890-6c56-18b7",
@@ -321,7 +347,8 @@
     "leadership": "8+",
     "objectiveControl": "0",
     "colors": [],
-    "image": []
+    "image": [],
+    "weapons": []
   },
   {
     "id": "d81f-c9ac-e338-ba37",
@@ -333,7 +360,8 @@
     "leadership": "6+",
     "objectiveControl": "2",
     "colors": [],
-    "image": []
+    "image": [],
+    "weapons": []
   },
   {
     "id": "8989-2fd2-4d29-e795",
@@ -345,7 +373,8 @@
     "leadership": "6+",
     "objectiveControl": "0",
     "colors": [],
-    "image": []
+    "image": [],
+    "weapons": []
   },
   {
     "id": "69d-a656-fde3-6c3e",
@@ -357,7 +386,8 @@
     "leadership": "6+",
     "objectiveControl": "5",
     "colors": [],
-    "image": []
+    "image": [],
+    "weapons": []
   },
   {
     "id": "28d0-5a52-501a-441d",
@@ -369,7 +399,8 @@
     "leadership": "6+",
     "objectiveControl": "3",
     "colors": [],
-    "image": []
+    "image": [],
+    "weapons": []
   },
   {
     "id": "54f0-4b3f-3abe-081b",
@@ -381,7 +412,8 @@
     "leadership": "6+",
     "objectiveControl": "2",
     "colors": [],
-    "image": []
+    "image": [],
+    "weapons": []
   },
   null,
   null

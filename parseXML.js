@@ -31,14 +31,42 @@ parser.parseString(xmlData, (err, result) => {
         //  entry.profiles[0].profile[4].characteristics[0].characteristic.find(char => char.$.typeName === 'Abilities')._
         //],
         colors: [], // This information is not present in the XML file
-        image: []//entry.profiles[0].profile[0].characteristics[0].characteristic.find(char => char.$.name === 'image')._
+        image: [],//entry.profiles[0].profile[0].characteristics[0].characteristic.find(char => char.$.name === 'image')._
+        weapons: [] // Initialize the weapons array
       };
+
+      // Check if the entry has selectionEntryGroups and if its typeName is 'Weapon Choice'
+      if (entry.selectionEntryGroups && entry.selectionEntryGroups[0].selectionEntryGroup[0].$.name === 'Weapon Choice') {
+        // Iterate through selectionEntries within the selectionEntryGroup
+        const weaponSelections = entry.selectionEntryGroups[0].selectionEntryGroup[0].selectionEntries[0].selectionEntry.map(weaponEntry => {
+          const weaponData = {
+          // Extract weapon attributes here based on XML structure
+          id: weaponEntry.selectionEntry.find(char => char.$.type === 'upgrade').id,
+          name: weaponEntry.selectionEntry.find(char => char.$.type === 'upgrade').name,
+          //keywords: weaponData.keywords;
+          range: weaponEntry.selectionEntry.profiles[0].profile[0].characteristics[0].characteristic.find(char => char.$.name === 'Range')._,
+          attacks: weaponEntry.selectionEntry.profiles[0].profile[0].characteristics[0].characteristic.find(char => char.$.name === 'A')._,
+          weapon_skill: weaponEntry.selectionEntry.profiles[0].profile[0].characteristics[0].characteristic.find(char => char.$.name === 'WS'||char.$.name === 'BS')._,
+          armor_penetration: entry.selectionEntry.profiles[0].profile[0].characteristics[0].characteristic.find(char => char.$.name === 'A')._,
+          damage: weaponEntry.selectionEntry.profiles[0].profile[0].characteristics[0].characteristic.find(char => char.$.name === 'D')._,
+          //rules: weaponData.rules;
+          //constraints: weaponData.constraints;
+          weapon_type: weaponEntry.selectionEntry.profiles[0].profile.find(char => char.$.type === name).typeName
+          };
+        });
+      }
+      else{
+        weaponSelections=[];
+      }
+         
+      unitData.weapons = weaponSelections;
+      
       return unitData;
     }
-    else
-    {
+    else {
       return null;
     }
+
   });
 
   // Save as JSON
