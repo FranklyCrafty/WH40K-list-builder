@@ -10,7 +10,48 @@
     "objectiveControl": "1",
     "colors": [],
     "image": [],
-    "weapons": []
+    "weapons": [
+      {
+        "id": "5d2c-27fb-8ec3-bb05",
+        "name": "Psycannon",
+        "range": "24\"",
+        "attacks": "3",
+        "weapon_skill": "2+",
+        "armor_penetration": "-1",
+        "damage": "2",
+        "weapon_type": "Ranged Weapons"
+      },
+      {
+        "id": "da68-aa2c-9e7c-3ca2",
+        "name": "Incinerator",
+        "range": "12\"",
+        "attacks": "D6",
+        "weapon_skill": "N/A",
+        "armor_penetration": "-1",
+        "damage": "1",
+        "weapon_type": "Ranged Weapons"
+      },
+      {
+        "id": "70a0-b88a-6d05-3706",
+        "name": "Psilencer",
+        "range": "24\"",
+        "attacks": "6",
+        "weapon_skill": "2+",
+        "armor_penetration": "0",
+        "damage": "1",
+        "weapon_type": "Ranged Weapons"
+      },
+      {
+        "id": "26b7-e7cf-33d8-9abe",
+        "name": "Storm Bolter",
+        "range": "24\"",
+        "attacks": "2",
+        "weapon_skill": "2+",
+        "armor_penetration": "0",
+        "damage": "1",
+        "weapon_type": "Ranged Weapons"
+      }
+    ]
   },
   {
     "id": "aec2-ded6-fa0-3b75",
@@ -62,7 +103,28 @@
     "objectiveControl": "1",
     "colors": [],
     "image": [],
-    "weapons": []
+    "weapons": [
+      {
+        "id": "f6ec-2a11-5ca6-344b",
+        "name": "Storm Bolter",
+        "range": "24\"",
+        "attacks": "2",
+        "weapon_skill": "2+",
+        "armor_penetration": "0",
+        "damage": "1",
+        "weapon_type": "Ranged Weapons"
+      },
+      {
+        "id": "a0ce-78-c636-3bc6",
+        "name": "Combi-Weapon",
+        "range": "24\"",
+        "attacks": "1",
+        "weapon_skill": "4+",
+        "armor_penetration": "0",
+        "damage": "1",
+        "weapon_type": "Ranged Weapons"
+      }
+    ]
   },
   {
     "id": "f667-5267-f241-37",
@@ -114,7 +176,48 @@
     "objectiveControl": "1",
     "colors": [],
     "image": [],
-    "weapons": []
+    "weapons": [
+      {
+        "id": "be75-9ce5-95d5-a03f",
+        "name": "Psycannon",
+        "range": "24\"",
+        "attacks": "3",
+        "weapon_skill": "2+",
+        "armor_penetration": "-1",
+        "damage": "2",
+        "weapon_type": "Ranged Weapons"
+      },
+      {
+        "id": "aa13-af0a-18e-f507",
+        "name": "Incinerator",
+        "range": "12\"",
+        "attacks": "D6",
+        "weapon_skill": "N/A",
+        "armor_penetration": "-1",
+        "damage": "1",
+        "weapon_type": "Ranged Weapons"
+      },
+      {
+        "id": "4d85-10bc-912c-c316",
+        "name": "Psilencer",
+        "range": "24\"",
+        "attacks": "6",
+        "weapon_skill": "2+",
+        "armor_penetration": "0",
+        "damage": "1",
+        "weapon_type": "Ranged Weapons"
+      },
+      {
+        "id": "903a-b2d-bf56-4652",
+        "name": "Storm Bolter",
+        "range": "24\"",
+        "attacks": "2",
+        "weapon_skill": "2+",
+        "armor_penetration": "0",
+        "damage": "1",
+        "weapon_type": "Ranged Weapons"
+      }
+    ]
   },
   {
     "id": "3625-f9f1-122b-bf9d",
