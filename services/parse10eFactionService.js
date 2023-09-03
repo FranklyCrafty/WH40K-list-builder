@@ -1,14 +1,6 @@
 const fs = require('fs');
 const xml2js = require('xml2js');
 
-// Read XML data from file
-const xmlData = fs.readFileSync('data/Imperium - Grey Knights.cat', 'utf-8');
-xml2js.parseString(xmlData, function(err, result) {
-  fs.writeFileSync('greyKnightsData.json', JSON.stringify(result));
-});
-
-
-/*
 // Parse XML data
 const parser = new xml2js.Parser();
 parser.parseString(xmlData, (err, result) => {
@@ -21,7 +13,7 @@ parser.parseString(xmlData, (err, result) => {
   const units = result.catalogue.sharedSelectionEntries[0].selectionEntry.map(parseUnit);
 
   // Save as JSON
-  fs.writeFileSync('greyKnightsData.json', JSON.stringify(units, null, 2));
+  fs.writeFileSync('/data/greyKnightsData.json', JSON.stringify(units, null, 2));
 });
 
 // Function to parse a single unit/model entry
@@ -97,4 +89,3 @@ function parseWeapon(weaponEntry) {
     weapon_type: weaponEntry.profiles[0].profile[0].$.typeName
   };
 }
-*/

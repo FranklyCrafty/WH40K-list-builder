@@ -15,10 +15,9 @@
       this.invulnerableSave = unitData.invulnerableSave;
       this.leader = unitData.leader;
       this.abilities = unitData.abilities;
+      this.models = unitData.models;
       this.colors = unitData.colors;
       this.image = unitData.image;
-      this.faction = unitData.faction;
-      this.models = unitData.models;
     }
   }
   

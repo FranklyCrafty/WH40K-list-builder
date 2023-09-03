@@ -4,8 +4,7 @@
     constructor(modelData) {
       this.id = modelData.id;
       this.name = modelData.name;
-      this.melee_weapons = modelData.melee;
-      this.ranged_weapons = modelData.ranged;
+      this.weapons = modelData.weapons;
     }
   }
   
