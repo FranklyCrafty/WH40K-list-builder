@@ -110,23 +110,150 @@
     "models": [
       {
         "id": "79e8-7d5f-6567-1a4c",
-        "name": "Justicar"
+        "name": "Justicar",
+        "weapons": [
+          {
+            "id": "b008-9b7a-6f45-1873",
+            "name": "Nemesis Force Weapon",
+            "range": "Melee",
+            "attacks": "4",
+            "weapon_skill": "3+",
+            "armor_penetration": "-2",
+            "damage": "2",
+            "weapon_type": "Melee Weapons"
+          },
+          {
+            "id": "3937-81ba-e034-15b6",
+            "name": "Storm Bolter",
+            "range": "24\"",
+            "attacks": "2",
+            "weapon_skill": "3+",
+            "armor_penetration": "0",
+            "damage": "1",
+            "weapon_type": "Ranged Weapons"
+          }
+        ],
+        "minSelection": "1",
+        "maxSelection": "1"
       },
       {
         "id": "f5c5-56fd-51ec-d1a6",
-        "name": "Terminator"
+        "name": "Terminator",
+        "weapons": [
+          {
+            "id": "261c-9752-7bd3-7bf2",
+            "name": "Nemesis Force Weapon",
+            "range": "Melee",
+            "attacks": "4",
+            "weapon_skill": "3+",
+            "armor_penetration": "-2",
+            "damage": "2",
+            "weapon_type": "Melee Weapons"
+          },
+          {
+            "id": "aa86-238b-9ca6-7504",
+            "name": "Storm Bolter",
+            "range": "24\"",
+            "attacks": "2",
+            "weapon_skill": "3+",
+            "armor_penetration": "0",
+            "damage": "1",
+            "weapon_type": "Ranged Weapons"
+          }
+        ],
+        "minSelection": "1",
+        "maxSelection": "1"
       },
       {
         "id": "6215-3f01-f844-585",
-        "name": "Terminator with Ancient's Banner"
+        "name": "Terminator with Ancient's Banner",
+        "weapons": [
+          {
+            "id": "3934-1e64-5a6a-8e54",
+            "name": "Nemesis Force Weapon",
+            "range": "Melee",
+            "attacks": "4",
+            "weapon_skill": "3+",
+            "armor_penetration": "-2",
+            "damage": "2",
+            "weapon_type": "Melee Weapons"
+          },
+          {
+            "id": "186c-825d-4e37-6b5d",
+            "name": "Storm Bolter",
+            "range": "24\"",
+            "attacks": "2",
+            "weapon_skill": "3+",
+            "armor_penetration": "0",
+            "damage": "1",
+            "weapon_type": "Ranged Weapons"
+          },
+          {
+            "id": "55ab-530-9b32-a5d0",
+            "name": "Ancient's Banner",
+            "weapon_type": "Abilities"
+          }
+        ],
+        "maxSelection": "1"
       },
       {
         "id": "22fd-3d1b-9957-2d5f",
-        "name": "Terminator with Narthecium"
+        "name": "Terminator with Narthecium",
+        "weapons": [
+          {
+            "id": "29dd-35d3-910f-c1c4",
+            "name": "Nemesis Force Weapon",
+            "range": "Melee",
+            "attacks": "4",
+            "weapon_skill": "3+",
+            "armor_penetration": "-2",
+            "damage": "2",
+            "weapon_type": "Melee Weapons"
+          },
+          {
+            "id": "65d9-e2ef-776d-f579",
+            "name": "Narthecium",
+            "weapon_type": "Abilities"
+          }
+        ],
+        "maxSelection": "1"
       },
       {
         "id": "77d3-d321-bb86-dabe",
-        "name": "Terminator with Heavy Weapon"
+        "name": "Terminator with Heavy Weapon",
+        "weapons": [
+          {
+            "id": "c694-9e9d-faf1-87b7",
+            "name": "Psycannon",
+            "range": "24\"",
+            "attacks": "3",
+            "weapon_skill": "3+",
+            "armor_penetration": "-1",
+            "damage": "2",
+            "weapon_type": "Ranged Weapons"
+          },
+          {
+            "id": "93a3-e2fc-bb5a-a7ae",
+            "name": "Incinerator",
+            "range": "12\"",
+            "attacks": "D6",
+            "weapon_skill": "N/A",
+            "armor_penetration": "-1",
+            "damage": "1",
+            "weapon_type": "Ranged Weapons"
+          },
+          {
+            "id": "bf84-2a13-b47c-7",
+            "name": "Psilencer",
+            "range": "24\"",
+            "attacks": "6",
+            "weapon_skill": "3+",
+            "armor_penetration": "0",
+            "damage": "1",
+            "weapon_type": "Ranged Weapons"
+          }
+        ],
+        "maxSelection": "1"
       }
     ],
     "colors": [],
@@ -355,15 +482,96 @@
     "models": [
       {
         "id": "9ae2-cba2-3df0-81ea",
-        "name": "Justicar"
+        "name": "Justicar",
+        "weapons": [
+          {
+            "id": "cfe2-dc97-7f64-ee2b",
+            "name": "Nemesis Force Weapon",
+            "range": "Melee",
+            "attacks": "3",
+            "weapon_skill": "3+",
+            "armor_penetration": "-2",
+            "damage": "2",
+            "weapon_type": "Melee Weapons"
+          },
+          {
+            "id": "9ac9-3c48-f753-f303",
+            "name": "Storm Bolter",
+            "range": "24\"",
+            "attacks": "2",
+            "weapon_skill": "3+",
+            "armor_penetration": "0",
+            "damage": "1",
+            "weapon_type": "Ranged Weapons"
+          }
+        ],
+        "minSelection": "1",
+        "maxSelection": "1"
       },
       {
         "id": "2906-2dfd-6dbe-ca8",
-        "name": "Interceptor"
+        "name": "Interceptor",
+        "weapons": [
+          {
+            "id": "4e6-6d1c-3395-59d5",
+            "name": "Nemesis Force Weapon",
+            "range": "Melee",
+            "attacks": "3",
+            "weapon_skill": "3+",
+            "armor_penetration": "-2",
+            "damage": "2",
+            "weapon_type": "Melee Weapons"
+          },
+          {
+            "id": "43d0-c61a-f6da-22a0",
+            "name": "Storm Bolter",
+            "range": "24\"",
+            "attacks": "2",
+            "weapon_skill": "3+",
+            "armor_penetration": "0",
+            "damage": "1",
+            "weapon_type": "Ranged Weapons"
+          }
+        ],
+        "minSelection": "1",
+        "maxSelection": "1"
       },
       {
         "id": "98ea-59aa-70be-5d6d",
-        "name": "Interceptor with Heavy Weapon"
+        "name": "Interceptor with Heavy Weapon",
+        "weapons": [
+          {
+            "id": "5b24-9dd2-ede3-3922",
+            "name": "Psycannon",
+            "range": "24\"",
+            "attacks": "3",
+            "weapon_skill": "3+",
+            "armor_penetration": "-1",
+            "damage": "2",
+            "weapon_type": "Ranged Weapons"
+          },
+          {
+            "id": "8eb1-bf8b-bd1c-7854",
+            "name": "Incinerator",
+            "range": "12\"",
+            "attacks": "D6",
+            "weapon_skill": "N/A",
+            "armor_penetration": "-1",
+            "damage": "1",
+            "weapon_type": "Ranged Weapons"
+          },
+          {
+            "id": "8d94-1425-6cf6-d262",
+            "name": "Psilencer",
+            "range": "24\"",
+            "attacks": "6",
+            "weapon_skill": "3+",
+            "armor_penetration": "0",
+            "damage": "1",
+            "weapon_type": "Ranged Weapons"
+          }
+        ],
+        "maxSelection": "1"
       }
     ],
     "colors": [],
@@ -416,19 +624,143 @@
     "models": [
       {
         "id": "7eaa-bc4d-e325-6767",
-        "name": "Paragon"
+        "name": "Paragon",
+        "weapons": [
+          {
+            "id": "1207-d408-edb8-7e91",
+            "name": "Nemesis Force Weapon",
+            "range": "Melee",
+            "attacks": "4",
+            "weapon_skill": "2+",
+            "armor_penetration": "-2",
+            "damage": "2",
+            "weapon_type": "Melee Weapons"
+          },
+          {
+            "id": "c93f-d27c-e74f-be19",
+            "name": "Storm Bolter",
+            "range": "24\"",
+            "attacks": "2",
+            "weapon_skill": "3+",
+            "armor_penetration": "0",
+            "damage": "1",
+            "weapon_type": "Ranged Weapons"
+          }
+        ],
+        "minSelection": "1",
+        "maxSelection": "1"
       },
       {
         "id": "d1b3-96e2-43e6-6bf4",
-        "name": "Paladin"
+        "name": "Paladin",
+        "weapons": [
+          {
+            "id": "6187-c075-7bd0-2a9b",
+            "name": "Nemesis Force Weapon",
+            "range": "Melee",
+            "attacks": "4",
+            "weapon_skill": "2+",
+            "armor_penetration": "-2",
+            "damage": "2",
+            "weapon_type": "Melee Weapons"
+          },
+          {
+            "id": "abb5-3b05-887d-41c6",
+            "name": "Storm Bolter",
+            "range": "24\"",
+            "attacks": "2",
+            "weapon_skill": "3+",
+            "armor_penetration": "0",
+            "damage": "1",
+            "weapon_type": "Ranged Weapons"
+          }
+        ],
+        "minSelection": "1",
+        "maxSelection": "1"
       },
       {
         "id": "c782-acdd-ccd7-6cc0",
-        "name": "Paladin with Ancient's Banner"
+        "name": "Paladin with Ancient's Banner",
+        "weapons": [
+          {
+            "id": "d970-7af-8ceb-f662",
+            "name": "Psycannon",
+            "range": "24\"",
+            "attacks": "3",
+            "weapon_skill": "2+",
+            "armor_penetration": "-1",
+            "damage": "2",
+            "weapon_type": "Ranged Weapons"
+          },
+          {
+            "id": "e308-5d95-ccfe-a490",
+            "name": "Incinerator",
+            "range": "12\"",
+            "attacks": "D6",
+            "weapon_skill": "N/A",
+            "armor_penetration": "-1",
+            "damage": "1",
+            "weapon_type": "Ranged Weapons"
+          },
+          {
+            "id": "548f-f4dd-7e32-9d31",
+            "name": "Psilencer",
+            "range": "24\"",
+            "attacks": "6",
+            "weapon_skill": "2+",
+            "armor_penetration": "0",
+            "damage": "1",
+            "weapon_type": "Ranged Weapons"
+          },
+          {
+            "id": "1202-d63-2028-ab5c",
+            "name": "Storm Bolter",
+            "range": "24\"",
+            "attacks": "2",
+            "weapon_skill": "2+",
+            "armor_penetration": "0",
+            "damage": "1",
+            "weapon_type": "Ranged Weapons"
+          }
+        ],
+        "maxSelection": "1"
       },
       {
         "id": "7f57-9a5a-c5bf-851a",
-        "name": "Paladin with Heavy Weapon"
+        "name": "Paladin with Heavy Weapon",
+        "weapons": [
+          {
+            "id": "e1fa-34a1-5580-b7c8",
+            "name": "Psycannon",
+            "range": "24\"",
+            "attacks": "3",
+            "weapon_skill": "2+",
+            "armor_penetration": "-1",
+            "damage": "2",
+            "weapon_type": "Ranged Weapons"
+          },
+          {
+            "id": "5c0-5677-cffb-374c",
+            "name": "Incinerator",
+            "range": "12\"",
+            "attacks": "D6",
+            "weapon_skill": "N/A",
+            "armor_penetration": "-1",
+            "damage": "1",
+            "weapon_type": "Ranged Weapons"
+          },
+          {
+            "id": "f2a4-ccdb-517c-9e67",
+            "name": "Psilencer",
+            "range": "24\"",
+            "attacks": "6",
+            "weapon_skill": "2+",
+            "armor_penetration": "0",
+            "damage": "1",
+            "weapon_type": "Ranged Weapons"
+          }
+        ],
+        "maxSelection": "2"
       }
     ],
     "colors": [],
@@ -449,15 +781,96 @@
     "models": [
       {
         "id": "5f9-7ef3-ba5b-6352",
-        "name": "Justicar"
+        "name": "Justicar",
+        "weapons": [
+          {
+            "id": "e23c-c956-54ae-96bf",
+            "name": "Nemesis Force Weapon",
+            "range": "Melee",
+            "attacks": "3",
+            "weapon_skill": "3+",
+            "armor_penetration": "-2",
+            "damage": "2",
+            "weapon_type": "Melee Weapons"
+          },
+          {
+            "id": "d791-32c3-c5ec-29e0",
+            "name": "Storm Bolter",
+            "range": "24\"",
+            "attacks": "2",
+            "weapon_skill": "3+",
+            "armor_penetration": "0",
+            "damage": "1",
+            "weapon_type": "Ranged Weapons"
+          }
+        ],
+        "minSelection": "1",
+        "maxSelection": "1"
       },
       {
         "id": "ee3b-2ec2-2841-7e66",
-        "name": "Purgator"
+        "name": "Purgator",
+        "weapons": [
+          {
+            "id": "3f2f-f59d-6aba-cf85",
+            "name": "Nemesis Force Weapon",
+            "range": "Melee",
+            "attacks": "3",
+            "weapon_skill": "3+",
+            "armor_penetration": "-2",
+            "damage": "2",
+            "weapon_type": "Melee Weapons"
+          },
+          {
+            "id": "b398-1281-6d4e-2eed",
+            "name": "Storm Bolter",
+            "range": "24\"",
+            "attacks": "2",
+            "weapon_skill": "3+",
+            "armor_penetration": "0",
+            "damage": "1",
+            "weapon_type": "Ranged Weapons"
+          }
+        ],
+        "minSelection": "1",
+        "maxSelection": "1"
       },
       {
         "id": "cff6-2f07-e799-ae10",
-        "name": "Purgator with Heavy Weapon"
+        "name": "Purgator with Heavy Weapon",
+        "weapons": [
+          {
+            "id": "3be7-89f0-b41f-ae4d",
+            "name": "Psycannon",
+            "range": "24\"",
+            "attacks": "3",
+            "weapon_skill": "3+",
+            "armor_penetration": "-1",
+            "damage": "2",
+            "weapon_type": "Ranged Weapons"
+          },
+          {
+            "id": "a7cb-37ff-c427-6574",
+            "name": "Incinerator",
+            "range": "12\"",
+            "attacks": "D6",
+            "weapon_skill": "N/A",
+            "armor_penetration": "-1",
+            "damage": "1",
+            "weapon_type": "Ranged Weapons"
+          },
+          {
+            "id": "7cfb-22e4-5f7c-dfad",
+            "name": "Psilencer",
+            "range": "24\"",
+            "attacks": "6",
+            "weapon_skill": "3+",
+            "armor_penetration": "0",
+            "damage": "1",
+            "weapon_type": "Ranged Weapons"
+          }
+        ],
+        "maxSelection": "4"
       }
     ],
     "colors": [],
@@ -478,15 +891,116 @@
     "models": [
       {
         "id": "d27-4455-b0d4-3250",
-        "name": "Knight of the Flame"
+        "name": "Knight of the Flame",
+        "weapons": [
+          {
+            "id": "2d25-3fc9-a477-6a9e",
+            "name": "Nemesis Force Weapon",
+            "range": "Melee",
+            "attacks": "3",
+            "weapon_skill": "3+",
+            "armor_penetration": "-2",
+            "damage": "2",
+            "weapon_type": "Melee Weapons"
+          },
+          {
+            "id": "afbf-1390-b3c2-34e5",
+            "name": "Storm Bolter",
+            "range": "24\"",
+            "attacks": "2",
+            "weapon_skill": "3+",
+            "armor_penetration": "0",
+            "damage": "1",
+            "weapon_type": "Ranged Weapons"
+          },
+          {
+            "id": "7806-2692-1a7b-e5ac",
+            "name": "Purifying Flame",
+            "range": "18\"",
+            "attacks": "1",
+            "weapon_skill": "3+",
+            "armor_penetration": "-1",
+            "damage": "1",
+            "weapon_type": "Ranged Weapons"
+          }
+        ],
+        "minSelection": "1",
+        "maxSelection": "1"
       },
       {
         "id": "2105-9372-a043-df0c",
-        "name": "Purifier"
+        "name": "Purifier",
+        "weapons": [
+          {
+            "id": "1cfa-f820-e633-36ef",
+            "name": "Nemesis Force Weapon",
+            "range": "Melee",
+            "attacks": "3",
+            "weapon_skill": "3+",
+            "armor_penetration": "-2",
+            "damage": "2",
+            "weapon_type": "Melee Weapons"
+          },
+          {
+            "id": "71f6-9d16-87ce-ad59",
+            "name": "Storm Bolter",
+            "range": "24\"",
+            "attacks": "2",
+            "weapon_skill": "3+",
+            "armor_penetration": "0",
+            "damage": "1",
+            "weapon_type": "Ranged Weapons"
+          },
+          {
+            "id": "915e-b169-5d19-d77b",
+            "name": "Purifying Flame",
+            "range": "18\"",
+            "attacks": "1",
+            "weapon_skill": "3+",
+            "armor_penetration": "-1",
+            "damage": "1",
+            "weapon_type": "Ranged Weapons"
+          }
+        ],
+        "minSelection": "1",
+        "maxSelection": "1"
       },
       {
         "id": "c1d9-48c4-c8de-237b",
-        "name": "Purifier with Heavy Weapon"
+        "name": "Purifier with Heavy Weapon",
+        "weapons": [
+          {
+            "id": "2dda-bd03-108d-168a",
+            "name": "Psycannon",
+            "range": "24\"",
+            "attacks": "3",
+            "weapon_skill": "3+",
+            "armor_penetration": "-1",
+            "damage": "2",
+            "weapon_type": "Ranged Weapons"
+          },
+          {
+            "id": "3a07-c5a8-fc6b-d3dd",
+            "name": "Incinerator",
+            "range": "12\"",
+            "attacks": "D6",
+            "weapon_skill": "N/A",
+            "armor_penetration": "-1",
+            "damage": "1",
+            "weapon_type": "Ranged Weapons"
+          },
+          {
+            "id": "7c1a-8710-d76e-e286",
+            "name": "Psilencer",
+            "range": "24\"",
+            "attacks": "6",
+            "weapon_skill": "3+",
+            "armor_penetration": "0",
+            "damage": "1",
+            "weapon_type": "Ranged Weapons"
+          }
+        ],
+        "maxSelection": "2"
       }
     ],
     "colors": [],
@@ -507,19 +1021,31 @@
     "models": [
       {
         "id": "54c6-2506-f109-dd",
-        "name": "Servitor with Servo Arm"
+        "name": "Servitor with Servo Arm",
+        "weapons": [],
+        "minSelection": "1",
+        "maxSelection": "1"
       },
       {
         "id": "89c9-ccee-d41e-7489",
-        "name": "Servitor with Heavy Bolter"
+        "name": "Servitor with Heavy Bolter",
+        "weapons": [],
+        "minSelection": "1",
+        "maxSelection": "1"
       },
       {
         "id": "51b4-7283-dda-f124",
-        "name": "Servitor with Multi Melta"
+        "name": "Servitor with Multi Melta",
+        "weapons": [],
+        "minSelection": "1",
+        "maxSelection": "1"
       },
       {
         "id": "40ff-1eb6-2299-f733",
-        "name": "Servitor with Plasma Cannon"
+        "name": "Servitor with Plasma Cannon",
+        "weapons": [],
+        "minSelection": "1",
+        "maxSelection": "1"
       }
     ],
     "colors": [],
@@ -540,15 +1066,96 @@
     "models": [
       {
         "id": "e94e-2f1d-3d5b-dad8",
-        "name": "Justicar"
+        "name": "Justicar",
+        "weapons": [
+          {
+            "id": "a2ae-bf4f-7273-439",
+            "name": "Nemesis Force Weapon",
+            "range": "Melee",
+            "attacks": "3",
+            "weapon_skill": "3+",
+            "armor_penetration": "-2",
+            "damage": "2",
+            "weapon_type": "Melee Weapons"
+          },
+          {
+            "id": "b26a-29d2-ce3f-6f95",
+            "name": "Storm Bolter",
+            "range": "24\"",
+            "attacks": "2",
+            "weapon_skill": "3+",
+            "armor_penetration": "0",
+            "damage": "1",
+            "weapon_type": "Ranged Weapons"
+          }
+        ],
+        "minSelection": "1",
+        "maxSelection": "1"
       },
       {
         "id": "2e8c-d8a7-b77c-d2ad",
-        "name": "Grey Knight"
+        "name": "Grey Knight",
+        "weapons": [
+          {
+            "id": "d183-5a5f-7559-66ad",
+            "name": "Nemesis Force Weapon",
+            "range": "Melee",
+            "attacks": "3",
+            "weapon_skill": "3+",
+            "armor_penetration": "-2",
+            "damage": "2",
+            "weapon_type": "Melee Weapons"
+          },
+          {
+            "id": "2ba5-c2d6-adb5-77f4",
+            "name": "Storm Bolter",
+            "range": "24\"",
+            "attacks": "2",
+            "weapon_skill": "3+",
+            "armor_penetration": "0",
+            "damage": "1",
+            "weapon_type": "Ranged Weapons"
+          }
+        ],
+        "minSelection": "1",
+        "maxSelection": "1"
       },
       {
         "id": "b953-5c1a-5d31-192f",
-        "name": "Grey Knight with Heavy Weapon"
+        "name": "Grey Knight with Heavy Weapon",
+        "weapons": [
+          {
+            "id": "9f4a-4baa-324c-7904",
+            "name": "Psycannon",
+            "range": "24\"",
+            "attacks": "3",
+            "weapon_skill": "3+",
+            "armor_penetration": "-1",
+            "damage": "2",
+            "weapon_type": "Ranged Weapons"
+          },
+          {
+            "id": "f37f-228a-a9-1b00",
+            "name": "Incinerator",
+            "range": "12\"",
+            "attacks": "D6",
+            "weapon_skill": "N/A",
+            "armor_penetration": "-1",
+            "damage": "1",
+            "weapon_type": "Ranged Weapons"
+          },
+          {
+            "id": "d045-399e-966c-c019",
+            "name": "Psilencer",
+            "range": "24\"",
+            "attacks": "6",
+            "weapon_skill": "3+",
+            "armor_penetration": "0",
+            "damage": "1",
+            "weapon_type": "Ranged Weapons"
+          }
+        ],
+        "maxSelection": "1"
       }
     ],
     "colors": [],

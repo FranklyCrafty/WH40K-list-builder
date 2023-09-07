@@ -1,5 +1,6 @@
 node_modules/
 build/
+data/greyKnightsData.json
 npm-debug.log
 .nyc
 .env

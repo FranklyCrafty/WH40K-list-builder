@@ -21,7 +21,10 @@ parser.parseString(xmlData, (err, result) => {
   fs.writeFileSync(path.resolve(__dirname, '../data/greyKnightsData.json'), JSON.stringify(units, null, 2));
 });
 
-// Function to parse a single unit/model entry
+/**
+* Function to parse a single unit/model entry
+* @param {string} writerId - The Id of the writer.
+*/
 function parseUnit(entry) {
   if (entry.$.type === "unit" || entry.$.type === "model") {
     const unitData = {
@@ -41,38 +44,13 @@ function parseUnit(entry) {
       image: [] //entry.profiles[0].profile[0].characteristics[0].characteristic.find(char => char.$.name === 'image')._
     };
   
-
     if (entry.$.type === "unit") {
       const modelChoices = entry.selectionEntryGroups[0].selectionEntryGroup[0].selectionEntries[0].selectionEntry;
       unitData.models = modelChoices.map(parseModel);
 
-      
-      // Handle weapon choice if it's a child of the unit/model
-      if (entry.selectionEntryGroups) {
-        const weaponChoiceGroup = findWeaponChoice(entry);
-        if (weaponChoiceGroup) {
-          const weaponChoice = weaponChoiceGroup.selectionEntries[0].selectionEntry;
-          
-          if (weaponChoice) {
-            modelData.weapons = weaponChoice.map(parseWeapon);
-          }
-        }
-      }
-    }
-    else if (entry.$.type === "model") {
-      const model = parseModel(entry);
-      if (entry.selectionEntries) {
-        const weaponChoice = entry.selectionEntries[0].selectionEntry;
-        if (weaponChoice) {
-          model.weapons = weaponChoice.map(parseWeapon);
-        }
-      }
+    } else if (entry.$.type === "model") { 
+      const modelChoices = parseModel(entry);
     };
-    
-
-    // Handle weapon choice if it's on the same hierarchy as profile
-
-
 
     return unitData;
   } else {
@@ -80,6 +58,10 @@ function parseUnit(entry) {
   }
 }
 
+/**
+* Function to parse a weapon selection entry
+* @param {string} weaponEntry - .
+*/
 // Function to parse a weapon selection entry
 function parseWeapon(weaponEntry) {
   console.log(weaponEntry.$.name);
@@ -98,12 +80,32 @@ function parseWeapon(weaponEntry) {
 // Function to parse model data
 function parseModel(modelEntry) {
   console.log(modelEntry.$.name);
-  return {
+  const modelData = {
     id: modelEntry.$.id,
     name: modelEntry.$.name,
-    weapons: []//,
-    //minSelection: modelEntry.
+    weapons: [],
+    minSelection: (modelEntry.constraints ? modelEntry.constraints[0].constraint.find(char => char.$.type === "min")?.$.value : "1"),
+    maxSelection: (modelEntry.constraints ? modelEntry.constraints[0].constraint.find(char => char.$.type === "max")?.$.value : "1")
   };
+
+  if (modelEntry.selectionEntries) {
+    const weaponChoice = modelEntry.selectionEntries[0].selectionEntry;
+    if (weaponChoice) {
+      modelData.weapons = weaponChoice.map(parseWeapon);
+    }
+  }
+  if (modelEntry.selectionEntryGroups) {
+    const weaponChoiceGroup = findWeaponChoice(modelEntry);
+    if (weaponChoiceGroup) {
+      const weaponChoice = weaponChoiceGroup.selectionEntries[0].selectionEntry;
+      
+      if (weaponChoice) {
+        modelData.weapons = weaponChoice.map(parseWeapon);
+      }
+    }
+  }
+
+  return modelData;
 }
 
 // Function to find a characteristic value by name
