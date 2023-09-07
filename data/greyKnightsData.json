@@ -1,0 +1,623 @@
+[
+  {
+    "id": "dce9-6eb4-fa33-e869",
+    "name": "Brother-Captain",
+    "cost": [],
+    "movement": "5\"",
+    "toughness": "5",
+    "save": "2+",
+    "wounds": "6",
+    "leadership": "6+",
+    "objectiveControl": "1",
+    "leader": [],
+    "abilities": [],
+    "models": [],
+    "colors": [],
+    "image": []
+  },
+  {
+    "id": "aec2-ded6-fa0-3b75",
+    "name": "Brother-Captain Stern",
+    "cost": [],
+    "movement": "5\"",
+    "toughness": "5",
+    "save": "2+",
+    "wounds": "6",
+    "leadership": "6+",
+    "objectiveControl": "1",
+    "leader": [],
+    "abilities": [],
+    "models": [],
+    "colors": [],
+    "image": []
+  },
+  {
+    "id": "2c81-4e74-8707-3117",
+    "name": "Brotherhood Champion",
+    "cost": [],
+    "movement": "6\"",
+    "toughness": "4",
+    "save": "2+",
+    "wounds": "4",
+    "leadership": "6+",
+    "objectiveControl": "1",
+    "leader": [],
+    "abilities": [],
+    "models": [],
+    "colors": [],
+    "image": []
+  },
+  {
+    "id": "b9b1-d698-1e98-da45",
+    "name": "Brotherhood Chaplain",
+    "cost": [],
+    "movement": "5\"",
+    "toughness": "5",
+    "save": "2+",
+    "wounds": "5",
+    "leadership": "5+",
+    "objectiveControl": "1",
+    "leader": [],
+    "abilities": [],
+    "models": [],
+    "colors": [],
+    "image": []
+  },
+  {
+    "id": "5412-1f01-b7cc-bf12",
+    "name": "Brotherhood Librarian",
+    "cost": [],
+    "movement": "5\"",
+    "toughness": "5",
+    "save": "2+",
+    "wounds": "5",
+    "leadership": "6+",
+    "objectiveControl": "1",
+    "leader": [],
+    "abilities": [],
+    "models": [],
+    "colors": [],
+    "image": []
+  },
+  {
+    "id": "f667-5267-f241-37",
+    "name": "Brotherhood Techmarine",
+    "cost": [],
+    "movement": "5\"",
+    "toughness": "4",
+    "save": "2+",
+    "wounds": "4",
+    "leadership": "6+",
+    "objectiveControl": "1",
+    "leader": [],
+    "abilities": [],
+    "models": [],
+    "colors": [],
+    "image": []
+  },
+  {
+    "id": "a037-a89c-f59f-8b1e",
+    "name": "Brotherhood Terminator Squad",
+    "cost": [],
+    "movement": "5\"",
+    "toughness": "5",
+    "save": "2+",
+    "wounds": "3",
+    "leadership": "6+",
+    "objectiveControl": "2",
+    "leader": [],
+    "abilities": [],
+    "models": [
+      {
+        "id": "79e8-7d5f-6567-1a4c",
+        "name": "Justicar"
+      },
+      {
+        "id": "f5c5-56fd-51ec-d1a6",
+        "name": "Terminator"
+      },
+      {
+        "id": "6215-3f01-f844-585",
+        "name": "Terminator with Ancient's Banner"
+      },
+      {
+        "id": "22fd-3d1b-9957-2d5f",
+        "name": "Terminator with Narthecium"
+      },
+      {
+        "id": "77d3-d321-bb86-dabe",
+        "name": "Terminator with Heavy Weapon"
+      }
+    ],
+    "colors": [],
+    "image": []
+  },
+  {
+    "id": "9ddb-760d-8cf7-1c8a",
+    "name": "Castellan Crowe",
+    "cost": [],
+    "movement": "6\"",
+    "toughness": "4",
+    "save": "2+",
+    "wounds": "5",
+    "leadership": "6+",
+    "objectiveControl": "1",
+    "leader": [],
+    "abilities": [],
+    "models": [],
+    "colors": [],
+    "image": []
+  },
+  {
+    "id": "1a56-706b-a8f1-631a",
+    "name": "Grand Master",
+    "cost": [],
+    "movement": "5\"",
+    "toughness": "5",
+    "save": "2+",
+    "wounds": "7",
+    "leadership": "6+",
+    "objectiveControl": "1",
+    "leader": [],
+    "abilities": [],
+    "models": [],
+    "colors": [],
+    "image": []
+  },
+  {
+    "id": "3625-f9f1-122b-bf9d",
+    "name": "Grand Master in Nemesis Dreadknight",
+    "cost": [],
+    "movement": "8\"",
+    "toughness": "8",
+    "save": "2+",
+    "wounds": "13",
+    "leadership": "6+",
+    "objectiveControl": "4",
+    "leader": [],
+    "abilities": [],
+    "models": [],
+    "colors": [],
+    "image": []
+  },
+  {
+    "id": "7256-bb3a-3e79-31fe",
+    "name": "Grand Master Voldus",
+    "cost": [],
+    "movement": "5\"",
+    "toughness": "5",
+    "save": "2+",
+    "wounds": "6",
+    "leadership": "6+",
+    "objectiveControl": "1",
+    "leader": [],
+    "abilities": [],
+    "models": [],
+    "colors": [],
+    "image": []
+  },
+  {
+    "id": "512d-b972-911e-4cac",
+    "name": "Grey Knights Land Raider",
+    "cost": [],
+    "movement": "10\"",
+    "toughness": "12",
+    "save": "2+",
+    "wounds": "16",
+    "leadership": "6+",
+    "objectiveControl": "5",
+    "leader": [],
+    "abilities": [],
+    "models": [],
+    "colors": [],
+    "image": []
+  },
+  {
+    "id": "4c63-cca-8d26-6330",
+    "name": "Grey Knights Land Raider Crusader",
+    "cost": [],
+    "movement": "12\"",
+    "toughness": "12",
+    "save": "2+",
+    "wounds": "16",
+    "leadership": "6+",
+    "objectiveControl": "5",
+    "leader": [],
+    "abilities": [],
+    "models": [],
+    "colors": [],
+    "image": []
+  },
+  {
+    "id": "ada7-eb0b-c920-d77f",
+    "name": "Grey Knights Land Raider Redeemer",
+    "cost": [],
+    "movement": "12\"",
+    "toughness": "12",
+    "save": "2+",
+    "wounds": "16",
+    "leadership": "6+",
+    "objectiveControl": "5",
+    "leader": [],
+    "abilities": [],
+    "models": [],
+    "colors": [],
+    "image": []
+  },
+  {
+    "id": "841f-98b-fbf3-c8ee",
+    "name": "Grey Knights Razorback",
+    "cost": [],
+    "movement": "12\"",
+    "toughness": "9",
+    "save": "3+",
+    "wounds": "10",
+    "leadership": "6+",
+    "objectiveControl": "2",
+    "leader": [],
+    "abilities": [],
+    "models": [],
+    "colors": [],
+    "image": []
+  },
+  {
+    "id": "5ffd-f698-a1bb-fba7",
+    "name": "Grey Knights Rhino",
+    "cost": [],
+    "movement": "12\"",
+    "toughness": "9",
+    "save": "3+",
+    "wounds": "10",
+    "leadership": "6+",
+    "objectiveControl": "2",
+    "leader": [],
+    "abilities": [],
+    "models": [],
+    "colors": [],
+    "image": []
+  },
+  {
+    "id": "fa-e288-2107-d22e",
+    "name": "Grey Knights Stormhawk Interceptor",
+    "cost": [],
+    "movement": "20+\"",
+    "toughness": "9",
+    "save": "3+",
+    "wounds": "10",
+    "leadership": "6+",
+    "objectiveControl": "0",
+    "leader": [],
+    "abilities": [],
+    "models": [],
+    "colors": [],
+    "image": []
+  },
+  {
+    "id": "2efe-459b-9562-e7a9",
+    "name": "Grey Knights Stormraven Gunship",
+    "cost": [],
+    "movement": "20+\"",
+    "toughness": "10",
+    "save": "3+",
+    "wounds": "14",
+    "leadership": "6+",
+    "objectiveControl": "0",
+    "leader": [],
+    "abilities": [],
+    "models": [],
+    "colors": [],
+    "image": []
+  },
+  {
+    "id": "84ac-b9ea-921f-9082",
+    "name": "Grey Knights Stormtalon Gunship",
+    "cost": [],
+    "movement": "20+\"",
+    "toughness": "8",
+    "save": "3+",
+    "wounds": "10",
+    "leadership": "6+",
+    "objectiveControl": "0",
+    "leader": [],
+    "abilities": [],
+    "models": [],
+    "colors": [],
+    "image": []
+  },
+  {
+    "id": "bd43-b303-66e0-4c10",
+    "name": "Grey Knights Venerable Dreadnought",
+    "cost": [],
+    "movement": "6\"",
+    "toughness": "9",
+    "save": "2+",
+    "wounds": "8",
+    "leadership": "6+",
+    "objectiveControl": "3",
+    "leader": [],
+    "abilities": [],
+    "models": [],
+    "colors": [],
+    "image": []
+  },
+  {
+    "id": "d9f7-71b7-8e67-7f44",
+    "name": "Interceptor Squad",
+    "cost": [],
+    "movement": "12\"",
+    "toughness": "4",
+    "save": "2+",
+    "wounds": "2",
+    "leadership": "6+",
+    "objectiveControl": "1",
+    "leader": [],
+    "abilities": [],
+    "models": [
+      {
+        "id": "9ae2-cba2-3df0-81ea",
+        "name": "Justicar"
+      },
+      {
+        "id": "2906-2dfd-6dbe-ca8",
+        "name": "Interceptor"
+      },
+      {
+        "id": "98ea-59aa-70be-5d6d",
+        "name": "Interceptor with Heavy Weapon"
+      }
+    ],
+    "colors": [],
+    "image": []
+  },
+  {
+    "id": "7a19-5235-692b-320d",
+    "name": "Kaldor Draigo",
+    "cost": [],
+    "movement": "5\"",
+    "toughness": "5",
+    "save": "2+",
+    "wounds": "7",
+    "leadership": "6+",
+    "objectiveControl": "1",
+    "leader": [],
+    "abilities": [],
+    "models": [],
+    "colors": [],
+    "image": []
+  },
+  {
+    "id": "5458-a458-c51d-c4e9",
+    "name": "Nemesis Dreadknight",
+    "cost": [],
+    "movement": "8\"",
+    "toughness": "8",
+    "save": "2+",
+    "wounds": "13",
+    "leadership": "6+",
+    "objectiveControl": "4",
+    "leader": [],
+    "abilities": [],
+    "models": [],
+    "colors": [],
+    "image": []
+  },
+  {
+    "id": "6528-4634-c2cf-2840",
+    "name": "Paladin Squad",
+    "cost": [],
+    "movement": "5\"",
+    "toughness": "5",
+    "save": "2+",
+    "wounds": "3",
+    "leadership": "6+",
+    "objectiveControl": "1",
+    "leader": [],
+    "abilities": [],
+    "models": [
+      {
+        "id": "7eaa-bc4d-e325-6767",
+        "name": "Paragon"
+      },
+      {
+        "id": "d1b3-96e2-43e6-6bf4",
+        "name": "Paladin"
+      },
+      {
+        "id": "c782-acdd-ccd7-6cc0",
+        "name": "Paladin with Ancient's Banner"
+      },
+      {
+        "id": "7f57-9a5a-c5bf-851a",
+        "name": "Paladin with Heavy Weapon"
+      }
+    ],
+    "colors": [],
+    "image": []
+  },
+  {
+    "id": "e8ad-bd40-5952-6859",
+    "name": "Purgation Squad",
+    "cost": [],
+    "movement": "6\"",
+    "toughness": "4",
+    "save": "2+",
+    "wounds": "2",
+    "leadership": "6+",
+    "objectiveControl": "1",
+    "leader": [],
+    "abilities": [],
+    "models": [
+      {
+        "id": "5f9-7ef3-ba5b-6352",
+        "name": "Justicar"
+      },
+      {
+        "id": "ee3b-2ec2-2841-7e66",
+        "name": "Purgator"
+      },
+      {
+        "id": "cff6-2f07-e799-ae10",
+        "name": "Purgator with Heavy Weapon"
+      }
+    ],
+    "colors": [],
+    "image": []
+  },
+  {
+    "id": "8865-df22-1629-bf02",
+    "name": "Purifier Squad",
+    "cost": [],
+    "movement": "6\"",
+    "toughness": "4",
+    "save": "2+",
+    "wounds": "2",
+    "leadership": "6+",
+    "objectiveControl": "1",
+    "leader": [],
+    "abilities": [],
+    "models": [
+      {
+        "id": "d27-4455-b0d4-3250",
+        "name": "Knight of the Flame"
+      },
+      {
+        "id": "2105-9372-a043-df0c",
+        "name": "Purifier"
+      },
+      {
+        "id": "c1d9-48c4-c8de-237b",
+        "name": "Purifier with Heavy Weapon"
+      }
+    ],
+    "colors": [],
+    "image": []
+  },
+  {
+    "id": "35ed-7890-6c56-18b7",
+    "name": "Servitors",
+    "cost": [],
+    "movement": "6\"",
+    "toughness": "4",
+    "save": "4+",
+    "wounds": "1",
+    "leadership": "8+",
+    "objectiveControl": "0",
+    "leader": [],
+    "abilities": [],
+    "models": [
+      {
+        "id": "54c6-2506-f109-dd",
+        "name": "Servitor with Servo Arm"
+      },
+      {
+        "id": "89c9-ccee-d41e-7489",
+        "name": "Servitor with Heavy Bolter"
+      },
+      {
+        "id": "51b4-7283-dda-f124",
+        "name": "Servitor with Multi Melta"
+      },
+      {
+        "id": "40ff-1eb6-2299-f733",
+        "name": "Servitor with Plasma Cannon"
+      }
+    ],
+    "colors": [],
+    "image": []
+  },
+  {
+    "id": "d81f-c9ac-e338-ba37",
+    "name": "Strike Squad",
+    "cost": [],
+    "movement": "6\"",
+    "toughness": "4",
+    "save": "2+",
+    "wounds": "2",
+    "leadership": "6+",
+    "objectiveControl": "2",
+    "leader": [],
+    "abilities": [],
+    "models": [
+      {
+        "id": "e94e-2f1d-3d5b-dad8",
+        "name": "Justicar"
+      },
+      {
+        "id": "2e8c-d8a7-b77c-d2ad",
+        "name": "Grey Knight"
+      },
+      {
+        "id": "b953-5c1a-5d31-192f",
+        "name": "Grey Knight with Heavy Weapon"
+      }
+    ],
+    "colors": [],
+    "image": []
+  },
+  {
+    "id": "8989-2fd2-4d29-e795",
+    "name": "Grey Knights Thunderhawk Gunship",
+    "cost": [],
+    "movement": "20+\"",
+    "toughness": "12",
+    "save": "2+",
+    "wounds": "30",
+    "leadership": "6+",
+    "objectiveControl": "0",
+    "leader": [],
+    "abilities": [],
+    "models": [],
+    "colors": [],
+    "image": []
+  },
+  {
+    "id": "69d-a656-fde3-6c3e",
+    "name": "Land Raider Banisher",
+    "cost": [],
+    "movement": "10\"",
+    "toughness": "12",
+    "save": "2+",
+    "wounds": "16",
+    "leadership": "6+",
+    "objectiveControl": "5",
+    "leader": [],
+    "abilities": [],
+    "models": [],
+    "colors": [],
+    "image": []
+  },
+  {
+    "id": "28d0-5a52-501a-441d",
+    "name": "Grey Knights Dreadnought [Legends]",
+    "cost": [],
+    "movement": "6\"",
+    "toughness": "9",
+    "save": "2+",
+    "wounds": "8",
+    "leadership": "6+",
+    "objectiveControl": "3",
+    "leader": [],
+    "abilities": [],
+    "models": [],
+    "colors": [],
+    "image": []
+  },
+  {
+    "id": "54f0-4b3f-3abe-081b",
+    "name": "Grey Knights Relic Razorback [Legends]",
+    "cost": [],
+    "movement": "12\"",
+    "toughness": "9",
+    "save": "3+",
+    "wounds": "10",
+    "leadership": "6+",
+    "objectiveControl": "2",
+    "leader": [],
+    "abilities": [],
+    "models": [],
+    "colors": [],
+    "image": []
+  },
+  null,
+  null
+]

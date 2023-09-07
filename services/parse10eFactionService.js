@@ -1,11 +1,13 @@
 const fs = require('fs');
+const path = require("path");
 const xml2js = require('xml2js');
 
 // Parse XML data
 const parser = new xml2js.Parser();
 
 //Read XML data
-const xmlData = fs.readFileSync('data/Imperium - Grey Knights.cat', 'utf-8');
+const xmlData = fs.readFileSync(path.resolve(__dirname, '../data/Imperium - Grey Knights.cat'), 'utf-8');
+
 parser.parseString(xmlData, (err, result) => {
   if (err) {
     console.error('Error parsing XML:', err);
@@ -16,7 +18,7 @@ parser.parseString(xmlData, (err, result) => {
   const units = result.catalogue.sharedSelectionEntries[0].selectionEntry.map(parseUnit);
 
   // Save as JSON
-  fs.writeFileSync('/data/greyKnightsData.json', JSON.stringify(units, null, 2));
+  fs.writeFileSync(path.resolve(__dirname, '../data/greyKnightsData.json'), JSON.stringify(units, null, 2));
 });
 
 // Function to parse a single unit/model entry
@@ -43,32 +45,34 @@ function parseUnit(entry) {
     if (entry.$.type === "unit") {
       const modelChoices = entry.selectionEntryGroups[0].selectionEntryGroup[0].selectionEntries[0].selectionEntry;
       unitData.models = modelChoices.map(parseModel);
-    };
-    
-    if (entry.$.type === "model") {
-      unitData.models = parseModel(entry);
+
+      
+      // Handle weapon choice if it's a child of the unit/model
+      if (entry.selectionEntryGroups) {
+        const weaponChoiceGroup = findWeaponChoice(entry);
+        if (weaponChoiceGroup) {
+          const weaponChoice = weaponChoiceGroup.selectionEntries[0].selectionEntry;
+          
+          if (weaponChoice) {
+            modelData.weapons = weaponChoice.map(parseWeapon);
+          }
+        }
+      }
+    }
+    else if (entry.$.type === "model") {
+      const model = parseModel(entry);
+      if (entry.selectionEntries) {
+        const weaponChoice = entry.selectionEntries[0].selectionEntry;
+        if (weaponChoice) {
+          model.weapons = weaponChoice.map(parseWeapon);
+        }
+      }
     };
     
 
     // Handle weapon choice if it's on the same hierarchy as profile
-    if (entry.selectionEntries) {
-      const weaponChoice = entry.selectionEntries[0].selectionEntry;//.find(item => item.selectionEntry.type === 'upgrade');
-      if (weaponChoice) {
-        modelData.weapons = weaponChoice.map(parseWeapon);
-      }
-    }
 
-    // Handle weapon choice if it's a child of the unit/model
-    if (entry.selectionEntryGroups) {
-      const weaponChoiceGroup = findWeaponChoice(entry);
-      if (weaponChoiceGroup) {
-        const weaponChoice = weaponChoiceGroup.selectionEntries[0].selectionEntry;
-        
-        if (weaponChoice) {
-          modelData.weapons = weaponChoice.map(parseWeapon);
-        }
-      }
-    }
+
 
     return unitData;
   } else {
@@ -96,7 +100,9 @@ function parseModel(modelEntry) {
   console.log(modelEntry.$.name);
   return {
     id: modelEntry.$.id,
-    name: modelEntry.$.name
+    name: modelEntry.$.name,
+    weapons: []//,
+    //minSelection: modelEntry.
   };
 }
 
