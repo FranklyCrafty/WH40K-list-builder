@@ -11,8 +11,9 @@ class Weapon {
       this.armor_penetration = weaponData.armor_penetration;
       this.damage = weaponData.damage;
       this.rules = weaponData.rules; // 
-      this.constraints = weaponData.constraints; //
       this.weapon_type = weaponData.weapon_type; //ranged weapon or melee weapon
+      this.minSelection = weaponData.minSelection; 
+      this.maxSelection = 
     }
   }
   
