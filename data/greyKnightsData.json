@@ -2,7 +2,7 @@
   {
     "id": "dce9-6eb4-fa33-e869",
     "name": "Brother-Captain",
-    "cost": [],
+    "cost": "95",
     "movement": "5\"",
     "toughness": "5",
     "save": "2+",
@@ -11,14 +11,78 @@
     "objectiveControl": "1",
     "leader": [],
     "abilities": [],
-    "models": [],
+    "models": {
+      "id": "dce9-6eb4-fa33-e869",
+      "name": "Brother-Captain",
+      "cost": "95",
+      "weapons": [
+        {
+          "id": "5d2c-27fb-8ec3-bb05",
+          "name": "Psycannon",
+          "cost": [],
+          "range": "24\"",
+          "attacks": "3",
+          "weapon_skill": "2+",
+          "armor_penetration": "-1",
+          "damage": "2",
+          "weapon_type": "Ranged Weapons",
+          "keywords": "Psychic",
+          "minSelection": "1",
+          "maxSelection": "1"
+        },
+        {
+          "id": "da68-aa2c-9e7c-3ca2",
+          "name": "Incinerator",
+          "cost": [],
+          "range": "12\"",
+          "attacks": "D6",
+          "weapon_skill": "N/A",
+          "armor_penetration": "-1",
+          "damage": "1",
+          "weapon_type": "Ranged Weapons",
+          "keywords": "Ignores Cover, Torrent",
+          "minSelection": "1",
+          "maxSelection": "1"
+        },
+        {
+          "id": "70a0-b88a-6d05-3706",
+          "name": "Psilencer",
+          "cost": [],
+          "range": "24\"",
+          "attacks": "6",
+          "weapon_skill": "2+",
+          "armor_penetration": "0",
+          "damage": "1",
+          "weapon_type": "Ranged Weapons",
+          "keywords": "Psychic, Sustained Hits 1",
+          "minSelection": "1",
+          "maxSelection": "1"
+        },
+        {
+          "id": "26b7-e7cf-33d8-9abe",
+          "name": "Storm Bolter",
+          "cost": [],
+          "range": "24\"",
+          "attacks": "2",
+          "weapon_skill": "2+",
+          "armor_penetration": "0",
+          "damage": "1",
+          "weapon_type": "Ranged Weapons",
+          "keywords": "Rapid Fire 2",
+          "maxSelection": "1"
+        }
+      ],
+      "minSelection": "1",
+      "maxSelection": "1",
+      "constraint_scope": ""
+    },
     "colors": [],
     "image": []
   },
   {
     "id": "aec2-ded6-fa0-3b75",
     "name": "Brother-Captain Stern",
-    "cost": [],
+    "cost": "110",
     "movement": "5\"",
     "toughness": "5",
     "save": "2+",
@@ -27,14 +91,51 @@
     "objectiveControl": "1",
     "leader": [],
     "abilities": [],
-    "models": [],
+    "models": {
+      "id": "aec2-ded6-fa0-3b75",
+      "name": "Brother-Captain Stern",
+      "cost": "110",
+      "weapons": [
+        {
+          "id": "1b42-d922-74f0-c474",
+          "name": "Nemesis Force Sword",
+          "cost": [],
+          "range": "Melee",
+          "attacks": "5",
+          "weapon_skill": "2+",
+          "armor_penetration": "-2",
+          "damage": "2",
+          "weapon_type": "Melee Weapons",
+          "keywords": "Psychic",
+          "minSelection": "1",
+          "maxSelection": "1"
+        },
+        {
+          "id": "5a29-5086-d86-9553",
+          "name": "Storm Bolter",
+          "cost": [],
+          "range": "24\"",
+          "attacks": "2",
+          "weapon_skill": "2+",
+          "armor_penetration": "0",
+          "damage": "1",
+          "weapon_type": "Ranged Weapons",
+          "keywords": "Rapid Fire 2",
+          "minSelection": "1",
+          "maxSelection": "1"
+        }
+      ],
+      "minSelection": "1",
+      "maxSelection": "1",
+      "constraint_scope": ""
+    },
     "colors": [],
     "image": []
   },
   {
     "id": "2c81-4e74-8707-3117",
     "name": "Brotherhood Champion",
-    "cost": [],
+    "cost": "85",
     "movement": "6\"",
     "toughness": "4",
     "save": "2+",
@@ -43,14 +144,51 @@
     "objectiveControl": "1",
     "leader": [],
     "abilities": [],
-    "models": [],
+    "models": {
+      "id": "2c81-4e74-8707-3117",
+      "name": "Brotherhood Champion",
+      "cost": "85",
+      "weapons": [
+        {
+          "id": "e4f1-7c06-108f-dda3",
+          "name": "Nemesis Force Weapon",
+          "cost": [],
+          "range": "Melee",
+          "attacks": "5",
+          "weapon_skill": "2+",
+          "armor_penetration": "-2",
+          "damage": "2",
+          "weapon_type": "Melee Weapons",
+          "keywords": "Precision, Psychic",
+          "minSelection": "1",
+          "maxSelection": "1"
+        },
+        {
+          "id": "2ff3-9667-2277-c8e6",
+          "name": "Storm Bolter",
+          "cost": [],
+          "range": "24\"",
+          "attacks": "2",
+          "weapon_skill": "2+",
+          "armor_penetration": "0",
+          "damage": "1",
+          "weapon_type": "Ranged Weapons",
+          "keywords": "Rapid Fire 2",
+          "minSelection": "1",
+          "maxSelection": "1"
+        }
+      ],
+      "minSelection": "1",
+      "maxSelection": "1",
+      "constraint_scope": ""
+    },
     "colors": [],
     "image": []
   },
   {
     "id": "b9b1-d698-1e98-da45",
     "name": "Brotherhood Chaplain",
-    "cost": [],
+    "cost": "90",
     "movement": "5\"",
     "toughness": "5",
     "save": "2+",
@@ -59,14 +197,50 @@
     "objectiveControl": "1",
     "leader": [],
     "abilities": [],
-    "models": [],
+    "models": {
+      "id": "b9b1-d698-1e98-da45",
+      "name": "Brotherhood Chaplain",
+      "cost": "90",
+      "weapons": [
+        {
+          "id": "6fc3-5e9-2ebc-b8b8",
+          "name": "Storm Bolter",
+          "cost": [],
+          "range": "24\"",
+          "attacks": "2",
+          "weapon_skill": "2+",
+          "armor_penetration": "0",
+          "damage": "1",
+          "weapon_type": "Ranged Weapons",
+          "keywords": "Rapid Fire 2",
+          "minSelection": "1",
+          "maxSelection": "1"
+        },
+        {
+          "id": "4e88-c580-e5fa-ae6c",
+          "name": "Crozius Arcanum",
+          "cost": [],
+          "range": "Melee",
+          "attacks": "5",
+          "weapon_skill": "2+",
+          "armor_penetration": "-1",
+          "damage": "2",
+          "weapon_type": "Melee Weapons",
+          "minSelection": "1",
+          "maxSelection": "1"
+        }
+      ],
+      "minSelection": "1",
+      "maxSelection": "1",
+      "constraint_scope": ""
+    },
     "colors": [],
     "image": []
   },
   {
     "id": "5412-1f01-b7cc-bf12",
     "name": "Brotherhood Librarian",
-    "cost": [],
+    "cost": "110",
     "movement": "5\"",
     "toughness": "5",
     "save": "2+",
@@ -75,14 +249,50 @@
     "objectiveControl": "1",
     "leader": [],
     "abilities": [],
-    "models": [],
+    "models": {
+      "id": "5412-1f01-b7cc-bf12",
+      "name": "Brotherhood Librarian",
+      "cost": "110",
+      "weapons": [
+        {
+          "id": "f6ec-2a11-5ca6-344b",
+          "name": "Storm Bolter",
+          "cost": [],
+          "range": "24\"",
+          "attacks": "2",
+          "weapon_skill": "2+",
+          "armor_penetration": "0",
+          "damage": "1",
+          "weapon_type": "Ranged Weapons",
+          "keywords": "Rapid Fire 2",
+          "maxSelection": "1"
+        },
+        {
+          "id": "a0ce-78-c636-3bc6",
+          "name": "Combi-Weapon",
+          "cost": [],
+          "range": "24\"",
+          "attacks": "1",
+          "weapon_skill": "4+",
+          "armor_penetration": "0",
+          "damage": "1",
+          "weapon_type": "Ranged Weapons",
+          "keywords": "Anti-infantry 4+, Devastating Wounds, Rapid Fire 1",
+          "minSelection": "1",
+          "maxSelection": "1"
+        }
+      ],
+      "minSelection": "1",
+      "maxSelection": "1",
+      "constraint_scope": ""
+    },
     "colors": [],
     "image": []
   },
   {
     "id": "f667-5267-f241-37",
     "name": "Brotherhood Techmarine",
-    "cost": [],
+    "cost": "85",
     "movement": "5\"",
     "toughness": "4",
     "save": "2+",
@@ -91,14 +301,22 @@
     "objectiveControl": "1",
     "leader": [],
     "abilities": [],
-    "models": [],
+    "models": {
+      "id": "f667-5267-f241-37",
+      "name": "Brotherhood Techmarine",
+      "cost": "85",
+      "weapons": [],
+      "minSelection": "1",
+      "maxSelection": "1",
+      "constraint_scope": ""
+    },
     "colors": [],
     "image": []
   },
   {
     "id": "a037-a89c-f59f-8b1e",
     "name": "Brotherhood Terminator Squad",
-    "cost": [],
+    "cost": "225",
     "movement": "5\"",
     "toughness": "5",
     "save": "2+",
@@ -111,149 +329,205 @@
       {
         "id": "79e8-7d5f-6567-1a4c",
         "name": "Justicar",
+        "cost": [],
         "weapons": [
           {
             "id": "b008-9b7a-6f45-1873",
             "name": "Nemesis Force Weapon",
+            "cost": [],
             "range": "Melee",
             "attacks": "4",
             "weapon_skill": "3+",
             "armor_penetration": "-2",
             "damage": "2",
-            "weapon_type": "Melee Weapons"
+            "weapon_type": "Melee Weapons",
+            "keywords": "Psychic",
+            "minSelection": "1",
+            "maxSelection": "1"
           },
           {
             "id": "3937-81ba-e034-15b6",
             "name": "Storm Bolter",
+            "cost": [],
             "range": "24\"",
             "attacks": "2",
             "weapon_skill": "3+",
             "armor_penetration": "0",
             "damage": "1",
-            "weapon_type": "Ranged Weapons"
+            "weapon_type": "Ranged Weapons",
+            "keywords": "Rapid Fire 2",
+            "minSelection": "1",
+            "maxSelection": "1"
           }
         ],
         "minSelection": "1",
-        "maxSelection": "1"
+        "maxSelection": "1",
+        "constraint_scope": "parent"
       },
       {
         "id": "f5c5-56fd-51ec-d1a6",
         "name": "Terminator",
+        "cost": [],
         "weapons": [
           {
             "id": "261c-9752-7bd3-7bf2",
             "name": "Nemesis Force Weapon",
+            "cost": [],
             "range": "Melee",
             "attacks": "4",
             "weapon_skill": "3+",
             "armor_penetration": "-2",
             "damage": "2",
-            "weapon_type": "Melee Weapons"
+            "weapon_type": "Melee Weapons",
+            "keywords": "Psychic",
+            "minSelection": "1",
+            "maxSelection": "1"
           },
           {
             "id": "aa86-238b-9ca6-7504",
             "name": "Storm Bolter",
+            "cost": [],
             "range": "24\"",
             "attacks": "2",
             "weapon_skill": "3+",
             "armor_penetration": "0",
             "damage": "1",
-            "weapon_type": "Ranged Weapons"
+            "weapon_type": "Ranged Weapons",
+            "keywords": "Rapid Fire 2",
+            "minSelection": "1",
+            "maxSelection": "1"
           }
         ],
         "minSelection": "1",
-        "maxSelection": "1"
+        "maxSelection": "1",
+        "constraint_scope": ""
       },
       {
         "id": "6215-3f01-f844-585",
         "name": "Terminator with Ancient's Banner",
+        "cost": [],
         "weapons": [
           {
             "id": "3934-1e64-5a6a-8e54",
             "name": "Nemesis Force Weapon",
+            "cost": [],
             "range": "Melee",
             "attacks": "4",
             "weapon_skill": "3+",
             "armor_penetration": "-2",
             "damage": "2",
-            "weapon_type": "Melee Weapons"
+            "weapon_type": "Melee Weapons",
+            "keywords": "Psychic",
+            "minSelection": "1",
+            "maxSelection": "1"
           },
           {
             "id": "186c-825d-4e37-6b5d",
             "name": "Storm Bolter",
+            "cost": [],
             "range": "24\"",
             "attacks": "2",
             "weapon_skill": "3+",
             "armor_penetration": "0",
             "damage": "1",
-            "weapon_type": "Ranged Weapons"
+            "weapon_type": "Ranged Weapons",
+            "keywords": "Rapid Fire 2",
+            "minSelection": "1",
+            "maxSelection": "1"
           },
           {
             "id": "55ab-530-9b32-a5d0",
             "name": "Ancient's Banner",
-            "weapon_type": "Abilities"
+            "cost": [],
+            "weapon_type": "Abilities",
+            "minSelection": "1",
+            "maxSelection": "1"
           }
         ],
-        "maxSelection": "1"
+        "maxSelection": "1",
+        "constraint_scope": "parent"
       },
       {
         "id": "22fd-3d1b-9957-2d5f",
         "name": "Terminator with Narthecium",
+        "cost": [],
         "weapons": [
           {
             "id": "29dd-35d3-910f-c1c4",
             "name": "Nemesis Force Weapon",
+            "cost": [],
             "range": "Melee",
             "attacks": "4",
             "weapon_skill": "3+",
             "armor_penetration": "-2",
             "damage": "2",
-            "weapon_type": "Melee Weapons"
+            "weapon_type": "Melee Weapons",
+            "keywords": "Psychic",
+            "minSelection": "1",
+            "maxSelection": "1"
           },
           {
             "id": "65d9-e2ef-776d-f579",
             "name": "Narthecium",
-            "weapon_type": "Abilities"
+            "cost": [],
+            "weapon_type": "Abilities",
+            "minSelection": "1",
+            "maxSelection": "1"
           }
         ],
-        "maxSelection": "1"
+        "maxSelection": "1",
+        "constraint_scope": "parent"
       },
       {
         "id": "77d3-d321-bb86-dabe",
         "name": "Terminator with Heavy Weapon",
+        "cost": [],
         "weapons": [
           {
             "id": "c694-9e9d-faf1-87b7",
             "name": "Psycannon",
+            "cost": [],
             "range": "24\"",
             "attacks": "3",
             "weapon_skill": "3+",
             "armor_penetration": "-1",
             "damage": "2",
-            "weapon_type": "Ranged Weapons"
+            "weapon_type": "Ranged Weapons",
+            "keywords": "Psychic",
+            "minSelection": "1",
+            "maxSelection": "1"
           },
           {
             "id": "93a3-e2fc-bb5a-a7ae",
             "name": "Incinerator",
+            "cost": [],
             "range": "12\"",
             "attacks": "D6",
             "weapon_skill": "N/A",
             "armor_penetration": "-1",
             "damage": "1",
-            "weapon_type": "Ranged Weapons"
+            "weapon_type": "Ranged Weapons",
+            "keywords": "Ignores Cover, Torrent",
+            "minSelection": "1",
+            "maxSelection": "1"
           },
           {
             "id": "bf84-2a13-b47c-7",
             "name": "Psilencer",
+            "cost": [],
             "range": "24\"",
             "attacks": "6",
             "weapon_skill": "3+",
             "armor_penetration": "0",
             "damage": "1",
-            "weapon_type": "Ranged Weapons"
+            "weapon_type": "Ranged Weapons",
+            "keywords": "Psychic, Sustained Hits 1",
+            "minSelection": "1",
+            "maxSelection": "1"
           }
         ],
-        "maxSelection": "1"
+        "maxSelection": "1",
+        "constraint_scope": "parent"
       }
     ],
     "colors": [],
@@ -262,7 +536,7 @@
   {
     "id": "9ddb-760d-8cf7-1c8a",
     "name": "Castellan Crowe",
-    "cost": [],
+    "cost": "95",
     "movement": "6\"",
     "toughness": "4",
     "save": "2+",
@@ -271,14 +545,65 @@
     "objectiveControl": "1",
     "leader": [],
     "abilities": [],
-    "models": [],
+    "models": {
+      "id": "9ddb-760d-8cf7-1c8a",
+      "name": "Castellan Crowe",
+      "cost": "95",
+      "weapons": [
+        {
+          "id": "ba75-d1eb-5347-28b3",
+          "name": "Purifying Flame",
+          "cost": [],
+          "range": "18\"",
+          "attacks": "1",
+          "weapon_skill": "3+",
+          "armor_penetration": "-1",
+          "damage": "1",
+          "weapon_type": "Ranged Weapons",
+          "keywords": "Anti-Infantry 2+, Ignores Cover, Psychic",
+          "minSelection": "1",
+          "maxSelection": "1"
+        },
+        {
+          "id": "9a7a-e845-e81f-6b87",
+          "name": "Storm Bolter",
+          "cost": [],
+          "range": "24\"",
+          "attacks": "2",
+          "weapon_skill": "2+",
+          "armor_penetration": "0",
+          "damage": "1",
+          "weapon_type": "Ranged Weapons",
+          "keywords": "Rapid Fire 2",
+          "minSelection": "1",
+          "maxSelection": "1"
+        },
+        {
+          "id": "9bcc-8f6e-67ea-6c75",
+          "name": "Black Blade of Antwyr",
+          "cost": [],
+          "range": "Melee",
+          "attacks": "5",
+          "weapon_skill": "2+",
+          "armor_penetration": "-2",
+          "damage": "2",
+          "weapon_type": "Melee Weapons",
+          "keywords": "Devastating Wounds, Precision",
+          "minSelection": "1",
+          "maxSelection": "1"
+        }
+      ],
+      "minSelection": "1",
+      "maxSelection": "1",
+      "constraint_scope": ""
+    },
     "colors": [],
     "image": []
   },
   {
     "id": "1a56-706b-a8f1-631a",
     "name": "Grand Master",
-    "cost": [],
+    "cost": "115",
     "movement": "5\"",
     "toughness": "5",
     "save": "2+",
@@ -287,14 +612,78 @@
     "objectiveControl": "1",
     "leader": [],
     "abilities": [],
-    "models": [],
+    "models": {
+      "id": "1a56-706b-a8f1-631a",
+      "name": "Grand Master",
+      "cost": "115",
+      "weapons": [
+        {
+          "id": "be75-9ce5-95d5-a03f",
+          "name": "Psycannon",
+          "cost": [],
+          "range": "24\"",
+          "attacks": "3",
+          "weapon_skill": "2+",
+          "armor_penetration": "-1",
+          "damage": "2",
+          "weapon_type": "Ranged Weapons",
+          "keywords": "Psychic",
+          "minSelection": "1",
+          "maxSelection": "1"
+        },
+        {
+          "id": "aa13-af0a-18e-f507",
+          "name": "Incinerator",
+          "cost": [],
+          "range": "12\"",
+          "attacks": "D6",
+          "weapon_skill": "N/A",
+          "armor_penetration": "-1",
+          "damage": "1",
+          "weapon_type": "Ranged Weapons",
+          "keywords": "Ignores Cover, Torrent",
+          "minSelection": "1",
+          "maxSelection": "1"
+        },
+        {
+          "id": "4d85-10bc-912c-c316",
+          "name": "Psilencer",
+          "cost": [],
+          "range": "24\"",
+          "attacks": "6",
+          "weapon_skill": "2+",
+          "armor_penetration": "0",
+          "damage": "1",
+          "weapon_type": "Ranged Weapons",
+          "keywords": "Psychic, Sustained Hits 1",
+          "minSelection": "1",
+          "maxSelection": "1"
+        },
+        {
+          "id": "903a-b2d-bf56-4652",
+          "name": "Storm Bolter",
+          "cost": [],
+          "range": "24\"",
+          "attacks": "2",
+          "weapon_skill": "2+",
+          "armor_penetration": "0",
+          "damage": "1",
+          "weapon_type": "Ranged Weapons",
+          "keywords": "Rapid Fire 2",
+          "maxSelection": "1"
+        }
+      ],
+      "minSelection": "1",
+      "maxSelection": "1",
+      "constraint_scope": ""
+    },
     "colors": [],
     "image": []
   },
   {
     "id": "3625-f9f1-122b-bf9d",
     "name": "Grand Master in Nemesis Dreadknight",
-    "cost": [],
+    "cost": "245",
     "movement": "8\"",
     "toughness": "8",
     "save": "2+",
@@ -303,14 +692,22 @@
     "objectiveControl": "4",
     "leader": [],
     "abilities": [],
-    "models": [],
+    "models": {
+      "id": "3625-f9f1-122b-bf9d",
+      "name": "Grand Master in Nemesis Dreadknight",
+      "cost": "245",
+      "weapons": [],
+      "minSelection": "1",
+      "maxSelection": "1",
+      "constraint_scope": ""
+    },
     "colors": [],
     "image": []
   },
   {
     "id": "7256-bb3a-3e79-31fe",
     "name": "Grand Master Voldus",
-    "cost": [],
+    "cost": "115",
     "movement": "5\"",
     "toughness": "5",
     "save": "2+",
@@ -319,14 +716,51 @@
     "objectiveControl": "1",
     "leader": [],
     "abilities": [],
-    "models": [],
+    "models": {
+      "id": "7256-bb3a-3e79-31fe",
+      "name": "Grand Master Voldus",
+      "cost": "115",
+      "weapons": [
+        {
+          "id": "90bf-576e-e6e1-34f3",
+          "name": "Storm Bolter",
+          "cost": [],
+          "range": "24\"",
+          "attacks": "2",
+          "weapon_skill": "2+",
+          "armor_penetration": "0",
+          "damage": "1",
+          "weapon_type": "Ranged Weapons",
+          "keywords": "Rapid Fire 2",
+          "minSelection": "1",
+          "maxSelection": "1"
+        },
+        {
+          "id": "6b5f-a7fc-2a1b-b24e",
+          "name": "Malleus Argyrum",
+          "cost": [],
+          "range": "Melee",
+          "attacks": "5",
+          "weapon_skill": "2+",
+          "armor_penetration": "-2",
+          "damage": "3",
+          "weapon_type": "Melee Weapons",
+          "keywords": "Psychic",
+          "minSelection": "1",
+          "maxSelection": "1"
+        }
+      ],
+      "minSelection": "1",
+      "maxSelection": "1",
+      "constraint_scope": ""
+    },
     "colors": [],
     "image": []
   },
   {
     "id": "512d-b972-911e-4cac",
     "name": "Grey Knights Land Raider",
-    "cost": [],
+    "cost": "270",
     "movement": "10\"",
     "toughness": "12",
     "save": "2+",
@@ -335,14 +769,102 @@
     "objectiveControl": "5",
     "leader": [],
     "abilities": [],
-    "models": [],
+    "models": {
+      "id": "512d-b972-911e-4cac",
+      "name": "Grey Knights Land Raider",
+      "cost": "270",
+      "weapons": [
+        {
+          "id": "ff0-5d7d-c73b-9c5f",
+          "name": "Godhammer Lascannon",
+          "cost": [],
+          "range": "48\"",
+          "attacks": "2",
+          "weapon_skill": "3+",
+          "armor_penetration": "-3",
+          "damage": "D6+1",
+          "weapon_type": "Ranged Weapons",
+          "minSelection": "2",
+          "maxSelection": "2"
+        },
+        {
+          "id": "b9c1-621d-4e2c-ec53",
+          "name": "Hunter-killer Missile",
+          "cost": [],
+          "range": "48\"",
+          "attacks": "1",
+          "weapon_skill": "2+",
+          "armor_penetration": "-3",
+          "damage": "D6",
+          "weapon_type": "Ranged Weapons",
+          "keywords": "One Shot",
+          "maxSelection": "1"
+        },
+        {
+          "id": "45b2-6705-e24e-4378",
+          "name": "Multi-melta",
+          "cost": [],
+          "range": "18\"",
+          "attacks": "2",
+          "weapon_skill": "3+",
+          "armor_penetration": "-4",
+          "damage": "D6",
+          "weapon_type": "Ranged Weapons",
+          "keywords": "Melta 2",
+          "maxSelection": "1"
+        },
+        {
+          "id": "a267-d6e8-d2f9-e9e5",
+          "name": "Twin Heavy Bolter",
+          "cost": [],
+          "range": "36\"",
+          "attacks": "3",
+          "weapon_skill": "3+",
+          "armor_penetration": "-1",
+          "damage": "2",
+          "weapon_type": "Ranged Weapons",
+          "keywords": "Sustained Hits 1, Twin-Linked",
+          "minSelection": "1",
+          "maxSelection": "1"
+        },
+        {
+          "id": "a3fa-1259-f3cb-f873",
+          "name": "Storm Bolter",
+          "cost": [],
+          "range": "24\"",
+          "attacks": "2",
+          "weapon_skill": "3+",
+          "armor_penetration": "0",
+          "damage": "1",
+          "weapon_type": "Ranged Weapons",
+          "keywords": "Rapid Fire 2",
+          "maxSelection": "1"
+        },
+        {
+          "id": "cfd1-5e6a-36c3-7997",
+          "name": "Armoured tracks",
+          "cost": [],
+          "range": "Melee",
+          "attacks": "6",
+          "weapon_skill": "4+",
+          "armor_penetration": "0",
+          "damage": "1",
+          "weapon_type": "Melee Weapons",
+          "minSelection": "1",
+          "maxSelection": "1"
+        }
+      ],
+      "minSelection": "1",
+      "maxSelection": "1",
+      "constraint_scope": ""
+    },
     "colors": [],
     "image": []
   },
   {
     "id": "4c63-cca-8d26-6330",
     "name": "Grey Knights Land Raider Crusader",
-    "cost": [],
+    "cost": "250",
     "movement": "12\"",
     "toughness": "12",
     "save": "2+",
@@ -351,14 +873,103 @@
     "objectiveControl": "5",
     "leader": [],
     "abilities": [],
-    "models": [],
+    "models": {
+      "id": "4c63-cca-8d26-6330",
+      "name": "Grey Knights Land Raider Crusader",
+      "cost": "250",
+      "weapons": [
+        {
+          "id": "3e8f-4409-e8e1-e0f6",
+          "name": "Storm Bolter",
+          "cost": [],
+          "range": "24\"",
+          "attacks": "2",
+          "weapon_skill": "3+",
+          "armor_penetration": "0",
+          "damage": "1",
+          "weapon_type": "Ranged Weapons",
+          "keywords": "Rapid Fire 2",
+          "maxSelection": "1"
+        },
+        {
+          "id": "9b02-db16-f3e1-2ba6",
+          "name": "Multi-melta",
+          "cost": [],
+          "range": "18\"",
+          "attacks": "2",
+          "weapon_skill": "3+",
+          "armor_penetration": "-4",
+          "damage": "D6",
+          "weapon_type": "Ranged Weapons",
+          "keywords": "Melta 2",
+          "maxSelection": "1"
+        },
+        {
+          "id": "826e-a7e2-6487-697f",
+          "name": "Hunter-killer Missile",
+          "cost": [],
+          "range": "48\"",
+          "attacks": "1",
+          "weapon_skill": "2+",
+          "armor_penetration": "-3",
+          "damage": "D6",
+          "weapon_type": "Ranged Weapons",
+          "keywords": "One Shot",
+          "maxSelection": "1"
+        },
+        {
+          "id": "d6c2-e486-b6f-dcf3",
+          "name": "Armoured tracks",
+          "cost": [],
+          "range": "Melee",
+          "attacks": "6",
+          "weapon_skill": "4+",
+          "armor_penetration": "0",
+          "damage": "1",
+          "weapon_type": "Melee Weapons",
+          "minSelection": "1",
+          "maxSelection": "1"
+        },
+        {
+          "id": "ed38-3e46-5c38-39d9",
+          "name": "Hurricane Bolter",
+          "cost": [],
+          "range": "24\"",
+          "attacks": "6",
+          "weapon_skill": "3+",
+          "armor_penetration": "0",
+          "damage": "1",
+          "weapon_type": "Ranged Weapons",
+          "keywords": "Rapid Fire 6, Twin-Linked",
+          "minSelection": "2",
+          "maxSelection": "2"
+        },
+        {
+          "id": "f061-6db7-ce1a-d3cb",
+          "name": "Twin Assault Cannon",
+          "cost": [],
+          "range": "24\"",
+          "attacks": "6",
+          "weapon_skill": "3+",
+          "armor_penetration": "0",
+          "damage": "1",
+          "weapon_type": "Ranged Weapons",
+          "keywords": "Devastating Wounds, Twin-Linked",
+          "minSelection": "1",
+          "maxSelection": "1"
+        }
+      ],
+      "minSelection": "1",
+      "maxSelection": "1",
+      "constraint_scope": ""
+    },
     "colors": [],
     "image": []
   },
   {
     "id": "ada7-eb0b-c920-d77f",
     "name": "Grey Knights Land Raider Redeemer",
-    "cost": [],
+    "cost": "290",
     "movement": "12\"",
     "toughness": "12",
     "save": "2+",
@@ -367,14 +978,103 @@
     "objectiveControl": "5",
     "leader": [],
     "abilities": [],
-    "models": [],
+    "models": {
+      "id": "ada7-eb0b-c920-d77f",
+      "name": "Grey Knights Land Raider Redeemer",
+      "cost": "290",
+      "weapons": [
+        {
+          "id": "7bf6-9fd5-5cd5-c1a6",
+          "name": "Twin Assault Cannon",
+          "cost": [],
+          "range": "24\"",
+          "attacks": "6",
+          "weapon_skill": "3+",
+          "armor_penetration": "0",
+          "damage": "1",
+          "weapon_type": "Ranged Weapons",
+          "keywords": "Devastating Wounds, Twin-Linked",
+          "minSelection": "1",
+          "maxSelection": "1"
+        },
+        {
+          "id": "c05d-98a6-4648-fb81",
+          "name": "Storm Bolter",
+          "cost": [],
+          "range": "24\"",
+          "attacks": "2",
+          "weapon_skill": "3+",
+          "armor_penetration": "0",
+          "damage": "1",
+          "weapon_type": "Ranged Weapons",
+          "keywords": "Rapid Fire 2",
+          "maxSelection": "1"
+        },
+        {
+          "id": "8dd8-efec-de14-c678",
+          "name": "Multi-melta",
+          "cost": [],
+          "range": "18\"",
+          "attacks": "2",
+          "weapon_skill": "3+",
+          "armor_penetration": "-4",
+          "damage": "D6",
+          "weapon_type": "Ranged Weapons",
+          "keywords": "Melta 2",
+          "maxSelection": "1"
+        },
+        {
+          "id": "3917-9b44-e861-6f17",
+          "name": "Hunter-killer Missile",
+          "cost": [],
+          "range": "48\"",
+          "attacks": "1",
+          "weapon_skill": "2+",
+          "armor_penetration": "-3",
+          "damage": "D6",
+          "weapon_type": "Ranged Weapons",
+          "keywords": "One Shot",
+          "maxSelection": "1"
+        },
+        {
+          "id": "8ae2-ca88-19cf-2378",
+          "name": "Armoured tracks",
+          "cost": [],
+          "range": "Melee",
+          "attacks": "6",
+          "weapon_skill": "4+",
+          "armor_penetration": "0",
+          "damage": "1",
+          "weapon_type": "Melee Weapons",
+          "minSelection": "1",
+          "maxSelection": "1"
+        },
+        {
+          "id": "47d2-bdb6-a769-cd0f",
+          "name": "Flamestorm Cannon",
+          "cost": [],
+          "range": "12\"",
+          "attacks": "D6+3",
+          "weapon_skill": "N/A",
+          "armor_penetration": "-2",
+          "damage": "2",
+          "weapon_type": "Ranged Weapons",
+          "keywords": "Ignores Cover, Torrent",
+          "minSelection": "2",
+          "maxSelection": "2"
+        }
+      ],
+      "minSelection": "1",
+      "maxSelection": "1",
+      "constraint_scope": ""
+    },
     "colors": [],
     "image": []
   },
   {
     "id": "841f-98b-fbf3-c8ee",
     "name": "Grey Knights Razorback",
-    "cost": [],
+    "cost": "95",
     "movement": "12\"",
     "toughness": "9",
     "save": "3+",
@@ -383,14 +1083,22 @@
     "objectiveControl": "2",
     "leader": [],
     "abilities": [],
-    "models": [],
+    "models": {
+      "id": "841f-98b-fbf3-c8ee",
+      "name": "Grey Knights Razorback",
+      "cost": "95",
+      "weapons": [],
+      "minSelection": "1",
+      "maxSelection": "1",
+      "constraint_scope": ""
+    },
     "colors": [],
     "image": []
   },
   {
     "id": "5ffd-f698-a1bb-fba7",
     "name": "Grey Knights Rhino",
-    "cost": [],
+    "cost": "80",
     "movement": "12\"",
     "toughness": "9",
     "save": "3+",
@@ -399,14 +1107,63 @@
     "objectiveControl": "2",
     "leader": [],
     "abilities": [],
-    "models": [],
+    "models": {
+      "id": "5ffd-f698-a1bb-fba7",
+      "name": "Grey Knights Rhino",
+      "cost": "80",
+      "weapons": [
+        {
+          "id": "e994-7f6f-3786-b476",
+          "name": "Armoured tracks",
+          "cost": [],
+          "range": "Melee",
+          "attacks": "3",
+          "weapon_skill": "4+",
+          "armor_penetration": "0",
+          "damage": "1",
+          "weapon_type": "Melee Weapons",
+          "minSelection": "1",
+          "maxSelection": "1"
+        },
+        {
+          "id": "37c7-1fb-eb45-8c5b",
+          "name": "Storm Bolter",
+          "cost": [],
+          "range": "24\"",
+          "attacks": "2",
+          "weapon_skill": "3+",
+          "armor_penetration": "0",
+          "damage": "1",
+          "weapon_type": "Ranged Weapons",
+          "keywords": "Rapid Fire 2",
+          "minSelection": "1",
+          "maxSelection": "2"
+        },
+        {
+          "id": "9ee6-9eda-cd98-cd4a",
+          "name": "Hunter-killer Missile",
+          "cost": [],
+          "range": "48\"",
+          "attacks": "1",
+          "weapon_skill": "2+",
+          "armor_penetration": "-3",
+          "damage": "D6",
+          "weapon_type": "Ranged Weapons",
+          "keywords": "One Shot",
+          "maxSelection": "1"
+        }
+      ],
+      "minSelection": "1",
+      "maxSelection": "1",
+      "constraint_scope": ""
+    },
     "colors": [],
     "image": []
   },
   {
     "id": "fa-e288-2107-d22e",
     "name": "Grey Knights Stormhawk Interceptor",
-    "cost": [],
+    "cost": "160",
     "movement": "20+\"",
     "toughness": "9",
     "save": "3+",
@@ -415,14 +1172,22 @@
     "objectiveControl": "0",
     "leader": [],
     "abilities": [],
-    "models": [],
+    "models": {
+      "id": "fa-e288-2107-d22e",
+      "name": "Grey Knights Stormhawk Interceptor",
+      "cost": "160",
+      "weapons": [],
+      "minSelection": "1",
+      "maxSelection": "1",
+      "constraint_scope": ""
+    },
     "colors": [],
     "image": []
   },
   {
     "id": "2efe-459b-9562-e7a9",
     "name": "Grey Knights Stormraven Gunship",
-    "cost": [],
+    "cost": "265",
     "movement": "20+\"",
     "toughness": "10",
     "save": "3+",
@@ -431,14 +1196,22 @@
     "objectiveControl": "0",
     "leader": [],
     "abilities": [],
-    "models": [],
+    "models": {
+      "id": "2efe-459b-9562-e7a9",
+      "name": "Grey Knights Stormraven Gunship",
+      "cost": "265",
+      "weapons": [],
+      "minSelection": "1",
+      "maxSelection": "1",
+      "constraint_scope": ""
+    },
     "colors": [],
     "image": []
   },
   {
     "id": "84ac-b9ea-921f-9082",
     "name": "Grey Knights Stormtalon Gunship",
-    "cost": [],
+    "cost": "170",
     "movement": "20+\"",
     "toughness": "8",
     "save": "3+",
@@ -447,14 +1220,22 @@
     "objectiveControl": "0",
     "leader": [],
     "abilities": [],
-    "models": [],
+    "models": {
+      "id": "84ac-b9ea-921f-9082",
+      "name": "Grey Knights Stormtalon Gunship",
+      "cost": "170",
+      "weapons": [],
+      "minSelection": "1",
+      "maxSelection": "1",
+      "constraint_scope": ""
+    },
     "colors": [],
     "image": []
   },
   {
     "id": "bd43-b303-66e0-4c10",
     "name": "Grey Knights Venerable Dreadnought",
-    "cost": [],
+    "cost": "155",
     "movement": "6\"",
     "toughness": "9",
     "save": "2+",
@@ -463,14 +1244,22 @@
     "objectiveControl": "3",
     "leader": [],
     "abilities": [],
-    "models": [],
+    "models": {
+      "id": "bd43-b303-66e0-4c10",
+      "name": "Grey Knights Venerable Dreadnought",
+      "cost": "155",
+      "weapons": [],
+      "minSelection": "1",
+      "maxSelection": "1",
+      "constraint_scope": ""
+    },
     "colors": [],
     "image": []
   },
   {
     "id": "d9f7-71b7-8e67-7f44",
     "name": "Interceptor Squad",
-    "cost": [],
+    "cost": "160",
     "movement": "12\"",
     "toughness": "4",
     "save": "2+",
@@ -483,95 +1272,129 @@
       {
         "id": "9ae2-cba2-3df0-81ea",
         "name": "Justicar",
+        "cost": [],
         "weapons": [
           {
             "id": "cfe2-dc97-7f64-ee2b",
             "name": "Nemesis Force Weapon",
+            "cost": [],
             "range": "Melee",
             "attacks": "3",
             "weapon_skill": "3+",
             "armor_penetration": "-2",
             "damage": "2",
-            "weapon_type": "Melee Weapons"
+            "weapon_type": "Melee Weapons",
+            "keywords": "Psychic",
+            "minSelection": "1",
+            "maxSelection": "1"
           },
           {
             "id": "9ac9-3c48-f753-f303",
             "name": "Storm Bolter",
+            "cost": [],
             "range": "24\"",
             "attacks": "2",
             "weapon_skill": "3+",
             "armor_penetration": "0",
             "damage": "1",
-            "weapon_type": "Ranged Weapons"
+            "weapon_type": "Ranged Weapons",
+            "keywords": "Rapid Fire 2",
+            "minSelection": "1",
+            "maxSelection": "1"
           }
         ],
         "minSelection": "1",
-        "maxSelection": "1"
+        "maxSelection": "1",
+        "constraint_scope": "parent"
       },
       {
         "id": "2906-2dfd-6dbe-ca8",
         "name": "Interceptor",
+        "cost": [],
         "weapons": [
           {
             "id": "4e6-6d1c-3395-59d5",
             "name": "Nemesis Force Weapon",
+            "cost": [],
             "range": "Melee",
             "attacks": "3",
             "weapon_skill": "3+",
             "armor_penetration": "-2",
             "damage": "2",
-            "weapon_type": "Melee Weapons"
+            "weapon_type": "Melee Weapons",
+            "keywords": "Psychic",
+            "minSelection": "1",
+            "maxSelection": "1"
           },
           {
             "id": "43d0-c61a-f6da-22a0",
             "name": "Storm Bolter",
+            "cost": [],
             "range": "24\"",
             "attacks": "2",
             "weapon_skill": "3+",
             "armor_penetration": "0",
             "damage": "1",
-            "weapon_type": "Ranged Weapons"
+            "weapon_type": "Ranged Weapons",
+            "keywords": "Rapid Fire 2",
+            "minSelection": "1",
+            "maxSelection": "1"
           }
         ],
         "minSelection": "1",
-        "maxSelection": "1"
+        "maxSelection": "1",
+        "constraint_scope": ""
       },
       {
         "id": "98ea-59aa-70be-5d6d",
         "name": "Interceptor with Heavy Weapon",
+        "cost": [],
         "weapons": [
           {
             "id": "5b24-9dd2-ede3-3922",
             "name": "Psycannon",
+            "cost": [],
             "range": "24\"",
             "attacks": "3",
             "weapon_skill": "3+",
             "armor_penetration": "-1",
             "damage": "2",
-            "weapon_type": "Ranged Weapons"
+            "weapon_type": "Ranged Weapons",
+            "keywords": "Psychic",
+            "minSelection": "1",
+            "maxSelection": "1"
           },
           {
             "id": "8eb1-bf8b-bd1c-7854",
             "name": "Incinerator",
+            "cost": [],
             "range": "12\"",
             "attacks": "D6",
             "weapon_skill": "N/A",
             "armor_penetration": "-1",
             "damage": "1",
-            "weapon_type": "Ranged Weapons"
+            "weapon_type": "Ranged Weapons",
+            "keywords": "Ignores Cover, Torrent",
+            "minSelection": "1",
+            "maxSelection": "1"
           },
           {
             "id": "8d94-1425-6cf6-d262",
             "name": "Psilencer",
+            "cost": [],
             "range": "24\"",
             "attacks": "6",
             "weapon_skill": "3+",
             "armor_penetration": "0",
             "damage": "1",
-            "weapon_type": "Ranged Weapons"
+            "weapon_type": "Ranged Weapons",
+            "keywords": "Psychic, Sustained Hits 1",
+            "minSelection": "1",
+            "maxSelection": "1"
           }
         ],
-        "maxSelection": "1"
+        "maxSelection": "1",
+        "constraint_scope": "parent"
       }
     ],
     "colors": [],
@@ -580,7 +1403,7 @@
   {
     "id": "7a19-5235-692b-320d",
     "name": "Kaldor Draigo",
-    "cost": [],
+    "cost": "155",
     "movement": "5\"",
     "toughness": "5",
     "save": "2+",
@@ -589,14 +1412,65 @@
     "objectiveControl": "1",
     "leader": [],
     "abilities": [],
-    "models": [],
+    "models": {
+      "id": "7a19-5235-692b-320d",
+      "name": "Kaldor Draigo",
+      "cost": "155",
+      "weapons": [
+        {
+          "id": "1934-6940-4a56-4ac3",
+          "name": "Storm Bolter",
+          "cost": [],
+          "range": "24\"",
+          "attacks": "2",
+          "weapon_skill": "2+",
+          "armor_penetration": "0",
+          "damage": "1",
+          "weapon_type": "Ranged Weapons",
+          "keywords": "Rapid Fire 2",
+          "minSelection": "1",
+          "maxSelection": "1"
+        },
+        {
+          "id": "8804-9b5d-14e7-5e2d",
+          "name": "Scourging",
+          "cost": [],
+          "range": "18\"",
+          "attacks": "3",
+          "weapon_skill": "2+",
+          "armor_penetration": "-2",
+          "damage": "2",
+          "weapon_type": "Ranged Weapons",
+          "keywords": "Anti-Daemon 2+, Ignores Cover, Psychic",
+          "minSelection": "1",
+          "maxSelection": "1"
+        },
+        {
+          "id": "b9fb-d4e1-34ae-d02f",
+          "name": "The Titansword",
+          "cost": [],
+          "range": "Melee",
+          "attacks": "6",
+          "weapon_skill": "2+",
+          "armor_penetration": "-4",
+          "damage": "3",
+          "weapon_type": "Melee Weapons",
+          "keywords": "Anti-Daemon 2+, Psychic",
+          "minSelection": "1",
+          "maxSelection": "1"
+        }
+      ],
+      "minSelection": "1",
+      "maxSelection": "1",
+      "constraint_scope": ""
+    },
     "colors": [],
     "image": []
   },
   {
     "id": "5458-a458-c51d-c4e9",
     "name": "Nemesis Dreadknight",
-    "cost": [],
+    "cost": "215",
     "movement": "8\"",
     "toughness": "8",
     "save": "2+",
@@ -605,14 +1479,22 @@
     "objectiveControl": "4",
     "leader": [],
     "abilities": [],
-    "models": [],
+    "models": {
+      "id": "5458-a458-c51d-c4e9",
+      "name": "Nemesis Dreadknight",
+      "cost": "215",
+      "weapons": [],
+      "minSelection": "1",
+      "maxSelection": "1",
+      "constraint_scope": ""
+    },
     "colors": [],
     "image": []
   },
   {
     "id": "6528-4634-c2cf-2840",
     "name": "Paladin Squad",
-    "cost": [],
+    "cost": "255",
     "movement": "5\"",
     "toughness": "5",
     "save": "2+",
@@ -625,142 +1507,193 @@
       {
         "id": "7eaa-bc4d-e325-6767",
         "name": "Paragon",
+        "cost": [],
         "weapons": [
           {
             "id": "1207-d408-edb8-7e91",
             "name": "Nemesis Force Weapon",
+            "cost": [],
             "range": "Melee",
             "attacks": "4",
             "weapon_skill": "2+",
             "armor_penetration": "-2",
             "damage": "2",
-            "weapon_type": "Melee Weapons"
+            "weapon_type": "Melee Weapons",
+            "keywords": "Psychic",
+            "minSelection": "1",
+            "maxSelection": "1"
           },
           {
             "id": "c93f-d27c-e74f-be19",
             "name": "Storm Bolter",
+            "cost": [],
             "range": "24\"",
             "attacks": "2",
             "weapon_skill": "3+",
             "armor_penetration": "0",
             "damage": "1",
-            "weapon_type": "Ranged Weapons"
+            "weapon_type": "Ranged Weapons",
+            "keywords": "Rapid Fire 2",
+            "minSelection": "1",
+            "maxSelection": "1"
           }
         ],
         "minSelection": "1",
-        "maxSelection": "1"
+        "maxSelection": "1",
+        "constraint_scope": "parent"
       },
       {
         "id": "d1b3-96e2-43e6-6bf4",
         "name": "Paladin",
+        "cost": [],
         "weapons": [
           {
             "id": "6187-c075-7bd0-2a9b",
             "name": "Nemesis Force Weapon",
+            "cost": [],
             "range": "Melee",
             "attacks": "4",
             "weapon_skill": "2+",
             "armor_penetration": "-2",
             "damage": "2",
-            "weapon_type": "Melee Weapons"
+            "weapon_type": "Melee Weapons",
+            "keywords": "Psychic",
+            "minSelection": "1",
+            "maxSelection": "1"
           },
           {
             "id": "abb5-3b05-887d-41c6",
             "name": "Storm Bolter",
+            "cost": [],
             "range": "24\"",
             "attacks": "2",
             "weapon_skill": "3+",
             "armor_penetration": "0",
             "damage": "1",
-            "weapon_type": "Ranged Weapons"
+            "weapon_type": "Ranged Weapons",
+            "keywords": "Rapid Fire 2",
+            "minSelection": "1",
+            "maxSelection": "1"
           }
         ],
         "minSelection": "1",
-        "maxSelection": "1"
+        "maxSelection": "1",
+        "constraint_scope": ""
       },
       {
         "id": "c782-acdd-ccd7-6cc0",
         "name": "Paladin with Ancient's Banner",
+        "cost": [],
         "weapons": [
           {
             "id": "d970-7af-8ceb-f662",
             "name": "Psycannon",
+            "cost": [],
             "range": "24\"",
             "attacks": "3",
             "weapon_skill": "2+",
             "armor_penetration": "-1",
             "damage": "2",
-            "weapon_type": "Ranged Weapons"
+            "weapon_type": "Ranged Weapons",
+            "keywords": "Psychic",
+            "minSelection": "1",
+            "maxSelection": "1"
           },
           {
             "id": "e308-5d95-ccfe-a490",
             "name": "Incinerator",
+            "cost": [],
             "range": "12\"",
             "attacks": "D6",
             "weapon_skill": "N/A",
             "armor_penetration": "-1",
             "damage": "1",
-            "weapon_type": "Ranged Weapons"
+            "weapon_type": "Ranged Weapons",
+            "keywords": "Ignores Cover, Torrent",
+            "minSelection": "1",
+            "maxSelection": "1"
           },
           {
             "id": "548f-f4dd-7e32-9d31",
             "name": "Psilencer",
+            "cost": [],
             "range": "24\"",
             "attacks": "6",
             "weapon_skill": "2+",
             "armor_penetration": "0",
             "damage": "1",
-            "weapon_type": "Ranged Weapons"
+            "weapon_type": "Ranged Weapons",
+            "keywords": "Psychic, Sustained Hits 1",
+            "minSelection": "1",
+            "maxSelection": "1"
           },
           {
             "id": "1202-d63-2028-ab5c",
             "name": "Storm Bolter",
+            "cost": [],
             "range": "24\"",
             "attacks": "2",
             "weapon_skill": "2+",
             "armor_penetration": "0",
             "damage": "1",
-            "weapon_type": "Ranged Weapons"
+            "weapon_type": "Ranged Weapons",
+            "keywords": "Rapid Fire 2",
+            "maxSelection": "1"
           }
         ],
-        "maxSelection": "1"
+        "maxSelection": "1",
+        "constraint_scope": "parent"
       },
       {
         "id": "7f57-9a5a-c5bf-851a",
         "name": "Paladin with Heavy Weapon",
+        "cost": [],
         "weapons": [
           {
             "id": "e1fa-34a1-5580-b7c8",
             "name": "Psycannon",
+            "cost": [],
             "range": "24\"",
             "attacks": "3",
             "weapon_skill": "2+",
             "armor_penetration": "-1",
             "damage": "2",
-            "weapon_type": "Ranged Weapons"
+            "weapon_type": "Ranged Weapons",
+            "keywords": "Psychic",
+            "minSelection": "1",
+            "maxSelection": "1"
           },
           {
             "id": "5c0-5677-cffb-374c",
             "name": "Incinerator",
+            "cost": [],
             "range": "12\"",
             "attacks": "D6",
             "weapon_skill": "N/A",
             "armor_penetration": "-1",
             "damage": "1",
-            "weapon_type": "Ranged Weapons"
+            "weapon_type": "Ranged Weapons",
+            "keywords": "Ignores Cover, Torrent",
+            "minSelection": "1",
+            "maxSelection": "1"
           },
           {
             "id": "f2a4-ccdb-517c-9e67",
             "name": "Psilencer",
+            "cost": [],
             "range": "24\"",
             "attacks": "6",
             "weapon_skill": "2+",
             "armor_penetration": "0",
             "damage": "1",
-            "weapon_type": "Ranged Weapons"
+            "weapon_type": "Ranged Weapons",
+            "keywords": "Psychic, Sustained Hits 1",
+            "minSelection": "1",
+            "maxSelection": "1"
           }
         ],
-        "maxSelection": "2"
+        "maxSelection": "2",
+        "constraint_scope": "parent"
       }
     ],
     "colors": [],
@@ -769,7 +1702,7 @@
   {
     "id": "e8ad-bd40-5952-6859",
     "name": "Purgation Squad",
-    "cost": [],
+    "cost": "190",
     "movement": "6\"",
     "toughness": "4",
     "save": "2+",
@@ -782,95 +1715,129 @@
       {
         "id": "5f9-7ef3-ba5b-6352",
         "name": "Justicar",
+        "cost": [],
         "weapons": [
           {
             "id": "e23c-c956-54ae-96bf",
             "name": "Nemesis Force Weapon",
+            "cost": [],
             "range": "Melee",
             "attacks": "3",
             "weapon_skill": "3+",
             "armor_penetration": "-2",
             "damage": "2",
-            "weapon_type": "Melee Weapons"
+            "weapon_type": "Melee Weapons",
+            "keywords": "Psychic",
+            "minSelection": "1",
+            "maxSelection": "1"
           },
           {
             "id": "d791-32c3-c5ec-29e0",
             "name": "Storm Bolter",
+            "cost": [],
             "range": "24\"",
             "attacks": "2",
             "weapon_skill": "3+",
             "armor_penetration": "0",
             "damage": "1",
-            "weapon_type": "Ranged Weapons"
+            "weapon_type": "Ranged Weapons",
+            "keywords": "Rapid Fire 2",
+            "minSelection": "1",
+            "maxSelection": "1"
           }
         ],
         "minSelection": "1",
-        "maxSelection": "1"
+        "maxSelection": "1",
+        "constraint_scope": "parent"
       },
       {
         "id": "ee3b-2ec2-2841-7e66",
         "name": "Purgator",
+        "cost": [],
         "weapons": [
           {
             "id": "3f2f-f59d-6aba-cf85",
             "name": "Nemesis Force Weapon",
+            "cost": [],
             "range": "Melee",
             "attacks": "3",
             "weapon_skill": "3+",
             "armor_penetration": "-2",
             "damage": "2",
-            "weapon_type": "Melee Weapons"
+            "weapon_type": "Melee Weapons",
+            "keywords": "Psychic",
+            "minSelection": "1",
+            "maxSelection": "1"
           },
           {
             "id": "b398-1281-6d4e-2eed",
             "name": "Storm Bolter",
+            "cost": [],
             "range": "24\"",
             "attacks": "2",
             "weapon_skill": "3+",
             "armor_penetration": "0",
             "damage": "1",
-            "weapon_type": "Ranged Weapons"
+            "weapon_type": "Ranged Weapons",
+            "keywords": "Rapid Fire 2",
+            "minSelection": "1",
+            "maxSelection": "1"
           }
         ],
         "minSelection": "1",
-        "maxSelection": "1"
+        "maxSelection": "1",
+        "constraint_scope": ""
       },
       {
         "id": "cff6-2f07-e799-ae10",
         "name": "Purgator with Heavy Weapon",
+        "cost": [],
         "weapons": [
           {
             "id": "3be7-89f0-b41f-ae4d",
             "name": "Psycannon",
+            "cost": [],
             "range": "24\"",
             "attacks": "3",
             "weapon_skill": "3+",
             "armor_penetration": "-1",
             "damage": "2",
-            "weapon_type": "Ranged Weapons"
+            "weapon_type": "Ranged Weapons",
+            "keywords": "Psychic",
+            "minSelection": "1",
+            "maxSelection": "1"
           },
           {
             "id": "a7cb-37ff-c427-6574",
             "name": "Incinerator",
+            "cost": [],
             "range": "12\"",
             "attacks": "D6",
             "weapon_skill": "N/A",
             "armor_penetration": "-1",
             "damage": "1",
-            "weapon_type": "Ranged Weapons"
+            "weapon_type": "Ranged Weapons",
+            "keywords": "Ignores Cover, Torrent",
+            "minSelection": "1",
+            "maxSelection": "1"
           },
           {
             "id": "7cfb-22e4-5f7c-dfad",
             "name": "Psilencer",
+            "cost": [],
             "range": "24\"",
             "attacks": "6",
             "weapon_skill": "3+",
             "armor_penetration": "0",
             "damage": "1",
-            "weapon_type": "Ranged Weapons"
+            "weapon_type": "Ranged Weapons",
+            "keywords": "Psychic, Sustained Hits 1",
+            "minSelection": "1",
+            "maxSelection": "1"
           }
         ],
-        "maxSelection": "4"
+        "maxSelection": "4",
+        "constraint_scope": "parent"
       }
     ],
     "colors": [],
@@ -879,7 +1846,7 @@
   {
     "id": "8865-df22-1629-bf02",
     "name": "Purifier Squad",
-    "cost": [],
+    "cost": "150",
     "movement": "6\"",
     "toughness": "4",
     "save": "2+",
@@ -892,115 +1859,157 @@
       {
         "id": "d27-4455-b0d4-3250",
         "name": "Knight of the Flame",
+        "cost": [],
         "weapons": [
           {
             "id": "2d25-3fc9-a477-6a9e",
             "name": "Nemesis Force Weapon",
+            "cost": [],
             "range": "Melee",
             "attacks": "3",
             "weapon_skill": "3+",
             "armor_penetration": "-2",
             "damage": "2",
-            "weapon_type": "Melee Weapons"
+            "weapon_type": "Melee Weapons",
+            "keywords": "Psychic",
+            "minSelection": "1",
+            "maxSelection": "1"
           },
           {
             "id": "afbf-1390-b3c2-34e5",
             "name": "Storm Bolter",
+            "cost": [],
             "range": "24\"",
             "attacks": "2",
             "weapon_skill": "3+",
             "armor_penetration": "0",
             "damage": "1",
-            "weapon_type": "Ranged Weapons"
+            "weapon_type": "Ranged Weapons",
+            "keywords": "Rapid Fire 2",
+            "minSelection": "1",
+            "maxSelection": "1"
           },
           {
             "id": "7806-2692-1a7b-e5ac",
             "name": "Purifying Flame",
+            "cost": [],
             "range": "18\"",
             "attacks": "1",
             "weapon_skill": "3+",
             "armor_penetration": "-1",
             "damage": "1",
-            "weapon_type": "Ranged Weapons"
+            "weapon_type": "Ranged Weapons",
+            "keywords": "Anti-Infantry 2+, Ignores Cover, Psychic",
+            "minSelection": "1",
+            "maxSelection": "1"
           }
         ],
         "minSelection": "1",
-        "maxSelection": "1"
+        "maxSelection": "1",
+        "constraint_scope": "parent"
       },
       {
         "id": "2105-9372-a043-df0c",
         "name": "Purifier",
+        "cost": [],
         "weapons": [
           {
             "id": "1cfa-f820-e633-36ef",
             "name": "Nemesis Force Weapon",
+            "cost": [],
             "range": "Melee",
             "attacks": "3",
             "weapon_skill": "3+",
             "armor_penetration": "-2",
             "damage": "2",
-            "weapon_type": "Melee Weapons"
+            "weapon_type": "Melee Weapons",
+            "keywords": "Psychic",
+            "minSelection": "1",
+            "maxSelection": "1"
           },
           {
             "id": "71f6-9d16-87ce-ad59",
             "name": "Storm Bolter",
+            "cost": [],
             "range": "24\"",
             "attacks": "2",
             "weapon_skill": "3+",
             "armor_penetration": "0",
             "damage": "1",
-            "weapon_type": "Ranged Weapons"
+            "weapon_type": "Ranged Weapons",
+            "keywords": "Rapid Fire 2",
+            "minSelection": "1",
+            "maxSelection": "1"
           },
           {
             "id": "915e-b169-5d19-d77b",
             "name": "Purifying Flame",
+            "cost": [],
             "range": "18\"",
             "attacks": "1",
             "weapon_skill": "3+",
             "armor_penetration": "-1",
             "damage": "1",
-            "weapon_type": "Ranged Weapons"
+            "weapon_type": "Ranged Weapons",
+            "keywords": "Anti-Infantry 2+, Ignores Cover, Psychic",
+            "minSelection": "1",
+            "maxSelection": "1"
           }
         ],
         "minSelection": "1",
-        "maxSelection": "1"
+        "maxSelection": "1",
+        "constraint_scope": ""
       },
       {
         "id": "c1d9-48c4-c8de-237b",
         "name": "Purifier with Heavy Weapon",
+        "cost": [],
         "weapons": [
           {
             "id": "2dda-bd03-108d-168a",
             "name": "Psycannon",
+            "cost": [],
             "range": "24\"",
             "attacks": "3",
             "weapon_skill": "3+",
             "armor_penetration": "-1",
             "damage": "2",
-            "weapon_type": "Ranged Weapons"
+            "weapon_type": "Ranged Weapons",
+            "keywords": "Psychic",
+            "minSelection": "1",
+            "maxSelection": "1"
           },
           {
             "id": "3a07-c5a8-fc6b-d3dd",
             "name": "Incinerator",
+            "cost": [],
             "range": "12\"",
             "attacks": "D6",
             "weapon_skill": "N/A",
             "armor_penetration": "-1",
             "damage": "1",
-            "weapon_type": "Ranged Weapons"
+            "weapon_type": "Ranged Weapons",
+            "keywords": "Ignores Cover, Torrent",
+            "minSelection": "1",
+            "maxSelection": "1"
           },
           {
             "id": "7c1a-8710-d76e-e286",
             "name": "Psilencer",
+            "cost": [],
             "range": "24\"",
             "attacks": "6",
             "weapon_skill": "3+",
             "armor_penetration": "0",
             "damage": "1",
-            "weapon_type": "Ranged Weapons"
+            "weapon_type": "Ranged Weapons",
+            "keywords": "Psychic, Sustained Hits 1",
+            "minSelection": "1",
+            "maxSelection": "1"
           }
         ],
-        "maxSelection": "2"
+        "maxSelection": "2",
+        "constraint_scope": "parent"
       }
     ],
     "colors": [],
@@ -1009,7 +2018,7 @@
   {
     "id": "35ed-7890-6c56-18b7",
     "name": "Servitors",
-    "cost": [],
+    "cost": "50",
     "movement": "6\"",
     "toughness": "4",
     "save": "4+",
@@ -1022,30 +2031,38 @@
       {
         "id": "54c6-2506-f109-dd",
         "name": "Servitor with Servo Arm",
+        "cost": [],
         "weapons": [],
         "minSelection": "1",
-        "maxSelection": "1"
+        "maxSelection": "1",
+        "constraint_scope": ""
       },
       {
         "id": "89c9-ccee-d41e-7489",
         "name": "Servitor with Heavy Bolter",
+        "cost": [],
         "weapons": [],
         "minSelection": "1",
-        "maxSelection": "1"
+        "maxSelection": "1",
+        "constraint_scope": ""
       },
       {
         "id": "51b4-7283-dda-f124",
         "name": "Servitor with Multi Melta",
+        "cost": [],
         "weapons": [],
         "minSelection": "1",
-        "maxSelection": "1"
+        "maxSelection": "1",
+        "constraint_scope": ""
       },
       {
         "id": "40ff-1eb6-2299-f733",
         "name": "Servitor with Plasma Cannon",
+        "cost": [],
         "weapons": [],
         "minSelection": "1",
-        "maxSelection": "1"
+        "maxSelection": "1",
+        "constraint_scope": ""
       }
     ],
     "colors": [],
@@ -1054,7 +2071,7 @@
   {
     "id": "d81f-c9ac-e338-ba37",
     "name": "Strike Squad",
-    "cost": [],
+    "cost": "135",
     "movement": "6\"",
     "toughness": "4",
     "save": "2+",
@@ -1067,95 +2084,129 @@
       {
         "id": "e94e-2f1d-3d5b-dad8",
         "name": "Justicar",
+        "cost": [],
         "weapons": [
           {
             "id": "a2ae-bf4f-7273-439",
             "name": "Nemesis Force Weapon",
+            "cost": [],
             "range": "Melee",
             "attacks": "3",
             "weapon_skill": "3+",
             "armor_penetration": "-2",
             "damage": "2",
-            "weapon_type": "Melee Weapons"
+            "weapon_type": "Melee Weapons",
+            "keywords": "Psychic",
+            "minSelection": "1",
+            "maxSelection": "1"
           },
           {
             "id": "b26a-29d2-ce3f-6f95",
             "name": "Storm Bolter",
+            "cost": [],
             "range": "24\"",
             "attacks": "2",
             "weapon_skill": "3+",
             "armor_penetration": "0",
             "damage": "1",
-            "weapon_type": "Ranged Weapons"
+            "weapon_type": "Ranged Weapons",
+            "keywords": "Rapid Fire 2",
+            "minSelection": "1",
+            "maxSelection": "1"
           }
         ],
         "minSelection": "1",
-        "maxSelection": "1"
+        "maxSelection": "1",
+        "constraint_scope": "parent"
       },
       {
         "id": "2e8c-d8a7-b77c-d2ad",
         "name": "Grey Knight",
+        "cost": [],
         "weapons": [
           {
             "id": "d183-5a5f-7559-66ad",
             "name": "Nemesis Force Weapon",
+            "cost": [],
             "range": "Melee",
             "attacks": "3",
             "weapon_skill": "3+",
             "armor_penetration": "-2",
             "damage": "2",
-            "weapon_type": "Melee Weapons"
+            "weapon_type": "Melee Weapons",
+            "keywords": "Psychic",
+            "minSelection": "1",
+            "maxSelection": "1"
           },
           {
             "id": "2ba5-c2d6-adb5-77f4",
             "name": "Storm Bolter",
+            "cost": [],
             "range": "24\"",
             "attacks": "2",
             "weapon_skill": "3+",
             "armor_penetration": "0",
             "damage": "1",
-            "weapon_type": "Ranged Weapons"
+            "weapon_type": "Ranged Weapons",
+            "keywords": "Rapid Fire 2",
+            "minSelection": "1",
+            "maxSelection": "1"
           }
         ],
         "minSelection": "1",
-        "maxSelection": "1"
+        "maxSelection": "1",
+        "constraint_scope": ""
       },
       {
         "id": "b953-5c1a-5d31-192f",
         "name": "Grey Knight with Heavy Weapon",
+        "cost": [],
         "weapons": [
           {
             "id": "9f4a-4baa-324c-7904",
             "name": "Psycannon",
+            "cost": [],
             "range": "24\"",
             "attacks": "3",
             "weapon_skill": "3+",
             "armor_penetration": "-1",
             "damage": "2",
-            "weapon_type": "Ranged Weapons"
+            "weapon_type": "Ranged Weapons",
+            "keywords": "Psychic",
+            "minSelection": "1",
+            "maxSelection": "1"
           },
           {
             "id": "f37f-228a-a9-1b00",
             "name": "Incinerator",
+            "cost": [],
             "range": "12\"",
             "attacks": "D6",
             "weapon_skill": "N/A",
             "armor_penetration": "-1",
             "damage": "1",
-            "weapon_type": "Ranged Weapons"
+            "weapon_type": "Ranged Weapons",
+            "keywords": "Ignores Cover, Torrent",
+            "minSelection": "1",
+            "maxSelection": "1"
           },
           {
             "id": "d045-399e-966c-c019",
             "name": "Psilencer",
+            "cost": [],
             "range": "24\"",
             "attacks": "6",
             "weapon_skill": "3+",
             "armor_penetration": "0",
             "damage": "1",
-            "weapon_type": "Ranged Weapons"
+            "weapon_type": "Ranged Weapons",
+            "keywords": "Psychic, Sustained Hits 1",
+            "minSelection": "1",
+            "maxSelection": "1"
           }
         ],
-        "maxSelection": "1"
+        "maxSelection": "1",
+        "constraint_scope": "parent"
       }
     ],
     "colors": [],
@@ -1164,7 +2215,7 @@
   {
     "id": "8989-2fd2-4d29-e795",
     "name": "Grey Knights Thunderhawk Gunship",
-    "cost": [],
+    "cost": "805",
     "movement": "20+\"",
     "toughness": "12",
     "save": "2+",
@@ -1173,14 +2224,22 @@
     "objectiveControl": "0",
     "leader": [],
     "abilities": [],
-    "models": [],
+    "models": {
+      "id": "8989-2fd2-4d29-e795",
+      "name": "Grey Knights Thunderhawk Gunship",
+      "cost": "805",
+      "weapons": [],
+      "minSelection": "1",
+      "maxSelection": "1",
+      "constraint_scope": ""
+    },
     "colors": [],
     "image": []
   },
   {
     "id": "69d-a656-fde3-6c3e",
     "name": "Land Raider Banisher",
-    "cost": [],
+    "cost": "255",
     "movement": "10\"",
     "toughness": "12",
     "save": "2+",
@@ -1189,14 +2248,90 @@
     "objectiveControl": "5",
     "leader": [],
     "abilities": [],
-    "models": [],
+    "models": {
+      "id": "69d-a656-fde3-6c3e",
+      "name": "Land Raider Banisher",
+      "cost": "255",
+      "weapons": [
+        {
+          "id": "d4b7-cb82-6458-a406",
+          "name": "Heavy Incinerator",
+          "cost": [],
+          "range": "18\"",
+          "attacks": "2D6",
+          "weapon_skill": "N/A",
+          "armor_penetration": "-1",
+          "damage": "1",
+          "weapon_type": "Ranged Weapons",
+          "keywords": "Ignores Cover, Torrent",
+          "minSelection": "2",
+          "maxSelection": "2"
+        },
+        {
+          "id": "88e0-4fa-8acc-7b7c",
+          "name": "Twin Psycannon",
+          "cost": [],
+          "range": "24\"",
+          "attacks": "3",
+          "weapon_skill": "3+",
+          "armor_penetration": "-1",
+          "damage": "2",
+          "weapon_type": "Ranged Weapons",
+          "keywords": "Psychic, Sustained Hits 1, Twin-linked",
+          "minSelection": "1",
+          "maxSelection": "1"
+        },
+        {
+          "id": "2150-6135-3ee3-8eda",
+          "name": "Hunter-killer Missile",
+          "cost": [],
+          "range": "48\"",
+          "attacks": "1",
+          "weapon_skill": "2+",
+          "armor_penetration": "-3",
+          "damage": "D6",
+          "weapon_type": "Ranged Weapons",
+          "keywords": "One-Shot",
+          "maxSelection": "1"
+        },
+        {
+          "id": "9e63-91f2-e625-cce7",
+          "name": "Storm Bolter",
+          "cost": [],
+          "range": "24\"",
+          "attacks": "2",
+          "weapon_skill": "3+",
+          "armor_penetration": "0",
+          "damage": "1",
+          "weapon_type": "Ranged Weapons",
+          "keywords": "Rapid Fire 2",
+          "maxSelection": "1"
+        },
+        {
+          "id": "f3dd-c9b2-d7a-c917",
+          "name": "Multi-Melta",
+          "cost": [],
+          "range": "18\"",
+          "attacks": "2",
+          "weapon_skill": "3+",
+          "armor_penetration": "-4",
+          "damage": "D6",
+          "weapon_type": "Ranged Weapons",
+          "keywords": "Melta 2",
+          "maxSelection": "1"
+        }
+      ],
+      "minSelection": "1",
+      "maxSelection": "1",
+      "constraint_scope": ""
+    },
     "colors": [],
     "image": []
   },
   {
     "id": "28d0-5a52-501a-441d",
     "name": "Grey Knights Dreadnought [Legends]",
-    "cost": [],
+    "cost": "160",
     "movement": "6\"",
     "toughness": "9",
     "save": "2+",
@@ -1205,14 +2340,22 @@
     "objectiveControl": "3",
     "leader": [],
     "abilities": [],
-    "models": [],
+    "models": {
+      "id": "28d0-5a52-501a-441d",
+      "name": "Grey Knights Dreadnought [Legends]",
+      "cost": "160",
+      "weapons": [],
+      "minSelection": "1",
+      "maxSelection": "1",
+      "constraint_scope": ""
+    },
     "colors": [],
     "image": []
   },
   {
     "id": "54f0-4b3f-3abe-081b",
     "name": "Grey Knights Relic Razorback [Legends]",
-    "cost": [],
+    "cost": "95",
     "movement": "12\"",
     "toughness": "9",
     "save": "3+",
@@ -1221,7 +2364,15 @@
     "objectiveControl": "2",
     "leader": [],
     "abilities": [],
-    "models": [],
+    "models": {
+      "id": "54f0-4b3f-3abe-081b",
+      "name": "Grey Knights Relic Razorback [Legends]",
+      "cost": "95",
+      "weapons": [],
+      "minSelection": "1",
+      "maxSelection": "1",
+      "constraint_scope": ""
+    },
     "colors": [],
     "image": []
   },
