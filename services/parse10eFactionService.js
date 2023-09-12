@@ -6,7 +6,7 @@ const xml2js = require('xml2js');
 const parser = new xml2js.Parser();
 
 //Read XML data
-const xmlData = fs.readFileSync(path.resolve(__dirname, '../data/Imperium - Grey Knights.cat'), 'utf-8');
+const xmlData = fs.readFileSync(path.resolve(__dirname, '../data/Orks.cat'), 'utf-8');
 
 parser.parseString(xmlData, (err, result) => {
   if (err) {
@@ -45,21 +45,21 @@ function parseUnit(entry) {
       id: entry.$.id,
       name: entry.$.name,
       cost: entry.costs ? entry.costs[0].cost[0].$.value : [],
+      //modifiers: entry.modifiers
       movement: findCharacteristic(entry, 'M'),
       toughness: findCharacteristic(entry, 'T'),
       save: findCharacteristic(entry, 'SV'),
       wounds: findCharacteristic(entry, 'W'),
       leadership: findCharacteristic(entry, 'LD'),
       objectiveControl: findCharacteristic(entry, 'OC'),
-      leader: [],
-      abilities: [],
+      abilities: entry.profiles[0].profile.filter(char => char.$.typeName === 'Abilities')?.map(parseAbility),
       models: [],
       colors: [], // This information is not present in the XML file
       image: [] //entry.profiles[0].profile[0].characteristics[0].characteristic.find(char => char.$.name === 'image')._
     };
   
     if (entry.$.type === "unit") {
-      const modelChoices = entry.selectionEntryGroups[0].selectionEntryGroup[0].selectionEntries[0].selectionEntry;
+      const modelChoices = entry.selectionEntryGroups ? entry.selectionEntryGroups[0].selectionEntryGroup[0].selectionEntries[0].selectionEntry : entry.selectionEntries[0].selectionEntry;
       unitData.models = modelChoices.map(parseModel);
     } else if (entry.$.type === "model") { 
       unitData.models = parseModel(entry);
@@ -119,6 +119,7 @@ function parseWeapon(weaponEntry) {
     damage: findCharacteristic(weaponEntry, 'D'),
     weapon_type: weaponEntry.profiles[0].profile[0].$.typeName,
     keywords: findCharacteristic(weaponEntry, 'Keywords'),
+    additional_rules: weaponEntry.infoLinks ? weaponEntry.infoLinks[0].infoLink.map(parseAdditionalRules) : [],
     minSelection: (weaponEntry.constraints ? weaponEntry.constraints[0].constraint.find(char => char.$.type === "min")?.$.value : "1"),
     maxSelection: (weaponEntry.constraints ? weaponEntry.constraints[0].constraint.find(char => char.$.type === "max")?.$.value : "1")
   };
@@ -130,16 +131,25 @@ function parseAbility(abilityEntry) {
     id: abilityEntry.$.id,
     name: abilityEntry.$.name,
     cost: abilityEntry.costs ? abilityEntry.costs[0].cost[0].$.value : [],
-    description: findCharacteristic(abilityEntry, 'Description')
+    description: abilityEntry.characteristics[0].characteristic.find(char => char.$.name === 'Description')?._
+  };
+}
+
+function parseAdditionalRules(additionalRulesEntry) {
+  console.log(additionalRulesEntry.$.name);
+  return {
+    id: additionalRulesEntry.$.id,
+    name: additionalRulesEntry.$.name,
+    type: additionalRulesEntry.$.type,
+    rule_reference_id: additionalRulesEntry.$.targetId
   };
 }
 
 function parseModifier(modifierEntry) {
   console.log(modifierEntry.$.name);
   return {
-    id: modifierEntry.$.id,
-    name: modifierEntry.$.name,
-    cost: modifierEntry.costs ? modifierEntry.costs[0].cost[0].$.value : [],
-    description: findCharacteristic(modifierEntry, 'Description')
+    type: modifierEntry.$.type,
+    value: modifierEntry.$.value, 
+    field: modifierEntry.field ?? []
   };
 }
