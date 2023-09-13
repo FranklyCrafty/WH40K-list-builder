@@ -14,7 +14,7 @@
       {
         "id": "b13b-8579-e74d-5e09",
         "name": "Ramshackle but Rugged",
-        "cost": [],
+        "cost": "",
         "description": "Each time an attack is allocated to this model, worsen the Armour Penetration characteristic of that attack by 1."
       }
     ],
@@ -26,8 +26,8 @@
       "maxSelection": "3",
       "selection_scope": "roster"
     },
-    "colors": [],
-    "image": []
+    "colors": {},
+    "image": {}
   },
   {
     "id": "b7c3-d00e-daf2-76fb",
@@ -37,7 +37,7 @@
       {
         "id": "f91e-4d2d-c977-fab9",
         "name": "Monster Hunters",
-        "cost": [],
+        "cost": "",
         "description": "Each time a model in this unit makes an attack that targets a MONSTER or VEHICLE unit, you can re-roll the Hit roll."
       }
     ],
@@ -50,7 +50,7 @@
           {
             "id": "bec6-2d9b-d764-288",
             "name": "Close combat weapon",
-            "cost": [],
+            "cost": "",
             "range": "Melee",
             "attacks": "2",
             "weapon_skill": "3+",
@@ -64,7 +64,7 @@
           {
             "id": "347d-2fc1-ef8d-cc1d",
             "name": "Thump gun",
-            "cost": [],
+            "cost": "",
             "range": "18\"",
             "attacks": "D3",
             "weapon_skill": "5+",
@@ -95,7 +95,7 @@
           {
             "id": "e9cf-f31b-691-1e1c",
             "name": "Choppa",
-            "cost": [],
+            "cost": "",
             "range": "Melee",
             "attacks": "3",
             "weapon_skill": "3+",
@@ -112,8 +112,8 @@
         "selection_scope": "parent"
       }
     ],
-    "colors": [],
-    "image": []
+    "colors": {},
+    "image": {}
   },
   null,
   {
@@ -130,7 +130,7 @@
       {
         "id": "785b-cdef-c15a-63bf",
         "name": "Beastboss",
-        "cost": [],
+        "cost": "",
         "description": "While this model is leading a unit, each time a model in that unit makes a melee attack, add 1 to the Hit roll."
       }
     ],
@@ -142,7 +142,7 @@
         {
           "id": "64da-fae7-507d-8b18",
           "name": "Shoota",
-          "cost": [],
+          "cost": "",
           "range": "18\"",
           "attacks": "2",
           "weapon_skill": "4+",
@@ -164,7 +164,7 @@
         {
           "id": "8e20-4ae8-9125-42a6",
           "name": "Beast Snagga klaw",
-          "cost": [],
+          "cost": "",
           "range": "Melee",
           "attacks": "4",
           "weapon_skill": "3+",
@@ -187,8 +187,8 @@
       "maxSelection": "3",
       "selection_scope": "roster"
     },
-    "colors": [],
-    "image": []
+    "colors": {},
+    "image": {}
   },
   {
     "id": "a8b7-351-d911-a4d6",
@@ -204,13 +204,13 @@
       {
         "id": "b699-6fb9-ab3-c02f",
         "name": "’Ere We Go (Aura)",
-        "cost": [],
+        "cost": "",
         "description": "While a friendly BEAST SNAGGA unit is within 6\" of this model, you can re-roll Charge rolls made for that unit."
       },
       {
         "id": "23df-4fe3-d093-1c55",
         "name": "Single-minded Predator",
-        "cost": [],
+        "cost": "",
         "description": "You can target this model with the Heroic Intervention Stratagem for 1CP, and can do so even if you have already targeted a different unit with that Stratagem this phase."
       }
     ],
@@ -222,8 +222,8 @@
       "maxSelection": "3",
       "selection_scope": "roster"
     },
-    "colors": [],
-    "image": []
+    "colors": {},
+    "image": {}
   },
   null,
   null,
@@ -241,13 +241,13 @@
       {
         "id": "4c4-6591-d937-ac05",
         "name": "More Dakka",
-        "cost": [],
+        "cost": "",
         "description": "While this model is leading a unit, each time a model in that unit makes a ranged attack, re-roll a Hit roll of 1."
       },
       {
         "id": "73aa-1756-23b1-2a0f",
         "name": "Fix Dat Armour Up",
-        "cost": [],
+        "cost": "",
         "description": "While this model is leading a unit, in your Command phase, you can return 1 destroyed Bodyguard model to that unit."
       }
     ],
@@ -259,8 +259,8 @@
       "maxSelection": "3",
       "selection_scope": "roster"
     },
-    "colors": [],
-    "image": []
+    "colors": {},
+    "image": {}
   },
   null,
   null,
@@ -278,13 +278,13 @@
       {
         "id": "6e21-b063-bf40-57af",
         "name": "More Dakka",
-        "cost": [],
+        "cost": "",
         "description": "While this model is leading a unit, each time a model in that unit makes a ranged attack, re-roll a Hit roll of 1."
       },
       {
         "id": "19cd-d38c-a56b-efde",
         "name": "Kustom Force Field",
-        "cost": [],
+        "cost": "",
         "description": "While this model is leading a unit, models in that unit have a 5+ invulnerable save against ranged attacks. Once per battle, at the start of any phase, this model can overcharge its kustom force field. If it does, until the end of the phase, this invulnerable save is improved to 4+."
       }
     ],
@@ -296,8 +296,8 @@
       "maxSelection": "3",
       "selection_scope": "roster"
     },
-    "colors": [],
-    "image": []
+    "colors": {},
+    "image": {}
   },
   {
     "id": "dde2-ca42-e3bc-2ef6",
@@ -313,13 +313,13 @@
       {
         "id": "a2ce-292e-f4ca-78ca",
         "name": "More Dakka",
-        "cost": [],
+        "cost": "",
         "description": "While this model is leading a unit, each time a model in that unit makes a ranged attack, re-roll a Hit roll of 1."
       },
       {
         "id": "9464-ed84-cc39-5ccd",
         "name": "Deranged Snotling Assault",
-        "cost": [],
+        "cost": "",
         "description": "In your Shooting phase, after this model has shot, select one enemy unit hit by one or more of those attacks; that unit must take a Battle-shock test."
       }
     ],
@@ -331,8 +331,8 @@
       "maxSelection": "3",
       "selection_scope": "roster"
     },
-    "colors": [],
-    "image": []
+    "colors": {},
+    "image": {}
   },
   null,
   {
@@ -349,13 +349,13 @@
       {
         "id": "d8d6-4ad6-398a-e67d",
         "name": "Ramshackle Cover",
-        "cost": [],
+        "cost": "",
         "description": "Each time a ranged attack is allocated to a model, if that model is not fully visible to every model in the attacking unit because of this FORTIFICATION, that model has the Benefit of Cover against that attack."
       },
       {
         "id": "69a-6435-91dc-1",
         "name": "Shoutin’ Pole (Aura)",
-        "cost": [],
+        "cost": "",
         "description": "While a friendly ORKS unit is within 6\" of this FORTIFICATION, improve the Leadership characteristic of models in that unit by 1."
       }
     ],
@@ -367,8 +367,8 @@
       "maxSelection": "3",
       "selection_scope": "roster"
     },
-    "colors": [],
-    "image": []
+    "colors": {},
+    "image": {}
   },
   null,
   {
@@ -385,7 +385,7 @@
       {
         "id": "32e5-eff7-7e3b-37bf",
         "name": "Boom Bomb",
-        "cost": [],
+        "cost": "",
         "description": "Each time this model ends a Normal move, you can select one enemy unit it moved over during that move and roll one D6: on a 4+, that unit suffers D6 mortal wounds."
       }
     ],
@@ -397,7 +397,7 @@
         {
           "id": "260-3ca9-bdcf-4c16",
           "name": "Armoured hull",
-          "cost": [],
+          "cost": "",
           "range": "Melee",
           "attacks": "3",
           "weapon_skill": "4+",
@@ -412,8 +412,8 @@
       "maxSelection": "3",
       "selection_scope": "roster"
     },
-    "colors": [],
-    "image": []
+    "colors": {},
+    "image": {}
   },
   null,
   {
@@ -430,7 +430,7 @@
       {
         "id": "ef32-1d3d-3a37-1a76",
         "name": "Dust Trails (Aura)",
-        "cost": [],
+        "cost": "",
         "description": "While an enemy unit is within 6\" of this model, each time a model in that unit makes an attack, subtract 1 from the Hit roll."
       }
     ],
@@ -442,7 +442,7 @@
         {
           "id": "64ad-7a7b-f831-947f",
           "name": "Spiked wheels",
-          "cost": [],
+          "cost": "",
           "range": "Melee",
           "attacks": "4",
           "weapon_skill": "4+",
@@ -456,7 +456,7 @@
         {
           "id": "5db8-d013-81cc-308c",
           "name": "Mek speshul",
-          "cost": [],
+          "cost": "",
           "range": "24\"",
           "attacks": "12",
           "weapon_skill": "5+",
@@ -491,8 +491,8 @@
       "maxSelection": "3",
       "selection_scope": "roster"
     },
-    "colors": [],
-    "image": []
+    "colors": {},
+    "image": {}
   },
   null,
   {
@@ -509,13 +509,13 @@
       {
         "id": "a847-cc84-74b0-f71",
         "name": "Red Skull Kommandos",
-        "cost": [],
+        "cost": "",
         "description": "While this model is leading a unit, models in that unit have the Benefit of Cover."
       },
       {
         "id": "fb46-3ac9-17af-a7d7",
         "name": "Kunnin’ Infiltrator",
-        "cost": [],
+        "cost": "",
         "description": "Once per battle, in your Movement phase, instead of making a Normal move with this model’s unit, you can remove it from the battlefield and set it up again anywhere on the battlefield that is more than 9\" horizontally away from all enemy models."
       }
     ],
@@ -527,7 +527,7 @@
         {
           "id": "9db0-2615-3a17-415b",
           "name": "Mork’s Teeth",
-          "cost": [],
+          "cost": "",
           "range": "Melee",
           "attacks": "6",
           "weapon_skill": "2+",
@@ -556,8 +556,8 @@
       "maxSelection": "1",
       "selection_scope": "roster"
     },
-    "colors": [],
-    "image": []
+    "colors": {},
+    "image": {}
   },
   null,
   {
@@ -574,13 +574,13 @@
       {
         "id": "6bbd-9900-2b83-159d",
         "name": "Drill Boss",
-        "cost": [],
+        "cost": "",
         "description": "While this model is leading a unit, each time a model in that unit makes a melee attack, add 1 to the Hit roll."
       },
       {
         "id": "8358-2e19-d1c2-6b96",
         "name": "Plummeting Descent",
-        "cost": [],
+        "cost": "",
         "description": "You can re-roll Charge rolls made for this model’s unit in a turn in which it was set up on the battlefield from Reserves."
       }
     ],
@@ -592,7 +592,7 @@
         {
           "id": "746a-df5e-4179-3fc4",
           "name": "Da Vulcha’s Klaws and choppa",
-          "cost": [],
+          "cost": "",
           "range": "Melee",
           "attacks": "6",
           "weapon_skill": "2+",
@@ -607,8 +607,8 @@
       "maxSelection": "1",
       "selection_scope": "roster"
     },
-    "colors": [],
-    "image": []
+    "colors": {},
+    "image": {}
   },
   {
     "id": "e3b1-1240-2476-cd86",
@@ -624,13 +624,13 @@
       {
         "id": "ab60-c8c9-453a-2345",
         "name": "Breakin’ Heads",
-        "cost": [],
+        "cost": "",
         "description": "While a WARBOSS model is leading this unit, in your Command phase, the first time a Battle-shock test is failed for this unit that phase, if it is within range of an objective marker, you can choose to break some heads. If you do, 1 Bodyguard model in this unit is destroyed and you can re-roll that test."
       },
       {
         "id": "4e0-4f2f-eacc-24a0",
         "name": "Bodyguard",
-        "cost": [],
+        "cost": "",
         "description": "If this unit has a Starting Strength of 20, you can attach up to two Leader units to it instead of one (but only if one of those is a WARBOSS model). If you do, and this unit is destroyed, the Leader units attached to it become separate units with their original Starting Strengths."
       }
     ],
@@ -639,7 +639,7 @@
         "id": "7629-a9f5-e881-6ff9",
         "name": "Boy w/ Slugga and choppa",
         "cost": [],
-        "weapons": [],
+        "weapons": {},
         "maxSelection": "19",
         "selection_scope": "parent"
       },
@@ -651,7 +651,7 @@
           {
             "id": "2bf-942a-ebf9-2bee",
             "name": "Close combat weapon",
-            "cost": [],
+            "cost": "",
             "range": "Melee",
             "attacks": "2",
             "weapon_skill": "3+",
@@ -665,7 +665,7 @@
           {
             "id": "2f1c-2106-f89f-5fec",
             "name": "Shoota",
-            "cost": [],
+            "cost": "",
             "range": "18\"",
             "attacks": "2",
             "weapon_skill": "5+",
@@ -689,8 +689,8 @@
         "selection_scope": "parent"
       }
     ],
-    "colors": [],
-    "image": []
+    "colors": {},
+    "image": {}
   },
   null,
   null,
@@ -710,7 +710,7 @@
       {
         "id": "b006-d9ab-238f-fbe5",
         "name": "Pyromaniaks",
-        "cost": [],
+        "cost": "",
         "description": "Each time a model in this unit makes a ranged attack with a burna that targets an enemy unit within 6\", re-roll a Wound roll of 1. If the target of that attack is also within range of an objective marker, you can re-roll the Wound roll instead."
       }
     ],
@@ -723,7 +723,7 @@
           {
             "id": "8cf8-9e7b-48e2-7c4b",
             "name": "Close combat weapon",
-            "cost": [],
+            "cost": "",
             "range": "Melee",
             "attacks": "3",
             "weapon_skill": "3+",
@@ -746,7 +746,7 @@
           {
             "id": "a68b-e554-a751-b748",
             "name": "Close combat weapon",
-            "cost": [],
+            "cost": "",
             "range": "Melee",
             "attacks": "3",
             "weapon_skill": "3+",
@@ -769,7 +769,7 @@
           {
             "id": "715c-654b-e596-255",
             "name": "Close combat weapon",
-            "cost": [],
+            "cost": "",
             "range": "Melee",
             "attacks": "3",
             "weapon_skill": "3+",
@@ -785,8 +785,8 @@
         "selection_scope": "parent"
       }
     ],
-    "colors": [],
-    "image": []
+    "colors": {},
+    "image": {}
   },
   null,
   null,
@@ -804,7 +804,7 @@
       {
         "id": "413e-e03b-21b0-63e1",
         "name": "Burna Bomb",
-        "cost": [],
+        "cost": "",
         "description": "Each time this model ends a Normal move, you can select one enemy unit it moved over during that move. Until the end of the turn, models in that unit cannot have the Benefit of Cover. In addition, roll one D6 for each model in that unit: for each 6, that unit suffers 1 mortal wound."
       }
     ],
@@ -816,8 +816,8 @@
       "maxSelection": "3",
       "selection_scope": "roster"
     },
-    "colors": [],
-    "image": []
+    "colors": {},
+    "image": {}
   },
   null,
   {
@@ -834,7 +834,7 @@
       {
         "id": "276f-2632-2303-3c9a",
         "name": "Dakkastorm",
-        "cost": [],
+        "cost": "",
         "description": "Each time this model makes a ranged attack, every successful Hit roll scores a Critical Hit."
       }
     ],
@@ -846,8 +846,8 @@
       "maxSelection": "3",
       "selection_scope": "roster"
     },
-    "colors": [],
-    "image": []
+    "colors": {},
+    "image": {}
   },
   {
     "id": "1594-b986-e77e-d89d",
@@ -863,7 +863,7 @@
       {
         "id": "6ae-e6e3-8715-618f",
         "name": "Piston-driven Brutality",
-        "cost": [],
+        "cost": "",
         "description": "At the start of the Fight phase, each enemy unit within Engagement Range of one or more units with this ability must take a Battle-shock test."
       }
     ],
@@ -875,8 +875,8 @@
       "maxSelection": "3",
       "selection_scope": "roster"
     },
-    "colors": [],
-    "image": []
+    "colors": {},
+    "image": {}
   },
   null,
   {
@@ -893,13 +893,13 @@
       {
         "id": "84d7-7bf4-8f5f-a79c",
         "name": "Speedboss",
-        "cost": [],
+        "cost": "",
         "description": "While this model is leading a unit, each time a model in that unit makes a melee attack, add 1 to the Hit roll."
       },
       {
         "id": "12ca-1686-2634-663b",
         "name": "High-octane Fuel",
-        "cost": [],
+        "cost": "",
         "description": "Each time this model’s unit Advances, do not make an Advance roll for it. Instead, until the end of the phase, add 6\" to the Move characteristic of models in this model’s unit."
       }
     ],
@@ -911,7 +911,7 @@
         {
           "id": "58d0-327e-c85e-b27d",
           "name": "Deffkilla boomstikks",
-          "cost": [],
+          "cost": "",
           "range": "12\"",
           "attacks": "6",
           "weapon_skill": "5+",
@@ -933,7 +933,7 @@
         {
           "id": "a413-c17b-1083-8a01",
           "name": "Killa jet",
-          "cost": [],
+          "cost": "",
           "range": "12\"",
           "attacks": "D6",
           "weapon_skill": "N/A",
@@ -967,7 +967,7 @@
         {
           "id": "16de-5cec-d130-a916",
           "name": "Snagga klaw",
-          "cost": [],
+          "cost": "",
           "range": "Melee",
           "attacks": "4",
           "weapon_skill": "3+",
@@ -982,8 +982,8 @@
       "maxSelection": "3",
       "selection_scope": "roster"
     },
-    "colors": [],
-    "image": []
+    "colors": {},
+    "image": {}
   },
   {
     "id": "2d6e-aa3b-c28c-5ef0",
@@ -999,7 +999,7 @@
       {
         "id": "8fd8-7707-a91-6a40",
         "name": "Deff from Above",
-        "cost": [],
+        "cost": "",
         "description": "Each time this unit ends a Normal move, you can select one enemy unit it moved over during that move and roll one D6 for each model in this unit: for each 4+, that enemy unit suffers 1 mortal wound."
       }
     ],
@@ -1012,7 +1012,7 @@
           {
             "id": "32f8-a333-a451-20dd",
             "name": "Spinnin’ blades",
-            "cost": [],
+            "cost": "",
             "range": "Melee",
             "attacks": "6",
             "weapon_skill": "3+",
@@ -1026,7 +1026,7 @@
           {
             "id": "b934-98cc-7904-736c",
             "name": "Kopta rokkits",
-            "cost": [],
+            "cost": "",
             "range": "24\"",
             "attacks": "D3",
             "weapon_skill": "5+",
@@ -1064,7 +1064,7 @@
           {
             "id": "bad1-fd5-4ec-1f4e",
             "name": "Spinnin’ blades",
-            "cost": [],
+            "cost": "",
             "range": "Melee",
             "attacks": "6",
             "weapon_skill": "3+",
@@ -1080,8 +1080,8 @@
         "selection_scope": "parent"
       }
     ],
-    "colors": [],
-    "image": []
+    "colors": {},
+    "image": {}
   },
   {
     "id": "1de9-b138-28a1-9c4b",
@@ -1097,7 +1097,7 @@
       {
         "id": "cbc1-7e63-1279-b1e7",
         "name": "Gun-crazy Show-offs",
-        "cost": [],
+        "cost": "",
         "description": "Each time a model in this unit targets the closest eligible target with its snazzgun, until the end of the phase, that weapon has an Attacks characteristic of 4."
       }
     ],
@@ -1106,13 +1106,13 @@
         "id": "1c80-9a0b-d366-7fa3",
         "name": "Ammo Runt",
         "cost": [],
-        "weapons": [],
+        "weapons": {},
         "maxSelection": "1",
         "selection_scope": "parent"
       }
     ],
-    "colors": [],
-    "image": []
+    "colors": {},
+    "image": {}
   },
   null,
   {
@@ -1123,13 +1123,13 @@
       {
         "id": "2f00-e987-7aef-ca5d",
         "name": "Supreme Commander",
-        "cost": [],
+        "cost": "",
         "description": "If this unit is in your army, its Ghazghkull Thraka model must be your WARLORD."
       },
       {
         "id": "1f74-9a0a-cff7-fc6e",
         "name": "Prophet of Da Great Waaagh!",
-        "cost": [],
+        "cost": "",
         "description": "While this unit is leading a unit, each time a model in that unit makes a melee attack, add 1 to the Hit roll and add 1 to the Wound roll."
       }
     ],
@@ -1142,7 +1142,7 @@
           {
             "id": "4325-5811-1915-3c15",
             "name": "Mork’s Roar",
-            "cost": [],
+            "cost": "",
             "range": "36\"",
             "attacks": "12",
             "weapon_skill": "5+",
@@ -1164,7 +1164,7 @@
           {
             "id": "7f5-23ea-19ab-176",
             "name": "Gork’s Klaw",
-            "cost": [],
+            "cost": "",
             "range": "Melee",
             "attacks": "6",
             "weapon_skill": "2+",
@@ -1188,7 +1188,7 @@
           {
             "id": "b945-fe7f-ecf3-a719",
             "name": "Makari’s stabba",
-            "cost": [],
+            "cost": "",
             "range": "Melee",
             "attacks": "1",
             "weapon_skill": "4+",
@@ -1213,8 +1213,8 @@
         "selection_scope": "parent"
       }
     ],
-    "colors": [],
-    "image": []
+    "colors": {},
+    "image": {}
   },
   {
     "id": "56d6-a7fc-fa08-4345",
@@ -1230,13 +1230,13 @@
       {
         "id": "6cf6-66e7-fc11-a281",
         "name": "Clankin’ Forward",
-        "cost": [],
+        "cost": "",
         "description": "Each time this model makes a Normal, Advance or Fall Back move, it can move over enemy models (excluding MONSTER and VEHICLE models) and terrain features that are 4\" or less in height as if they were not there."
       },
       {
         "id": "3e60-2c1f-8812-9a1",
         "name": "Big an’ Stompy",
-        "cost": [],
+        "cost": "",
         "description": "Each time this model makes a melee attack, if you have called a Waaagh! this battle round, add 1 to the Hit roll."
       }
     ],
@@ -1248,7 +1248,7 @@
         {
           "id": "75fe-1d78-6e54-db74",
           "name": "Deffstorm mega-shoota",
-          "cost": [],
+          "cost": "",
           "range": "36\"",
           "attacks": "20",
           "weapon_skill": "5+",
@@ -1270,7 +1270,7 @@
         {
           "id": "c7a9-3d8d-b20-587d",
           "name": "Klaw of Gork",
-          "cost": [],
+          "cost": "",
           "range": "Melee",
           "attacks": "5",
           "weapon_skill": "3+",
@@ -1285,8 +1285,8 @@
       "maxSelection": "3",
       "selection_scope": "roster"
     },
-    "colors": [],
-    "image": []
+    "colors": {},
+    "image": {}
   },
   {
     "id": "de8f-24f9-c543-92b7",
@@ -1296,13 +1296,13 @@
       {
         "id": "5b6f-bd3e-f02-1edd",
         "name": "Runtherd",
-        "cost": [],
+        "cost": "",
         "description": "While this unit contains one or more Gretchin models, each time an attack targets this unit, Runtherd models in this unit have a Toughness characteristic of 2."
       },
       {
         "id": "f1f6-dbea-fe70-ee9d",
         "name": "Thievin’ Scavengers",
-        "cost": [],
+        "cost": "",
         "description": "At the start of your Command phase, roll one D6 for each objective marker you control that has one or more units from your army with this ability within range of it. If one or more of those rolls is a 4+, you gain 1CP"
       }
     ],
@@ -1315,7 +1315,7 @@
           {
             "id": "1f2b-c815-5c2c-8383",
             "name": "Close combat weapon",
-            "cost": [],
+            "cost": "",
             "range": "Melee",
             "attacks": "1",
             "weapon_skill": "5+",
@@ -1329,7 +1329,7 @@
           {
             "id": "d5b1-5594-7fad-81a8",
             "name": "Grot blasta",
-            "cost": [],
+            "cost": "",
             "range": "12\"",
             "attacks": "1",
             "weapon_skill": "4+",
@@ -1353,8 +1353,8 @@
         "selection_scope": "parent"
       }
     ],
-    "colors": [],
-    "image": []
+    "colors": {},
+    "image": {}
   },
   {
     "id": "70de-d621-8465-f7b8",
@@ -1370,7 +1370,7 @@
       {
         "id": "f3d8-79ce-af0a-4cec",
         "name": "Bail Out, Boyz!",
-        "cost": [],
+        "cost": "",
         "description": "If this TRANSPORT is destroyed, you can re-roll the dice when determining if a disembarking model’s unit suffers mortal wounds."
       }
     ],
@@ -1378,12 +1378,12 @@
       "id": "70de-d621-8465-f7b8",
       "name": "Hunta Rig",
       "cost": "160",
-      "weapons": [],
+      "weapons": {},
       "maxSelection": "3",
       "selection_scope": "roster"
     },
-    "colors": [],
-    "image": []
+    "colors": {},
+    "image": {}
   },
   null,
   null,
@@ -1404,19 +1404,19 @@
       {
         "id": "36de-d363-3e1b-7731",
         "name": "Flashiest Gitz",
-        "cost": [],
+        "cost": "",
         "description": "While this model is leading a unit, each time a model in that unit makes a ranged attack, you can re-roll the Hit roll."
       },
       {
         "id": "137-51eb-8d89-8823",
         "name": "Ded Glowy Ammo (Aura)",
-        "cost": [],
+        "cost": "",
         "description": "While an enemy INFANTRY unit is within 6\" of this model, subtract 1 from the Toughness characteristic of models in that unit."
       },
       {
         "id": "bde4-1cdd-390f-dbd9",
         "name": "Invulnerable Save: Kaptin Badrukk",
-        "cost": [],
+        "cost": "",
         "description": "Kaptin Badrukk has a 4+ invulnerable save."
       }
     ],
@@ -1428,7 +1428,7 @@
         {
           "id": "76f1-21d4-c437-d3a4",
           "name": "Choppa",
-          "cost": [],
+          "cost": "",
           "range": "Melee",
           "attacks": "6",
           "weapon_skill": "2+",
@@ -1442,7 +1442,7 @@
         {
           "id": "eee5-3349-4d83-4373",
           "name": "Da Rippa",
-          "cost": [],
+          "cost": "",
           "range": "24\"",
           "attacks": "3",
           "weapon_skill": "5+",
@@ -1477,8 +1477,8 @@
       "maxSelection": "1",
       "selection_scope": "roster"
     },
-    "colors": [],
-    "image": []
+    "colors": {},
+    "image": {}
   },
   {
     "id": "eb21-c97f-2d9a-b363",
@@ -1499,7 +1499,7 @@
         {
           "id": "e28c-9fc3-d2d-5efb",
           "name": "Wurrtower",
-          "cost": [],
+          "cost": "",
           "range": "24\"",
           "attacks": "D3",
           "weapon_skill": "N/A",
@@ -1528,8 +1528,8 @@
       "maxSelection": "3",
       "selection_scope": "roster"
     },
-    "colors": [],
-    "image": []
+    "colors": {},
+    "image": {}
   },
   {
     "id": "8c36-c946-2e0f-f648",
@@ -1551,7 +1551,7 @@
           {
             "id": "1e1f-c4f8-c26f-eaa8",
             "name": "Kan shoota",
-            "cost": [],
+            "cost": "",
             "range": "36\"",
             "attacks": "3",
             "weapon_skill": "4+",
@@ -1588,7 +1588,7 @@
           {
             "id": "60ee-deef-93ce-3fff",
             "name": "Grotzooka",
-            "cost": [],
+            "cost": "",
             "range": "18\"",
             "attacks": "D3+3",
             "weapon_skill": "4+",
@@ -1619,7 +1619,7 @@
           {
             "id": "4455-2d3a-1c24-58c",
             "name": "Rokkit launcha",
-            "cost": [],
+            "cost": "",
             "range": "24\"",
             "attacks": "D3",
             "weapon_skill": "4+",
@@ -1646,13 +1646,13 @@
         "id": "1137-3afb-3ba5-383c",
         "name": "Killa Kan w/ Skorcha",
         "cost": [],
-        "weapons": [],
+        "weapons": {},
         "maxSelection": "6",
         "selection_scope": "parent"
       }
     ],
-    "colors": [],
-    "image": []
+    "colors": {},
+    "image": {}
   },
   null,
   {
@@ -1663,7 +1663,7 @@
       {
         "id": "9af1-58d9-2635-cc15",
         "name": "Sneaky Surprise",
-        "cost": [],
+        "cost": "",
         "description": "Enemy units cannot use the Fire Overwatch Stratagem to shoot at this unit."
       }
     ],
@@ -1672,7 +1672,7 @@
         "id": "c06e-4f96-af48-1eb4",
         "name": "Kommandos w/ Slugga and choppa",
         "cost": [],
-        "weapons": [],
+        "weapons": {},
         "maxSelection": "9",
         "selection_scope": "parent"
       },
@@ -1684,7 +1684,7 @@
           {
             "id": "2f3a-bbf6-699b-9289",
             "name": "Close combat weapon",
-            "cost": [],
+            "cost": "",
             "range": "Melee",
             "attacks": "2",
             "weapon_skill": "3+",
@@ -1698,7 +1698,7 @@
           {
             "id": "762d-b4-8ccb-850f",
             "name": "Speshul Kommando shoota",
-            "cost": [],
+            "cost": "",
             "range": "18\"",
             "attacks": "4",
             "weapon_skill": "5+",
@@ -1729,7 +1729,7 @@
           {
             "id": "4c8b-44bb-8180-b0ed",
             "name": "Breacha ram",
-            "cost": [],
+            "cost": "",
             "range": "Melee",
             "attacks": "2",
             "weapon_skill": "4+",
@@ -1752,7 +1752,7 @@
           {
             "id": "4941-672b-a4ab-adca",
             "name": "Close combat weapon",
-            "cost": [],
+            "cost": "",
             "range": "Melee",
             "attacks": "2",
             "weapon_skill": "3+",
@@ -1775,7 +1775,7 @@
           {
             "id": "4a71-537e-7605-b10e",
             "name": "Close combat weapon",
-            "cost": [],
+            "cost": "",
             "range": "Melee",
             "attacks": "2",
             "weapon_skill": "3+",
@@ -1791,8 +1791,8 @@
         "selection_scope": "parent"
       }
     ],
-    "colors": [],
-    "image": []
+    "colors": {},
+    "image": {}
   },
   {
     "id": "b803-bafc-2b52-160d",
@@ -1808,7 +1808,7 @@
       {
         "id": "3fff-8293-123a-10a2",
         "name": "Rivetin’ Dakka",
-        "cost": [],
+        "cost": "",
         "description": "In your Shooting phase, after this model has shot, select one enemy unit hit by one or more of those attacks made with a rivet kannon. Until the start of your next turn, that enemy unit is suppressed. While a unit is suppressed, each time a model in that unit makes an attack, subtract 1 from the Hit roll."
       }
     ],
@@ -1820,7 +1820,7 @@
         {
           "id": "6b99-4d78-87c-139c",
           "name": "Burna exhausts",
-          "cost": [],
+          "cost": "",
           "range": "6\"",
           "attacks": "2D6",
           "weapon_skill": "N/A",
@@ -1854,7 +1854,7 @@
         {
           "id": "3dbb-ec2d-abf9-6dbf",
           "name": "Rivet kannon",
-          "cost": [],
+          "cost": "",
           "range": "36\"",
           "attacks": "6",
           "weapon_skill": "5+",
@@ -1882,7 +1882,7 @@
         {
           "id": "1e6f-fb9a-d02a-a61",
           "name": "Spiked wheels",
-          "cost": [],
+          "cost": "",
           "range": "Melee",
           "attacks": "4",
           "weapon_skill": "4+",
@@ -1897,8 +1897,8 @@
       "maxSelection": "3",
       "selection_scope": "roster"
     },
-    "colors": [],
-    "image": []
+    "colors": {},
+    "image": {}
   },
   {
     "id": "3bff-9fad-2d11-7866",
@@ -1914,7 +1914,7 @@
       {
         "id": "6ddb-b84a-eb3f-f119",
         "name": "Dat’s Our Loot!",
-        "cost": [],
+        "cost": "",
         "description": "Each time a model in this unit makes a ranged attack, re-roll a Hit roll of 1. If that attack targets a unit that is within range of an objective marker, you can re-roll the Hit roll instead."
       }
     ],
@@ -1927,7 +1927,7 @@
           {
             "id": "ca44-aa61-dd15-577",
             "name": "Deffgun",
-            "cost": [],
+            "cost": "",
             "range": "48\"",
             "attacks": "2",
             "weapon_skill": "6+",
@@ -1955,7 +1955,7 @@
           {
             "id": "908-f6bb-5c90-175",
             "name": "Close combat weapon",
-            "cost": [],
+            "cost": "",
             "range": "Melee",
             "attacks": "2",
             "weapon_skill": "3+",
@@ -1972,8 +1972,8 @@
         "selection_scope": "parent"
       }
     ],
-    "colors": [],
-    "image": []
+    "colors": {},
+    "image": {}
   },
   {
     "id": "7d51-e2a3-aab6-f7de",
@@ -1989,19 +1989,19 @@
       {
         "id": "44e8-17f8-5400-f2a",
         "name": "Mad Dok",
-        "cost": [],
+        "cost": "",
         "description": "While this model is leading a unit, models in that unit have the Feel No Pain 5+ ability."
       },
       {
         "id": "2839-444f-cf5a-93cd",
         "name": "One Scalpel Short of a Medpack",
-        "cost": [],
+        "cost": "",
         "description": "While this model is leading a unit, that unit is eligible to declare a charge in a turn in which it Fell Back."
       },
       {
         "id": "e810-fc7b-ac22-8645",
         "name": "Invulnerable Save: Mad Dok Grotsnik",
-        "cost": [],
+        "cost": "",
         "description": "Mad Dok Grotsnik has a 5+ invulnerable save."
       }
     ],
@@ -2013,7 +2013,7 @@
         {
           "id": "83ef-7378-6a4-6ed5",
           "name": "Power klaw",
-          "cost": [],
+          "cost": "",
           "range": "Melee",
           "attacks": "4",
           "weapon_skill": "3+",
@@ -2036,8 +2036,8 @@
       "maxSelection": "1",
       "selection_scope": "roster"
     },
-    "colors": [],
-    "image": []
+    "colors": {},
+    "image": {}
   },
   {
     "id": "7067-34f4-5272-e05f",
@@ -2055,7 +2055,7 @@
         "id": "e924-a316-2b53-ff06",
         "name": "Meganob w/ Kustom shoota and power klaw",
         "cost": [],
-        "weapons": [],
+        "weapons": {},
         "maxSelection": "6",
         "selection_scope": "parent"
       },
@@ -2063,7 +2063,7 @@
         "id": "cdad-e2e0-9db3-93fc",
         "name": "Meganob w/ Kombi-weapon and power klaw",
         "cost": [],
-        "weapons": [],
+        "weapons": {},
         "maxSelection": "6",
         "selection_scope": "parent"
       },
@@ -2071,7 +2071,7 @@
         "id": "caae-830b-ecc1-cf",
         "name": "Meganob w/ Kombi-weapon and killsaw",
         "cost": [],
-        "weapons": [],
+        "weapons": {},
         "maxSelection": "6",
         "selection_scope": "parent"
       },
@@ -2079,7 +2079,7 @@
         "id": "2565-a1d8-4dd8-7649",
         "name": "Meganob w/ Kustom shoota and killsaw",
         "cost": [],
-        "weapons": [],
+        "weapons": {},
         "maxSelection": "6",
         "selection_scope": "parent"
       },
@@ -2087,7 +2087,7 @@
         "id": "494c-95d1-815c-db90",
         "name": "Meganob w/ Killsaw and power klaw",
         "cost": [],
-        "weapons": [],
+        "weapons": {},
         "maxSelection": "6",
         "selection_scope": "parent"
       },
@@ -2099,7 +2099,7 @@
           {
             "id": "b46a-4885-3b28-428b",
             "name": "Twin killsaw",
-            "cost": [],
+            "cost": "",
             "range": "Melee",
             "attacks": "2",
             "weapon_skill": "4+",
@@ -2123,8 +2123,8 @@
         "selection_scope": "parent"
       }
     ],
-    "colors": [],
-    "image": []
+    "colors": {},
+    "image": {}
   },
   null,
   {
@@ -2141,7 +2141,7 @@
       {
         "id": "78a6-74f6-a23-6ae",
         "name": "Drill Through",
-        "cost": [],
+        "cost": "",
         "description": "Each time this model ends a Charge move, select one enemy unit within Engagement Range of it and roll one D6: on a 2-5, that enemy unit suffers D3 mortal wounds; on a 6, that enemy unit suffers 3 mortal wounds."
       }
     ],
@@ -2153,7 +2153,7 @@
         {
           "id": "b61f-53e8-255c-baa4",
           "name": "Rokkit cannon",
-          "cost": [],
+          "cost": "",
           "range": "24\"",
           "attacks": "D6+1",
           "weapon_skill": "5+",
@@ -2175,7 +2175,7 @@
         {
           "id": "5432-c802-9ea6-7da1",
           "name": "Wing missiles",
-          "cost": [],
+          "cost": "",
           "attacks": "1",
           "weapon_skill": "5+",
           "armor_penetration": "-2",
@@ -2188,7 +2188,7 @@
         {
           "id": "9b03-86ea-b6b9-8155",
           "name": "Nose drill",
-          "cost": [],
+          "cost": "",
           "range": "Melee",
           "attacks": "4",
           "weapon_skill": "4+",
@@ -2203,8 +2203,8 @@
       "maxSelection": "3",
       "selection_scope": "roster"
     },
-    "colors": [],
-    "image": []
+    "colors": {},
+    "image": {}
   },
   {
     "id": "3b2-8c11-616a-1005",
@@ -2214,13 +2214,13 @@
       {
         "id": "7353-c371-3a7e-bb6",
         "name": "Mekboy",
-        "cost": [],
+        "cost": "",
         "description": "While this model is within 3\" of one or more friendly ORKS VEHICLE units, this model has the Lone Operative ability."
       },
       {
         "id": "1e6c-5c2-76b4-bb89",
         "name": "Mekaniak",
-        "cost": [],
+        "cost": "",
         "description": "At the end of your Movement phase, you can select one friendly ORKS VEHICLE model within 3\" of this model. That VEHICLE model regains up to D3 lost wounds, and, until the start of your next Movement phase, each time that VEHICLE model makes an attack, add 1 to the Hit roll. Each model can only be selected for this ability once per turn."
       }
     ],
@@ -2232,8 +2232,8 @@
       "maxSelection": "3",
       "selection_scope": "roster"
     },
-    "colors": [],
-    "image": []
+    "colors": {},
+    "image": {}
   },
   {
     "id": "b37a-8686-db2c-8cbd",
@@ -2249,7 +2249,7 @@
       {
         "id": "ff6-3afb-8c90-deed",
         "name": "Splat!",
-        "cost": [],
+        "cost": "",
         "description": "Each time a model in this unit makes a ranged attack that targets a unit containing 10 or more models, re-roll a Hit roll of 1."
       }
     ],
@@ -2262,7 +2262,7 @@
           {
             "id": "507e-5415-d6c5-f5f5",
             "name": "Smasha gun",
-            "cost": [],
+            "cost": "",
             "range": "48\"",
             "attacks": "D3",
             "weapon_skill": "4+",
@@ -2293,7 +2293,7 @@
           {
             "id": "7405-d2d-3719-ef01",
             "name": "Bubblechukka",
-            "cost": [],
+            "cost": "",
             "range": "48\"",
             "attacks": "2D6",
             "weapon_skill": "4+",
@@ -2324,7 +2324,7 @@
           {
             "id": "7c57-a55a-77b9-88f3",
             "name": "Kustom mega-kannon",
-            "cost": [],
+            "cost": "",
             "range": "36\"",
             "attacks": "D6",
             "weapon_skill": "4+",
@@ -2361,7 +2361,7 @@
           {
             "id": "8c70-6865-15de-27f1",
             "name": "Traktor kannon",
-            "cost": [],
+            "cost": "",
             "range": "48\"",
             "attacks": "1",
             "weapon_skill": "4+",
@@ -2391,8 +2391,8 @@
         "selection_scope": "parent"
       }
     ],
-    "colors": [],
-    "image": []
+    "colors": {},
+    "image": {}
   },
   null,
   {
@@ -2409,13 +2409,13 @@
       {
         "id": "248b-1e4b-5c37-b49",
         "name": "Clankin’ Forward",
-        "cost": [],
+        "cost": "",
         "description": "Each time this model makes a Normal, Advance or Fall Back move, it can move over enemy models (excluding MONSTER and VEHICLE models) and terrain features that are 4\" or less in height as if they were not there."
       },
       {
         "id": "486b-a9a7-402c-ab9d",
         "name": "Big an’ Shooty",
-        "cost": [],
+        "cost": "",
         "description": "Each time this model makes a ranged attack during the battle round in which you called a Waaagh!, add 1 to the Hit roll."
       }
     ],
@@ -2427,7 +2427,7 @@
         {
           "id": "a551-a1e2-3fcd-4f4b",
           "name": "Kustom mega-zappa",
-          "cost": [],
+          "cost": "",
           "range": "36\"",
           "attacks": "D6+3",
           "weapon_skill": "5+",
@@ -2455,7 +2455,7 @@
         {
           "id": "4d14-52f3-b6dd-b10c",
           "name": "Klaw of Mork",
-          "cost": [],
+          "cost": "",
           "range": "Melee",
           "attacks": "4",
           "weapon_skill": "3+",
@@ -2470,8 +2470,8 @@
       "maxSelection": "3",
       "selection_scope": "roster"
     },
-    "colors": [],
-    "image": []
+    "colors": {},
+    "image": {}
   },
   {
     "id": "af6a-7c7f-5459-a47e",
@@ -2487,7 +2487,7 @@
       {
         "id": "eb9e-29c0-76b4-fa72",
         "name": "Hogboss",
-        "cost": [],
+        "cost": "",
         "description": "While this model is leading a unit, each time a model in that unit makes a melee attack, add 1 to the Hit roll."
       }
     ],
@@ -2499,7 +2499,7 @@
         {
           "id": "ffc4-6d94-5b76-150b",
           "name": "Smasha squig jaws",
-          "cost": [],
+          "cost": "",
           "range": "Melee",
           "attacks": "2",
           "weapon_skill": "4+",
@@ -2521,7 +2521,7 @@
         {
           "id": "71a-704d-74e4-5dbf",
           "name": "Big choppa",
-          "cost": [],
+          "cost": "",
           "range": "Melee",
           "attacks": "5",
           "weapon_skill": "3+",
@@ -2544,8 +2544,8 @@
       "maxSelection": "3",
       "selection_scope": "roster"
     },
-    "colors": [],
-    "image": []
+    "colors": {},
+    "image": {}
   },
   {
     "id": "b42b-ea0-38f1-6300",
@@ -2561,19 +2561,19 @@
       {
         "id": "2c6f-ba8c-f678-9517",
         "name": "Da Bigger Dey iz…",
-        "cost": [],
+        "cost": "",
         "description": "Each time this model makes an attack that targets a MONSTER or VEHICLE unit, add 1 to the Damage characteristic of that attack. Each time this model makes an attack that targets a TITANIC unit, add 2 to the Damage characteristic of that attack instead."
       },
       {
         "id": "21eb-cf3f-382-aae9",
         "name": "Hungry Chompa",
-        "cost": [],
+        "cost": "",
         "description": "Each time this model declares a charge, until the end of the turn, each time this model makes an attack, an unmodified successful Wound roll of 5+ scores a Critical Wound."
       },
       {
         "id": "a39a-79b6-2552-e848",
         "name": "Invulnerable Save: Mozrog Skragbad",
-        "cost": [],
+        "cost": "",
         "description": "Mozrog Skragbad has a 4+ invulnerable save."
       }
     ],
@@ -2585,7 +2585,7 @@
         {
           "id": "2ace-f88f-3405-d191",
           "name": "Big Chompa’s jaws",
-          "cost": [],
+          "cost": "",
           "range": "Melee",
           "attacks": "3",
           "weapon_skill": "3+",
@@ -2613,7 +2613,7 @@
         {
           "id": "2fec-7b95-a5df-f688",
           "name": "Gutrippa",
-          "cost": [],
+          "cost": "",
           "range": "Melee",
           "attacks": "6",
           "weapon_skill": "2+",
@@ -2636,8 +2636,8 @@
       "maxSelection": "1",
       "selection_scope": "roster"
     },
-    "colors": [],
-    "image": []
+    "colors": {},
+    "image": {}
   },
   {
     "id": "3b35-92f5-bd1a-af8d",
@@ -2653,13 +2653,13 @@
       {
         "id": "78af-6f75-6e3c-843e",
         "name": "Plant the Waaagh! Banner",
-        "cost": [],
+        "cost": "",
         "description": "Once per battle, at the start of the battle round, this model can use this ability. If it does, until the start of the next battle round, this model’s unit gains the benefits of the Waaagh! ability as if you had called a Waaagh! this battle round."
       },
       {
         "id": "d907-8433-bbe3-9736",
         "name": "Da Boss Iz Watchin’",
-        "cost": [],
+        "cost": "",
         "description": "While this model is gaining the benefits of the Waaagh! ability, it has a 4+ invulnerable save and an Objective Control characteristic of 5."
       }
     ],
@@ -2671,7 +2671,7 @@
         {
           "id": "ffeb-65c9-3bb8-f2b1",
           "name": "Waaagh! banner",
-          "cost": [],
+          "cost": "",
           "range": "Melee",
           "attacks": "3",
           "weapon_skill": "3+",
@@ -2686,8 +2686,8 @@
       "maxSelection": "3",
       "selection_scope": "roster"
     },
-    "colors": [],
-    "image": []
+    "colors": {},
+    "image": {}
   },
   {
     "id": "b16a-7132-3f8a-abe5",
@@ -2703,7 +2703,7 @@
       {
         "id": "c44-b390-e18d-9712",
         "name": "Da Boss’ Ladz",
-        "cost": [],
+        "cost": "",
         "description": "While a WARBOSS model is leading this unit, each time an attack targets this unit, subtract 1 from the Wound roll."
       }
     ],
@@ -2716,7 +2716,7 @@
           {
             "id": "9909-7ab4-63fb-9fe",
             "name": "Big choppa",
-            "cost": [],
+            "cost": "",
             "range": "Melee",
             "attacks": "3",
             "weapon_skill": "3+",
@@ -2735,7 +2735,7 @@
         "id": "3bd9-3eb1-8b1f-2b31",
         "name": "Nob w/ Slugga and power klaw",
         "cost": [],
-        "weapons": [],
+        "weapons": {},
         "maxSelection": "9",
         "selection_scope": "parent"
       },
@@ -2747,7 +2747,7 @@
           {
             "id": "e86-bfb2-149c-e8ec",
             "name": "Close combat weapon",
-            "cost": [],
+            "cost": "",
             "range": "Melee",
             "attacks": "3",
             "weapon_skill": "3+",
@@ -2763,8 +2763,8 @@
         "selection_scope": "parent"
       }
     ],
-    "colors": [],
-    "image": []
+    "colors": {},
+    "image": {}
   },
   {
     "id": "a74a-107a-e2ac-7e4c",
@@ -2780,13 +2780,13 @@
       {
         "id": "ca5b-4050-c32a-7fa",
         "name": "Dok’s Toolz",
-        "cost": [],
+        "cost": "",
         "description": "While this model is leading a unit, models in that unit have the Feel No Pain 5+ ability."
       },
       {
         "id": "5af7-1b55-1bcf-a1be",
         "name": "Sawbonez",
-        "cost": [],
+        "cost": "",
         "description": "At the end of your Movement phase, select one friendly BEAST SNAGGA CHARACTER model within 3\" of this model. That model is healed and regains up to 3 lost wounds. Each model can only be healed once per turn"
       }
     ],
@@ -2798,8 +2798,8 @@
       "maxSelection": "3",
       "selection_scope": "roster"
     },
-    "colors": [],
-    "image": []
+    "colors": {},
+    "image": {}
   },
   {
     "id": "7669-1442-2c0b-e0c9",
@@ -2815,13 +2815,13 @@
       {
         "id": "4702-4e9d-f8ee-1826",
         "name": "Dok’s Toolz",
-        "cost": [],
+        "cost": "",
         "description": "While this model is leading a unit, models in that unit have the Feel No Pain 5+ ability."
       },
       {
         "id": "1012-69d1-7946-2312",
         "name": "Hold Still and Say ‘Aargh!’",
-        "cost": [],
+        "cost": "",
         "description": "Each time an attack made by this model with its ’urty syringe scores a Critical Wound against a unit (excluding VEHICLE units), that unit suffers D6 mortal wounds."
       }
     ],
@@ -2833,8 +2833,8 @@
       "maxSelection": "3",
       "selection_scope": "roster"
     },
-    "colors": [],
-    "image": []
+    "colors": {},
+    "image": {}
   },
   {
     "id": "a856-30b7-e56d-57db",
@@ -2850,14 +2850,14 @@
       {
         "id": "515a-c30f-e933-25f0",
         "name": "Buzzer Squigs",
-        "cost": [],
+        "cost": "",
         "description": "Each time this model makes an attack with its squig launchas that targets an INFANTRY unit, add 1 to the Hit roll."
       },
       {
         "id": "e39a-81fc-953-c1fa",
         "name": "Squig Mine",
-        "cost": [],
-        "description": "Once per battle, at the start of any phase, select one enemy unit within 3\" of this model and roll one D6: on a 4+, that enemy unit suffers D6 mortal wounds.\nDesigner’s Note: Place a Squig Mine token next to the model, removing it once this ability has been used."
+        "cost": "",
+        "description": "Once per battle, at the start of any phase, select one enemy unit within 3\" of this model and roll one D6: on a 4+, that enemy unit suffers D6 mortal wounds.\r\nDesigner’s Note: Place a Squig Mine token next to the model, removing it once this ability has been used."
       }
     ],
     "models": {
@@ -2868,7 +2868,7 @@
         {
           "id": "612-a936-747-bddd",
           "name": "Sawn-off shotgun",
-          "cost": [],
+          "cost": "",
           "range": "12\"",
           "attacks": "2",
           "weapon_skill": "5+",
@@ -2890,7 +2890,7 @@
         {
           "id": "83de-e506-3087-6bc5",
           "name": "Squig launchas",
-          "cost": [],
+          "cost": "",
           "range": "36\"",
           "attacks": "D6+6",
           "weapon_skill": "5+",
@@ -2925,8 +2925,8 @@
       "maxSelection": "3",
       "selection_scope": "roster"
     },
-    "colors": [],
-    "image": []
+    "colors": {},
+    "image": {}
   },
   null,
   {
@@ -2943,7 +2943,7 @@
       {
         "id": "c1f3-4279-7d28-7ee8",
         "name": "Shokk Tunnel",
-        "cost": [],
+        "cost": "",
         "description": "Each time this model is selected to Advance, you can remove it from the battlefield and set it up again anywhere on the battlefield that is more than 9\" horizontally away from all enemy models."
       }
     ],
@@ -2955,7 +2955,7 @@
         {
           "id": "d940-23b6-c25b-104f",
           "name": "Kustom shokk rifle",
-          "cost": [],
+          "cost": "",
           "range": "24\"",
           "attacks": "1",
           "weapon_skill": "3+",
@@ -2989,7 +2989,7 @@
         {
           "id": "b378-fed-f4fd-397a",
           "name": "Rokkits",
-          "cost": [],
+          "cost": "",
           "range": "24\"",
           "attacks": "D3",
           "weapon_skill": "5+",
@@ -3012,8 +3012,8 @@
       "maxSelection": "3",
       "selection_scope": "roster"
     },
-    "colors": [],
-    "image": []
+    "colors": {},
+    "image": {}
   },
   {
     "id": "6a83-8e1f-63ef-50c3",
@@ -3029,7 +3029,7 @@
       {
         "id": "225-c66d-542c-3ea1",
         "name": "Wild Ride",
-        "cost": [],
+        "cost": "",
         "description": "You can ignore any or all modifiers to this unit’s Move characteristic and to Advance and Charge rolls made for this unit."
       }
     ],
@@ -3042,7 +3042,7 @@
           {
             "id": "c35b-e412-c457-e6b0",
             "name": "Saddlegit weapons",
-            "cost": [],
+            "cost": "",
             "range": "9\"",
             "attacks": "1",
             "weapon_skill": "4+",
@@ -3064,7 +3064,7 @@
           {
             "id": "710e-7ab3-4915-a313",
             "name": "Stikka",
-            "cost": [],
+            "cost": "",
             "range": "12\"",
             "attacks": "1",
             "weapon_skill": "5+",
@@ -3098,7 +3098,7 @@
           {
             "id": "723b-b27b-20d3-9a10",
             "name": "Squighog jaws and saddlegits",
-            "cost": [],
+            "cost": "",
             "range": "Melee",
             "attacks": "3",
             "weapon_skill": "4+",
@@ -3123,8 +3123,8 @@
         "selection_scope": "parent"
       }
     ],
-    "colors": [],
-    "image": []
+    "colors": {},
+    "image": {}
   },
   {
     "id": "6c08-9131-14a3-a3b4",
@@ -3140,19 +3140,19 @@
       {
         "id": "abeb-b240-7c93-549c",
         "name": "Damaged: 1-10 Wounds Remaining",
-        "cost": [],
+        "cost": "",
         "description": "While this model has 1-10 wounds remaining, subtract 6 from this model’s Objective Control characteristic and each time this model makes an attack, subtract 1 from the Hit roll."
       },
       {
         "id": "fce0-ad1a-4c02-dbd5",
         "name": "Waaagh! Effigy (Aura)",
-        "cost": [],
+        "cost": "",
         "description": "While a friendly ORKS unit is within 12\" of this model, each time you take a Battle-shock test for that unit, add 1 to that test."
       },
       {
         "id": "98e3-6215-2597-aa86",
         "name": "Stompin’ Forward",
-        "cost": [],
+        "cost": "",
         "description": "Each time this model makes a Normal, Advance or Fall Back move, it can move over models (excluding TITANIC models) and terrain features that are 4\" or less in height as if they were not there."
       }
     ],
@@ -3164,7 +3164,7 @@
         {
           "id": "6f6c-ce7c-4b1-261",
           "name": "Deffkannon",
-          "cost": [],
+          "cost": "",
           "range": "72\"",
           "attacks": "3D6",
           "weapon_skill": "5+",
@@ -3186,7 +3186,7 @@
         {
           "id": "6e92-6712-f0a8-94ee",
           "name": "Supa-gatler",
-          "cost": [],
+          "cost": "",
           "range": "24\"",
           "attacks": "20",
           "weapon_skill": "5+",
@@ -3208,7 +3208,7 @@
         {
           "id": "4d17-4755-2efd-6a88",
           "name": "Supa-rokkits",
-          "cost": [],
+          "cost": "",
           "range": "100\"",
           "attacks": "D6",
           "weapon_skill": "5+",
@@ -3230,7 +3230,7 @@
         {
           "id": "dccf-9841-24d4-bc7b",
           "name": "Mega-choppa",
-          "cost": [],
+          "cost": "",
           "range": "Melee",
           "attacks": "6",
           "weapon_skill": "3+",
@@ -3245,8 +3245,8 @@
       "maxSelection": "3",
       "selection_scope": "roster"
     },
-    "colors": [],
-    "image": []
+    "colors": {},
+    "image": {}
   },
   {
     "id": "4adf-8249-c6b2-dd4f",
@@ -3256,7 +3256,7 @@
       {
         "id": "3ddd-d93d-d7af-ddb7",
         "name": "Full Throttle",
-        "cost": [],
+        "cost": "",
         "description": "This unit is eligible to declare a charge in a turn in which it Advanced. If it does, before making that Charge move, roll one D6 for each model in this unit: for each 1, this unit suffers 1 mortal wound. You cannot use this ability during the battle round in which you call a Waaagh!."
       }
     ],
@@ -3265,14 +3265,14 @@
         "id": "540f-1216-ff44-6a37",
         "name": "Stormboy",
         "cost": [],
-        "weapons": [],
+        "weapons": {},
         "minSelection": "4",
         "maxSelection": "9",
         "selection_scope": "parent"
       }
     ],
-    "colors": [],
-    "image": []
+    "colors": {},
+    "image": {}
   },
   {
     "id": "dadc-d370-ef10-853c",
@@ -3288,14 +3288,14 @@
       {
         "id": "3cc7-9354-9886-729",
         "name": "Tank Hunters",
-        "cost": [],
+        "cost": "",
         "description": "Each time a model in this unit makes an attack that targets a MONSTER or VEHICLE unit, add 1 to the Hit roll and add 1 to the Wound roll."
       },
       {
         "id": "1ea4-3804-49fa-3c0a",
         "name": "Bomb Squigs",
-        "cost": [],
-        "description": "Twice per battle, after this unit ends a Normal move, you can select one enemy unit within 12\" of it and roll one D6: on a 2+, that enemy unit suffers D3 mortal wounds.\nDesigner’s Note: Place two Bomb Squig tokens next to the unit, removing one each time this unit uses this ability."
+        "cost": "",
+        "description": "Twice per battle, after this unit ends a Normal move, you can select one enemy unit within 12\" of it and roll one D6: on a 2+, that enemy unit suffers D3 mortal wounds.\r\nDesigner’s Note: Place two Bomb Squig tokens next to the unit, removing one each time this unit uses this ability."
       }
     ],
     "models": [
@@ -3307,7 +3307,7 @@
           {
             "id": "4dfb-aa75-8e3d-d7a4",
             "name": "Close combat weapon",
-            "cost": [],
+            "cost": "",
             "range": "Melee",
             "attacks": "2",
             "weapon_skill": "3+",
@@ -3331,7 +3331,7 @@
           {
             "id": "3385-f86b-c083-7480",
             "name": "Close combat weapon",
-            "cost": [],
+            "cost": "",
             "range": "Melee",
             "attacks": "2",
             "weapon_skill": "3+",
@@ -3345,7 +3345,7 @@
           {
             "id": "5286-15d5-965f-643d",
             "name": "Pair of rokkit pistols",
-            "cost": [],
+            "cost": "",
             "range": "12\"",
             "attacks": "1",
             "weapon_skill": "5+",
@@ -3383,7 +3383,7 @@
           {
             "id": "88b1-9c9d-fd88-d014",
             "name": "Close combat weapon",
-            "cost": [],
+            "cost": "",
             "range": "Melee",
             "attacks": "2",
             "weapon_skill": "3+",
@@ -3407,7 +3407,7 @@
           {
             "id": "7f71-ee8f-4cdd-c53b",
             "name": "Tankhammer",
-            "cost": [],
+            "cost": "",
             "range": "Melee",
             "attacks": "2",
             "weapon_skill": "3+",
@@ -3444,8 +3444,8 @@
         "selection_scope": "parent"
       }
     ],
-    "colors": [],
-    "image": []
+    "colors": {},
+    "image": {}
   },
   {
     "id": "1291-7ba8-2c5a-4a92",
@@ -3461,7 +3461,7 @@
       {
         "id": "5fdb-9e2f-88df-12cf",
         "name": "Grot Riggers",
-        "cost": [],
+        "cost": "",
         "description": "At the start of your Command phase, this model regains 1 lost wound."
       }
     ],
@@ -3473,8 +3473,8 @@
       "maxSelection": "6",
       "selection_scope": "roster"
     },
-    "colors": [],
-    "image": []
+    "colors": {},
+    "image": {}
   },
   {
     "id": "83a7-ea20-ed9-d14a",
@@ -3490,7 +3490,7 @@
       {
         "id": "97fb-dd9a-9db6-c77f",
         "name": "Drive-by Dakka",
-        "cost": [],
+        "cost": "",
         "description": "Each time a model in this unit makes a ranged attack that targets a unit within 9\", improve the Armour Penetration characteristic of that attack by 1."
       }
     ],
@@ -3503,7 +3503,7 @@
           {
             "id": "f870-542c-c280-a18a",
             "name": "Close combat weapon",
-            "cost": [],
+            "cost": "",
             "range": "Melee",
             "attacks": "2",
             "weapon_skill": "3+",
@@ -3526,7 +3526,7 @@
           {
             "id": "1c76-d391-a138-7f48",
             "name": "Close combat weapon",
-            "cost": [],
+            "cost": "",
             "range": "Melee",
             "attacks": "2",
             "weapon_skill": "3+",
@@ -3549,7 +3549,7 @@
           {
             "id": "6681-dfe5-9690-b810",
             "name": "Close combat weapon",
-            "cost": [],
+            "cost": "",
             "range": "Melee",
             "attacks": "2",
             "weapon_skill": "3+",
@@ -3565,8 +3565,8 @@
         "selection_scope": "parent"
       }
     ],
-    "colors": [],
-    "image": []
+    "colors": {},
+    "image": {}
   },
   null,
   {
@@ -3583,19 +3583,19 @@
       {
         "id": "b69d-41f0-d640-64",
         "name": "Might is Right",
-        "cost": [],
+        "cost": "",
         "description": "While this model is leading a unit, each time a model in that unit makes a melee attack, add 1 to the Hit roll."
       },
       {
         "id": "a22d-294f-6401-5dfe",
         "name": "Da Biggest and da Best",
-        "cost": [],
+        "cost": "",
         "description": "When you call a Waaagh!, until the start of the next battle round, add 4 to the Attacks characteristic of this model’s melee weapons."
       },
       {
         "id": "8cbb-75c1-3d2d-4951",
         "name": "Invulnerable Save: Warboss",
-        "cost": [],
+        "cost": "",
         "description": "A Warboss has a 5+ invulnerable save."
       }
     ],
@@ -3607,8 +3607,8 @@
       "maxSelection": "3",
       "selection_scope": "roster"
     },
-    "colors": [],
-    "image": []
+    "colors": {},
+    "image": {}
   },
   {
     "id": "494b-11ce-5af-5b50",
@@ -3624,19 +3624,19 @@
       {
         "id": "2a90-5b01-924f-d72c",
         "name": "Might is Right",
-        "cost": [],
+        "cost": "",
         "description": "While this model is leading a unit, each time a model in that unit makes a melee attack, add 1 to the Hit roll."
       },
       {
         "id": "b423-a011-7b47-5afa",
         "name": "Dead ’ard",
-        "cost": [],
+        "cost": "",
         "description": "When you call a Waaagh!, until the start of the next battle round, this model has the Feel No Pain 4+ ability."
       },
       {
         "id": "2a2e-c9a9-aac4-cb91",
         "name": "Invulnerable Save: Warboss in Mega Armour",
-        "cost": [],
+        "cost": "",
         "description": "A Warboss in Mega Armour has a 5+ invulnerable save."
       }
     ],
@@ -3648,7 +3648,7 @@
         {
           "id": "7142-4c07-8072-8474",
           "name": "Big shoota",
-          "cost": [],
+          "cost": "",
           "range": "36\"",
           "attacks": "3",
           "weapon_skill": "4+",
@@ -3670,7 +3670,7 @@
         {
           "id": "dfb9-6a5b-f638-73d9",
           "name": "’Uge choppa",
-          "cost": [],
+          "cost": "",
           "range": "Melee",
           "attacks": "4",
           "weapon_skill": "2+",
@@ -3685,8 +3685,8 @@
       "maxSelection": "3",
       "selection_scope": "roster"
     },
-    "colors": [],
-    "image": []
+    "colors": {},
+    "image": {}
   },
   {
     "id": "3832-ad97-2b3b-8775",
@@ -3702,7 +3702,7 @@
       {
         "id": "4a2d-2388-d446-e087",
         "name": "Blastajet Attack Run",
-        "cost": [],
+        "cost": "",
         "description": "Each time this model makes a ranged attack that targets a unit that cannot FLY, re-roll a Hit roll of 1."
       }
     ],
@@ -3714,8 +3714,8 @@
       "maxSelection": "3",
       "selection_scope": "roster"
     },
-    "colors": [],
-    "image": []
+    "colors": {},
+    "image": {}
   },
   {
     "id": "260d-9ce4-ea1f-a957",
@@ -3731,7 +3731,7 @@
       {
         "id": "868c-1a68-5e06-694f",
         "name": "Da Jump (Psychic)",
-        "cost": [],
+        "cost": "",
         "description": "Once per turn, at the end of your Movement phase, one WEIRDBOY from your army can use this ability. If it does, roll one D6: on a 1, that WEIRDBOY’s unit suffers D6 mortal wounds; on a 2+, remove this WEIRDBOY’s unit from the battlefield and set it up again anywhere on the battlefield that is more than 9\" horizontally away from all enemy models."
       }
     ],
@@ -3743,7 +3743,7 @@
         {
           "id": "ee69-ed3e-1164-78e9",
           "name": "’Eadbanger",
-          "cost": [],
+          "cost": "",
           "range": "24\"",
           "attacks": "1",
           "weapon_skill": "4+",
@@ -3765,7 +3765,7 @@
         {
           "id": "9829-357a-9c17-3417",
           "name": "Weirdboy staff",
-          "cost": [],
+          "cost": "",
           "range": "Melee",
           "attacks": "3",
           "weapon_skill": "3+",
@@ -3781,8 +3781,8 @@
       "maxSelection": "3",
       "selection_scope": "roster"
     },
-    "colors": [],
-    "image": []
+    "colors": {},
+    "image": {}
   },
   {
     "id": "290-ff5a-b14f-e432",
@@ -3798,7 +3798,7 @@
       {
         "id": "be60-8268-2c46-1fa7",
         "name": "Roar of Mork (Psychic)",
-        "cost": [],
+        "cost": "",
         "description": "In your opponent’s Command phase, you can select one enemy unit within 18\" of and visible to this PSYKER and roll one D6: on a 1, this PSYKER’s unit suffers D3 mortal wounds; on a 2+, until the start of your opponent’s next Command phase, each time a Battle-shock or Leadership test is taken for that enemy unit, subtract 2 from that test."
       }
     ],
@@ -3810,7 +3810,7 @@
         {
           "id": "454d-16ff-5aad-c7ad",
           "name": "Eyez of Mork",
-          "cost": [],
+          "cost": "",
           "range": "18\"",
           "attacks": "D6",
           "weapon_skill": "5+",
@@ -3825,7 +3825,7 @@
         {
           "id": "f4f9-549a-b5db-93bb",
           "name": "Close combat weapon",
-          "cost": [],
+          "cost": "",
           "range": "Melee",
           "attacks": "3",
           "weapon_skill": "3+",
@@ -3840,8 +3840,8 @@
       "maxSelection": "3",
       "selection_scope": "roster"
     },
-    "colors": [],
-    "image": []
+    "colors": {},
+    "image": {}
   },
   {
     "id": "ce45-db08-3795-18a9",
@@ -3857,13 +3857,13 @@
       {
         "id": "950a-82f7-79fd-342a",
         "name": "Super Runts",
-        "cost": [],
-        "description": "While this model is leading a unit:\n- Models in that unit have the Scouts 9\" ability.\n- Each time a model in that unit makes an attack, add 1 to the Hit roll and add 1 to the Wound roll.\n- Each time an attack targets that unit, subtract 1 from the Wound roll."
+        "cost": "",
+        "description": "While this model is leading a unit:\r\n- Models in that unit have the Scouts 9\" ability.\r\n- Each time a model in that unit makes an attack, add 1 to the Hit roll and add 1 to the Wound roll.\r\n- Each time an attack targets that unit, subtract 1 from the Wound roll."
       },
       {
         "id": "d247-c00f-3a26-192e",
         "name": "Special Dose",
-        "cost": [],
+        "cost": "",
         "description": "When you call a Waaagh!, until the start of the next battle round, add 6\" to the Move characteristic of models in this model’s unit."
       }
     ],
@@ -3875,7 +3875,7 @@
         {
           "id": "7dfc-efc5-a31c-a724",
           "name": "Da Grabzappa",
-          "cost": [],
+          "cost": "",
           "range": "Melee",
           "attacks": "5",
           "weapon_skill": "2+",
@@ -3890,8 +3890,8 @@
       "maxSelection": "1",
       "selection_scope": "roster"
     },
-    "colors": [],
-    "image": []
+    "colors": {},
+    "image": {}
   },
   {
     "id": "2ecf-280b-32e2-3189",
@@ -3907,13 +3907,13 @@
       {
         "id": "15d1-b2fc-dfec-d719",
         "name": "Ramshackle Cover",
-        "cost": [],
+        "cost": "",
         "description": "Each time a ranged attack is allocated to a model, if that model is not fully visible to every model in the attacking unit because of this FORTIFICATION, that model has the Benefit of Cover against that attack."
       },
       {
         "id": "5bfe-a9ae-5367-d280",
         "name": "Workshop",
-        "cost": [],
+        "cost": "",
         "description": "When this FORTIFICATION is set up, all parts of it must be set up within 1” of another part. At the end of your Movement phase, each friendly ORKS VEHICLE model within 12” of this FORTIFICATION can regain up to D3 lost wounds (roll separately for each model). Each model can only be affected by this ability once per turn."
       }
     ],
@@ -3921,12 +3921,12 @@
       "id": "2ecf-280b-32e2-3189",
       "name": "Mekboy Workshop",
       "cost": "80",
-      "weapons": [],
+      "weapons": {},
       "maxSelection": "3",
       "selection_scope": "roster"
     },
-    "colors": [],
-    "image": []
+    "colors": {},
+    "image": {}
   },
   {
     "id": "6cc1-586e-5d7c-9a34",
@@ -3942,7 +3942,7 @@
       {
         "id": "7ca1-c513-f890-9d4e",
         "name": "Scatter!",
-        "cost": [],
+        "cost": "",
         "description": "Once per turn, when an enemy unit ends a Normal, Advance or Fall Back move within 9\" of this unit, if this unit is not within Engagement Range of one or more enemy units, it can make a Normal move of up to 6\"."
       }
     ],
@@ -3955,7 +3955,7 @@
           {
             "id": "7c2a-f476-164b-e99f",
             "name": "Big shoota",
-            "cost": [],
+            "cost": "",
             "range": "36\"",
             "attacks": "3",
             "weapon_skill": "4+",
@@ -3986,7 +3986,7 @@
           {
             "id": "9adc-8a4a-232a-786d",
             "name": "Grotzooka",
-            "cost": [],
+            "cost": "",
             "range": "18\"",
             "attacks": "D3+3",
             "weapon_skill": "4+",
@@ -4017,7 +4017,7 @@
           {
             "id": "cb76-88b3-40ea-4b20",
             "name": "Kustom mega-blasta",
-            "cost": [],
+            "cost": "",
             "range": "24\"",
             "attacks": "2",
             "weapon_skill": "4+",
@@ -4048,7 +4048,7 @@
           {
             "id": "7a3e-547c-16bd-6318",
             "name": "Rokkit launcha",
-            "cost": [],
+            "cost": "",
             "range": "24",
             "attacks": "D3",
             "weapon_skill": "4+",
@@ -4075,13 +4075,13 @@
         "id": "6aaa-5ee8-c2d6-9e59",
         "name": "Grot Tank w/ Skorcha",
         "cost": [],
-        "weapons": [],
+        "weapons": {},
         "maxSelection": "8",
         "selection_scope": "parent"
       }
     ],
-    "colors": [],
-    "image": []
+    "colors": {},
+    "image": {}
   },
   null,
   {
@@ -4098,7 +4098,7 @@
       {
         "id": "3f2f-8aa8-cb41-6815",
         "name": "Bizarrely Resilient",
-        "cost": [],
+        "cost": "",
         "description": "Each time an attack targets this model, worsen the Armour Penetration characteristic of that attack by 1."
       }
     ],
@@ -4110,8 +4110,8 @@
       "maxSelection": "3",
       "selection_scope": "roster"
     },
-    "colors": [],
-    "image": []
+    "colors": {},
+    "image": {}
   },
   {
     "id": "df63-56a0-92e1-6191",
@@ -4127,13 +4127,13 @@
       {
         "id": "9735-57a-e72-acff",
         "name": "Trample",
-        "cost": [],
+        "cost": "",
         "description": "Each time this model is selected to fight, you can select one enemy unit within Engagement Range of it and roll one D6, adding 2 to the result if this model made a Charge move this turn: on a 4-5, that enemy unit suffers D3 mortal wounds; on a 6+, that enemy unit suffers 3 mortal wounds."
       },
       {
         "id": "a8f7-5ad9-52da-3fbc",
         "name": "Damaged: 1-6 Wounds Remaining",
-        "cost": [],
+        "cost": "",
         "description": "While this model has 1-6 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
       }
     ],
@@ -4145,8 +4145,8 @@
       "maxSelection": "3",
       "selection_scope": "roster"
     },
-    "colors": [],
-    "image": []
+    "colors": {},
+    "image": {}
   },
   {
     "id": "aeed-c6d9-4b90-376a",
@@ -4162,19 +4162,19 @@
       {
         "id": "3299-bec9-9729-5206",
         "name": "Gargantuan",
-        "cost": [],
+        "cost": "",
         "description": "Each time this model makes a Normal, Advance or Fall Back move, it can move over models (excluding TITANIC models) and terrain features that are 4\" or less in height as if they were not there."
       },
       {
         "id": "323f-f6d9-36e5-e4c1",
         "name": "Walking Bastion",
-        "cost": [],
+        "cost": "",
         "description": "This model does not suffer the penalty to its Hit rolls for making ranged attacks while enemy units are within Engagement Range of it."
       },
       {
         "id": "1073-965e-53c5-5faa",
         "name": "Damaged: 1-10 Wounds Remaining",
-        "cost": [],
+        "cost": "",
         "description": "While this model has 1-10 wounds remaining, subtract 6 from this model’s Objective Control characteristic and each time this model makes an attack, subtract 1 from the Hit roll."
       }
     ],
@@ -4186,8 +4186,8 @@
       "maxSelection": "3",
       "selection_scope": "roster"
     },
-    "colors": [],
-    "image": []
+    "colors": {},
+    "image": {}
   },
   {
     "id": "b8fe-c7af-20fd-631d",
@@ -4203,13 +4203,13 @@
       {
         "id": "5df2-5fa-8e61-4fa3",
         "name": "Wall of Dakka",
-        "cost": [],
+        "cost": "",
         "description": "Each time this model makes a ranged attack that targets a unit within half range, add 1 to the Hit roll."
       },
       {
         "id": "6fe5-a229-7392-3f0b",
         "name": "Damaged: 1-8 Wounds Remaining",
-        "cost": [],
+        "cost": "",
         "description": "While this model has 1-8 wounds remaining, subtract 5 from this model’s Objective Control characteristic and each time this model makes an attack, subtract 1 from the Hit roll."
       }
     ],
@@ -4221,8 +4221,8 @@
       "maxSelection": "3",
       "selection_scope": "roster"
     },
-    "colors": [],
-    "image": []
+    "colors": {},
+    "image": {}
   },
   {
     "id": "5c83-d9c7-5c58-8357",
@@ -4238,7 +4238,7 @@
       {
         "id": "688-8033-f928-61c8",
         "name": "Mega Carnage",
-        "cost": [],
+        "cost": "",
         "description": "Each time this model is selected to fight, you can select one enemy unit within Engagement Range of it and roll one D6, adding 2 to the result if this model made a Charge move this turn: on a 4-5, that enemy unit suffers D3 mortal wounds; on a 6+, that enemy unit suffers 3 mortal wounds."
       }
     ],
@@ -4250,8 +4250,8 @@
       "maxSelection": "3",
       "selection_scope": "roster"
     },
-    "colors": [],
-    "image": []
+    "colors": {},
+    "image": {}
   },
   {
     "id": "121b-9fda-2ccb-e38c",
@@ -4267,7 +4267,7 @@
       {
         "id": "9c6a-bdfd-6134-cb23",
         "name": "Mekaniak",
-        "cost": [],
+        "cost": "",
         "description": "At the end of your Movement phase, you can select one friendly ORKS VEHICLE model within 3\" of this model. That VEHICLE model regains up to D3 lost wounds, and, until the start of your next Movement phase, each time that VEHICLE model makes an attack, add 1 to the Hit roll. Each model can only be selected for this ability once per turn."
       }
     ],
@@ -4279,8 +4279,8 @@
       "maxSelection": "3",
       "selection_scope": "roster"
     },
-    "colors": [],
-    "image": []
+    "colors": {},
+    "image": {}
   },
   {
     "id": "609a-6ef1-a3e3-3baa",
@@ -4296,7 +4296,7 @@
       {
         "id": "7281-7a2c-fc7f-9fba",
         "name": "Spiked Ram",
-        "cost": [],
+        "cost": "",
         "description": "Each time this model ends a Charge move, select one enemy unit within Engagement Range of it and roll one D6: on a 2-5, that enemy unit suffers D3 mortal wounds; on a 6, that enemy unit suffers 3 mortal wounds."
       }
     ],
@@ -4308,8 +4308,8 @@
       "maxSelection": "3",
       "selection_scope": "roster"
     },
-    "colors": [],
-    "image": []
+    "colors": {},
+    "image": {}
   },
   {
     "id": "6aed-92bb-49d6-12da",
@@ -4325,13 +4325,13 @@
       {
         "id": "1cd0-7589-b11f-2830",
         "name": "Speedboss",
-        "cost": [],
+        "cost": "",
         "description": "While this model is leading a unit, each time a model in that unit makes a melee attack, add 1 to the Hit roll."
       },
       {
         "id": "5723-30ca-5b9-72b3",
         "name": "High-octane Fuel",
-        "cost": [],
+        "cost": "",
         "description": "Each time this model’s unit Advances, do not make an Advance roll for it. Instead, until the end of the phase, add 6\" to the Move characteristic of models in this model’s unit."
       }
     ],
@@ -4343,8 +4343,8 @@
       "maxSelection": "3",
       "selection_scope": "roster"
     },
-    "colors": [],
-    "image": []
+    "colors": {},
+    "image": {}
   },
   {
     "id": "47ad-4934-ea67-a2b0",
@@ -4360,13 +4360,13 @@
       {
         "id": "3112-76c1-845c-1ba3",
         "name": "Drive-by Krumpin'",
-        "cost": [],
+        "cost": "",
         "description": "Each time this unit Consolidates, each model in this unit can move up to 6\" instead of up to 3\"."
       },
       {
         "id": "f62a-7ca9-979b-b682",
         "name": "Speed Freeks Mob",
-        "cost": [],
+        "cost": "",
         "description": "If a model from your army with the Leader ability can be attached to a WARBIKERS unit, it can be attached to this unit instead."
       }
     ],
@@ -4381,8 +4381,8 @@
         "selection_scope": "parent"
       }
     ],
-    "colors": [],
-    "image": []
+    "colors": {},
+    "image": {}
   },
   {
     "id": "91c2-d40a-1f09-9e81",
@@ -4398,7 +4398,7 @@
       {
         "id": "b63b-a285-f582-8e56",
         "name": "Big Booms",
-        "cost": [],
+        "cost": "",
         "description": "In your Shooting phase, just after selecting a target for this model’s supa-kannon, roll one D6 for the target unit and every other unit within 3\" of that unit: on a 5+, the unit being rolled for is struck by a concussive wave. After this model has finished making its attacks against that target unit this phase, each unit struck by a concussive wave this phase suffers D3 mortal wounds."
       }
     ],
@@ -4410,8 +4410,8 @@
       "maxSelection": "3",
       "selection_scope": "roster"
     },
-    "colors": [],
-    "image": []
+    "colors": {},
+    "image": {}
   },
   {
     "id": "a43d-27a9-7d83-42e4",
@@ -4427,13 +4427,13 @@
       {
         "id": "f9a0-fb2-4a65-2c65",
         "name": "Da Revolushun!",
-        "cost": [],
+        "cost": "",
         "description": "While this model is leading a unit, each time a model in that unit makes an attack, add 1 to the Hit roll."
       },
       {
         "id": "fc7b-712e-f69d-921f",
         "name": "Has Yoo Been a Good Little Grot This Year?",
-        "cost": [],
+        "cost": "",
         "description": "Once per battle, in your Shooting phase, you can target this model’s unit with the Grenade Stratagem for 0CP, and can do so even if you have already targeted a different unit with that Stratagem this phase."
       }
     ],
@@ -4445,7 +4445,7 @@
         {
           "id": "f3cd-c053-b7c3-8b30",
           "name": "Kustom grot blasta",
-          "cost": [],
+          "cost": "",
           "range": "12\"",
           "attacks": "D3",
           "weapon_skill": "4+",
@@ -4473,7 +4473,7 @@
         {
           "id": "575-c55e-9cc-4ece",
           "name": "Icon of da Revolushun",
-          "cost": [],
+          "cost": "",
           "range": "Melee",
           "attacks": "3",
           "weapon_skill": "4+",
@@ -4496,8 +4496,8 @@
       "maxSelection": "1",
       "selection_scope": "roster"
     },
-    "colors": [],
-    "image": []
+    "colors": {},
+    "image": {}
   },
   {
     "id": "4852-225b-c426-c9b5",
@@ -4513,7 +4513,7 @@
       {
         "id": "e047-b811-687c-5ca1",
         "name": "Hold Still and Say ‘Aargh!’",
-        "cost": [],
+        "cost": "",
         "description": "Each time an attack made by this model with its ’urty syringe scores a Critical Wound against a unit (excluding VEHICLE units), that unit suffers D6 mortal wounds."
       }
     ],
@@ -4525,8 +4525,8 @@
       "maxSelection": "3",
       "selection_scope": "roster"
     },
-    "colors": [],
-    "image": []
+    "colors": {},
+    "image": {}
   },
   null,
   {
@@ -4543,7 +4543,7 @@
       {
         "id": "2a40-ae68-4663-172f",
         "name": "Pyromaniaks",
-        "cost": [],
+        "cost": "",
         "description": "Each time a model in this unit makes a ranged attack with a Torrent weapon that targets an enemy unit within 6\", re-roll a Wound roll of 1. If the target of that attack is also within range of an objective marker, you can re-roll the Wound roll instead."
       }
     ],
@@ -4556,7 +4556,7 @@
           {
             "id": "9a01-848d-584-e4e1",
             "name": "Spiked wheel",
-            "cost": [],
+            "cost": "",
             "range": "Melee",
             "attacks": "2",
             "weapon_skill": "4+",
@@ -4573,8 +4573,8 @@
         "selection_scope": "parent"
       }
     ],
-    "colors": [],
-    "image": []
+    "colors": {},
+    "image": {}
   },
   {
     "id": "9e51-a749-18ba-2ea4",
@@ -4590,7 +4590,7 @@
       {
         "id": "1bd1-1e2e-2783-15b4",
         "name": "Drive-by Dakka",
-        "cost": [],
+        "cost": "",
         "description": "Each time a model in this unit makes a ranged attack that targets a unit within 9\", improve the Armour Penetration characteristic of that attack by 1."
       }
     ],
@@ -4603,7 +4603,7 @@
           {
             "id": "245a-f71c-4e9e-346b",
             "name": "Spiked wheel",
-            "cost": [],
+            "cost": "",
             "range": "Melee",
             "attacks": "2",
             "weapon_skill": "4+",
@@ -4617,7 +4617,7 @@
           {
             "id": "ddba-d176-1af0-b00c",
             "name": "Twin big shoota",
-            "cost": [],
+            "cost": "",
             "range": "36\"",
             "attacks": "3",
             "weapon_skill": "5+",
@@ -4654,7 +4654,7 @@
           {
             "id": "ab2b-4ae6-5221-a6d4",
             "name": "Spiked wheel",
-            "cost": [],
+            "cost": "",
             "range": "Melee",
             "attacks": "2",
             "weapon_skill": "4+",
@@ -4668,7 +4668,7 @@
           {
             "id": "ccd7-bed5-825d-d509",
             "name": "Rack of rokkits",
-            "cost": [],
+            "cost": "",
             "range": "24\"",
             "attacks": "D3+1",
             "weapon_skill": "5+",
@@ -4692,8 +4692,8 @@
         "selection_scope": "parent"
       }
     ],
-    "colors": [],
-    "image": []
+    "colors": {},
+    "image": {}
   },
   {
     "id": "e969-cbc8-60a6-affb",
@@ -4709,7 +4709,7 @@
       {
         "id": "2990-7ba9-f7d2-ca50",
         "name": "Outflank",
-        "cost": [],
+        "cost": "",
         "description": "When this unit arrives from Strategic Reserves, it can be set up within your opponent’s deployment zone (all other restrictions still apply)."
       }
     ],
@@ -4722,7 +4722,7 @@
           {
             "id": "d701-f8e0-7703-ec66",
             "name": "Spiked wheels",
-            "cost": [],
+            "cost": "",
             "range": "Melee",
             "attacks": "3",
             "weapon_skill": "4+",
@@ -4736,7 +4736,7 @@
           {
             "id": "f4a2-96c4-f0c6-1ec7",
             "name": "Twin big shoota",
-            "cost": [],
+            "cost": "",
             "range": "36\"",
             "attacks": "3",
             "weapon_skill": "5+",
@@ -4773,7 +4773,7 @@
           {
             "id": "7d69-7239-c8c8-46c0",
             "name": "Spiked wheels",
-            "cost": [],
+            "cost": "",
             "range": "Melee",
             "attacks": "3",
             "weapon_skill": "4+",
@@ -4787,7 +4787,7 @@
           {
             "id": "a845-44e5-b11f-6c3f",
             "name": "Rack of rokkits",
-            "cost": [],
+            "cost": "",
             "range": "24\"",
             "attacks": "D3+1",
             "weapon_skill": "5+",
@@ -4811,8 +4811,8 @@
         "selection_scope": "parent"
       }
     ],
-    "colors": [],
-    "image": []
+    "colors": {},
+    "image": {}
   },
   {
     "id": "7eb0-5bc7-24c-6cb4",
@@ -4828,13 +4828,13 @@
       {
         "id": "3ea8-263-81a7-60fe",
         "name": "Splat!",
-        "cost": [],
+        "cost": "",
         "description": "Each time a model in this unit makes a ranged attack that targets a unit containing 10 or more models, re-roll a Hit roll of 1."
       },
       {
         "id": "53a5-2ff7-9371-cc94",
         "name": "Big Gunz",
-        "cost": [],
+        "cost": "",
         "description": "Designer’s Note: Place two Grot Crew tokens next to each Mek Gun model when this unit is first set up, removing one each time its Big Gun model loses a wound (a Big Gun model itself is considered to represent its final wound)."
       }
     ],
@@ -4847,7 +4847,7 @@
           {
             "id": "89b2-c3b0-388b-e03a",
             "name": "Kannon",
-            "cost": [],
+            "cost": "",
             "range": "36\"",
             "attacks": "D6",
             "weapon_skill": "6+",
@@ -4875,7 +4875,7 @@
           {
             "id": "c704-83d0-1beb-acb1",
             "name": "Close combat weapons",
-            "cost": [],
+            "cost": "",
             "range": "Melee",
             "attacks": "2",
             "weapon_skill": "3+",
@@ -4898,7 +4898,7 @@
           {
             "id": "2201-5df6-eea7-e216",
             "name": "Lobba",
-            "cost": [],
+            "cost": "",
             "range": "48\"",
             "attacks": "D6",
             "weapon_skill": "6+",
@@ -4932,7 +4932,7 @@
           {
             "id": "fd75-5890-a9d9-1a4e",
             "name": "Close combat weapons",
-            "cost": [],
+            "cost": "",
             "range": "Melee",
             "attacks": "2",
             "weapon_skill": "3+",
@@ -4955,7 +4955,7 @@
           {
             "id": "2e1d-6e80-e77d-69d9",
             "name": "Zzap gun",
-            "cost": [],
+            "cost": "",
             "range": "36\"",
             "attacks": "1",
             "weapon_skill": "6+",
@@ -4983,7 +4983,7 @@
           {
             "id": "a886-92b-2877-a112",
             "name": "Close combat weapons",
-            "cost": [],
+            "cost": "",
             "range": "Melee",
             "attacks": "2",
             "weapon_skill": "3+",
@@ -4999,8 +4999,8 @@
         "selection_scope": "parent"
       }
     ],
-    "colors": [],
-    "image": []
+    "colors": {},
+    "image": {}
   },
   {
     "id": "51a5-6c92-806e-57d6",
@@ -5016,7 +5016,7 @@
       {
         "id": "c660-2364-fab7-a803",
         "name": "Deff from Above",
-        "cost": [],
+        "cost": "",
         "description": "Each time this unit ends a Normal move, you can select one enemy unit it moved over during that move and roll one D6 for each model in this unit: for each 4+, that enemy unit suffers 1 mortal wound."
       }
     ],
@@ -5031,8 +5031,8 @@
         "selection_scope": "parent"
       }
     ],
-    "colors": [],
-    "image": []
+    "colors": {},
+    "image": {}
   },
   {
     "id": "3444-a152-c9e6-31aa",
@@ -5048,7 +5048,7 @@
       {
         "id": "f565-2e00-6a76-8e8b",
         "name": "Da Biggest Booms",
-        "cost": [],
+        "cost": "",
         "description": "In your Shooting phase, just after selecting a target for this model’s krusha kannon, the target unit and every other enemy INFANTRY unit within 3\" of that unit must take a Battle-shock test."
       }
     ],
@@ -5060,8 +5060,8 @@
       "maxSelection": "3",
       "selection_scope": "roster"
     },
-    "colors": [],
-    "image": []
+    "colors": {},
+    "image": {}
   },
   null,
   {
@@ -5078,7 +5078,7 @@
       {
         "id": "f414-25ce-9e41-dac3",
         "name": "Rolling Fortress",
-        "cost": [],
+        "cost": "",
         "description": "Each time a ranged attack is allocated to an ORKS model from your army, if that model is not fully visible to every model in the attacking unit because of this DEFF ROLLA BATTLE FORTRESS model, that model has the Benefit of Cover against that attack."
       }
     ],
@@ -5090,8 +5090,8 @@
       "maxSelection": "3",
       "selection_scope": "roster"
     },
-    "colors": [],
-    "image": []
+    "colors": {},
+    "image": {}
   },
   null,
   null,
@@ -5112,7 +5112,7 @@
       {
         "id": "f560-f58f-6ce7-ae62",
         "name": "Aerial Deployment",
-        "cost": [],
+        "cost": "",
         "description": "If this model starts the game in Strategic Reserves, it can be set up in the Reinforcements step of your first, second or third Movement phase, regardless of any mission rules."
       }
     ],
@@ -5124,8 +5124,8 @@
       "maxSelection": "3",
       "selection_scope": "roster"
     },
-    "colors": [],
-    "image": []
+    "colors": {},
+    "image": {}
   },
   null,
   null,
@@ -5143,7 +5143,7 @@
       {
         "id": "e6ec-28d1-9e8a-add4",
         "name": "Strafing Run",
-        "cost": [],
+        "cost": "",
         "description": "Each time this model makes a ranged attack that targets a unit that cannot FLY, add 1 to the Hit roll."
       }
     ],
@@ -5155,8 +5155,8 @@
       "maxSelection": "3",
       "selection_scope": "roster"
     },
-    "colors": [],
-    "image": []
+    "colors": {},
+    "image": {}
   },
   {
     "id": "4229-83f0-b03b-bd44",
@@ -5172,13 +5172,13 @@
       {
         "id": "abf1-339a-bac5-4830",
         "name": "Interceptor",
-        "cost": [],
+        "cost": "",
         "description": "Each time this model makes a ranged attack that targets a unit that can FLY, add 1 to the Hit roll."
       },
       {
         "id": "ee8a-b94a-7d34-f60",
         "name": "Small Bomms",
-        "cost": [],
+        "cost": "",
         "description": "Each time the bearer ends a Normal move, you can select one enemy unit it moved across during that move and roll three D6: for each 4+, that unit suffers 1 mortal wound."
       }
     ],
@@ -5190,8 +5190,8 @@
       "maxSelection": "3",
       "selection_scope": "roster"
     },
-    "colors": [],
-    "image": []
+    "colors": {},
+    "image": {}
   },
   null,
   {
@@ -5208,7 +5208,7 @@
       {
         "id": "19df-72b6-2de2-8aa0",
         "name": "Da Bigger Dey Are, da Better Dey Drop",
-        "cost": [],
+        "cost": "",
         "description": "Each time an attack made with this model’s lifta-droppa destroys an enemy model that has the Deadly Demise ability, that model’s Deadly Demise ability inflicts mortal wounds on a D6 roll of 3+ instead of on a 6."
       }
     ],
@@ -5220,8 +5220,8 @@
       "maxSelection": "3",
       "selection_scope": "roster"
     },
-    "colors": [],
-    "image": []
+    "colors": {},
+    "image": {}
   },
   null,
   null,
@@ -5239,7 +5239,7 @@
       {
         "id": "b223-4cb5-4d51-5d4",
         "name": "Furious Barrage",
-        "cost": [],
+        "cost": "",
         "description": "Each time this model makes a ranged attack that targets an enemy unit that contains five or more models, you can re-roll the Hit roll."
       }
     ],
@@ -5251,7 +5251,7 @@
         {
           "id": "8d5c-3258-6b8e-cae8",
           "name": "Spiked wheel",
-          "cost": [],
+          "cost": "",
           "range": "Melee",
           "attacks": "2",
           "weapon_skill": "4+",
@@ -5265,7 +5265,7 @@
         {
           "id": "b0be-b98-43af-d32",
           "name": "Grot-guided bomms",
-          "cost": [],
+          "cost": "",
           "range": "72\"",
           "attacks": "D6",
           "weapon_skill": "4+",
@@ -5300,8 +5300,8 @@
       "maxSelection": "3",
       "selection_scope": "roster"
     },
-    "colors": [],
-    "image": []
+    "colors": {},
+    "image": {}
   },
   {
     "id": "8b2-ca6b-b00c-d64c",
@@ -5317,13 +5317,13 @@
       {
         "id": "db2b-7a43-7a2d-14ca",
         "name": "More Dakka",
-        "cost": [],
+        "cost": "",
         "description": "While this model is leading a unit, each time a model in that unit makes a ranged attack, re-roll a Hit roll of 1."
       },
       {
         "id": "6d73-ac8e-72ad-7cd3",
         "name": "Mekaniak",
-        "cost": [],
+        "cost": "",
         "description": "At the end of your Movement phase, you can select one friendly ORKS VEHICLE model within 3\" of this model. That VEHICLE model regains up to D3 lost wounds, and, until the start of your next Movement phase, each time that VEHICLE model makes an attack, add 1 to the Hit roll. Each model can only be selected for this ability once per turn."
       }
     ],
@@ -5335,8 +5335,8 @@
       "maxSelection": "3",
       "selection_scope": "roster"
     },
-    "colors": [],
-    "image": []
+    "colors": {},
+    "image": {}
   },
   null,
   null,
