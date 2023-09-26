@@ -22,7 +22,7 @@
       "id": "306a-b2ac-aaf1-9a7c",
       "name": "Battlewagon",
       "cost": "185",
-      "weapons": [],
+      "weapons": {},
       "maxSelection": "3",
       "selection_scope": "roster"
     },
@@ -45,68 +45,16 @@
       {
         "id": "fb39-1402-5d38-83b2",
         "name": "Beast Snagga Boy w/ Thump gun",
-        "cost": [],
-        "weapons": [
-          {
-            "id": "bec6-2d9b-d764-288",
-            "name": "Close combat weapon",
-            "cost": "",
-            "range": "Melee",
-            "attacks": "2",
-            "weapon_skill": "3+",
-            "armor_penetration": "0",
-            "damage": "1",
-            "weapon_type": "Melee Weapons",
-            "additional_rules": [],
-            "minSelection": "1",
-            "maxSelection": "1"
-          },
-          {
-            "id": "347d-2fc1-ef8d-cc1d",
-            "name": "Thump gun",
-            "cost": "",
-            "range": "18\"",
-            "attacks": "D3",
-            "weapon_skill": "5+",
-            "armor_penetration": "0",
-            "damage": "2",
-            "weapon_type": "Ranged Weapons",
-            "keywords": "Blast",
-            "additional_rules": [
-              {
-                "id": "8a-4efc-1a57-7926",
-                "name": "Blast",
-                "type": "rule",
-                "rule_reference_id": "6c1f-1cf7-ff25-c99e"
-              }
-            ],
-            "minSelection": "1",
-            "maxSelection": "1"
-          }
-        ],
+        "cost": "",
+        "weapons": {},
         "maxSelection": "1",
         "selection_scope": "parent"
       },
       {
         "id": "8462-1df3-6409-5087",
         "name": "Beast Snagga Boyz",
-        "cost": [],
-        "weapons": [
-          {
-            "id": "e9cf-f31b-691-1e1c",
-            "name": "Choppa",
-            "cost": "",
-            "range": "Melee",
-            "attacks": "3",
-            "weapon_skill": "3+",
-            "armor_penetration": "-1",
-            "damage": "1",
-            "weapon_type": "Melee Weapons",
-            "additional_rules": [],
-            "minSelection": "1",
-            "maxSelection": "1"
-          }
-        ],
+        "cost": "",
+        "weapons": {},
         "minSelection": "8",
         "maxSelection": "19",
         "selection_scope": "parent"
@@ -138,52 +86,7 @@
       "id": "5a5d-c5a4-39b8-4a3f",
       "name": "Beastboss",
       "cost": "100",
-      "weapons": [
-        {
-          "id": "64da-fae7-507d-8b18",
-          "name": "Shoota",
-          "cost": "",
-          "range": "18\"",
-          "attacks": "2",
-          "weapon_skill": "4+",
-          "armor_penetration": "0",
-          "damage": "1",
-          "weapon_type": "Ranged Weapons",
-          "keywords": "Rapid Fire 1",
-          "additional_rules": [
-            {
-              "id": "c121-6d1e-b482-c25a",
-              "name": "Rapid Fire",
-              "type": "rule",
-              "rule_reference_id": "c5c8-8b58-b8b6-7786"
-            }
-          ],
-          "minSelection": "1",
-          "maxSelection": "1"
-        },
-        {
-          "id": "8e20-4ae8-9125-42a6",
-          "name": "Beast Snagga klaw",
-          "cost": "",
-          "range": "Melee",
-          "attacks": "4",
-          "weapon_skill": "3+",
-          "armor_penetration": "-2",
-          "damage": "2",
-          "weapon_type": "Melee Weapons",
-          "keywords": "Anti-Monster 4+, Anti-Vehicle 4+",
-          "additional_rules": [
-            {
-              "id": "99c5-4d34-fd6b-b567",
-              "name": "Anti-",
-              "type": "rule",
-              "rule_reference_id": "4111-82e3-9444-e942"
-            }
-          ],
-          "minSelection": "1",
-          "maxSelection": "1"
-        }
-      ],
+      "weapons": {},
       "maxSelection": "3",
       "selection_scope": "roster"
     },
@@ -218,7 +121,7 @@
       "id": "a8b7-351-d911-a4d6",
       "name": "Beastboss on Squigosaur",
       "cost": "165",
-      "weapons": [],
+      "weapons": {},
       "maxSelection": "3",
       "selection_scope": "roster"
     },
@@ -255,7 +158,7 @@
       "id": "95e9-6da3-5e75-2566",
       "name": "Big Mek in Mega Armour",
       "cost": "85",
-      "weapons": [],
+      "weapons": {},
       "maxSelection": "3",
       "selection_scope": "roster"
     },
@@ -292,7 +195,7 @@
       "id": "e1b6-48a1-2598-7cae",
       "name": "Big Mek with Kustom Force Field",
       "cost": "55",
-      "weapons": [],
+      "weapons": {},
       "maxSelection": "3",
       "selection_scope": "roster"
     },
@@ -327,7 +230,7 @@
       "id": "dde2-ca42-e3bc-2ef6",
       "name": "Big Mek with Shokk Attack Gun",
       "cost": "75",
-      "weapons": [],
+      "weapons": {},
       "maxSelection": "3",
       "selection_scope": "roster"
     },
@@ -363,7 +266,7 @@
       "id": "b82a-6b65-7050-ac48",
       "name": "Big'ed Bossbunka",
       "cost": "135",
-      "weapons": [],
+      "weapons": {},
       "maxSelection": "3",
       "selection_scope": "roster"
     },
@@ -393,22 +296,7 @@
       "id": "a20-d3af-2c3e-3267",
       "name": "Blitza-bommer",
       "cost": "115",
-      "weapons": [
-        {
-          "id": "260-3ca9-bdcf-4c16",
-          "name": "Armoured hull",
-          "cost": "",
-          "range": "Melee",
-          "attacks": "3",
-          "weapon_skill": "4+",
-          "armor_penetration": "0",
-          "damage": "1",
-          "weapon_type": "Melee Weapons",
-          "additional_rules": [],
-          "minSelection": "1",
-          "maxSelection": "1"
-        }
-      ],
+      "weapons": {},
       "maxSelection": "3",
       "selection_scope": "roster"
     },
@@ -438,56 +326,7 @@
       "id": "c7c8-6b5b-6bfc-52d1",
       "name": "Boomdakka Snazzwagon",
       "cost": "90",
-      "weapons": [
-        {
-          "id": "64ad-7a7b-f831-947f",
-          "name": "Spiked wheels",
-          "cost": "",
-          "range": "Melee",
-          "attacks": "4",
-          "weapon_skill": "4+",
-          "armor_penetration": "-1",
-          "damage": "2",
-          "weapon_type": "Melee Weapons",
-          "additional_rules": [],
-          "minSelection": "1",
-          "maxSelection": "1"
-        },
-        {
-          "id": "5db8-d013-81cc-308c",
-          "name": "Mek speshul",
-          "cost": "",
-          "range": "24\"",
-          "attacks": "12",
-          "weapon_skill": "5+",
-          "armor_penetration": "-1",
-          "damage": "1",
-          "weapon_type": "Ranged Weapons",
-          "keywords": "Assault, Rapid Fire 4, Sustained Hits 1",
-          "additional_rules": [
-            {
-              "id": "c1b-5464-1587-422",
-              "name": "Assault",
-              "type": "rule",
-              "rule_reference_id": "fc8a-8c24-bae9-cc1c"
-            },
-            {
-              "id": "713-2abf-8030-89b",
-              "name": "Rapid Fire",
-              "type": "rule",
-              "rule_reference_id": "c5c8-8b58-b8b6-7786"
-            },
-            {
-              "id": "c3ac-4cd0-de80-a03",
-              "name": "Sustained Hits",
-              "type": "rule",
-              "rule_reference_id": "1897-c22c-9597-12b1"
-            }
-          ],
-          "minSelection": "1",
-          "maxSelection": "1"
-        }
-      ],
+      "weapons": {},
       "maxSelection": "3",
       "selection_scope": "roster"
     },
@@ -523,36 +362,7 @@
       "id": "e651-5901-35e5-dc35",
       "name": "Boss Snikrot",
       "cost": "85",
-      "weapons": [
-        {
-          "id": "9db0-2615-3a17-415b",
-          "name": "Mork’s Teeth",
-          "cost": "",
-          "range": "Melee",
-          "attacks": "6",
-          "weapon_skill": "2+",
-          "armor_penetration": "-1",
-          "damage": "2",
-          "weapon_type": "Melee Weapons",
-          "keywords": "Precision, Twin-linked",
-          "additional_rules": [
-            {
-              "id": "e81b-8fe6-5d92-c7f2",
-              "name": "Twin-linked",
-              "type": "rule",
-              "rule_reference_id": "cf93-ad4d-2f08-a79d"
-            },
-            {
-              "id": "2711-eaff-eefa-359b",
-              "name": "Precision",
-              "type": "rule",
-              "rule_reference_id": "9143-31ae-e0a6-6007"
-            }
-          ],
-          "minSelection": "1",
-          "maxSelection": "1"
-        }
-      ],
+      "weapons": {},
       "maxSelection": "1",
       "selection_scope": "roster"
     },
@@ -588,22 +398,7 @@
       "id": "ec71-71e2-6601-31b8",
       "name": "Boss Zagstruk",
       "cost": "90",
-      "weapons": [
-        {
-          "id": "746a-df5e-4179-3fc4",
-          "name": "Da Vulcha’s Klaws and choppa",
-          "cost": "",
-          "range": "Melee",
-          "attacks": "6",
-          "weapon_skill": "2+",
-          "armor_penetration": "-2",
-          "damage": "2",
-          "weapon_type": "Melee Weapons",
-          "additional_rules": [],
-          "minSelection": "1",
-          "maxSelection": "1"
-        }
-      ],
+      "weapons": {},
       "maxSelection": "1",
       "selection_scope": "roster"
     },
@@ -638,7 +433,7 @@
       {
         "id": "7629-a9f5-e881-6ff9",
         "name": "Boy w/ Slugga and choppa",
-        "cost": [],
+        "cost": "",
         "weapons": {},
         "maxSelection": "19",
         "selection_scope": "parent"
@@ -646,45 +441,8 @@
       {
         "id": "f6f5-592e-de09-7238",
         "name": "Boy w/ Shoota and close combat weapon",
-        "cost": [],
-        "weapons": [
-          {
-            "id": "2bf-942a-ebf9-2bee",
-            "name": "Close combat weapon",
-            "cost": "",
-            "range": "Melee",
-            "attacks": "2",
-            "weapon_skill": "3+",
-            "armor_penetration": "0",
-            "damage": "1",
-            "weapon_type": "Melee Weapons",
-            "additional_rules": [],
-            "minSelection": "1",
-            "maxSelection": "1"
-          },
-          {
-            "id": "2f1c-2106-f89f-5fec",
-            "name": "Shoota",
-            "cost": "",
-            "range": "18\"",
-            "attacks": "2",
-            "weapon_skill": "5+",
-            "armor_penetration": "0",
-            "damage": "1",
-            "weapon_type": "Ranged Weapons",
-            "keywords": "Rapid Fire 1",
-            "additional_rules": [
-              {
-                "id": "b8b7-b1d4-8050-13ee",
-                "name": "Rapid Fire",
-                "type": "rule",
-                "rule_reference_id": "c5c8-8b58-b8b6-7786"
-              }
-            ],
-            "minSelection": "1",
-            "maxSelection": "1"
-          }
-        ],
+        "cost": "",
+        "weapons": {},
         "maxSelection": "19",
         "selection_scope": "parent"
       }
@@ -718,69 +476,24 @@
       {
         "id": "9214-a89c-bebb-9506",
         "name": "Spanner w/ Big shoota",
-        "cost": [],
-        "weapons": [
-          {
-            "id": "8cf8-9e7b-48e2-7c4b",
-            "name": "Close combat weapon",
-            "cost": "",
-            "range": "Melee",
-            "attacks": "3",
-            "weapon_skill": "3+",
-            "armor_penetration": "0",
-            "damage": "1",
-            "weapon_type": "Melee Weapons",
-            "additional_rules": [],
-            "minSelection": "1",
-            "maxSelection": "1"
-          }
-        ],
+        "cost": "",
+        "weapons": {},
         "maxSelection": "3",
         "selection_scope": "parent"
       },
       {
         "id": "cb44-e6cf-bd0b-d49f",
         "name": "Spanner w/ Rokkit launcha",
-        "cost": [],
-        "weapons": [
-          {
-            "id": "a68b-e554-a751-b748",
-            "name": "Close combat weapon",
-            "cost": "",
-            "range": "Melee",
-            "attacks": "3",
-            "weapon_skill": "3+",
-            "armor_penetration": "0",
-            "damage": "1",
-            "weapon_type": "Melee Weapons",
-            "additional_rules": [],
-            "minSelection": "1",
-            "maxSelection": "1"
-          }
-        ],
+        "cost": "",
+        "weapons": {},
         "maxSelection": "3",
         "selection_scope": "parent"
       },
       {
         "id": "5ca9-d0b7-7c17-104b",
         "name": "Spanner w/ Kustom mega-blasta",
-        "cost": [],
-        "weapons": [
-          {
-            "id": "715c-654b-e596-255",
-            "name": "Close combat weapon",
-            "cost": "",
-            "range": "Melee",
-            "attacks": "3",
-            "weapon_skill": "3+",
-            "armor_penetration": "0",
-            "damage": "1",
-            "weapon_type": "Melee Weapons",
-            "additional_rules": [],
-            "minSelection": "1",
-            "maxSelection": "1"
-          }
-        ],
+        "cost": "",
+        "weapons": {},
         "maxSelection": "3",
         "selection_scope": "parent"
       }
@@ -812,7 +525,7 @@
       "id": "93a1-386a-e40f-472f",
       "name": "Burna-bommer",
       "cost": "125",
-      "weapons": [],
+      "weapons": {},
       "maxSelection": "3",
       "selection_scope": "roster"
     },
@@ -842,7 +555,7 @@
       "id": "3b42-b41f-d11e-bdca",
       "name": "Dakkajet",
       "cost": "135",
-      "weapons": [],
+      "weapons": {},
       "maxSelection": "3",
       "selection_scope": "roster"
     },
@@ -871,7 +584,7 @@
       "id": "1594-b986-e77e-d89d",
       "name": "Deff Dread",
       "cost": "130",
-      "weapons": [],
+      "weapons": {},
       "maxSelection": "3",
       "selection_scope": "roster"
     },
@@ -907,78 +620,7 @@
       "id": "ca85-1d18-dc30-d64e",
       "name": "Deffkilla Wartrike",
       "cost": "80",
-      "weapons": [
-        {
-          "id": "58d0-327e-c85e-b27d",
-          "name": "Deffkilla boomstikks",
-          "cost": "",
-          "range": "12\"",
-          "attacks": "6",
-          "weapon_skill": "5+",
-          "armor_penetration": "0",
-          "damage": "1",
-          "weapon_type": "Ranged Weapons",
-          "keywords": "Assault",
-          "additional_rules": [
-            {
-              "id": "66af-b9b5-4f85-dcc9",
-              "name": "Assault",
-              "type": "rule",
-              "rule_reference_id": "fc8a-8c24-bae9-cc1c"
-            }
-          ],
-          "minSelection": "1",
-          "maxSelection": "1"
-        },
-        {
-          "id": "a413-c17b-1083-8a01",
-          "name": "Killa jet",
-          "cost": "",
-          "range": "12\"",
-          "attacks": "D6",
-          "weapon_skill": "N/A",
-          "armor_penetration": "-1",
-          "damage": "1",
-          "weapon_type": "Ranged Weapons",
-          "keywords": "Ignores Cover, Torrent",
-          "additional_rules": [
-            {
-              "id": "f42a-610e-c21c-c79c",
-              "name": "Torrent",
-              "type": "rule",
-              "rule_reference_id": "5edf-d619-23e0-9b56"
-            },
-            {
-              "id": "5b75-6726-37b8-150a",
-              "name": "Melta",
-              "type": "rule",
-              "rule_reference_id": "7cdb-fb99-44a9-8849"
-            },
-            {
-              "id": "b225-cfaf-9d76-601a",
-              "name": "Ignores Cover",
-              "type": "rule",
-              "rule_reference_id": "4640-43e7-30b-215a"
-            }
-          ],
-          "minSelection": "1",
-          "maxSelection": "1"
-        },
-        {
-          "id": "16de-5cec-d130-a916",
-          "name": "Snagga klaw",
-          "cost": "",
-          "range": "Melee",
-          "attacks": "4",
-          "weapon_skill": "3+",
-          "armor_penetration": "-2",
-          "damage": "2",
-          "weapon_type": "Melee Weapons",
-          "additional_rules": [],
-          "minSelection": "1",
-          "maxSelection": "1"
-        }
-      ],
+      "weapons": {},
       "maxSelection": "3",
       "selection_scope": "roster"
     },
@@ -1007,51 +649,8 @@
       {
         "id": "c0f6-1a61-c90f-f188",
         "name": "Deffkopta",
-        "cost": [],
-        "weapons": [
-          {
-            "id": "32f8-a333-a451-20dd",
-            "name": "Spinnin’ blades",
-            "cost": "",
-            "range": "Melee",
-            "attacks": "6",
-            "weapon_skill": "3+",
-            "armor_penetration": "0",
-            "damage": "1",
-            "weapon_type": "Melee Weapons",
-            "additional_rules": [],
-            "minSelection": "1",
-            "maxSelection": "1"
-          },
-          {
-            "id": "b934-98cc-7904-736c",
-            "name": "Kopta rokkits",
-            "cost": "",
-            "range": "24\"",
-            "attacks": "D3",
-            "weapon_skill": "5+",
-            "armor_penetration": "-2",
-            "damage": "3",
-            "weapon_type": "Ranged Weapons",
-            "keywords": "Blast, Twin-linked",
-            "additional_rules": [
-              {
-                "id": "8267-48b5-a7d9-ade3",
-                "name": "Blast",
-                "type": "rule",
-                "rule_reference_id": "6c1f-1cf7-ff25-c99e"
-              },
-              {
-                "id": "a1ad-4ae3-fc66-aed1",
-                "name": "Twin-linked",
-                "type": "rule",
-                "rule_reference_id": "cf93-ad4d-2f08-a79d"
-              }
-            ],
-            "minSelection": "1",
-            "maxSelection": "1"
-          }
-        ],
+        "cost": "",
+        "weapons": {},
         "minSelection": "2",
         "maxSelection": "6",
         "selection_scope": "parent"
@@ -1059,23 +658,8 @@
       {
         "id": "484b-6da4-9390-33ae",
         "name": "Deffkopta w/ Kustom mega-blasta",
-        "cost": [],
-        "weapons": [
-          {
-            "id": "bad1-fd5-4ec-1f4e",
-            "name": "Spinnin’ blades",
-            "cost": "",
-            "range": "Melee",
-            "attacks": "6",
-            "weapon_skill": "3+",
-            "armor_penetration": "0",
-            "damage": "1",
-            "weapon_type": "Melee Weapons",
-            "additional_rules": [],
-            "minSelection": "1",
-            "maxSelection": "1"
-          }
-        ],
+        "cost": "",
+        "weapons": {},
         "maxSelection": "2",
         "selection_scope": "parent"
       }
@@ -1105,7 +689,7 @@
       {
         "id": "1c80-9a0b-d366-7fa3",
         "name": "Ammo Runt",
-        "cost": [],
+        "cost": "",
         "weapons": {},
         "maxSelection": "1",
         "selection_scope": "parent"
@@ -1137,45 +721,8 @@
       {
         "id": "de55-e326-8a31-d7b0",
         "name": "Ghazghkull Thraka",
-        "cost": [],
-        "weapons": [
-          {
-            "id": "4325-5811-1915-3c15",
-            "name": "Mork’s Roar",
-            "cost": "",
-            "range": "36\"",
-            "attacks": "12",
-            "weapon_skill": "5+",
-            "armor_penetration": "0",
-            "damage": "1",
-            "weapon_type": "Ranged Weapons",
-            "keywords": "Rapid Fire 4",
-            "additional_rules": [
-              {
-                "id": "5abd-8d4c-2335-7942",
-                "name": "Rapid Fire",
-                "type": "rule",
-                "rule_reference_id": "c5c8-8b58-b8b6-7786"
-              }
-            ],
-            "minSelection": "1",
-            "maxSelection": "1"
-          },
-          {
-            "id": "7f5-23ea-19ab-176",
-            "name": "Gork’s Klaw",
-            "cost": "",
-            "range": "Melee",
-            "attacks": "6",
-            "weapon_skill": "2+",
-            "armor_penetration": "-3",
-            "damage": "4",
-            "weapon_type": "Melee Weapons",
-            "additional_rules": [],
-            "minSelection": "1",
-            "maxSelection": "1"
-          }
-        ],
+        "cost": "",
+        "weapons": {},
         "minSelection": "1",
         "maxSelection": "1",
         "selection_scope": "parent"
@@ -1183,31 +730,8 @@
       {
         "id": "369e-6b73-1d48-2abf",
         "name": "Makari",
-        "cost": [],
-        "weapons": [
-          {
-            "id": "b945-fe7f-ecf3-a719",
-            "name": "Makari’s stabba",
-            "cost": "",
-            "range": "Melee",
-            "attacks": "1",
-            "weapon_skill": "4+",
-            "armor_penetration": "0",
-            "damage": "1",
-            "weapon_type": "Melee Weapons",
-            "keywords": "Devastating Wounds",
-            "additional_rules": [
-              {
-                "id": "93c7-a4cf-7357-4917",
-                "name": "Devastating Wounds",
-                "type": "rule",
-                "rule_reference_id": "be1e-ac8e-1e2c-3528"
-              }
-            ],
-            "minSelection": "1",
-            "maxSelection": "1"
-          }
-        ],
+        "cost": "",
+        "weapons": {},
         "minSelection": "1",
         "maxSelection": "1",
         "selection_scope": "parent"
@@ -1244,44 +768,7 @@
       "id": "56d6-a7fc-fa08-4345",
       "name": "Gorkanaut",
       "cost": "280",
-      "weapons": [
-        {
-          "id": "75fe-1d78-6e54-db74",
-          "name": "Deffstorm mega-shoota",
-          "cost": "",
-          "range": "36\"",
-          "attacks": "20",
-          "weapon_skill": "5+",
-          "armor_penetration": "-1",
-          "damage": "1",
-          "weapon_type": "Ranged Weapons",
-          "keywords": "Rapid Fire 10",
-          "additional_rules": [
-            {
-              "id": "aa7f-7316-53b1-eda3",
-              "name": "Rapid Fire",
-              "type": "rule",
-              "rule_reference_id": "c5c8-8b58-b8b6-7786"
-            }
-          ],
-          "minSelection": "1",
-          "maxSelection": "1"
-        },
-        {
-          "id": "c7a9-3d8d-b20-587d",
-          "name": "Klaw of Gork",
-          "cost": "",
-          "range": "Melee",
-          "attacks": "5",
-          "weapon_skill": "3+",
-          "armor_penetration": "-3",
-          "damage": "6",
-          "weapon_type": "Melee Weapons",
-          "additional_rules": [],
-          "minSelection": "1",
-          "maxSelection": "1"
-        }
-      ],
+      "weapons": {},
       "maxSelection": "3",
       "selection_scope": "roster"
     },
@@ -1310,44 +797,8 @@
       {
         "id": "c814-14fb-a7b9-24d",
         "name": "Gretchin",
-        "cost": [],
-        "weapons": [
-          {
-            "id": "1f2b-c815-5c2c-8383",
-            "name": "Close combat weapon",
-            "cost": "",
-            "range": "Melee",
-            "attacks": "1",
-            "weapon_skill": "5+",
-            "armor_penetration": "0",
-            "damage": "1",
-            "weapon_type": "Melee Weapons",
-            "additional_rules": [],
-            "minSelection": "1",
-            "maxSelection": "1"
-          },
-          {
-            "id": "d5b1-5594-7fad-81a8",
-            "name": "Grot blasta",
-            "cost": "",
-            "range": "12\"",
-            "attacks": "1",
-            "weapon_skill": "4+",
-            "armor_penetration": "0",
-            "damage": "1",
-            "weapon_type": "Ranged Weapons",
-            "additional_rules": [
-              {
-                "id": "ae4a-5450-4062-7154",
-                "name": "Pistol",
-                "type": "rule",
-                "rule_reference_id": "8bf7-8812-923d-29e4"
-              }
-            ],
-            "minSelection": "1",
-            "maxSelection": "1"
-          }
-        ],
+        "cost": "",
+        "weapons": {},
         "minSelection": "10",
         "maxSelection": "20",
         "selection_scope": "parent"
@@ -1424,56 +875,7 @@
       "id": "ffa6-66d3-dfa5-557e",
       "name": "Kaptin Badrukk",
       "cost": "80",
-      "weapons": [
-        {
-          "id": "76f1-21d4-c437-d3a4",
-          "name": "Choppa",
-          "cost": "",
-          "range": "Melee",
-          "attacks": "6",
-          "weapon_skill": "2+",
-          "armor_penetration": "-1",
-          "damage": "1",
-          "weapon_type": "Melee Weapons",
-          "additional_rules": [],
-          "minSelection": "1",
-          "maxSelection": "1"
-        },
-        {
-          "id": "eee5-3349-4d83-4373",
-          "name": "Da Rippa",
-          "cost": "",
-          "range": "24\"",
-          "attacks": "3",
-          "weapon_skill": "5+",
-          "armor_penetration": "-2",
-          "damage": "2",
-          "weapon_type": "Ranged Weapons",
-          "keywords": "Heavy, Sustained Hits 1",
-          "additional_rules": [
-            {
-              "id": "fdb4-1dab-f8a4-850c",
-              "name": "Hazardous",
-              "type": "rule",
-              "rule_reference_id": "8367-374c-f87-c627"
-            },
-            {
-              "id": "5599-2409-a88c-dd03",
-              "name": "Heavy",
-              "type": "rule",
-              "rule_reference_id": "1202-10a8-78e9-4c67"
-            },
-            {
-              "id": "5055-cc68-f709-5f3",
-              "name": "Sustained Hits",
-              "type": "rule",
-              "rule_reference_id": "1897-c22c-9597-12b1"
-            }
-          ],
-          "minSelection": "1",
-          "maxSelection": "1"
-        }
-      ],
+      "weapons": {},
       "maxSelection": "1",
       "selection_scope": "roster"
     },
@@ -1495,36 +897,7 @@
       "id": "eb21-c97f-2d9a-b363",
       "name": "Kill Rig",
       "cost": "200",
-      "weapons": [
-        {
-          "id": "e28c-9fc3-d2d-5efb",
-          "name": "Wurrtower",
-          "cost": "",
-          "range": "24\"",
-          "attacks": "D3",
-          "weapon_skill": "N/A",
-          "armor_penetration": "-3",
-          "damage": "D6",
-          "weapon_type": "Ranged Weapons",
-          "keywords": "Hazardous, Psychic, Torrent",
-          "additional_rules": [
-            {
-              "id": "ff91-2c83-9e5-632d",
-              "name": "Hazardous",
-              "type": "rule",
-              "rule_reference_id": "8367-374c-f87-c627"
-            },
-            {
-              "id": "9b6d-c32c-7009-1cdc",
-              "name": "Torrent",
-              "type": "rule",
-              "rule_reference_id": "5edf-d619-23e0-9b56"
-            }
-          ],
-          "minSelection": "1",
-          "maxSelection": "1"
-        }
-      ],
+      "weapons": {},
       "maxSelection": "3",
       "selection_scope": "roster"
     },
@@ -1546,106 +919,31 @@
       {
         "id": "fcf3-c626-e7c5-51ab",
         "name": "Killa Kan w/ Kan shoota",
-        "cost": [],
-        "weapons": [
-          {
-            "id": "1e1f-c4f8-c26f-eaa8",
-            "name": "Kan shoota",
-            "cost": "",
-            "range": "36\"",
-            "attacks": "3",
-            "weapon_skill": "4+",
-            "armor_penetration": "0",
-            "damage": "1",
-            "weapon_type": "Ranged Weapons",
-            "keywords": "Devastating Wounds, Rapid Fire 2",
-            "additional_rules": [
-              {
-                "id": "12fa-da58-572f-323c",
-                "name": "Rapid Fire",
-                "type": "rule",
-                "rule_reference_id": "c5c8-8b58-b8b6-7786"
-              },
-              {
-                "id": "9b88-2b25-72e3-1c56",
-                "name": "Devastating Wounds",
-                "type": "rule",
-                "rule_reference_id": "be1e-ac8e-1e2c-3528"
-              }
-            ],
-            "minSelection": "1",
-            "maxSelection": "1"
-          }
-        ],
+        "cost": "",
+        "weapons": {},
         "maxSelection": "6",
         "selection_scope": "parent"
       },
       {
         "id": "f03b-8761-eac6-1405",
         "name": "Killa Kan w/ Grotzooka",
-        "cost": [],
-        "weapons": [
-          {
-            "id": "60ee-deef-93ce-3fff",
-            "name": "Grotzooka",
-            "cost": "",
-            "range": "18\"",
-            "attacks": "D3+3",
-            "weapon_skill": "4+",
-            "armor_penetration": "0",
-            "damage": "1",
-            "weapon_type": "Ranged Weapons",
-            "keywords": "Blast",
-            "additional_rules": [
-              {
-                "id": "54dc-86f6-68b5-5414",
-                "name": "Blast",
-                "type": "rule",
-                "rule_reference_id": "6c1f-1cf7-ff25-c99e"
-              }
-            ],
-            "minSelection": "1",
-            "maxSelection": "1"
-          }
-        ],
+        "cost": "",
+        "weapons": {},
         "maxSelection": "6",
         "selection_scope": "parent"
       },
       {
         "id": "2058-9f53-d36e-a435",
         "name": "Killa Kan w/ Rokkit launcha",
-        "cost": [],
-        "weapons": [
-          {
-            "id": "4455-2d3a-1c24-58c",
-            "name": "Rokkit launcha",
-            "cost": "",
-            "range": "24\"",
-            "attacks": "D3",
-            "weapon_skill": "4+",
-            "armor_penetration": "-2",
-            "damage": "3",
-            "weapon_type": "Ranged Weapons",
-            "keywords": "Blast",
-            "additional_rules": [
-              {
-                "id": "d87e-87e8-4d5b-415e",
-                "name": "Blast",
-                "type": "rule",
-                "rule_reference_id": "6c1f-1cf7-ff25-c99e"
-              }
-            ],
-            "minSelection": "1",
-            "maxSelection": "1"
-          }
-        ],
+        "cost": "",
+        "weapons": {},
         "maxSelection": "6",
         "selection_scope": "parent"
       },
       {
         "id": "1137-3afb-3ba5-383c",
         "name": "Killa Kan w/ Skorcha",
-        "cost": [],
+        "cost": "",
         "weapons": {},
         "maxSelection": "6",
         "selection_scope": "parent"
@@ -1671,7 +969,7 @@
       {
         "id": "c06e-4f96-af48-1eb4",
         "name": "Kommandos w/ Slugga and choppa",
-        "cost": [],
+        "cost": "",
         "weapons": {},
         "maxSelection": "9",
         "selection_scope": "parent"
@@ -1679,114 +977,32 @@
       {
         "id": "d19-9a70-ac11-9351",
         "name": "Kommandos w/ Speshul Kommando shoota",
-        "cost": [],
-        "weapons": [
-          {
-            "id": "2f3a-bbf6-699b-9289",
-            "name": "Close combat weapon",
-            "cost": "",
-            "range": "Melee",
-            "attacks": "2",
-            "weapon_skill": "3+",
-            "armor_penetration": "0",
-            "damage": "1",
-            "weapon_type": "Melee Weapons",
-            "additional_rules": [],
-            "minSelection": "1",
-            "maxSelection": "1"
-          },
-          {
-            "id": "762d-b4-8ccb-850f",
-            "name": "Speshul Kommando shoota",
-            "cost": "",
-            "range": "18\"",
-            "attacks": "4",
-            "weapon_skill": "5+",
-            "armor_penetration": "0",
-            "damage": "1",
-            "weapon_type": "Ranged Weapons",
-            "keywords": "Rapid Fire 2",
-            "additional_rules": [
-              {
-                "id": "d7aa-d4f4-c91a-b98c",
-                "name": "Rapid Fire",
-                "type": "rule",
-                "rule_reference_id": "c5c8-8b58-b8b6-7786"
-              }
-            ],
-            "minSelection": "1",
-            "maxSelection": "1"
-          }
-        ],
+        "cost": "",
+        "weapons": {},
         "maxSelection": "2",
         "selection_scope": "parent"
       },
       {
         "id": "ffd3-e26f-4606-2527",
         "name": "Kommandos w/ Breacha ram",
-        "cost": [],
-        "weapons": [
-          {
-            "id": "4c8b-44bb-8180-b0ed",
-            "name": "Breacha ram",
-            "cost": "",
-            "range": "Melee",
-            "attacks": "2",
-            "weapon_skill": "4+",
-            "armor_penetration": "-2",
-            "damage": "2",
-            "weapon_type": "Melee Weapons",
-            "additional_rules": [],
-            "minSelection": "1",
-            "maxSelection": "1"
-          }
-        ],
+        "cost": "",
+        "weapons": {},
         "maxSelection": "1",
         "selection_scope": "parent"
       },
       {
         "id": "39f7-82a7-4170-d83d",
         "name": "Kommandos w/ Burna",
-        "cost": [],
-        "weapons": [
-          {
-            "id": "4941-672b-a4ab-adca",
-            "name": "Close combat weapon",
-            "cost": "",
-            "range": "Melee",
-            "attacks": "2",
-            "weapon_skill": "3+",
-            "armor_penetration": "0",
-            "damage": "1",
-            "weapon_type": "Melee Weapons",
-            "additional_rules": [],
-            "minSelection": "1",
-            "maxSelection": "1"
-          }
-        ],
+        "cost": "",
+        "weapons": {},
         "maxSelection": "1",
         "selection_scope": "parent"
       },
       {
         "id": "aa83-fff1-3e8b-6cf9",
         "name": "Kommandos w/ Rokkit launcha",
-        "cost": [],
-        "weapons": [
-          {
-            "id": "4a71-537e-7605-b10e",
-            "name": "Close combat weapon",
-            "cost": "",
-            "range": "Melee",
-            "attacks": "2",
-            "weapon_skill": "3+",
-            "armor_penetration": "0",
-            "damage": "1",
-            "weapon_type": "Melee Weapons",
-            "additional_rules": [],
-            "minSelection": "1",
-            "maxSelection": "1"
-          }
-        ],
+        "cost": "",
+        "weapons": {},
         "maxSelection": "1",
         "selection_scope": "parent"
       }
@@ -1816,84 +1032,7 @@
       "id": "b803-bafc-2b52-160d",
       "name": "Kustom Boosta-blasta",
       "cost": "85",
-      "weapons": [
-        {
-          "id": "6b99-4d78-87c-139c",
-          "name": "Burna exhausts",
-          "cost": "",
-          "range": "6\"",
-          "attacks": "2D6",
-          "weapon_skill": "N/A",
-          "armor_penetration": "0",
-          "damage": "1",
-          "weapon_type": "Ranged Weapons",
-          "keywords": "Ignores Cover, Torrent, Twin-linked",
-          "additional_rules": [
-            {
-              "id": "d74f-7a3a-4941-fa8c",
-              "name": "Ignores Cover",
-              "type": "rule",
-              "rule_reference_id": "4640-43e7-30b-215a"
-            },
-            {
-              "id": "905b-c341-311d-6a48",
-              "name": "Torrent",
-              "type": "rule",
-              "rule_reference_id": "5edf-d619-23e0-9b56"
-            },
-            {
-              "id": "4e8f-2429-d4a6-ee1f",
-              "name": "Twin-linked",
-              "type": "rule",
-              "rule_reference_id": "cf93-ad4d-2f08-a79d"
-            }
-          ],
-          "minSelection": "1",
-          "maxSelection": "1"
-        },
-        {
-          "id": "3dbb-ec2d-abf9-6dbf",
-          "name": "Rivet kannon",
-          "cost": "",
-          "range": "36\"",
-          "attacks": "6",
-          "weapon_skill": "5+",
-          "armor_penetration": "-1",
-          "damage": "2",
-          "weapon_type": "Ranged Weapons",
-          "keywords": "Assault, Rapid Fire 3",
-          "additional_rules": [
-            {
-              "id": "e4dc-fac9-b20b-c54b",
-              "name": "Assault",
-              "type": "rule",
-              "rule_reference_id": "fc8a-8c24-bae9-cc1c"
-            },
-            {
-              "id": "8e82-8574-8abc-bdbf",
-              "name": "Rapid Fire",
-              "type": "rule",
-              "rule_reference_id": "c5c8-8b58-b8b6-7786"
-            }
-          ],
-          "minSelection": "1",
-          "maxSelection": "1"
-        },
-        {
-          "id": "1e6f-fb9a-d02a-a61",
-          "name": "Spiked wheels",
-          "cost": "",
-          "range": "Melee",
-          "attacks": "4",
-          "weapon_skill": "4+",
-          "armor_penetration": "-1",
-          "damage": "2",
-          "weapon_type": "Melee Weapons",
-          "additional_rules": [],
-          "minSelection": "1",
-          "maxSelection": "1"
-        }
-      ],
+      "weapons": {},
       "maxSelection": "3",
       "selection_scope": "roster"
     },
@@ -1922,51 +1061,8 @@
       {
         "id": "242-558b-53ae-d4dd",
         "name": "Loota",
-        "cost": [],
-        "weapons": [
-          {
-            "id": "ca44-aa61-dd15-577",
-            "name": "Deffgun",
-            "cost": "",
-            "range": "48\"",
-            "attacks": "2",
-            "weapon_skill": "6+",
-            "armor_penetration": "-1",
-            "damage": "2",
-            "weapon_type": "Ranged Weapons",
-            "keywords": "Heavy, Rapid Fire 1",
-            "additional_rules": [
-              {
-                "id": "cdea-c836-3168-faa0",
-                "name": "Rapid Fire",
-                "type": "rule",
-                "rule_reference_id": "c5c8-8b58-b8b6-7786"
-              },
-              {
-                "id": "4199-420a-950f-1a86",
-                "name": "Heavy",
-                "type": "rule",
-                "rule_reference_id": "1202-10a8-78e9-4c67"
-              }
-            ],
-            "minSelection": "1",
-            "maxSelection": "1"
-          },
-          {
-            "id": "908-f6bb-5c90-175",
-            "name": "Close combat weapon",
-            "cost": "",
-            "range": "Melee",
-            "attacks": "2",
-            "weapon_skill": "3+",
-            "armor_penetration": "0",
-            "damage": "1",
-            "weapon_type": "Melee Weapons",
-            "additional_rules": [],
-            "minSelection": "1",
-            "maxSelection": "1"
-          }
-        ],
+        "cost": "",
+        "weapons": {},
         "minSelection": "4",
         "maxSelection": "12",
         "selection_scope": "parent"
@@ -2009,30 +1105,7 @@
       "id": "7d51-e2a3-aab6-f7de",
       "name": "Mad Dok Grotsnik",
       "cost": "65",
-      "weapons": [
-        {
-          "id": "83ef-7378-6a4-6ed5",
-          "name": "Power klaw",
-          "cost": "",
-          "range": "Melee",
-          "attacks": "4",
-          "weapon_skill": "3+",
-          "armor_penetration": "-2",
-          "damage": "2",
-          "weapon_type": "Melee Weapons",
-          "keywords": "Sustained Hits 1",
-          "additional_rules": [
-            {
-              "id": "9b87-13a5-9844-e9d3",
-              "name": "Sustained Hits",
-              "type": "rule",
-              "rule_reference_id": "1897-c22c-9597-12b1"
-            }
-          ],
-          "minSelection": "1",
-          "maxSelection": "1"
-        }
-      ],
+      "weapons": {},
       "maxSelection": "1",
       "selection_scope": "roster"
     },
@@ -2054,7 +1127,7 @@
       {
         "id": "e924-a316-2b53-ff06",
         "name": "Meganob w/ Kustom shoota and power klaw",
-        "cost": [],
+        "cost": "",
         "weapons": {},
         "maxSelection": "6",
         "selection_scope": "parent"
@@ -2062,7 +1135,7 @@
       {
         "id": "cdad-e2e0-9db3-93fc",
         "name": "Meganob w/ Kombi-weapon and power klaw",
-        "cost": [],
+        "cost": "",
         "weapons": {},
         "maxSelection": "6",
         "selection_scope": "parent"
@@ -2070,7 +1143,7 @@
       {
         "id": "caae-830b-ecc1-cf",
         "name": "Meganob w/ Kombi-weapon and killsaw",
-        "cost": [],
+        "cost": "",
         "weapons": {},
         "maxSelection": "6",
         "selection_scope": "parent"
@@ -2078,7 +1151,7 @@
       {
         "id": "2565-a1d8-4dd8-7649",
         "name": "Meganob w/ Kustom shoota and killsaw",
-        "cost": [],
+        "cost": "",
         "weapons": {},
         "maxSelection": "6",
         "selection_scope": "parent"
@@ -2086,7 +1159,7 @@
       {
         "id": "494c-95d1-815c-db90",
         "name": "Meganob w/ Killsaw and power klaw",
-        "cost": [],
+        "cost": "",
         "weapons": {},
         "maxSelection": "6",
         "selection_scope": "parent"
@@ -2094,31 +1167,8 @@
       {
         "id": "731f-2f2-7ca0-23ed",
         "name": "Meganob w/ Twin killsaw",
-        "cost": [],
-        "weapons": [
-          {
-            "id": "b46a-4885-3b28-428b",
-            "name": "Twin killsaw",
-            "cost": "",
-            "range": "Melee",
-            "attacks": "2",
-            "weapon_skill": "4+",
-            "armor_penetration": "-3",
-            "damage": "2",
-            "weapon_type": "Melee Weapons",
-            "keywords": "Twin-linked",
-            "additional_rules": [
-              {
-                "id": "28d7-713c-c638-1029",
-                "name": "Twin-linked",
-                "type": "rule",
-                "rule_reference_id": "cf93-ad4d-2f08-a79d"
-              }
-            ],
-            "minSelection": "1",
-            "maxSelection": "1"
-          }
-        ],
+        "cost": "",
+        "weapons": {},
         "maxSelection": "6",
         "selection_scope": "parent"
       }
@@ -2149,57 +1199,7 @@
       "id": "8dd-f235-ef18-d36",
       "name": "Megatrakk Scrapjet",
       "cost": "90",
-      "weapons": [
-        {
-          "id": "b61f-53e8-255c-baa4",
-          "name": "Rokkit cannon",
-          "cost": "",
-          "range": "24\"",
-          "attacks": "D6+1",
-          "weapon_skill": "5+",
-          "armor_penetration": "-2",
-          "damage": "3",
-          "weapon_type": "Ranged Weapons",
-          "keywords": "Blast",
-          "additional_rules": [
-            {
-              "id": "d12d-9d1c-8dd2-df9a",
-              "name": "Blast",
-              "type": "rule",
-              "rule_reference_id": "6c1f-1cf7-ff25-c99e"
-            }
-          ],
-          "minSelection": "1",
-          "maxSelection": "1"
-        },
-        {
-          "id": "5432-c802-9ea6-7da1",
-          "name": "Wing missiles",
-          "cost": "",
-          "attacks": "1",
-          "weapon_skill": "5+",
-          "armor_penetration": "-2",
-          "damage": "3",
-          "weapon_type": "Ranged Weapons",
-          "additional_rules": [],
-          "minSelection": "1",
-          "maxSelection": "1"
-        },
-        {
-          "id": "9b03-86ea-b6b9-8155",
-          "name": "Nose drill",
-          "cost": "",
-          "range": "Melee",
-          "attacks": "4",
-          "weapon_skill": "4+",
-          "armor_penetration": "-1",
-          "damage": "2",
-          "weapon_type": "Melee Weapons",
-          "additional_rules": [],
-          "minSelection": "1",
-          "maxSelection": "1"
-        }
-      ],
+      "weapons": {},
       "maxSelection": "3",
       "selection_scope": "roster"
     },
@@ -2228,7 +1228,7 @@
       "id": "3b2-8c11-616a-1005",
       "name": "Mek",
       "cost": "45",
-      "weapons": [],
+      "weapons": {},
       "maxSelection": "3",
       "selection_scope": "roster"
     },
@@ -2238,7 +1238,7 @@
   {
     "id": "b37a-8686-db2c-8cbd",
     "name": "Mek Gunz",
-    "cost": [],
+    "cost": "",
     "movement": "3\"",
     "toughness": "5",
     "save": "5+",
@@ -2258,30 +1258,7 @@
         "id": "e82a-232e-e43d-a061",
         "name": "Mek Gun w/ Smasha gun",
         "cost": "55",
-        "weapons": [
-          {
-            "id": "507e-5415-d6c5-f5f5",
-            "name": "Smasha gun",
-            "cost": "",
-            "range": "48\"",
-            "attacks": "D3",
-            "weapon_skill": "4+",
-            "armor_penetration": "-3",
-            "damage": "3",
-            "weapon_type": "Ranged Weapons",
-            "keywords": "Blast",
-            "additional_rules": [
-              {
-                "id": "dc2c-ccca-f61c-8462",
-                "name": "Blast",
-                "type": "rule",
-                "rule_reference_id": "6c1f-1cf7-ff25-c99e"
-              }
-            ],
-            "minSelection": "1",
-            "maxSelection": "1"
-          }
-        ],
+        "weapons": {},
         "maxSelection": "3",
         "selection_scope": "parent"
       },
@@ -2289,30 +1266,7 @@
         "id": "8aea-b460-9ad6-252d",
         "name": "Mek Gun w/ Bubblechukka",
         "cost": "55",
-        "weapons": [
-          {
-            "id": "7405-d2d-3719-ef01",
-            "name": "Bubblechukka",
-            "cost": "",
-            "range": "48\"",
-            "attacks": "2D6",
-            "weapon_skill": "4+",
-            "armor_penetration": "-1",
-            "damage": "1",
-            "weapon_type": "Ranged Weapons",
-            "keywords": "Bubblechukka, Blast",
-            "additional_rules": [
-              {
-                "id": "97cd-9ef-f8ef-77ab",
-                "name": "Blast",
-                "type": "rule",
-                "rule_reference_id": "6c1f-1cf7-ff25-c99e"
-              }
-            ],
-            "minSelection": "1",
-            "maxSelection": "1"
-          }
-        ],
+        "weapons": {},
         "maxSelection": "3",
         "selection_scope": "parent"
       },
@@ -2320,36 +1274,7 @@
         "id": "ef50-eb48-bba3-d692",
         "name": "Mek Gun w/ Kustom mega-kannon",
         "cost": "55",
-        "weapons": [
-          {
-            "id": "7c57-a55a-77b9-88f3",
-            "name": "Kustom mega-kannon",
-            "cost": "",
-            "range": "36\"",
-            "attacks": "D6",
-            "weapon_skill": "4+",
-            "armor_penetration": "-2",
-            "damage": "D6",
-            "weapon_type": "Ranged Weapons",
-            "keywords": "Blast, Hazardous",
-            "additional_rules": [
-              {
-                "id": "7fb6-fbbc-13a0-f950",
-                "name": "Hazardous",
-                "type": "rule",
-                "rule_reference_id": "8367-374c-f87-c627"
-              },
-              {
-                "id": "2a4-a324-6573-c5cb",
-                "name": "Blast",
-                "type": "rule",
-                "rule_reference_id": "6c1f-1cf7-ff25-c99e"
-              }
-            ],
-            "minSelection": "1",
-            "maxSelection": "1"
-          }
-        ],
+        "weapons": {},
         "maxSelection": "3",
         "selection_scope": "parent"
       },
@@ -2357,36 +1282,7 @@
         "id": "c800-4c3a-de49-f05b",
         "name": "Mek Gun w/ Traktor kannon",
         "cost": "55",
-        "weapons": [
-          {
-            "id": "8c70-6865-15de-27f1",
-            "name": "Traktor kannon",
-            "cost": "",
-            "range": "48\"",
-            "attacks": "1",
-            "weapon_skill": "4+",
-            "armor_penetration": "-2",
-            "damage": "D6+1",
-            "weapon_type": "Ranged Weapons",
-            "keywords": "Anti-Fly 2+, Devastating Wounds",
-            "additional_rules": [
-              {
-                "id": "7b1a-b396-adba-de60",
-                "name": "Devastating Wounds",
-                "type": "rule",
-                "rule_reference_id": "be1e-ac8e-1e2c-3528"
-              },
-              {
-                "id": "20bb-6a4d-b895-fbee",
-                "name": "Anti-",
-                "type": "rule",
-                "rule_reference_id": "4111-82e3-9444-e942"
-              }
-            ],
-            "minSelection": "1",
-            "maxSelection": "1"
-          }
-        ],
+        "weapons": {},
         "maxSelection": "3",
         "selection_scope": "parent"
       }
@@ -2423,50 +1319,7 @@
       "id": "9ee5-2b39-de06-dda6",
       "name": "Morkanaut",
       "cost": "330",
-      "weapons": [
-        {
-          "id": "a551-a1e2-3fcd-4f4b",
-          "name": "Kustom mega-zappa",
-          "cost": "",
-          "range": "36\"",
-          "attacks": "D6+3",
-          "weapon_skill": "5+",
-          "armor_penetration": "-2",
-          "damage": "D6",
-          "weapon_type": "Ranged Weapons",
-          "keywords": "Blast, Hazardous",
-          "additional_rules": [
-            {
-              "id": "acbf-e6c6-6f88-11e8",
-              "name": "Blast",
-              "type": "rule",
-              "rule_reference_id": "6c1f-1cf7-ff25-c99e"
-            },
-            {
-              "id": "c3d2-7f4a-4bc-a6f2",
-              "name": "Hazardous",
-              "type": "rule",
-              "rule_reference_id": "8367-374c-f87-c627"
-            }
-          ],
-          "minSelection": "1",
-          "maxSelection": "1"
-        },
-        {
-          "id": "4d14-52f3-b6dd-b10c",
-          "name": "Klaw of Mork",
-          "cost": "",
-          "range": "Melee",
-          "attacks": "4",
-          "weapon_skill": "3+",
-          "armor_penetration": "-3",
-          "damage": "6",
-          "weapon_type": "Melee Weapons",
-          "additional_rules": [],
-          "minSelection": "1",
-          "maxSelection": "1"
-        }
-      ],
+      "weapons": {},
       "maxSelection": "3",
       "selection_scope": "roster"
     },
@@ -2495,52 +1348,7 @@
       "id": "af6a-7c7f-5459-a47e",
       "name": "Nob on Smasha Squig",
       "cost": "60",
-      "weapons": [
-        {
-          "id": "ffc4-6d94-5b76-150b",
-          "name": "Smasha squig jaws",
-          "cost": "",
-          "range": "Melee",
-          "attacks": "2",
-          "weapon_skill": "4+",
-          "armor_penetration": "-1",
-          "damage": "2",
-          "weapon_type": "Melee Weapons",
-          "keywords": "Extra Attacks",
-          "additional_rules": [
-            {
-              "id": "b776-3504-64a0-db69",
-              "name": "Extra Attacks",
-              "type": "rule",
-              "rule_reference_id": "115b-79dc-f723-d761"
-            }
-          ],
-          "minSelection": "1",
-          "maxSelection": "1"
-        },
-        {
-          "id": "71a-704d-74e4-5dbf",
-          "name": "Big choppa",
-          "cost": "",
-          "range": "Melee",
-          "attacks": "5",
-          "weapon_skill": "3+",
-          "armor_penetration": "-1",
-          "damage": "2",
-          "weapon_type": "Melee Weapons",
-          "keywords": "Anti-Monster 4+, Anti-Vehicle 4+",
-          "additional_rules": [
-            {
-              "id": "125-bb21-4093-a148",
-              "name": "Anti-",
-              "type": "rule",
-              "rule_reference_id": "4111-82e3-9444-e942"
-            }
-          ],
-          "minSelection": "1",
-          "maxSelection": "1"
-        }
-      ],
+      "weapons": {},
       "maxSelection": "3",
       "selection_scope": "roster"
     },
@@ -2581,58 +1389,7 @@
       "id": "b42b-ea0-38f1-6300",
       "name": "Mozrog Skragbad",
       "cost": "195",
-      "weapons": [
-        {
-          "id": "2ace-f88f-3405-d191",
-          "name": "Big Chompa’s jaws",
-          "cost": "",
-          "range": "Melee",
-          "attacks": "3",
-          "weapon_skill": "3+",
-          "armor_penetration": "-2",
-          "damage": "4",
-          "weapon_type": "Melee Weapons",
-          "keywords": "Devastating Wounds, Extra Attacks",
-          "additional_rules": [
-            {
-              "id": "5f70-2deb-db0-1ca",
-              "name": "Extra Attacks",
-              "type": "rule",
-              "rule_reference_id": "115b-79dc-f723-d761"
-            },
-            {
-              "id": "adda-631a-8e73-dfa7",
-              "name": "Devastating Wounds",
-              "type": "rule",
-              "rule_reference_id": "be1e-ac8e-1e2c-3528"
-            }
-          ],
-          "minSelection": "1",
-          "maxSelection": "1"
-        },
-        {
-          "id": "2fec-7b95-a5df-f688",
-          "name": "Gutrippa",
-          "cost": "",
-          "range": "Melee",
-          "attacks": "6",
-          "weapon_skill": "2+",
-          "armor_penetration": "-1",
-          "damage": "3",
-          "weapon_type": "Melee Weapons",
-          "keywords": "Anti-Monster 4+, Anti-Vehicle 4+",
-          "additional_rules": [
-            {
-              "id": "2e69-5c9d-ffbd-d5db",
-              "name": "Anti-",
-              "type": "rule",
-              "rule_reference_id": "4111-82e3-9444-e942"
-            }
-          ],
-          "minSelection": "1",
-          "maxSelection": "1"
-        }
-      ],
+      "weapons": {},
       "maxSelection": "1",
       "selection_scope": "roster"
     },
@@ -2667,22 +1424,7 @@
       "id": "3b35-92f5-bd1a-af8d",
       "name": "Nob with Waaagh! Banner",
       "cost": "70",
-      "weapons": [
-        {
-          "id": "ffeb-65c9-3bb8-f2b1",
-          "name": "Waaagh! banner",
-          "cost": "",
-          "range": "Melee",
-          "attacks": "3",
-          "weapon_skill": "3+",
-          "armor_penetration": "-2",
-          "damage": "2",
-          "weapon_type": "Melee Weapons",
-          "additional_rules": [],
-          "minSelection": "1",
-          "maxSelection": "1"
-        }
-      ],
+      "weapons": {},
       "maxSelection": "3",
       "selection_scope": "roster"
     },
@@ -2711,30 +1453,15 @@
       {
         "id": "9d59-90c-9048-1e82",
         "name": "Nob w/ Slugga and big choppa",
-        "cost": [],
-        "weapons": [
-          {
-            "id": "9909-7ab4-63fb-9fe",
-            "name": "Big choppa",
-            "cost": "",
-            "range": "Melee",
-            "attacks": "3",
-            "weapon_skill": "3+",
-            "armor_penetration": "-1",
-            "damage": "2",
-            "weapon_type": "Melee Weapons",
-            "additional_rules": [],
-            "minSelection": "1",
-            "maxSelection": "1"
-          }
-        ],
+        "cost": "",
+        "weapons": {},
         "maxSelection": "9",
         "selection_scope": "parent"
       },
       {
         "id": "3bd9-3eb1-8b1f-2b31",
         "name": "Nob w/ Slugga and power klaw",
-        "cost": [],
+        "cost": "",
         "weapons": {},
         "maxSelection": "9",
         "selection_scope": "parent"
@@ -2742,23 +1469,8 @@
       {
         "id": "252b-cdba-84bd-3ed3",
         "name": "Nob w/ Kombi-weapon",
-        "cost": [],
-        "weapons": [
-          {
-            "id": "e86-bfb2-149c-e8ec",
-            "name": "Close combat weapon",
-            "cost": "",
-            "range": "Melee",
-            "attacks": "3",
-            "weapon_skill": "3+",
-            "armor_penetration": "0",
-            "damage": "1",
-            "weapon_type": "Melee Weapons",
-            "additional_rules": [],
-            "minSelection": "1",
-            "maxSelection": "1"
-          }
-        ],
+        "cost": "",
+        "weapons": {},
         "maxSelection": "9",
         "selection_scope": "parent"
       }
@@ -2794,7 +1506,7 @@
       "id": "a74a-107a-e2ac-7e4c",
       "name": "Painboss",
       "cost": "60",
-      "weapons": [],
+      "weapons": {},
       "maxSelection": "3",
       "selection_scope": "roster"
     },
@@ -2829,7 +1541,7 @@
       "id": "7669-1442-2c0b-e0c9",
       "name": "Painboy",
       "cost": "70",
-      "weapons": [],
+      "weapons": {},
       "maxSelection": "3",
       "selection_scope": "roster"
     },
@@ -2857,71 +1569,14 @@
         "id": "e39a-81fc-953-c1fa",
         "name": "Squig Mine",
         "cost": "",
-        "description": "Once per battle, at the start of any phase, select one enemy unit within 3\" of this model and roll one D6: on a 4+, that enemy unit suffers D6 mortal wounds.\r\nDesigner’s Note: Place a Squig Mine token next to the model, removing it once this ability has been used."
+        "description": "Once per battle, at the start of any phase, select one enemy unit within 3\" of this model and roll one D6: on a 4+, that enemy unit suffers D6 mortal wounds.\nDesigner’s Note: Place a Squig Mine token next to the model, removing it once this ability has been used."
       }
     ],
     "models": {
       "id": "a856-30b7-e56d-57db",
       "name": "Rukkatrukk Squigbuggy",
       "cost": "110",
-      "weapons": [
-        {
-          "id": "612-a936-747-bddd",
-          "name": "Sawn-off shotgun",
-          "cost": "",
-          "range": "12\"",
-          "attacks": "2",
-          "weapon_skill": "5+",
-          "armor_penetration": "0",
-          "damage": "1",
-          "weapon_type": "Ranged Weapons",
-          "keywords": "Assault",
-          "additional_rules": [
-            {
-              "id": "917b-73af-9776-a96e",
-              "name": "Assault",
-              "type": "rule",
-              "rule_reference_id": "fc8a-8c24-bae9-cc1c"
-            }
-          ],
-          "minSelection": "1",
-          "maxSelection": "1"
-        },
-        {
-          "id": "83de-e506-3087-6bc5",
-          "name": "Squig launchas",
-          "cost": "",
-          "range": "36\"",
-          "attacks": "D6+6",
-          "weapon_skill": "5+",
-          "armor_penetration": "-1",
-          "damage": "2",
-          "weapon_type": "Ranged Weapons",
-          "keywords": "Blast, Ignores Cover, Indirect Fire",
-          "additional_rules": [
-            {
-              "id": "48d0-df03-65ba-2508",
-              "name": "Blast",
-              "type": "rule",
-              "rule_reference_id": "6c1f-1cf7-ff25-c99e"
-            },
-            {
-              "id": "612e-5060-1912-d03d",
-              "name": "Indirect Fire",
-              "type": "rule",
-              "rule_reference_id": "4ddd-4e29-acdd-5e6d"
-            },
-            {
-              "id": "f5d8-f2fa-9cdb-f6d7",
-              "name": "Ignores Cover",
-              "type": "rule",
-              "rule_reference_id": "4640-43e7-30b-215a"
-            }
-          ],
-          "minSelection": "1",
-          "maxSelection": "1"
-        }
-      ],
+      "weapons": {},
       "maxSelection": "3",
       "selection_scope": "roster"
     },
@@ -2951,64 +1606,7 @@
       "id": "1d12-e2ae-33bb-4558",
       "name": "Shokkjump Dragsta",
       "cost": "85",
-      "weapons": [
-        {
-          "id": "d940-23b6-c25b-104f",
-          "name": "Kustom shokk rifle",
-          "cost": "",
-          "range": "24\"",
-          "attacks": "1",
-          "weapon_skill": "3+",
-          "armor_penetration": "-2",
-          "damage": "D6+1",
-          "weapon_type": "Ranged Weapons",
-          "keywords": "Devastating Wounds, Hazardous, Precision",
-          "additional_rules": [
-            {
-              "id": "3777-1459-e779-d501",
-              "name": "Devastating Wounds",
-              "type": "rule",
-              "rule_reference_id": "be1e-ac8e-1e2c-3528"
-            },
-            {
-              "id": "8f73-9370-a6be-da78",
-              "name": "Precision",
-              "type": "rule",
-              "rule_reference_id": "9143-31ae-e0a6-6007"
-            },
-            {
-              "id": "a8f4-aab-341b-2a71",
-              "name": "Hazardous",
-              "type": "rule",
-              "rule_reference_id": "8367-374c-f87-c627"
-            }
-          ],
-          "minSelection": "1",
-          "maxSelection": "1"
-        },
-        {
-          "id": "b378-fed-f4fd-397a",
-          "name": "Rokkits",
-          "cost": "",
-          "range": "24\"",
-          "attacks": "D3",
-          "weapon_skill": "5+",
-          "armor_penetration": "-2",
-          "damage": "3",
-          "weapon_type": "Ranged Weapons",
-          "keywords": "Blast",
-          "additional_rules": [
-            {
-              "id": "5f51-285b-ea2d-2ab4",
-              "name": "Blast",
-              "type": "rule",
-              "rule_reference_id": "6c1f-1cf7-ff25-c99e"
-            }
-          ],
-          "minSelection": "1",
-          "maxSelection": "1"
-        }
-      ],
+      "weapons": {},
       "maxSelection": "3",
       "selection_scope": "roster"
     },
@@ -3037,87 +1635,8 @@
       {
         "id": "b905-3c8c-1b74-d4e1",
         "name": "Squighog Boy",
-        "cost": [],
-        "weapons": [
-          {
-            "id": "c35b-e412-c457-e6b0",
-            "name": "Saddlegit weapons",
-            "cost": "",
-            "range": "9\"",
-            "attacks": "1",
-            "weapon_skill": "4+",
-            "armor_penetration": "0",
-            "damage": "1",
-            "weapon_type": "Ranged Weapons",
-            "keywords": "Assault",
-            "additional_rules": [
-              {
-                "id": "c23d-97f6-854e-4690",
-                "name": "Assault",
-                "type": "rule",
-                "rule_reference_id": "fc8a-8c24-bae9-cc1c"
-              }
-            ],
-            "minSelection": "1",
-            "maxSelection": "1"
-          },
-          {
-            "id": "710e-7ab3-4915-a313",
-            "name": "Stikka",
-            "cost": "",
-            "range": "12\"",
-            "attacks": "1",
-            "weapon_skill": "5+",
-            "armor_penetration": "-1",
-            "damage": "2",
-            "weapon_type": "Ranged Weapons",
-            "keywords": "Assault, Anti-Monster 4+, Anti-Vehicle 4+",
-            "additional_rules": [
-              {
-                "id": "b7fd-5a9b-c452-7f85",
-                "name": "Assault",
-                "type": "rule",
-                "rule_reference_id": "fc8a-8c24-bae9-cc1c"
-              },
-              {
-                "id": "61f9-4ffb-2103-28c2",
-                "name": "Anti-",
-                "type": "rule",
-                "rule_reference_id": "4111-82e3-9444-e942"
-              },
-              {
-                "id": "e8a8-c52e-d353-2746",
-                "name": "Lance",
-                "type": "rule",
-                "rule_reference_id": "2ebc-abdf-8129-6c57"
-              }
-            ],
-            "minSelection": "1",
-            "maxSelection": "1"
-          },
-          {
-            "id": "723b-b27b-20d3-9a10",
-            "name": "Squighog jaws and saddlegits",
-            "cost": "",
-            "range": "Melee",
-            "attacks": "3",
-            "weapon_skill": "4+",
-            "armor_penetration": "-1",
-            "damage": "2",
-            "weapon_type": "Melee Weapons",
-            "keywords": "Extra Attacks",
-            "additional_rules": [
-              {
-                "id": "d59b-f8b6-b945-ab0",
-                "name": "Extra Attacks",
-                "type": "rule",
-                "rule_reference_id": "115b-79dc-f723-d761"
-              }
-            ],
-            "minSelection": "1",
-            "maxSelection": "1"
-          }
-        ],
+        "cost": "",
+        "weapons": {},
         "minSelection": "3",
         "maxSelection": "6",
         "selection_scope": "parent"
@@ -3160,88 +1679,7 @@
       "id": "6c08-9131-14a3-a3b4",
       "name": "Stompa",
       "cost": "800",
-      "weapons": [
-        {
-          "id": "6f6c-ce7c-4b1-261",
-          "name": "Deffkannon",
-          "cost": "",
-          "range": "72\"",
-          "attacks": "3D6",
-          "weapon_skill": "5+",
-          "armor_penetration": "-3",
-          "damage": "D6",
-          "weapon_type": "Ranged Weapons",
-          "keywords": "Blast",
-          "additional_rules": [
-            {
-              "id": "90a9-ffb-a15-d53f",
-              "name": "Blast",
-              "type": "rule",
-              "rule_reference_id": "6c1f-1cf7-ff25-c99e"
-            }
-          ],
-          "minSelection": "1",
-          "maxSelection": "1"
-        },
-        {
-          "id": "6e92-6712-f0a8-94ee",
-          "name": "Supa-gatler",
-          "cost": "",
-          "range": "24\"",
-          "attacks": "20",
-          "weapon_skill": "5+",
-          "armor_penetration": "-1",
-          "damage": "2",
-          "weapon_type": "Ranged Weapons",
-          "keywords": "Sustained Hits 1",
-          "additional_rules": [
-            {
-              "id": "cbd7-276b-1ba4-f746",
-              "name": "Sustained Hits",
-              "type": "rule",
-              "rule_reference_id": "1897-c22c-9597-12b1"
-            }
-          ],
-          "minSelection": "1",
-          "maxSelection": "1"
-        },
-        {
-          "id": "4d17-4755-2efd-6a88",
-          "name": "Supa-rokkits",
-          "cost": "",
-          "range": "100\"",
-          "attacks": "D6",
-          "weapon_skill": "5+",
-          "armor_penetration": "-3",
-          "damage": "D6+2",
-          "weapon_type": "Ranged Weapons",
-          "keywords": "Blast",
-          "additional_rules": [
-            {
-              "id": "937a-a526-5cd1-98",
-              "name": "Blast",
-              "type": "rule",
-              "rule_reference_id": "6c1f-1cf7-ff25-c99e"
-            }
-          ],
-          "minSelection": "1",
-          "maxSelection": "1"
-        },
-        {
-          "id": "dccf-9841-24d4-bc7b",
-          "name": "Mega-choppa",
-          "cost": "",
-          "range": "Melee",
-          "attacks": "6",
-          "weapon_skill": "3+",
-          "armor_penetration": "-5",
-          "damage": "10",
-          "weapon_type": "Melee Weapons",
-          "additional_rules": [],
-          "minSelection": "1",
-          "maxSelection": "1"
-        }
-      ],
+      "weapons": {},
       "maxSelection": "3",
       "selection_scope": "roster"
     },
@@ -3264,7 +1702,7 @@
       {
         "id": "540f-1216-ff44-6a37",
         "name": "Stormboy",
-        "cost": [],
+        "cost": "",
         "weapons": {},
         "minSelection": "4",
         "maxSelection": "9",
@@ -3295,30 +1733,15 @@
         "id": "1ea4-3804-49fa-3c0a",
         "name": "Bomb Squigs",
         "cost": "",
-        "description": "Twice per battle, after this unit ends a Normal move, you can select one enemy unit within 12\" of it and roll one D6: on a 2+, that enemy unit suffers D3 mortal wounds.\r\nDesigner’s Note: Place two Bomb Squig tokens next to the unit, removing one each time this unit uses this ability."
+        "description": "Twice per battle, after this unit ends a Normal move, you can select one enemy unit within 12\" of it and roll one D6: on a 2+, that enemy unit suffers D3 mortal wounds.\nDesigner’s Note: Place two Bomb Squig tokens next to the unit, removing one each time this unit uses this ability."
       }
     ],
     "models": [
       {
         "id": "cdd4-c8f7-bc72-9af0",
         "name": "Boss Nob",
-        "cost": [],
-        "weapons": [
-          {
-            "id": "4dfb-aa75-8e3d-d7a4",
-            "name": "Close combat weapon",
-            "cost": "",
-            "range": "Melee",
-            "attacks": "2",
-            "weapon_skill": "3+",
-            "armor_penetration": "0",
-            "damage": "1",
-            "weapon_type": "Melee Weapons",
-            "additional_rules": [],
-            "minSelection": "1",
-            "maxSelection": "1"
-          }
-        ],
+        "cost": "",
+        "weapons": {},
         "minSelection": "1",
         "maxSelection": "1",
         "selection_scope": "parent"
@@ -3326,51 +1749,8 @@
       {
         "id": "3900-9903-1869-be8",
         "name": "Tankbusta w/ Pair of rokkit pistols",
-        "cost": [],
-        "weapons": [
-          {
-            "id": "3385-f86b-c083-7480",
-            "name": "Close combat weapon",
-            "cost": "",
-            "range": "Melee",
-            "attacks": "2",
-            "weapon_skill": "3+",
-            "armor_penetration": "0",
-            "damage": "1",
-            "weapon_type": "Melee Weapons",
-            "additional_rules": [],
-            "minSelection": "1",
-            "maxSelection": "1"
-          },
-          {
-            "id": "5286-15d5-965f-643d",
-            "name": "Pair of rokkit pistols",
-            "cost": "",
-            "range": "12\"",
-            "attacks": "1",
-            "weapon_skill": "5+",
-            "armor_penetration": "-1",
-            "damage": "D3",
-            "weapon_type": "Ranged Weapons",
-            "keywords": "Pistol, Twin-linked",
-            "additional_rules": [
-              {
-                "id": "8f23-bd46-a23f-fc26",
-                "name": "Pistol",
-                "type": "rule",
-                "rule_reference_id": "8bf7-8812-923d-29e4"
-              },
-              {
-                "id": "a435-245f-f1c2-faa0",
-                "name": "Twin-linked",
-                "type": "rule",
-                "rule_reference_id": "cf93-ad4d-2f08-a79d"
-              }
-            ],
-            "minSelection": "1",
-            "maxSelection": "1"
-          }
-        ],
+        "cost": "",
+        "weapons": {},
         "minSelection": "1",
         "maxSelection": "1",
         "selection_scope": "parent"
@@ -3378,23 +1758,8 @@
       {
         "id": "40b3-1364-acb9-c1eb",
         "name": "Tankbusta w/ Rokkit launcha",
-        "cost": [],
-        "weapons": [
-          {
-            "id": "88b1-9c9d-fd88-d014",
-            "name": "Close combat weapon",
-            "cost": "",
-            "range": "Melee",
-            "attacks": "2",
-            "weapon_skill": "3+",
-            "armor_penetration": "0",
-            "damage": "1",
-            "weapon_type": "Melee Weapons",
-            "additional_rules": [],
-            "minSelection": "1",
-            "maxSelection": "1"
-          }
-        ],
+        "cost": "",
+        "weapons": {},
         "minSelection": "2",
         "maxSelection": "2",
         "selection_scope": "parent"
@@ -3402,43 +1767,8 @@
       {
         "id": "f214-7d61-fe6-44fa",
         "name": "Tankbusta w/ Tankhammer",
-        "cost": [],
-        "weapons": [
-          {
-            "id": "7f71-ee8f-4cdd-c53b",
-            "name": "Tankhammer",
-            "cost": "",
-            "range": "Melee",
-            "attacks": "2",
-            "weapon_skill": "3+",
-            "armor_penetration": "-1",
-            "damage": "D3",
-            "weapon_type": "Melee Weapons",
-            "keywords": "Anti-Vehicle 4+, Devastating Wounds, Hazardous",
-            "additional_rules": [
-              {
-                "id": "669a-909e-bfb5-63fb",
-                "name": "Anti-",
-                "type": "rule",
-                "rule_reference_id": "4111-82e3-9444-e942"
-              },
-              {
-                "id": "3978-a04d-eea4-2013",
-                "name": "Devastating Wounds",
-                "type": "rule",
-                "rule_reference_id": "be1e-ac8e-1e2c-3528"
-              },
-              {
-                "id": "826f-c16c-e836-1f1d",
-                "name": "Hazardous",
-                "type": "rule",
-                "rule_reference_id": "8367-374c-f87-c627"
-              }
-            ],
-            "minSelection": "1",
-            "maxSelection": "1"
-          }
-        ],
+        "cost": "",
+        "weapons": {},
         "minSelection": "1",
         "maxSelection": "1",
         "selection_scope": "parent"
@@ -3469,7 +1799,7 @@
       "id": "1291-7ba8-2c5a-4a92",
       "name": "Trukk",
       "cost": "60",
-      "weapons": [],
+      "weapons": {},
       "maxSelection": "6",
       "selection_scope": "roster"
     },
@@ -3498,69 +1828,24 @@
       {
         "id": "64c4-85e4-bc36-e4b6",
         "name": "Warbiker",
-        "cost": [],
-        "weapons": [
-          {
-            "id": "f870-542c-c280-a18a",
-            "name": "Close combat weapon",
-            "cost": "",
-            "range": "Melee",
-            "attacks": "2",
-            "weapon_skill": "3+",
-            "armor_penetration": "0",
-            "damage": "1",
-            "weapon_type": "Melee Weapons",
-            "additional_rules": [],
-            "minSelection": "1",
-            "maxSelection": "1"
-          }
-        ],
+        "cost": "",
+        "weapons": {},
         "maxSelection": "5",
         "selection_scope": "parent"
       },
       {
         "id": "df67-9045-caed-7f37",
         "name": "Warbiker w/ Slugga",
-        "cost": [],
-        "weapons": [
-          {
-            "id": "1c76-d391-a138-7f48",
-            "name": "Close combat weapon",
-            "cost": "",
-            "range": "Melee",
-            "attacks": "2",
-            "weapon_skill": "3+",
-            "armor_penetration": "0",
-            "damage": "1",
-            "weapon_type": "Melee Weapons",
-            "additional_rules": [],
-            "minSelection": "1",
-            "maxSelection": "1"
-          }
-        ],
+        "cost": "",
+        "weapons": {},
         "maxSelection": "5",
         "selection_scope": "parent"
       },
       {
         "id": "b072-d55f-9271-c7f2",
         "name": "Warbiker w/ Choppa",
-        "cost": [],
-        "weapons": [
-          {
-            "id": "6681-dfe5-9690-b810",
-            "name": "Close combat weapon",
-            "cost": "",
-            "range": "Melee",
-            "attacks": "2",
-            "weapon_skill": "3+",
-            "armor_penetration": "0",
-            "damage": "1",
-            "weapon_type": "Melee Weapons",
-            "additional_rules": [],
-            "minSelection": "1",
-            "maxSelection": "1"
-          }
-        ],
+        "cost": "",
+        "weapons": {},
         "maxSelection": "5",
         "selection_scope": "parent"
       }
@@ -3603,7 +1888,7 @@
       "id": "2efc-c4b3-2ecc-5a37",
       "name": "Warboss",
       "cost": "65",
-      "weapons": [],
+      "weapons": {},
       "maxSelection": "3",
       "selection_scope": "roster"
     },
@@ -3644,44 +1929,7 @@
       "id": "494b-11ce-5af-5b50",
       "name": "Warboss in Mega Armour",
       "cost": "80",
-      "weapons": [
-        {
-          "id": "7142-4c07-8072-8474",
-          "name": "Big shoota",
-          "cost": "",
-          "range": "36\"",
-          "attacks": "3",
-          "weapon_skill": "4+",
-          "armor_penetration": "0",
-          "damage": "1",
-          "weapon_type": "Ranged Weapons",
-          "keywords": "Rapid Fire 2",
-          "additional_rules": [
-            {
-              "id": "6314-92eb-dafe-d40",
-              "name": "Rapid Fire",
-              "type": "rule",
-              "rule_reference_id": "c5c8-8b58-b8b6-7786"
-            }
-          ],
-          "minSelection": "1",
-          "maxSelection": "1"
-        },
-        {
-          "id": "dfb9-6a5b-f638-73d9",
-          "name": "’Uge choppa",
-          "cost": "",
-          "range": "Melee",
-          "attacks": "4",
-          "weapon_skill": "2+",
-          "armor_penetration": "-2",
-          "damage": "2",
-          "weapon_type": "Melee Weapons",
-          "additional_rules": [],
-          "minSelection": "1",
-          "maxSelection": "1"
-        }
-      ],
+      "weapons": {},
       "maxSelection": "3",
       "selection_scope": "roster"
     },
@@ -3710,7 +1958,7 @@
       "id": "3832-ad97-2b3b-8775",
       "name": "Wazbom Blastajet",
       "cost": "175",
-      "weapons": [],
+      "weapons": {},
       "maxSelection": "3",
       "selection_scope": "roster"
     },
@@ -3739,45 +1987,7 @@
       "id": "260d-9ce4-ea1f-a957",
       "name": "Weirdboy",
       "cost": "55",
-      "weapons": [
-        {
-          "id": "ee69-ed3e-1164-78e9",
-          "name": "’Eadbanger",
-          "cost": "",
-          "range": "24\"",
-          "attacks": "1",
-          "weapon_skill": "4+",
-          "armor_penetration": "-3",
-          "damage": "1",
-          "weapon_type": "Ranged Weapons",
-          "keywords": "Precision, Psychic",
-          "additional_rules": [
-            {
-              "id": "7450-765-6721-c2c4",
-              "name": "Precision",
-              "type": "rule",
-              "rule_reference_id": "9143-31ae-e0a6-6007"
-            }
-          ],
-          "minSelection": "1",
-          "maxSelection": "1"
-        },
-        {
-          "id": "9829-357a-9c17-3417",
-          "name": "Weirdboy staff",
-          "cost": "",
-          "range": "Melee",
-          "attacks": "3",
-          "weapon_skill": "3+",
-          "armor_penetration": "-1",
-          "damage": "D3",
-          "weapon_type": "Melee Weapons",
-          "keywords": "Psychic",
-          "additional_rules": [],
-          "minSelection": "1",
-          "maxSelection": "1"
-        }
-      ],
+      "weapons": {},
       "maxSelection": "3",
       "selection_scope": "roster"
     },
@@ -3806,37 +2016,7 @@
       "id": "290-ff5a-b14f-e432",
       "name": "Wurrboy",
       "cost": "60",
-      "weapons": [
-        {
-          "id": "454d-16ff-5aad-c7ad",
-          "name": "Eyez of Mork",
-          "cost": "",
-          "range": "18\"",
-          "attacks": "D6",
-          "weapon_skill": "5+",
-          "armor_penetration": "-3",
-          "damage": "2",
-          "weapon_type": "Ranged Weapons",
-          "keywords": "Psychic",
-          "additional_rules": [],
-          "minSelection": "1",
-          "maxSelection": "1"
-        },
-        {
-          "id": "f4f9-549a-b5db-93bb",
-          "name": "Close combat weapon",
-          "cost": "",
-          "range": "Melee",
-          "attacks": "3",
-          "weapon_skill": "3+",
-          "armor_penetration": "0",
-          "damage": "1",
-          "weapon_type": "Melee Weapons",
-          "additional_rules": [],
-          "minSelection": "1",
-          "maxSelection": "1"
-        }
-      ],
+      "weapons": {},
       "maxSelection": "3",
       "selection_scope": "roster"
     },
@@ -3858,7 +2038,7 @@
         "id": "950a-82f7-79fd-342a",
         "name": "Super Runts",
         "cost": "",
-        "description": "While this model is leading a unit:\r\n- Models in that unit have the Scouts 9\" ability.\r\n- Each time a model in that unit makes an attack, add 1 to the Hit roll and add 1 to the Wound roll.\r\n- Each time an attack targets that unit, subtract 1 from the Wound roll."
+        "description": "While this model is leading a unit:\n- Models in that unit have the Scouts 9\" ability.\n- Each time a model in that unit makes an attack, add 1 to the Hit roll and add 1 to the Wound roll.\n- Each time an attack targets that unit, subtract 1 from the Wound roll."
       },
       {
         "id": "d247-c00f-3a26-192e",
@@ -3871,22 +2051,7 @@
       "id": "ce45-db08-3795-18a9",
       "name": "Zodgrod Wortsnagga",
       "cost": "80",
-      "weapons": [
-        {
-          "id": "7dfc-efc5-a31c-a724",
-          "name": "Da Grabzappa",
-          "cost": "",
-          "range": "Melee",
-          "attacks": "5",
-          "weapon_skill": "2+",
-          "armor_penetration": "-2",
-          "damage": "2",
-          "weapon_type": "Melee Weapons",
-          "additional_rules": [],
-          "minSelection": "1",
-          "maxSelection": "1"
-        }
-      ],
+      "weapons": {},
       "maxSelection": "1",
       "selection_scope": "roster"
     },
@@ -3950,131 +2115,39 @@
       {
         "id": "d98a-6d3b-b2ef-96ae",
         "name": "Grot Tank w/ Big shoota",
-        "cost": [],
-        "weapons": [
-          {
-            "id": "7c2a-f476-164b-e99f",
-            "name": "Big shoota",
-            "cost": "",
-            "range": "36\"",
-            "attacks": "3",
-            "weapon_skill": "4+",
-            "armor_penetration": "0",
-            "damage": "1",
-            "weapon_type": "Ranged Weapons",
-            "keywords": "Rapid Fire 2",
-            "additional_rules": [
-              {
-                "id": "8750-9879-14d9-b244",
-                "name": "Rapid Fire",
-                "type": "rule",
-                "rule_reference_id": "c5c8-8b58-b8b6-7786"
-              }
-            ],
-            "minSelection": "1",
-            "maxSelection": "1"
-          }
-        ],
+        "cost": "",
+        "weapons": {},
         "maxSelection": "8",
         "selection_scope": "parent"
       },
       {
         "id": "448e-bb13-cf8e-78eb",
         "name": "Grot Tank w/ Grotzooka",
-        "cost": [],
-        "weapons": [
-          {
-            "id": "9adc-8a4a-232a-786d",
-            "name": "Grotzooka",
-            "cost": "",
-            "range": "18\"",
-            "attacks": "D3+3",
-            "weapon_skill": "4+",
-            "armor_penetration": "0",
-            "damage": "1",
-            "weapon_type": "Ranged Weapons",
-            "keywords": "Blast",
-            "additional_rules": [
-              {
-                "id": "4bae-8b7f-30ec-bb38",
-                "name": "Blast",
-                "type": "rule",
-                "rule_reference_id": "6c1f-1cf7-ff25-c99e"
-              }
-            ],
-            "minSelection": "1",
-            "maxSelection": "1"
-          }
-        ],
+        "cost": "",
+        "weapons": {},
         "maxSelection": "8",
         "selection_scope": "parent"
       },
       {
         "id": "53ab-c6b7-adcb-ec23",
         "name": "Grot Tank w/ Kustom mega-blasta",
-        "cost": [],
-        "weapons": [
-          {
-            "id": "cb76-88b3-40ea-4b20",
-            "name": "Kustom mega-blasta",
-            "cost": "",
-            "range": "24\"",
-            "attacks": "2",
-            "weapon_skill": "4+",
-            "armor_penetration": "-2",
-            "damage": "D6",
-            "weapon_type": "Ranged Weapons",
-            "keywords": "Hazardous",
-            "additional_rules": [
-              {
-                "id": "c20f-48e3-4f92-3576",
-                "name": "Hazardous",
-                "type": "rule",
-                "rule_reference_id": "8367-374c-f87-c627"
-              }
-            ],
-            "minSelection": "1",
-            "maxSelection": "1"
-          }
-        ],
+        "cost": "",
+        "weapons": {},
         "maxSelection": "8",
         "selection_scope": "parent"
       },
       {
         "id": "77e9-c308-4411-57c0",
         "name": "Grot Tank w/ Rokkit launcha",
-        "cost": [],
-        "weapons": [
-          {
-            "id": "7a3e-547c-16bd-6318",
-            "name": "Rokkit launcha",
-            "cost": "",
-            "range": "24",
-            "attacks": "D3",
-            "weapon_skill": "4+",
-            "armor_penetration": "-2",
-            "damage": "3",
-            "weapon_type": "Ranged Weapons",
-            "keywords": "Blast",
-            "additional_rules": [
-              {
-                "id": "3c9c-ba07-f110-e899",
-                "name": "Blast",
-                "type": "rule",
-                "rule_reference_id": "6c1f-1cf7-ff25-c99e"
-              }
-            ],
-            "minSelection": "1",
-            "maxSelection": "1"
-          }
-        ],
+        "cost": "",
+        "weapons": {},
         "maxSelection": "8",
         "selection_scope": "parent"
       },
       {
         "id": "6aaa-5ee8-c2d6-9e59",
         "name": "Grot Tank w/ Skorcha",
-        "cost": [],
+        "cost": "",
         "weapons": {},
         "maxSelection": "8",
         "selection_scope": "parent"
@@ -4106,7 +2179,7 @@
       "id": "2d97-52db-2c1b-de5e",
       "name": "Grot Mega-Tank",
       "cost": "110",
-      "weapons": [],
+      "weapons": {},
       "maxSelection": "3",
       "selection_scope": "roster"
     },
@@ -4141,7 +2214,7 @@
       "id": "df63-56a0-92e1-6191",
       "name": "Squiggoth",
       "cost": "150",
-      "weapons": [],
+      "weapons": {},
       "maxSelection": "3",
       "selection_scope": "roster"
     },
@@ -4182,7 +2255,7 @@
       "id": "aeed-c6d9-4b90-376a",
       "name": "Gargantuan Squiggoth",
       "cost": "440",
-      "weapons": [],
+      "weapons": {},
       "maxSelection": "3",
       "selection_scope": "roster"
     },
@@ -4217,7 +2290,7 @@
       "id": "b8fe-c7af-20fd-631d",
       "name": "Kill Tank",
       "cost": "295",
-      "weapons": [],
+      "weapons": {},
       "maxSelection": "3",
       "selection_scope": "roster"
     },
@@ -4246,7 +2319,7 @@
       "id": "5c83-d9c7-5c58-8357",
       "name": "Mega Dread",
       "cost": "225",
-      "weapons": [],
+      "weapons": {},
       "maxSelection": "3",
       "selection_scope": "roster"
     },
@@ -4275,7 +2348,7 @@
       "id": "121b-9fda-2ccb-e38c",
       "name": "Meka-Dread",
       "cost": "210",
-      "weapons": [],
+      "weapons": {},
       "maxSelection": "3",
       "selection_scope": "roster"
     },
@@ -4304,7 +2377,7 @@
       "id": "609a-6ef1-a3e3-3baa",
       "name": "Big Trakk",
       "cost": "90",
-      "weapons": [],
+      "weapons": {},
       "maxSelection": "3",
       "selection_scope": "roster"
     },
@@ -4339,7 +2412,7 @@
       "id": "6aed-92bb-49d6-12da",
       "name": "Warboss on Warbike",
       "cost": "75",
-      "weapons": [],
+      "weapons": {},
       "maxSelection": "3",
       "selection_scope": "roster"
     },
@@ -4374,8 +2447,8 @@
       {
         "id": "850d-6f29-d9f1-bec",
         "name": "Nobz on Warbikes",
-        "cost": [],
-        "weapons": [],
+        "cost": "",
+        "weapons": {},
         "minSelection": "3",
         "maxSelection": "3",
         "selection_scope": "parent"
@@ -4406,7 +2479,7 @@
       "id": "91c2-d40a-1f09-9e81",
       "name": "Kannonwagon [Legends]",
       "cost": "115",
-      "weapons": [],
+      "weapons": {},
       "maxSelection": "3",
       "selection_scope": "roster"
     },
@@ -4441,58 +2514,7 @@
       "id": "a43d-27a9-7d83-42e4",
       "name": "Da Red Gobbo [Legends]",
       "cost": "40",
-      "weapons": [
-        {
-          "id": "f3cd-c053-b7c3-8b30",
-          "name": "Kustom grot blasta",
-          "cost": "",
-          "range": "12\"",
-          "attacks": "D3",
-          "weapon_skill": "4+",
-          "armor_penetration": "0",
-          "damage": "1",
-          "weapon_type": "Ranged Weapons",
-          "keywords": "Devastating Wounds, Pistol",
-          "additional_rules": [
-            {
-              "id": "14e7-34e4-9f6d-4337",
-              "name": "Pistol",
-              "type": "rule",
-              "rule_reference_id": "8bf7-8812-923d-29e4"
-            },
-            {
-              "id": "e6c4-e259-f71b-43aa",
-              "name": "Devastating Wounds",
-              "type": "rule",
-              "rule_reference_id": "be1e-ac8e-1e2c-3528"
-            }
-          ],
-          "minSelection": "1",
-          "maxSelection": "1"
-        },
-        {
-          "id": "575-c55e-9cc-4ece",
-          "name": "Icon of da Revolushun",
-          "cost": "",
-          "range": "Melee",
-          "attacks": "3",
-          "weapon_skill": "4+",
-          "armor_penetration": "0",
-          "damage": "1",
-          "weapon_type": "Melee Weapons",
-          "keywords": "Devastating Wounds",
-          "additional_rules": [
-            {
-              "id": "f84c-29ad-21-97dd",
-              "name": "Devastating Wounds",
-              "type": "rule",
-              "rule_reference_id": "be1e-ac8e-1e2c-3528"
-            }
-          ],
-          "minSelection": "1",
-          "maxSelection": "1"
-        }
-      ],
+      "weapons": {},
       "maxSelection": "1",
       "selection_scope": "roster"
     },
@@ -4521,7 +2543,7 @@
       "id": "4852-225b-c426-c9b5",
       "name": "Painboy on Warbike [Legends]",
       "cost": "85",
-      "weapons": [],
+      "weapons": {},
       "maxSelection": "3",
       "selection_scope": "roster"
     },
@@ -4532,7 +2554,7 @@
   {
     "id": "939f-63bc-4a63-4d93",
     "name": "Skorchas [Legends]",
-    "cost": [],
+    "cost": "",
     "movement": "12\"",
     "toughness": "6",
     "save": "4+",
@@ -4552,22 +2574,7 @@
         "id": "bdc3-aa17-230c-4958",
         "name": "Skorchas",
         "cost": "45",
-        "weapons": [
-          {
-            "id": "9a01-848d-584-e4e1",
-            "name": "Spiked wheel",
-            "cost": "",
-            "range": "Melee",
-            "attacks": "2",
-            "weapon_skill": "4+",
-            "armor_penetration": "0",
-            "damage": "1",
-            "weapon_type": "Melee Weapons",
-            "additional_rules": [],
-            "minSelection": "1",
-            "maxSelection": "1"
-          }
-        ],
+        "weapons": {},
         "minSelection": "1",
         "maxSelection": "2",
         "selection_scope": "parent"
@@ -4579,7 +2586,7 @@
   {
     "id": "9e51-a749-18ba-2ea4",
     "name": "Wartrakks [Legends]",
-    "cost": [],
+    "cost": "",
     "movement": "12\"",
     "toughness": "6",
     "save": "4+",
@@ -4599,50 +2606,7 @@
         "id": "29dc-3128-a272-807f",
         "name": "Wartrakks w/ Twin big shoota",
         "cost": "50",
-        "weapons": [
-          {
-            "id": "245a-f71c-4e9e-346b",
-            "name": "Spiked wheel",
-            "cost": "",
-            "range": "Melee",
-            "attacks": "2",
-            "weapon_skill": "4+",
-            "armor_penetration": "0",
-            "damage": "1",
-            "weapon_type": "Melee Weapons",
-            "additional_rules": [],
-            "minSelection": "1",
-            "maxSelection": "1"
-          },
-          {
-            "id": "ddba-d176-1af0-b00c",
-            "name": "Twin big shoota",
-            "cost": "",
-            "range": "36\"",
-            "attacks": "3",
-            "weapon_skill": "5+",
-            "armor_penetration": "0",
-            "damage": "1",
-            "weapon_type": "Ranged Weapons",
-            "keywords": "Rapid Fire 2, Twin-linked",
-            "additional_rules": [
-              {
-                "id": "4c4a-b921-b7b6-f933",
-                "name": "Twin-linked",
-                "type": "rule",
-                "rule_reference_id": "cf93-ad4d-2f08-a79d"
-              },
-              {
-                "id": "25bf-a5f3-367d-2212",
-                "name": "Rapid Fire",
-                "type": "rule",
-                "rule_reference_id": "c5c8-8b58-b8b6-7786"
-              }
-            ],
-            "minSelection": "1",
-            "maxSelection": "1"
-          }
-        ],
+        "weapons": {},
         "maxSelection": "2",
         "selection_scope": "parent"
       },
@@ -4650,44 +2614,7 @@
         "id": "2690-b230-b4-ffee",
         "name": "Wartrakks w/ Rack of rokkits",
         "cost": "50",
-        "weapons": [
-          {
-            "id": "ab2b-4ae6-5221-a6d4",
-            "name": "Spiked wheel",
-            "cost": "",
-            "range": "Melee",
-            "attacks": "2",
-            "weapon_skill": "4+",
-            "armor_penetration": "0",
-            "damage": "1",
-            "weapon_type": "Melee Weapons",
-            "additional_rules": [],
-            "minSelection": "1",
-            "maxSelection": "1"
-          },
-          {
-            "id": "ccd7-bed5-825d-d509",
-            "name": "Rack of rokkits",
-            "cost": "",
-            "range": "24\"",
-            "attacks": "D3+1",
-            "weapon_skill": "5+",
-            "armor_penetration": "-2",
-            "damage": "3",
-            "weapon_type": "Ranged Weapons",
-            "keywords": "Blast",
-            "additional_rules": [
-              {
-                "id": "c30d-88a7-5a51-9438",
-                "name": "Blast",
-                "type": "rule",
-                "rule_reference_id": "6c1f-1cf7-ff25-c99e"
-              }
-            ],
-            "minSelection": "1",
-            "maxSelection": "1"
-          }
-        ],
+        "weapons": {},
         "maxSelection": "2",
         "selection_scope": "parent"
       }
@@ -4698,7 +2625,7 @@
   {
     "id": "e969-cbc8-60a6-affb",
     "name": "Warbuggies [Legends]",
-    "cost": [],
+    "cost": "",
     "movement": "12\"",
     "toughness": "6",
     "save": "4+",
@@ -4718,50 +2645,7 @@
         "id": "41eb-f6ef-688b-e54",
         "name": "Warbuggies w/ Twin big shoota",
         "cost": "40",
-        "weapons": [
-          {
-            "id": "d701-f8e0-7703-ec66",
-            "name": "Spiked wheels",
-            "cost": "",
-            "range": "Melee",
-            "attacks": "3",
-            "weapon_skill": "4+",
-            "armor_penetration": "0",
-            "damage": "1",
-            "weapon_type": "Melee Weapons",
-            "additional_rules": [],
-            "minSelection": "1",
-            "maxSelection": "1"
-          },
-          {
-            "id": "f4a2-96c4-f0c6-1ec7",
-            "name": "Twin big shoota",
-            "cost": "",
-            "range": "36\"",
-            "attacks": "3",
-            "weapon_skill": "5+",
-            "armor_penetration": "0",
-            "damage": "1",
-            "weapon_type": "Ranged Weapons",
-            "keywords": "Rapid Fire 2, Twin-linked",
-            "additional_rules": [
-              {
-                "id": "24f1-b207-f9b3-f54f",
-                "name": "Twin-linked",
-                "type": "rule",
-                "rule_reference_id": "cf93-ad4d-2f08-a79d"
-              },
-              {
-                "id": "cb20-2769-8cc8-85d7",
-                "name": "Rapid Fire",
-                "type": "rule",
-                "rule_reference_id": "c5c8-8b58-b8b6-7786"
-              }
-            ],
-            "minSelection": "1",
-            "maxSelection": "1"
-          }
-        ],
+        "weapons": {},
         "maxSelection": "2",
         "selection_scope": "parent"
       },
@@ -4769,44 +2653,7 @@
         "id": "1a99-5d51-63-683f",
         "name": "Warbuggies w/ Rack of rokkits",
         "cost": "40",
-        "weapons": [
-          {
-            "id": "7d69-7239-c8c8-46c0",
-            "name": "Spiked wheels",
-            "cost": "",
-            "range": "Melee",
-            "attacks": "3",
-            "weapon_skill": "4+",
-            "armor_penetration": "0",
-            "damage": "1",
-            "weapon_type": "Melee Weapons",
-            "additional_rules": [],
-            "minSelection": "1",
-            "maxSelection": "1"
-          },
-          {
-            "id": "a845-44e5-b11f-6c3f",
-            "name": "Rack of rokkits",
-            "cost": "",
-            "range": "24\"",
-            "attacks": "D3+1",
-            "weapon_skill": "5+",
-            "armor_penetration": "-2",
-            "damage": "3",
-            "weapon_type": "Ranged Weapons",
-            "keywords": "Blast",
-            "additional_rules": [
-              {
-                "id": "12da-6011-302c-cfb0",
-                "name": "Blast",
-                "type": "rule",
-                "rule_reference_id": "6c1f-1cf7-ff25-c99e"
-              }
-            ],
-            "minSelection": "1",
-            "maxSelection": "1"
-          }
-        ],
+        "weapons": {},
         "maxSelection": "2",
         "selection_scope": "parent"
       }
@@ -4817,7 +2664,7 @@
   {
     "id": "7eb0-5bc7-24c-6cb4",
     "name": "Big Gunz [Legends]",
-    "cost": [],
+    "cost": "",
     "movement": "3\"",
     "toughness": "4",
     "save": "5+",
@@ -4843,50 +2690,7 @@
         "id": "145f-7113-8466-d544",
         "name": "Big Gunz w/ Kannon",
         "cost": "20",
-        "weapons": [
-          {
-            "id": "89b2-c3b0-388b-e03a",
-            "name": "Kannon",
-            "cost": "",
-            "range": "36\"",
-            "attacks": "D6",
-            "weapon_skill": "6+",
-            "armor_penetration": "0",
-            "damage": "1",
-            "weapon_type": "Ranged Weapons",
-            "keywords": "Blast, Heavy",
-            "additional_rules": [
-              {
-                "id": "e266-1b5c-a570-d1fd",
-                "name": "Heavy",
-                "type": "rule",
-                "rule_reference_id": "1202-10a8-78e9-4c67"
-              },
-              {
-                "id": "e35d-aacc-c321-1645",
-                "name": "Blast",
-                "type": "rule",
-                "rule_reference_id": "6c1f-1cf7-ff25-c99e"
-              }
-            ],
-            "minSelection": "1",
-            "maxSelection": "1"
-          },
-          {
-            "id": "c704-83d0-1beb-acb1",
-            "name": "Close combat weapons",
-            "cost": "",
-            "range": "Melee",
-            "attacks": "2",
-            "weapon_skill": "3+",
-            "armor_penetration": "0",
-            "damage": "1",
-            "weapon_type": "Melee Weapons",
-            "additional_rules": [],
-            "minSelection": "1",
-            "maxSelection": "1"
-          }
-        ],
+        "weapons": {},
         "maxSelection": "2",
         "selection_scope": "parent"
       },
@@ -4894,56 +2698,7 @@
         "id": "14e1-a15e-e987-5c3c",
         "name": "Big Gunz w/ Lobba",
         "cost": "20",
-        "weapons": [
-          {
-            "id": "2201-5df6-eea7-e216",
-            "name": "Lobba",
-            "cost": "",
-            "range": "48\"",
-            "attacks": "D6",
-            "weapon_skill": "6+",
-            "armor_penetration": "0",
-            "damage": "1",
-            "weapon_type": "Ranged Weapons",
-            "keywords": "Blast, Heavy, Indirect Fire",
-            "additional_rules": [
-              {
-                "id": "7953-25c0-ba63-8ae3",
-                "name": "Indirect Fire",
-                "type": "rule",
-                "rule_reference_id": "4ddd-4e29-acdd-5e6d"
-              },
-              {
-                "id": "8c70-456d-1400-b4ef",
-                "name": "Blast",
-                "type": "rule",
-                "rule_reference_id": "6c1f-1cf7-ff25-c99e"
-              },
-              {
-                "id": "8c8e-f5b9-5b64-5a1c",
-                "name": "Heavy",
-                "type": "rule",
-                "rule_reference_id": "1202-10a8-78e9-4c67"
-              }
-            ],
-            "minSelection": "1",
-            "maxSelection": "1"
-          },
-          {
-            "id": "fd75-5890-a9d9-1a4e",
-            "name": "Close combat weapons",
-            "cost": "",
-            "range": "Melee",
-            "attacks": "2",
-            "weapon_skill": "3+",
-            "armor_penetration": "0",
-            "damage": "1",
-            "weapon_type": "Melee Weapons",
-            "additional_rules": [],
-            "minSelection": "1",
-            "maxSelection": "1"
-          }
-        ],
+        "weapons": {},
         "maxSelection": "2",
         "selection_scope": "parent"
       },
@@ -4951,50 +2706,7 @@
         "id": "565b-5d57-1578-36bb",
         "name": "Big Gunz w/ Zzap gun",
         "cost": "20",
-        "weapons": [
-          {
-            "id": "2e1d-6e80-e77d-69d9",
-            "name": "Zzap gun",
-            "cost": "",
-            "range": "36\"",
-            "attacks": "1",
-            "weapon_skill": "6+",
-            "armor_penetration": "-3",
-            "damage": "3",
-            "weapon_type": "Ranged Weapons",
-            "keywords": "Devastating Wounds, Heavy",
-            "additional_rules": [
-              {
-                "id": "97f0-c637-5835-e32d",
-                "name": "Devastating Wounds",
-                "type": "rule",
-                "rule_reference_id": "be1e-ac8e-1e2c-3528"
-              },
-              {
-                "id": "5ea0-5481-d537-ceb",
-                "name": "Heavy",
-                "type": "rule",
-                "rule_reference_id": "1202-10a8-78e9-4c67"
-              }
-            ],
-            "minSelection": "1",
-            "maxSelection": "1"
-          },
-          {
-            "id": "a886-92b-2877-a112",
-            "name": "Close combat weapons",
-            "cost": "",
-            "range": "Melee",
-            "attacks": "2",
-            "weapon_skill": "3+",
-            "armor_penetration": "0",
-            "damage": "1",
-            "weapon_type": "Melee Weapons",
-            "additional_rules": [],
-            "minSelection": "1",
-            "maxSelection": "1"
-          }
-        ],
+        "weapons": {},
         "maxSelection": "2",
         "selection_scope": "parent"
       }
@@ -5024,8 +2736,8 @@
       {
         "id": "215b-4996-b4c2-55b0",
         "name": "Deffkoptas with Big Shootas",
-        "cost": [],
-        "weapons": [],
+        "cost": "",
+        "weapons": {},
         "minSelection": "3",
         "maxSelection": "3",
         "selection_scope": "parent"
@@ -5056,7 +2768,7 @@
       "id": "3444-a152-c9e6-31aa",
       "name": "Kill Krusha [Legends]",
       "cost": "230",
-      "weapons": [],
+      "weapons": {},
       "maxSelection": "3",
       "selection_scope": "roster"
     },
@@ -5086,7 +2798,7 @@
       "id": "8c96-c1f0-63ff-d6a9",
       "name": "Deff Rolla Battle Fortress [Legends]",
       "cost": "250",
-      "weapons": [],
+      "weapons": {},
       "maxSelection": "3",
       "selection_scope": "roster"
     },
@@ -5120,7 +2832,7 @@
       "id": "f6cb-323b-3c25-75f7",
       "name": "Chinork Warkopta [Legends]",
       "cost": "105",
-      "weapons": [],
+      "weapons": {},
       "maxSelection": "3",
       "selection_scope": "roster"
     },
@@ -5151,7 +2863,7 @@
       "id": "dd02-c92c-fb0a-54ec",
       "name": "Fighta-Bommer [Legends]",
       "cost": "100",
-      "weapons": [],
+      "weapons": {},
       "maxSelection": "3",
       "selection_scope": "roster"
     },
@@ -5186,7 +2898,7 @@
       "id": "4229-83f0-b03b-bd44",
       "name": "Attack Fighta [Legends]",
       "cost": "100",
-      "weapons": [],
+      "weapons": {},
       "maxSelection": "3",
       "selection_scope": "roster"
     },
@@ -5216,7 +2928,7 @@
       "id": "afab-635c-23c5-cacc",
       "name": "Lifta Wagon [Legends]",
       "cost": "135",
-      "weapons": [],
+      "weapons": {},
       "maxSelection": "3",
       "selection_scope": "roster"
     },
@@ -5247,56 +2959,7 @@
       "id": "410e-7847-bcfc-1b62",
       "name": "Grot Bomm Launcha [Legends]",
       "cost": "50",
-      "weapons": [
-        {
-          "id": "8d5c-3258-6b8e-cae8",
-          "name": "Spiked wheel",
-          "cost": "",
-          "range": "Melee",
-          "attacks": "2",
-          "weapon_skill": "4+",
-          "armor_penetration": "0",
-          "damage": "1",
-          "weapon_type": "Melee Weapons",
-          "additional_rules": [],
-          "minSelection": "1",
-          "maxSelection": "1"
-        },
-        {
-          "id": "b0be-b98-43af-d32",
-          "name": "Grot-guided bomms",
-          "cost": "",
-          "range": "72\"",
-          "attacks": "D6",
-          "weapon_skill": "4+",
-          "armor_penetration": "-2",
-          "damage": "2",
-          "weapon_type": "Ranged Weapons",
-          "keywords": "Blast, One Shot, Indirect Fire",
-          "additional_rules": [
-            {
-              "id": "a8a2-13fb-ae33-a951",
-              "name": "Blast",
-              "type": "rule",
-              "rule_reference_id": "6c1f-1cf7-ff25-c99e"
-            },
-            {
-              "id": "b04d-5873-84ff-9192",
-              "name": "One Shot",
-              "type": "rule",
-              "rule_reference_id": "cd26-1611-860a-91e4"
-            },
-            {
-              "id": "9357-a5ea-a24a-c74c",
-              "name": "Indirect Fire",
-              "type": "rule",
-              "rule_reference_id": "4ddd-4e29-acdd-5e6d"
-            }
-          ],
-          "minSelection": "1",
-          "maxSelection": "1"
-        }
-      ],
+      "weapons": {},
       "maxSelection": "3",
       "selection_scope": "roster"
     },
@@ -5331,7 +2994,7 @@
       "id": "8b2-ca6b-b00c-d64c",
       "name": "Big Mek on Warbike [Legends]",
       "cost": "105",
-      "weapons": [],
+      "weapons": {},
       "maxSelection": "3",
       "selection_scope": "roster"
     },

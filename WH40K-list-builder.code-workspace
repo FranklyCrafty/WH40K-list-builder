@@ -1,0 +1,12 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"name": "wh40k-10e",
+			"path": "../wh40k-10e"
+		}
+	],
+	"settings": {}
+}

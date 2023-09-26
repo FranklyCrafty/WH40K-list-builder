@@ -66,7 +66,7 @@ function parseUnit(entry) {
     const unitData = {
       id: entry.$.id,
       name: entry.$.name,
-      cost: entry.costs ? entry.costs[0].cost[0].$.value : [],
+      cost: entry.costs ? entry.costs[0].cost[0].$.value : "",
       //modifiers: entry.modifiers
       movement: findCharacteristic(entry, "M"),
       toughness: findCharacteristic(entry, "T"),
@@ -108,7 +108,7 @@ function parseModel(modelEntry) {
   const modelData = {
     id: modelEntry.$.id,
     name: modelEntry.$.name,
-    cost: modelEntry.costs ? modelEntry.costs[0].cost[0].$.value : [],
+    cost: modelEntry.costs ? modelEntry.costs[0].cost[0].$.value : "",
     weapons: {},
     minSelection: modelEntry.constraints
       ? modelEntry.constraints[0].constraint.find(
@@ -126,11 +126,13 @@ function parseModel(modelEntry) {
   };
 
   var weaponChoice = null;
+  
   // Check if the model has a weapon choice
   if (modelEntry.selectionEntries) {
     weaponChoice = modelEntry.selectionEntries[0].selectionEntry;
   }
   // Check if the model has a weapon choice group
+  // /catalogue/sharedSelectionEntries/selectionEntry[35]/selectionEntries/selectionEntry/profiles/profile
   if (modelEntry.selectionEntryGroups) {
     const weaponChoiceGroup = findWeaponChoice(modelEntry);
     weaponChoice = weaponChoiceGroup
@@ -227,6 +229,6 @@ function parseModifier(modifierEntry) {
   return {
     type: modifierEntry.$.type,
     value: modifierEntry.$.value,
-    field: modifierEntry.field ?? "",
+    field: modifierEntry.$.field ?? "",
   };
 }
