@@ -1,13 +1,15 @@
 const fs = require("fs");
 const path = require("path");
 const xml2js = require("xml2js");
+const armyLocation = //"../data/Orks.cat";
+                        "../data/Imperium - Grey Knights.cat";
 
 // Parser for the XML data
 const parser = new xml2js.Parser();
 
 //Read XML data
 const xmlData = fs.readFileSync(
-  path.resolve(__dirname, "../data/Orks.cat"),
+  path.resolve(__dirname, armyLocation),
   "utf-8"
 );
 
@@ -18,9 +20,24 @@ parser.parseString(xmlData, (err, result) => {
     return;
   }
 
-  // Map the data to a JSON object
-  const units =
-    result.catalogue.sharedSelectionEntries[0].selectionEntry.map(parseUnit);
+  // Get List of all possible units
+  const unitList = getUnitList(result.catalogue.entryLinks);
+  var units = [];
+
+  for (let i = 0; i < unitList.length; i++) {
+    console.log(i);
+    const unit = unitList[i];
+    const unitEntry = result.catalogue.sharedSelectionEntries[0].selectionEntry.find(
+      (entry) => entry.$.id === unit.id
+    );
+
+    if (
+      unitEntry &&
+      (unitEntry.$.type == "unit" || unitEntry.$.type == "model-")
+    ) {
+      units.push(parseUnit(unitEntry));
+    }
+  }
 
   // Save as JSON
   fs.writeFileSync(
@@ -28,6 +45,20 @@ parser.parseString(xmlData, (err, result) => {
     JSON.stringify(units, null, 2)
   );
 });
+
+/**
+ * Function to get a list of all possible units
+ * @param {string} entryLinks - The entryLinks from the XML data
+ * @returns {object} - The list of all possible units
+ */
+function getUnitList(entryLinks) {
+  return entryLinks[0].entryLink.map((entry) => {
+    return {
+      id: entry.$.targetId,
+      name: entry.$.name,
+    };
+  });
+}
 
 /**
  * Function to find a characteristic in a unit/model entry by name
@@ -62,40 +93,36 @@ function findWeaponChoice(entry) {
  * @returns {object} - The parsed unit data.
  */
 function parseUnit(entry) {
-  if (entry.$.type === "unit" || entry.$.type === "model") {
-    const unitData = {
-      id: entry.$.id,
-      name: entry.$.name,
-      cost: entry.costs ? entry.costs[0].cost[0].$.value : "",
-      //modifiers: entry.modifiers
-      movement: findCharacteristic(entry, "M"),
-      toughness: findCharacteristic(entry, "T"),
-      save: findCharacteristic(entry, "SV"),
-      wounds: findCharacteristic(entry, "W"),
-      leadership: findCharacteristic(entry, "LD"),
-      objectiveControl: findCharacteristic(entry, "OC"),
-      abilities: entry.profiles[0].profile
-        .filter((char) => char.$.typeName === "Abilities")
-        ?.map(parseAbility),
-      models: {}, //initialize models
-      colors: {}, //TODO: Add support for colors
-      image: {}, //TODO: Add support for images
-    };
+  const unitData = {
+    id: entry.$.targetId,
+    name: entry.$.name,
+    cost: entry.costs ? entry.costs[0].cost[0].$.value : "",
+    //modifiers: entry.modifiers
+    movement: findCharacteristic(entry, "M"),
+    toughness: findCharacteristic(entry, "T"),
+    save: findCharacteristic(entry, "SV"),
+    wounds: findCharacteristic(entry, "W"),
+    leadership: findCharacteristic(entry, "LD"),
+    objectiveControl: findCharacteristic(entry, "OC"),
+    abilities: entry.profiles[0].profile
+      .filter((char) => char.$.typeName === "Abilities")
+      ?.map(parseAbility),
+    models: {}, //initialize models
+    colors: {}, //TODO: Add support for colors
+    image: {}, //TODO: Add support for images
+  };
 
-    if (entry.$.type === "unit") {
-      const modelChoices = entry.selectionEntryGroups
-        ? entry.selectionEntryGroups[0].selectionEntryGroup[0]
-            .selectionEntries[0].selectionEntry
-        : entry.selectionEntries[0].selectionEntry;
-      unitData.models = modelChoices.map(parseModel);
-    } else if (entry.$.type === "model") {
-      unitData.models = parseModel(entry);
-    }
-
-    return unitData;
-  } else {
-    return null;
+  if (entry.$.type === "unit") {
+    const modelChoices = entry.selectionEntryGroups
+      ? entry.selectionEntryGroups[0].selectionEntryGroup[0].selectionEntries[0]
+          .selectionEntry
+      : entry.selectionEntries[0].selectionEntry;
+    unitData.models = modelChoices.map(parseModel);
+  } else if (entry.$.type === "model") {
+    unitData.models = parseModel(entry);
   }
+
+  return unitData;
 }
 
 /**
@@ -125,23 +152,41 @@ function parseModel(modelEntry) {
       : "",
   };
 
-  var weaponChoice = null;
+  var weaponChoices = [];
+  // /catalogue/sharedSelectionEntries/selectionEntry[?]/selectionEntryGroups/selectionEntryGroup[?]/selectionEntries/selectionEntry/selectionEntries/selectionEntry/profiles/profile
+  // /catalogue/sharedSelectionEntries/selectionEntry[?]/selectionEntryGroups/selectionEntryGroup/selectionEntries/selectionEntry[?]/selectionEntryGroups/selectionEntryGroup/selectionEntries/selectionEntry[?]/profiles/profile
+  // /catalogue/sharedSelectionEntries/selectionEntry[?]/selectionEntryGroups/selectionEntryGroup/selectionEntries/selectionEntry[?]/selectionEntries/selectionEntry/profiles/profile
+  // /catalogue/sharedSelectionEntries/selectionEntry[?]/selectionEntries/selectionEntry[?]/profiles/profile
+  // /catalogue/sharedSelectionEntries/selectionEntry[?]/selectionEntryGroups/selectionEntryGroup[?]/selectionEntries/selectionEntry[?]/profiles/profile
+  
   
   // Check if the model has a weapon choice
   if (modelEntry.selectionEntries) {
-    weaponChoice = modelEntry.selectionEntries[0].selectionEntry;
+    console.log("Found weapon choices in selectionEntries");
+    weaponChoices.push(
+      ...modelEntry.selectionEntries[0].selectionEntry.filter(
+        (entry) => entry.$.type === "upgrade"
+      )
+    );
   }
+
   // Check if the model has a weapon choice group
-  // /catalogue/sharedSelectionEntries/selectionEntry[35]/selectionEntries/selectionEntry/profiles/profile
   if (modelEntry.selectionEntryGroups) {
     const weaponChoiceGroup = findWeaponChoice(modelEntry);
-    weaponChoice = weaponChoiceGroup
-      ? weaponChoiceGroup.selectionEntries[0].selectionEntry
-      : [];
+    if (weaponChoiceGroup) {
+      console.log("Found weapon choices in selectionEntryGroups");
+      weaponChoices.push(
+        ...weaponChoiceGroup.selectionEntries.filter(
+          (entry) => entry.$.type === "upgrade" || modelEntry.$.type === "unit" || entry.$.name === "Weapon Choice"
+        )
+      );
+    }
   }
-  // Parse the weapon choice if one exists
-  if (weaponChoice) {
-    modelData.weapons = weaponChoice.map(parseWeapon);
+
+  // Parse the weapon choices if they exist
+  if (weaponChoices.length > 0) {
+    console.log("Parsing weapon choices...");
+    modelData.weapons = weaponChoices.map(parseWeapon);
   }
 
   return modelData;
