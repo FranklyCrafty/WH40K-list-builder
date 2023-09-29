@@ -153,12 +153,13 @@ function parseModel(modelEntry) {
   };
 
   var weaponChoices = [];
-  // /catalogue/sharedSelectionEntries/selectionEntry[?]/selectionEntryGroups/selectionEntryGroup[?]/selectionEntries/selectionEntry/selectionEntries/selectionEntry/profiles/profile
-  // /catalogue/sharedSelectionEntries/selectionEntry[?]/selectionEntryGroups/selectionEntryGroup/selectionEntries/selectionEntry[?]/selectionEntryGroups/selectionEntryGroup/selectionEntries/selectionEntry[?]/profiles/profile
-  // /catalogue/sharedSelectionEntries/selectionEntry[?]/selectionEntryGroups/selectionEntryGroup/selectionEntries/selectionEntry[?]/selectionEntries/selectionEntry/profiles/profile
   // /catalogue/sharedSelectionEntries/selectionEntry[?]/selectionEntries/selectionEntry[?]/profiles/profile
+  // /catalogue/sharedSelectionEntries/selectionEntry[?]/selectionEntries/selectionEntry[?]/selectionEntries/selectionEntry[?]/profiles/profile
   // /catalogue/sharedSelectionEntries/selectionEntry[?]/selectionEntryGroups/selectionEntryGroup[?]/selectionEntries/selectionEntry[?]/profiles/profile
-  
+  // /catalogue/sharedSelectionEntries/selectionEntry[?]/selectionEntryGroups/selectionEntryGroup[?]/selectionEntries/selectionEntry[?]/selectionEntries/selectionEntry[?]/profiles/profile
+  // /catalogue/sharedSelectionEntries/selectionEntry[?]/selectionEntryGroups/selectionEntryGroup[?]/selectionEntries/selectionEntry[?]/selectionEntries/selectionEntry[?]/profiles/profile
+  // /catalogue/sharedSelectionEntries/selectionEntry[?]/selectionEntryGroups/selectionEntryGroup[?]/selectionEntries/selectionEntry[?]/selectionEntryGroups/selectionEntryGroup[?]/selectionEntries/selectionEntry[?]/profiles/profile
+ 
   
   // Check if the model has a weapon choice
   if (modelEntry.selectionEntries) {
