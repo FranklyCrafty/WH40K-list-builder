@@ -33,7 +33,7 @@ parser.parseString(xmlData, (err, result) => {
 
     if (
       unitEntry &&
-      (unitEntry.$.type == "unit" || unitEntry.$.type == "model-")
+      (unitEntry.$.type == "unit" || unitEntry.$.type == "model")
     ) {
       units.push(parseUnit(unitEntry));
     }
@@ -68,6 +68,11 @@ function getUnitList(entryLinks) {
  */
 function findCharacteristic(entry, charName) {
   console.log(charName);
+  if (!entry.profiles) {
+    return entry.characteristics[0].characteristic.find(
+      (char) => char.$.name === charName
+    )?._;;
+  }
   return entry.profiles[0].profile[0].characteristics[0].characteristic.find(
     (char) => char.$.name === charName
   )?._;
@@ -112,6 +117,7 @@ function parseUnit(entry) {
     image: {}, //TODO: Add support for images
   };
 
+  // TODO: Fix this logic
   if (entry.$.type === "unit") {
     const modelChoices = entry.selectionEntryGroups
       ? entry.selectionEntryGroups[0].selectionEntryGroup[0].selectionEntries[0]
@@ -136,7 +142,7 @@ function parseModel(modelEntry) {
     id: modelEntry.$.id,
     name: modelEntry.$.name,
     cost: modelEntry.costs ? modelEntry.costs[0].cost[0].$.value : "",
-    weapons: {},
+    weapons: [],
     minSelection: modelEntry.constraints
       ? modelEntry.constraints[0].constraint.find(
           (char) => char.$.type === "min"
@@ -152,43 +158,7 @@ function parseModel(modelEntry) {
       : "",
   };
 
-  var weaponChoices = [];
-  // /catalogue/sharedSelectionEntries/selectionEntry[?]/selectionEntries/selectionEntry[?]/profiles/profile
-  // /catalogue/sharedSelectionEntries/selectionEntry[?]/selectionEntries/selectionEntry[?]/selectionEntries/selectionEntry[?]/profiles/profile
-  // /catalogue/sharedSelectionEntries/selectionEntry[?]/selectionEntryGroups/selectionEntryGroup[?]/selectionEntries/selectionEntry[?]/profiles/profile
-  // /catalogue/sharedSelectionEntries/selectionEntry[?]/selectionEntryGroups/selectionEntryGroup[?]/selectionEntries/selectionEntry[?]/selectionEntries/selectionEntry[?]/profiles/profile
-  // /catalogue/sharedSelectionEntries/selectionEntry[?]/selectionEntryGroups/selectionEntryGroup[?]/selectionEntries/selectionEntry[?]/selectionEntries/selectionEntry[?]/profiles/profile
-  // /catalogue/sharedSelectionEntries/selectionEntry[?]/selectionEntryGroups/selectionEntryGroup[?]/selectionEntries/selectionEntry[?]/selectionEntryGroups/selectionEntryGroup[?]/selectionEntries/selectionEntry[?]/profiles/profile
- 
-  
-  // Check if the model has a weapon choice
-  if (modelEntry.selectionEntries) {
-    console.log("Found weapon choices in selectionEntries");
-    weaponChoices.push(
-      ...modelEntry.selectionEntries[0].selectionEntry.filter(
-        (entry) => entry.$.type === "upgrade"
-      )
-    );
-  }
-
-  // Check if the model has a weapon choice group
-  if (modelEntry.selectionEntryGroups) {
-    const weaponChoiceGroup = findWeaponChoice(modelEntry);
-    if (weaponChoiceGroup) {
-      console.log("Found weapon choices in selectionEntryGroups");
-      weaponChoices.push(
-        ...weaponChoiceGroup.selectionEntries.filter(
-          (entry) => entry.$.type === "upgrade" || modelEntry.$.type === "unit" || entry.$.name === "Weapon Choice"
-        )
-      );
-    }
-  }
-
-  // Parse the weapon choices if they exist
-  if (weaponChoices.length > 0) {
-    console.log("Parsing weapon choices...");
-    modelData.weapons = weaponChoices.map(parseWeapon);
-  }
+  findAndParseWeapons(modelEntry, modelData); // Find and parse weapons
 
   return modelData;
 }
@@ -212,7 +182,7 @@ function parseWeapon(weaponEntry) {
       findCharacteristic(weaponEntry, "BS"),
     armor_penetration: findCharacteristic(weaponEntry, "AP"),
     damage: findCharacteristic(weaponEntry, "D"),
-    weapon_type: weaponEntry.profiles[0].profile[0].$.typeName,
+    weapon_type: weaponEntry.$.typeName,
     keywords: findCharacteristic(weaponEntry, "Keywords"),
     additional_rules: weaponEntry.infoLinks
       ? weaponEntry.infoLinks[0].infoLink.map(parseAdditionalRules)
@@ -277,4 +247,51 @@ function parseModifier(modifierEntry) {
     value: modifierEntry.$.value,
     field: modifierEntry.$.field ?? "",
   };
+}
+
+/**
+ * Recursive function to find and parse weapons
+ * @param {object} entry - The current XML entry to search for weapons`
+ * @param {object} modelData - The model data to store found weapons
+ */
+function findAndParseWeapons(entry, modelData) {
+  //if (!entry.profiles) {
+  //  return; // No profiles to check, exit the function
+  //}
+  var profiles = [];
+  if (entry.profiles) {
+    profiles = entry.profiles[0].profile;
+  }
+  if (entry.entryLinks) {
+    profiles = entry.entryLinks[0].entryLink;
+  }
+
+  for (const profile of profiles) {
+    const typeName = profile.$.typeName;
+    if (typeName === "Melee Weapons" || typeName === "Ranged Weapons") {
+      // This is a weapon profile
+      modelData.weapons.push(parseWeapon(profile));
+    }
+  }
+
+  // Recursively check child entries
+  if (entry.selectionEntry || entry.selectionEntries || entry.selectionEntryGroups) {
+    const childEntries = [];
+
+    if (entry.selectionEntry) {
+      childEntries.push(...entry.selectionEntry);
+    }
+    if (entry.selectionEntries) {
+      childEntries.push(...entry.selectionEntries[0].selectionEntry);
+    }
+    if (entry.selectionEntryGroups) {
+      childEntries.push(...entry.selectionEntryGroups[0].selectionEntryGroup);
+    }
+
+    for (const childEntry of childEntries) {
+      findAndParseWeapons(childEntry, modelData); // Recursively search for weapons
+    }
+  }
+
+  return;
 }
