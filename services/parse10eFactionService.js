@@ -97,36 +97,38 @@ function findWeaponChoice(entry) {
  * @param {string} entry - The entry to parse.
  * @returns {object} - The parsed unit data.
  */
-function parseUnit(entry) {
+function parseUnit(unitEntry) {
   const unitData = {
-    id: entry.$.targetId,
-    name: entry.$.name,
-    cost: entry.costs ? entry.costs[0].cost[0].$.value : "",
+    id: unitEntry.$.targetId,
+    name: unitEntry.$.name,
+    cost: unitEntry.costs ? unitEntry.costs[0].cost[0].$.value : "",
     //modifiers: entry.modifiers
-    movement: findCharacteristic(entry, "M"),
-    toughness: findCharacteristic(entry, "T"),
-    save: findCharacteristic(entry, "SV"),
-    wounds: findCharacteristic(entry, "W"),
-    leadership: findCharacteristic(entry, "LD"),
-    objectiveControl: findCharacteristic(entry, "OC"),
-    abilities: entry.profiles[0].profile
+    movement: findCharacteristic(unitEntry, "M"),
+    toughness: findCharacteristic(unitEntry, "T"),
+    save: findCharacteristic(unitEntry, "SV"),
+    wounds: findCharacteristic(unitEntry, "W"),
+    leadership: findCharacteristic(unitEntry, "LD"),
+    objectiveControl: findCharacteristic(unitEntry, "OC"),
+    abilities: unitEntry.profiles[0].profile
       .filter((char) => char.$.typeName === "Abilities")
       ?.map(parseAbility),
-    models: {}, //initialize models
+    models: [], //initialize models
     colors: {}, //TODO: Add support for colors
     image: {}, //TODO: Add support for images
   };
 
+
+  findAndParseModels(unitEntry, unitData);
+  /*
   // TODO: Fix this logic
-  if (entry.$.type === "unit") {
+  if (unitEntry.$.type === "unit") {
     const modelChoices = entry.selectionEntryGroups
       ? entry.selectionEntryGroups[0].selectionEntryGroup[0].selectionEntries[0]
-          .selectionEntry
-      : entry.selectionEntries[0].selectionEntry;
-    unitData.models = modelChoices.map(parseModel);
-  } else if (entry.$.type === "model") {
-    unitData.models = parseModel(entry);
-  }
+      : entry.selectionEntries[0];
+    unitData.models = modelChoices.selectionEntry.map(parseModel);
+  } else if (unitEntry.$.type === "model") {
+    unitData.models = parseModel(unitEntry);
+  }*/
 
   return unitData;
 }
@@ -255,9 +257,6 @@ function parseModifier(modifierEntry) {
  * @param {object} modelData - The model data to store found weapons
  */
 function findAndParseWeapons(entry, modelData) {
-  //if (!entry.profiles) {
-  //  return; // No profiles to check, exit the function
-  //}
   var profiles = [];
   if (entry.profiles) {
     profiles = entry.profiles[0].profile;
@@ -290,6 +289,33 @@ function findAndParseWeapons(entry, modelData) {
 
     for (const childEntry of childEntries) {
       findAndParseWeapons(childEntry, modelData); // Recursively search for weapons
+    }
+  }
+
+  return;
+}
+
+function findAndParseModels(entry, unitData) {
+
+  var models = [];
+  if (entry.selectionEntries) {
+    models = [...entry.selectionEntries[0].selectionEntry];
+  }
+
+  for (const model of models) {
+    if (model.$.type === "model") {
+      // This is a model
+      unitData.models.push(parseModel(model));
+    }
+  }
+  //catalogue/sharedSelectionEntries/selectionEntry[21]/selectionEntryGroups/selectionEntryGroup/selectionEntryGroups
+  // Recursively check child entries
+  if (entry.selectionEntryGroups) {
+    const childEntries = [...entry.selectionEntryGroups[0].selectionEntryGroup];
+    
+
+    for (const childEntry of childEntries) {
+      findAndParseModels(childEntry, unitData); // Recursively search for weapons
     }
   }
 
