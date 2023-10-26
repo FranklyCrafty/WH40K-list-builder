@@ -4,12 +4,19 @@
     "description": "Node.js application for managing Warhammer 40k data",
     "main": "app.js",
     "scripts": {
-        "start": "node app.js"
+        "start": "node app.js",
+        "test": "mocha"
     },
     "dependencies": {
+        "@xmldom/xmldom": "^0.8.10",
+        "chai": "^4.3.10",
         "express": "^4.17.1",
+        "mocha": "^10.2.0",
         "typescript": "^5.2.2",
-        "xml2js": "^0.6.2"
+        "xml2js": "^0.6.2",
+        "xml2js-xpath": "^0.13.0",
+        "xmldom": "^0.6.0",
+        "xpath": "^0.0.33"
     },
     "author": "FranklyCrafty",
     "license": "MIT"

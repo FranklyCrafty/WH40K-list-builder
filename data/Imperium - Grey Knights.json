@@ -1,0 +1,5395 @@
+[
+  {
+    "name": "Brother-Captain",
+    "cost": "90",
+    "movement": "5\"",
+    "toughness": "5",
+    "save": "2+",
+    "wounds": "6",
+    "leadership": "6+",
+    "objectiveControl": "1",
+    "abilities": [
+      {
+        "id": "f2b8-e075-3c5a-d737",
+        "name": "Invulnerable Save",
+        "cost": "",
+        "description": "This unit has a 4+ Invulnerable Save"
+      },
+      {
+        "id": "e1f9-80b5-6bc7-21f3",
+        "name": "Leader",
+        "cost": "",
+        "description": "This model can be attached to the following units:\n■ Brotherhood Terminator Squad\n■ Paladin Squad"
+      },
+      {
+        "id": "3f64-f896-c54f-7fea",
+        "name": "Empyric Amplification (Psychic)",
+        "cost": "",
+        "description": "While this model is leading a unit, Psychic weapons equipped by models in that unit have the [SUSTAINED HITS 1] ability."
+      },
+      {
+        "id": "53db-1bc6-da94-f8e9",
+        "name": "Focused Mind (Psychic)",
+        "cost": "",
+        "description": "Each time this model makes an attack with a Psychic weapon, you can re-roll the Wound roll."
+      }
+    ],
+    "models": [
+      {
+        "id": "dce9-6eb4-fa33-e869",
+        "name": "Brother-Captain",
+        "weapons": [
+          {
+            "id": "16ba-fe2c-293d-f55d",
+            "name": "Nemesis Force Weapon",
+            "cost": "",
+            "range": "Melee",
+            "attacks": "4",
+            "weapon_skill": "2+",
+            "armor_penetration": "-2",
+            "damage": "2",
+            "keywords": "Psychic",
+            "additional_rules": [
+              {
+                "id": "7b40-821-225-87ef",
+                "name": "Psychic",
+                "type": "rule",
+                "rule_reference_id": "e9c4-2bb8-12ee-cd1b"
+              }
+            ],
+            "minSelection": "1",
+            "maxSelection": "1"
+          },
+          {
+            "id": "5d2c-27fb-8ec3-bb05",
+            "name": "Psycannon",
+            "cost": "",
+            "range": "24\"",
+            "attacks": "3",
+            "weapon_skill": "2+",
+            "armor_penetration": "-1",
+            "damage": "2",
+            "keywords": "Psychic",
+            "additional_rules": [
+              {
+                "id": "56db-e59a-2603-d2e9",
+                "name": "Psychic",
+                "type": "rule",
+                "rule_reference_id": "e9c4-2bb8-12ee-cd1b"
+              }
+            ],
+            "minSelection": "1",
+            "maxSelection": "1"
+          },
+          {
+            "id": "da68-aa2c-9e7c-3ca2",
+            "name": "Incinerator",
+            "cost": "",
+            "range": "12\"",
+            "attacks": "D6",
+            "weapon_skill": "N/A",
+            "armor_penetration": "-1",
+            "damage": "1",
+            "keywords": "Ignores Cover, Torrent",
+            "additional_rules": [
+              {
+                "id": "278a-18aa-6f2d-fa4d",
+                "name": "Ignores Cover",
+                "type": "rule",
+                "rule_reference_id": "4640-43e7-30b-215a"
+              },
+              {
+                "id": "7505-64f5-5a1a-1a28",
+                "name": "Torrent",
+                "type": "rule",
+                "rule_reference_id": "5edf-d619-23e0-9b56"
+              }
+            ],
+            "minSelection": "1",
+            "maxSelection": "1"
+          },
+          {
+            "id": "70a0-b88a-6d05-3706",
+            "name": "Psilencer",
+            "cost": "",
+            "range": "24\"",
+            "attacks": "6",
+            "weapon_skill": "2+",
+            "armor_penetration": "0",
+            "damage": "1",
+            "keywords": "Psychic, Sustained Hits 1",
+            "additional_rules": [
+              {
+                "id": "4c93-67d6-2af8-4fbe",
+                "name": "Sustained Hits",
+                "type": "rule",
+                "rule_reference_id": "1897-c22c-9597-12b1"
+              },
+              {
+                "id": "5fae-a577-ba9a-82c7",
+                "name": "Psychic",
+                "type": "rule",
+                "rule_reference_id": "e9c4-2bb8-12ee-cd1b"
+              }
+            ],
+            "minSelection": "1",
+            "maxSelection": "1"
+          },
+          {
+            "id": "26b7-e7cf-33d8-9abe",
+            "name": "Storm Bolter",
+            "cost": "",
+            "range": "24\"",
+            "attacks": "2",
+            "weapon_skill": "2+",
+            "armor_penetration": "0",
+            "damage": "1",
+            "keywords": "Rapid Fire 2",
+            "additional_rules": [
+              {
+                "id": "ae5a-ad95-234c-b716",
+                "name": "Rapid Fire",
+                "type": "rule",
+                "rule_reference_id": "c5c8-8b58-b8b6-7786"
+              }
+            ],
+            "maxSelection": "1"
+          }
+        ],
+        "minSelection": "1",
+        "maxSelection": "1",
+        "selection_scope": ""
+      }
+    ],
+    "colors": {},
+    "image": {}
+  },
+  {
+    "name": "Brother-Captain Stern",
+    "cost": "90",
+    "movement": "5\"",
+    "toughness": "5",
+    "save": "2+",
+    "wounds": "6",
+    "leadership": "6+",
+    "objectiveControl": "1",
+    "abilities": [
+      {
+        "id": "af8-fa3e-ec21-19af",
+        "name": "Invulnerable Save",
+        "cost": "",
+        "description": "This unit has a 4+ Invulnerable Save"
+      },
+      {
+        "id": "7359-1f53-a51b-fb40",
+        "name": "Leader",
+        "cost": "",
+        "description": "This model can be attached to the following units:\n■ Brotherhood Terminator Squad\n■ Paladin Squad"
+      },
+      {
+        "id": "24f5-4ea1-bbc0-fc59",
+        "name": "Exemplar of the Silvered Host",
+        "cost": "",
+        "description": "While this model is leading a unit, each time a model in that unit makes a melee attack, on a Critical Wound, the target suffers 1 mortal wound in addition to any normal damage."
+      },
+      {
+        "id": "186a-f980-321d-d883",
+        "name": "Strands of Fate (Psychic)",
+        "cost": "",
+        "description": "The first time this model is destroyed, roll one D6 at the end of the phase. On a 2+, set this model back up on the battlefield as close as possible to where it was destroyed and not within Engagement Range of any enemy units, with its full wounds remaining."
+      }
+    ],
+    "models": [
+      {
+        "id": "aec2-ded6-fa0-3b75",
+        "name": "Brother-Captain Stern",
+        "weapons": [
+          {
+            "id": "1b42-d922-74f0-c474",
+            "name": "Nemesis Force Sword",
+            "cost": "",
+            "range": "Melee",
+            "attacks": "5",
+            "weapon_skill": "2+",
+            "armor_penetration": "-2",
+            "damage": "2",
+            "keywords": "Psychic",
+            "additional_rules": [
+              {
+                "id": "8daf-75fb-33f0-1d98",
+                "name": "Psychic",
+                "type": "rule",
+                "rule_reference_id": "e9c4-2bb8-12ee-cd1b"
+              }
+            ],
+            "minSelection": "1",
+            "maxSelection": "1"
+          },
+          {
+            "id": "5a29-5086-d86-9553",
+            "name": "Storm Bolter",
+            "cost": "",
+            "range": "24\"",
+            "attacks": "2",
+            "weapon_skill": "2+",
+            "armor_penetration": "0",
+            "damage": "1",
+            "keywords": "Rapid Fire 2",
+            "additional_rules": [
+              {
+                "id": "7ef7-11a7-3f4c-baf0",
+                "name": "Rapid Fire",
+                "type": "rule",
+                "rule_reference_id": "c5c8-8b58-b8b6-7786"
+              }
+            ],
+            "minSelection": "1",
+            "maxSelection": "1"
+          }
+        ],
+        "minSelection": "1",
+        "maxSelection": "1",
+        "selection_scope": ""
+      }
+    ],
+    "colors": {},
+    "image": {}
+  },
+  {
+    "name": "Brotherhood Champion",
+    "cost": "80",
+    "movement": "6\"",
+    "toughness": "4",
+    "save": "2+",
+    "wounds": "4",
+    "leadership": "6+",
+    "objectiveControl": "1",
+    "abilities": [
+      {
+        "id": "8c32-2a54-388f-1b85",
+        "name": "Invulnerable Save",
+        "cost": "",
+        "description": "This unit has a 4+ Invulnerable Save"
+      },
+      {
+        "id": "6201-69fa-9b1f-ef80",
+        "name": "Leader",
+        "cost": "",
+        "description": "This model can be attached to the following units:\n■ Purgation Squad\n■ Strike Squad"
+      },
+      {
+        "id": "4020-4496-e5f3-62fd",
+        "name": "Ethereal Castigation (Psychic)",
+        "cost": "",
+        "description": "While this model is leading a unit, models in that unit have the Fights First ability."
+      },
+      {
+        "id": "cc8f-6b40-8152-671f",
+        "name": "Martial Fury",
+        "cost": "",
+        "description": "Each time this model makes a melee attack that targets a Character unit, you can re-roll the Hit roll and you can re-roll the Wound roll."
+      }
+    ],
+    "models": [
+      {
+        "id": "2c81-4e74-8707-3117",
+        "name": "Brotherhood Champion",
+        "weapons": [
+          {
+            "id": "e4f1-7c06-108f-dda3",
+            "name": "Nemesis Force Weapon",
+            "cost": "",
+            "range": "Melee",
+            "attacks": "5",
+            "weapon_skill": "2+",
+            "armor_penetration": "-2",
+            "damage": "2",
+            "keywords": "Precision, Psychic",
+            "additional_rules": [
+              {
+                "id": "197a-4bfd-42c3-8f38",
+                "name": "Psychic",
+                "type": "rule",
+                "rule_reference_id": "e9c4-2bb8-12ee-cd1b"
+              }
+            ],
+            "minSelection": "1",
+            "maxSelection": "1"
+          },
+          {
+            "id": "2ff3-9667-2277-c8e6",
+            "name": "Storm Bolter",
+            "cost": "",
+            "range": "24\"",
+            "attacks": "2",
+            "weapon_skill": "2+",
+            "armor_penetration": "0",
+            "damage": "1",
+            "keywords": "Rapid Fire 2",
+            "additional_rules": [
+              {
+                "id": "3aaa-5f74-fcfd-238e",
+                "name": "Rapid Fire",
+                "type": "rule",
+                "rule_reference_id": "c5c8-8b58-b8b6-7786"
+              }
+            ],
+            "minSelection": "1",
+            "maxSelection": "1"
+          }
+        ],
+        "minSelection": "1",
+        "maxSelection": "1",
+        "selection_scope": ""
+      }
+    ],
+    "colors": {},
+    "image": {}
+  },
+  {
+    "name": "Brotherhood Chaplain",
+    "cost": "75",
+    "movement": "5\"",
+    "toughness": "5",
+    "save": "2+",
+    "wounds": "5",
+    "leadership": "5+",
+    "objectiveControl": "1",
+    "abilities": [
+      {
+        "id": "77f0-6695-53b4-f503",
+        "name": "Invulnerable Save",
+        "cost": "",
+        "description": "This unit has a 4+ Invulnerable Save"
+      },
+      {
+        "id": "82-db07-19c0-1f1b",
+        "name": "Words of Power (Psychic)",
+        "cost": "",
+        "description": "While this model is leading a unit, each time a model in that unit makes a melee attack, add 1 to the Wound roll."
+      },
+      {
+        "id": "8d73-2ecd-2b3c-3f18",
+        "name": "Dread Bearing (Aura)",
+        "cost": "",
+        "description": "While an enemy unit is within 6\" of this model, each time that unit takes a Battle-shock or Leadership test, subtract 1 from that test"
+      },
+      {
+        "id": "82ae-190e-a811-610",
+        "name": "Leader",
+        "cost": "",
+        "description": "This model can be attached to the following units:\n■ Brotherhood Terminator Squad\n■ Paladin Squad"
+      }
+    ],
+    "models": [
+      {
+        "id": "b9b1-d698-1e98-da45",
+        "name": "Brotherhood Chaplain",
+        "weapons": [
+          {
+            "id": "6fc3-5e9-2ebc-b8b8",
+            "name": "Storm Bolter",
+            "cost": "",
+            "range": "24\"",
+            "attacks": "2",
+            "weapon_skill": "2+",
+            "armor_penetration": "0",
+            "damage": "1",
+            "keywords": "Rapid Fire 2",
+            "additional_rules": [
+              {
+                "id": "dc46-6b8d-f333-4be0",
+                "name": "Rapid Fire",
+                "type": "rule",
+                "rule_reference_id": "c5c8-8b58-b8b6-7786"
+              }
+            ],
+            "minSelection": "1",
+            "maxSelection": "1"
+          },
+          {
+            "id": "4e88-c580-e5fa-ae6c",
+            "name": "Crozius Arcanum",
+            "cost": "",
+            "range": "Melee",
+            "attacks": "5",
+            "weapon_skill": "2+",
+            "armor_penetration": "-1",
+            "damage": "2",
+            "additional_rules": [],
+            "minSelection": "1",
+            "maxSelection": "1"
+          }
+        ],
+        "minSelection": "1",
+        "maxSelection": "1",
+        "selection_scope": ""
+      }
+    ],
+    "colors": {},
+    "image": {}
+  },
+  {
+    "name": "Brotherhood Librarian",
+    "cost": "100",
+    "movement": "5\"",
+    "toughness": "5",
+    "save": "2+",
+    "wounds": "5",
+    "leadership": "6+",
+    "objectiveControl": "1",
+    "abilities": [
+      {
+        "id": "84be-305e-eb59-2396",
+        "name": "Invulnerable Save",
+        "cost": "",
+        "description": "This unit has a 4+ Invulnerable Save"
+      },
+      {
+        "id": "3dec-ee8c-120d-4010",
+        "name": "Leader",
+        "cost": "",
+        "description": "This model can be attached to the following units:\n■ Brotherhood Terminator Squad\n■ Paladin Squad"
+      },
+      {
+        "id": "9d41-eb97-8f61-fb85",
+        "name": "Sanctic Hood",
+        "cost": "",
+        "description": "While this model is leading a unit, models in that unit have the Feel No Pain 4+ ability against Psychic Attacks."
+      },
+      {
+        "id": "f49c-a3e0-29e8-7304",
+        "name": "Vortex of Doom (Psychic)",
+        "cost": "",
+        "description": "In your Shooting phase, you can select one enemy unit within 18\" of and visible to this Psyker and roll one D6: on a 1, this Psyker’s unit suffers D6 mortal wounds; on a 2-5, that enemy unit suffers 2D3 mortal wounds; on a 6, that enemy unit suffers 2D6 mortal wounds."
+      }
+    ],
+    "models": [
+      {
+        "id": "5412-1f01-b7cc-bf12",
+        "name": "Brotherhood Librarian",
+        "weapons": [
+          {
+            "id": "fffe-abc5-ac4f-6eda",
+            "name": "Nemesis Force Weapon",
+            "cost": "",
+            "range": "Melee",
+            "attacks": "4",
+            "weapon_skill": "2+",
+            "armor_penetration": "-2",
+            "damage": "2",
+            "keywords": "Psychic",
+            "additional_rules": [
+              {
+                "id": "db4-2bff-fa0f-657",
+                "name": "Psychic",
+                "type": "rule",
+                "rule_reference_id": "e9c4-2bb8-12ee-cd1b"
+              }
+            ],
+            "minSelection": "1",
+            "maxSelection": "1"
+          },
+          {
+            "id": "3aa5-b3f3-8ec2-8559",
+            "name": "Purge Soul",
+            "cost": "",
+            "range": "24\"",
+            "attacks": "1",
+            "weapon_skill": "3+",
+            "armor_penetration": "-2",
+            "damage": "3",
+            "keywords": "Psychic",
+            "additional_rules": [],
+            "minSelection": "1",
+            "maxSelection": "1"
+          },
+          {
+            "id": "3aa5-b3f3-8ec2-8559",
+            "name": "Purge Soul",
+            "cost": "",
+            "range": "24\"",
+            "attacks": "1",
+            "weapon_skill": "3+",
+            "armor_penetration": "-2",
+            "damage": "3",
+            "keywords": "Psychic",
+            "additional_rules": [],
+            "minSelection": "1",
+            "maxSelection": "1"
+          },
+          {
+            "id": "f6ec-2a11-5ca6-344b",
+            "name": "Storm Bolter",
+            "cost": "",
+            "range": "24\"",
+            "attacks": "2",
+            "weapon_skill": "2+",
+            "armor_penetration": "0",
+            "damage": "1",
+            "keywords": "Rapid Fire 2",
+            "additional_rules": [
+              {
+                "id": "7235-e8b8-4ba9-ec1a",
+                "name": "Rapid Fire",
+                "type": "rule",
+                "rule_reference_id": "c5c8-8b58-b8b6-7786"
+              }
+            ],
+            "maxSelection": "1"
+          },
+          {
+            "id": "a0ce-78-c636-3bc6",
+            "name": "Combi-Weapon",
+            "cost": "",
+            "range": "24\"",
+            "attacks": "1",
+            "weapon_skill": "4+",
+            "armor_penetration": "0",
+            "damage": "1",
+            "keywords": "Anti-infantry 4+, Devastating Wounds, Rapid Fire 1",
+            "additional_rules": [
+              {
+                "id": "1819-3f3-340c-87db",
+                "name": "Anti-",
+                "type": "rule",
+                "rule_reference_id": "4111-82e3-9444-e942"
+              },
+              {
+                "id": "3316-52a7-caa2-7aab",
+                "name": "Rapid Fire",
+                "type": "rule",
+                "rule_reference_id": "c5c8-8b58-b8b6-7786"
+              },
+              {
+                "id": "e197-a5cc-eab9-1e10",
+                "name": "Devastating Wounds",
+                "type": "rule",
+                "rule_reference_id": "be1e-ac8e-1e2c-3528"
+              }
+            ],
+            "minSelection": "1",
+            "maxSelection": "1"
+          }
+        ],
+        "minSelection": "1",
+        "maxSelection": "1",
+        "selection_scope": ""
+      }
+    ],
+    "colors": {},
+    "image": {}
+  },
+  {
+    "name": "Brotherhood Techmarine",
+    "cost": "60",
+    "movement": "5\"",
+    "toughness": "4",
+    "save": "2+",
+    "wounds": "4",
+    "leadership": "6+",
+    "objectiveControl": "1",
+    "abilities": [
+      {
+        "id": "a0a4-1a94-df1f-ef4f",
+        "name": "Leader",
+        "cost": "",
+        "description": "This model can be attached to the following units:\n■ Servitors\n■ Strike Squad"
+      },
+      {
+        "id": "877c-7676-7032-ecd3",
+        "name": "Awaken the Machine Spirit",
+        "cost": "",
+        "description": "In your Command phase, you can select one friendly GREY KNIGHTS VEHICLE model within 6\" of this model. Until the start of your next Command phase, each time that VEHICLE model makes an attack, add 1 to the Hit roll."
+      },
+      {
+        "id": "f298-3658-77a2-5851",
+        "name": "Omnissiah’s Blessing",
+        "cost": "",
+        "description": "In your Command phase, you can select one friendly Grey Knights Vehicle model within 3\" of this model. That Vehicle model regains up to D3 lost wounds."
+      },
+      {
+        "id": "7750-f512-8316-e851",
+        "name": "Techmarine",
+        "cost": "",
+        "description": "While this model is within 3\" of one or more friendly Grey Knights Vehicle units, unless it is leading a unit, this model has the Lone Operative ability"
+      }
+    ],
+    "models": [
+      {
+        "id": "f667-5267-f241-37",
+        "name": "Brotherhood Techmarine",
+        "weapons": [
+          {
+            "id": "aa5-cfe9-83d9-250a",
+            "name": "Omnissian Power Axe",
+            "cost": "",
+            "range": "Melee",
+            "attacks": "4",
+            "weapon_skill": "3+",
+            "armor_penetration": "-2",
+            "damage": "2",
+            "additional_rules": [],
+            "minSelection": "1",
+            "maxSelection": "1"
+          },
+          {
+            "id": "78d0-de33-2a42-edef",
+            "name": "Flamer",
+            "cost": "",
+            "range": "12\"",
+            "attacks": "D6",
+            "weapon_skill": "N/A",
+            "armor_penetration": "0",
+            "damage": "1",
+            "keywords": "Ignores Cover, Torrent",
+            "additional_rules": [],
+            "minSelection": "1",
+            "maxSelection": "1"
+          },
+          {
+            "id": "3549-7e11-cc13-6991",
+            "name": "Plasma Cutter",
+            "cost": "",
+            "range": "Melee",
+            "attacks": "2",
+            "weapon_skill": "3+",
+            "armor_penetration": "-2",
+            "damage": "1",
+            "keywords": "Extra Attacks",
+            "additional_rules": [],
+            "minSelection": "1",
+            "maxSelection": "1"
+          },
+          {
+            "id": "3549-7e11-cc13-6991",
+            "name": "Plasma Cutter",
+            "cost": "",
+            "range": "Melee",
+            "attacks": "2",
+            "weapon_skill": "3+",
+            "armor_penetration": "-2",
+            "damage": "1",
+            "keywords": "Extra Attacks",
+            "additional_rules": [],
+            "minSelection": "1",
+            "maxSelection": "1"
+          },
+          {
+            "id": "56a2-d965-8a31-8eec",
+            "name": "Servo-arms",
+            "cost": "",
+            "range": "Melee",
+            "attacks": "2",
+            "weapon_skill": "3+",
+            "armor_penetration": "-2",
+            "damage": "3",
+            "keywords": "Extra Attacks",
+            "additional_rules": [],
+            "minSelection": "1",
+            "maxSelection": "1"
+          },
+          {
+            "id": "3116-6dc9-27ee-97bb",
+            "name": "Boltgun",
+            "cost": "",
+            "range": "24\"",
+            "attacks": "2",
+            "weapon_skill": "3+",
+            "armor_penetration": "0",
+            "damage": "1",
+            "additional_rules": [],
+            "minSelection": "1",
+            "maxSelection": "1"
+          },
+          {
+            "id": "24a3-f6c0-3ca7-ae59",
+            "name": "Bolt Pistol",
+            "cost": "",
+            "range": "12\"",
+            "attacks": "1",
+            "weapon_skill": "3+",
+            "armor_penetration": "0",
+            "damage": "1",
+            "keywords": "Pistol",
+            "additional_rules": [],
+            "minSelection": "1",
+            "maxSelection": "1"
+          }
+        ],
+        "minSelection": "1",
+        "maxSelection": "1",
+        "selection_scope": ""
+      }
+    ],
+    "colors": {},
+    "image": {}
+  },
+  {
+    "name": "Brotherhood Terminator Squad",
+    "cost": "210",
+    "movement": "5\"",
+    "toughness": "5",
+    "save": "2+",
+    "wounds": "3",
+    "leadership": "6+",
+    "objectiveControl": "2",
+    "abilities": [
+      {
+        "id": "6585-94a6-3ecc-b4d3",
+        "name": "Invulnerable Save",
+        "cost": "",
+        "description": "This unit has a 4+ Invulnerable Save"
+      },
+      {
+        "id": "3ebb-9bbe-208-ac9c",
+        "name": "Hammerhand (Psychic)",
+        "cost": "",
+        "description": "Each time a model in this unit makes a Charge move, until the end of the turn, melee weapons equipped by models in this unit have the [LETHAL HITS] ability."
+      }
+    ],
+    "models": [
+      {
+        "id": "79e8-7d5f-6567-1a4c",
+        "name": "Justicar",
+        "weapons": [
+          {
+            "id": "b008-9b7a-6f45-1873",
+            "name": "Nemesis Force Weapon",
+            "cost": "",
+            "range": "Melee",
+            "attacks": "4",
+            "weapon_skill": "3+",
+            "armor_penetration": "-2",
+            "damage": "2",
+            "keywords": "Psychic",
+            "additional_rules": [
+              {
+                "id": "8654-ea89-be45-c934",
+                "name": "Psychic",
+                "type": "rule",
+                "rule_reference_id": "e9c4-2bb8-12ee-cd1b"
+              }
+            ],
+            "minSelection": "1",
+            "maxSelection": "1"
+          },
+          {
+            "id": "3937-81ba-e034-15b6",
+            "name": "Storm Bolter",
+            "cost": "",
+            "range": "24\"",
+            "attacks": "2",
+            "weapon_skill": "3+",
+            "armor_penetration": "0",
+            "damage": "1",
+            "keywords": "Rapid Fire 2",
+            "additional_rules": [
+              {
+                "id": "73f5-27fb-849-4e31",
+                "name": "Rapid Fire",
+                "type": "rule",
+                "rule_reference_id": "c5c8-8b58-b8b6-7786"
+              }
+            ],
+            "minSelection": "1",
+            "maxSelection": "1"
+          }
+        ],
+        "minSelection": "1",
+        "maxSelection": "1",
+        "selection_scope": "parent"
+      },
+      {
+        "id": "f5c5-56fd-51ec-d1a6",
+        "name": "Terminator",
+        "weapons": [
+          {
+            "id": "261c-9752-7bd3-7bf2",
+            "name": "Nemesis Force Weapon",
+            "cost": "",
+            "range": "Melee",
+            "attacks": "4",
+            "weapon_skill": "3+",
+            "armor_penetration": "-2",
+            "damage": "2",
+            "keywords": "Psychic",
+            "additional_rules": [
+              {
+                "id": "fa00-da2b-3beb-431e",
+                "name": "Psychic",
+                "type": "rule",
+                "rule_reference_id": "e9c4-2bb8-12ee-cd1b"
+              }
+            ],
+            "minSelection": "1",
+            "maxSelection": "1"
+          },
+          {
+            "id": "aa86-238b-9ca6-7504",
+            "name": "Storm Bolter",
+            "cost": "",
+            "range": "24\"",
+            "attacks": "2",
+            "weapon_skill": "3+",
+            "armor_penetration": "0",
+            "damage": "1",
+            "keywords": "Rapid Fire 2",
+            "additional_rules": [
+              {
+                "id": "8a35-6814-4656-9c79",
+                "name": "Rapid Fire",
+                "type": "rule",
+                "rule_reference_id": "c5c8-8b58-b8b6-7786"
+              }
+            ],
+            "minSelection": "1",
+            "maxSelection": "1"
+          }
+        ],
+        "minSelection": "1",
+        "maxSelection": "1",
+        "selection_scope": ""
+      },
+      {
+        "id": "6215-3f01-f844-585",
+        "name": "Terminator with Ancient's Banner",
+        "weapons": [
+          {
+            "id": "3934-1e64-5a6a-8e54",
+            "name": "Nemesis Force Weapon",
+            "cost": "",
+            "range": "Melee",
+            "attacks": "4",
+            "weapon_skill": "3+",
+            "armor_penetration": "-2",
+            "damage": "2",
+            "keywords": "Psychic",
+            "additional_rules": [
+              {
+                "id": "73b9-bf-a242-b68c",
+                "name": "Psychic",
+                "type": "rule",
+                "rule_reference_id": "e9c4-2bb8-12ee-cd1b"
+              }
+            ],
+            "minSelection": "1",
+            "maxSelection": "1"
+          },
+          {
+            "id": "186c-825d-4e37-6b5d",
+            "name": "Storm Bolter",
+            "cost": "",
+            "range": "24\"",
+            "attacks": "2",
+            "weapon_skill": "3+",
+            "armor_penetration": "0",
+            "damage": "1",
+            "keywords": "Rapid Fire 2",
+            "additional_rules": [
+              {
+                "id": "3b13-570e-b27d-c404",
+                "name": "Rapid Fire",
+                "type": "rule",
+                "rule_reference_id": "c5c8-8b58-b8b6-7786"
+              }
+            ],
+            "minSelection": "1",
+            "maxSelection": "1"
+          }
+        ],
+        "maxSelection": "1",
+        "selection_scope": "parent"
+      },
+      {
+        "id": "22fd-3d1b-9957-2d5f",
+        "name": "Terminator with Narthecium",
+        "weapons": [
+          {
+            "id": "29dd-35d3-910f-c1c4",
+            "name": "Nemesis Force Weapon",
+            "cost": "",
+            "range": "Melee",
+            "attacks": "4",
+            "weapon_skill": "3+",
+            "armor_penetration": "-2",
+            "damage": "2",
+            "keywords": "Psychic",
+            "additional_rules": [
+              {
+                "id": "e99d-16e3-a591-c0e1",
+                "name": "Psychic",
+                "type": "rule",
+                "rule_reference_id": "e9c4-2bb8-12ee-cd1b"
+              }
+            ],
+            "minSelection": "1",
+            "maxSelection": "1"
+          }
+        ],
+        "maxSelection": "1",
+        "selection_scope": "parent"
+      },
+      {
+        "id": "77d3-d321-bb86-dabe",
+        "name": "Terminator with Heavy Weapon",
+        "weapons": [
+          {
+            "id": "6a31-ca3-754e-60eb",
+            "name": "Nemesis Force Weapon",
+            "cost": "",
+            "range": "Melee",
+            "attacks": "4",
+            "weapon_skill": "3+",
+            "armor_penetration": "-2",
+            "damage": "2",
+            "keywords": "Psychic",
+            "additional_rules": [
+              {
+                "id": "79ff-1e23-827a-6361",
+                "name": "Psychic",
+                "type": "rule",
+                "rule_reference_id": "e9c4-2bb8-12ee-cd1b"
+              }
+            ],
+            "minSelection": "1",
+            "maxSelection": "1"
+          },
+          {
+            "id": "c694-9e9d-faf1-87b7",
+            "name": "Psycannon",
+            "cost": "",
+            "range": "24\"",
+            "attacks": "3",
+            "weapon_skill": "3+",
+            "armor_penetration": "-1",
+            "damage": "2",
+            "keywords": "Psychic",
+            "additional_rules": [
+              {
+                "id": "2614-2ac-fbb6-f7fd",
+                "name": "Psychic",
+                "type": "rule",
+                "rule_reference_id": "e9c4-2bb8-12ee-cd1b"
+              }
+            ],
+            "minSelection": "1",
+            "maxSelection": "1"
+          },
+          {
+            "id": "93a3-e2fc-bb5a-a7ae",
+            "name": "Incinerator",
+            "cost": "",
+            "range": "12\"",
+            "attacks": "D6",
+            "weapon_skill": "N/A",
+            "armor_penetration": "-1",
+            "damage": "1",
+            "keywords": "Ignores Cover, Torrent",
+            "additional_rules": [
+              {
+                "id": "2142-6d53-b80a-4c07",
+                "name": "Ignores Cover",
+                "type": "rule",
+                "rule_reference_id": "4640-43e7-30b-215a"
+              },
+              {
+                "id": "9951-3899-2c77-ed61",
+                "name": "Torrent",
+                "type": "rule",
+                "rule_reference_id": "5edf-d619-23e0-9b56"
+              }
+            ],
+            "minSelection": "1",
+            "maxSelection": "1"
+          },
+          {
+            "id": "bf84-2a13-b47c-7",
+            "name": "Psilencer",
+            "cost": "",
+            "range": "24\"",
+            "attacks": "6",
+            "weapon_skill": "3+",
+            "armor_penetration": "0",
+            "damage": "1",
+            "keywords": "Psychic, Sustained Hits 1",
+            "additional_rules": [
+              {
+                "id": "c734-e809-cd6d-7cf2",
+                "name": "Sustained Hits",
+                "type": "rule",
+                "rule_reference_id": "1897-c22c-9597-12b1"
+              },
+              {
+                "id": "c087-22e-4aef-4379",
+                "name": "Psychic",
+                "type": "rule",
+                "rule_reference_id": "e9c4-2bb8-12ee-cd1b"
+              }
+            ],
+            "minSelection": "1",
+            "maxSelection": "1"
+          }
+        ],
+        "maxSelection": "1",
+        "selection_scope": "parent"
+      }
+    ],
+    "colors": {},
+    "image": {}
+  },
+  {
+    "name": "Castellan Crowe",
+    "cost": "75",
+    "movement": "6\"",
+    "toughness": "4",
+    "save": "2+",
+    "wounds": "5",
+    "leadership": "6+",
+    "objectiveControl": "1",
+    "abilities": [
+      {
+        "id": "d1a4-e321-e69a-a77a",
+        "name": "Invulnerable Save",
+        "cost": "",
+        "description": "This unit has a 4+ Invulnerable Save"
+      },
+      {
+        "id": "3cd-1880-37fe-4cfc",
+        "name": "Champion of the Order of Purifiers (Psychic)",
+        "cost": "",
+        "description": "While this model is leading a unit, add 1 to the Attacks characteristic of that unit’s Purifying Flame."
+      },
+      {
+        "id": "7414-1762-a008-9828",
+        "name": "Foresight of the Prognosticars (Psychic)",
+        "cost": "",
+        "description": "Once per turn, the first time a saving throw is failed for this model, change the Damage characteristic of that attack to 0"
+      },
+      {
+        "id": "722a-9e45-fe18-94aa",
+        "name": "Leader",
+        "cost": "",
+        "description": "This model can be attached to the following unit:\n■ Purifier Squad"
+      }
+    ],
+    "models": [
+      {
+        "id": "9ddb-760d-8cf7-1c8a",
+        "name": "Castellan Crowe",
+        "weapons": [
+          {
+            "id": "ba75-d1eb-5347-28b3",
+            "name": "Purifying Flame",
+            "cost": "",
+            "range": "18\"",
+            "attacks": "3",
+            "weapon_skill": "2+",
+            "armor_penetration": "-1",
+            "damage": "1",
+            "keywords": "Anti-Infantry 2+, Ignores Cover, Psychic",
+            "additional_rules": [
+              {
+                "id": "6f01-b395-3fdb-d92",
+                "name": "Ignores Cover",
+                "type": "rule",
+                "rule_reference_id": "4640-43e7-30b-215a"
+              },
+              {
+                "id": "f385-d8b1-a07-7cfb",
+                "name": "Psychic",
+                "type": "rule",
+                "rule_reference_id": "e9c4-2bb8-12ee-cd1b"
+              },
+              {
+                "id": "2dad-d6f2-2afb-6568",
+                "name": "Anti-",
+                "type": "rule",
+                "rule_reference_id": "4111-82e3-9444-e942"
+              }
+            ],
+            "minSelection": "1",
+            "maxSelection": "1"
+          },
+          {
+            "id": "9a7a-e845-e81f-6b87",
+            "name": "Storm Bolter",
+            "cost": "",
+            "range": "24\"",
+            "attacks": "2",
+            "weapon_skill": "2+",
+            "armor_penetration": "0",
+            "damage": "1",
+            "keywords": "Rapid Fire 2",
+            "additional_rules": [
+              {
+                "id": "d901-f7ba-486f-c84f",
+                "name": "Rapid Fire",
+                "type": "rule",
+                "rule_reference_id": "c5c8-8b58-b8b6-7786"
+              }
+            ],
+            "minSelection": "1",
+            "maxSelection": "1"
+          },
+          {
+            "id": "9bcc-8f6e-67ea-6c75",
+            "name": "Black Blade of Antwyr",
+            "cost": "",
+            "range": "Melee",
+            "attacks": "5",
+            "weapon_skill": "2+",
+            "armor_penetration": "-2",
+            "damage": "2",
+            "keywords": "Devastating Wounds, Precision",
+            "additional_rules": [],
+            "minSelection": "1",
+            "maxSelection": "1"
+          }
+        ],
+        "minSelection": "1",
+        "maxSelection": "1",
+        "selection_scope": ""
+      }
+    ],
+    "colors": {},
+    "image": {}
+  },
+  {
+    "name": "Grand Master",
+    "cost": "95",
+    "movement": "5\"",
+    "toughness": "5",
+    "save": "2+",
+    "wounds": "7",
+    "leadership": "6+",
+    "objectiveControl": "1",
+    "abilities": [
+      {
+        "id": "5d23-1cdd-d4b1-a98f",
+        "name": "Invulnerable Save",
+        "cost": "",
+        "description": "This unit has a 4+ Invulnerable Save"
+      },
+      {
+        "id": "f271-762e-61ae-367f",
+        "name": "Might of Purity (Psychic)",
+        "cost": "",
+        "description": "While this model is leading a unit, you can ignore any or all modifiers to the characteristics of models in that unit and to any roll or test made for models in that unit (excluding modifiers to saving throws)."
+      },
+      {
+        "id": "cb03-8115-df85-19ac",
+        "name": "Master Strategist",
+        "cost": "",
+        "description": "Once per battle, one unit from your army with this ability can be targeted by a Stratagem for 0CP, even if another unit from your army has already been targeted by that Stratagem this phase."
+      },
+      {
+        "id": "ecd8-2298-e581-30d1",
+        "name": "Leader",
+        "cost": "",
+        "description": "This model can be attached to the following units:\n■ Brotherhood Terminator Squad\n■ Paladin Squad"
+      }
+    ],
+    "models": [
+      {
+        "id": "1a56-706b-a8f1-631a",
+        "name": "Grand Master",
+        "weapons": [
+          {
+            "id": "1cca-ad4-74e7-cd9e",
+            "name": "Nemesis Force Weapon",
+            "cost": "",
+            "range": "Melee",
+            "attacks": "5",
+            "weapon_skill": "2+",
+            "armor_penetration": "-2",
+            "damage": "2",
+            "keywords": "Psychic",
+            "additional_rules": [
+              {
+                "id": "f21d-49a3-33fc-219a",
+                "name": "Psychic",
+                "type": "rule",
+                "rule_reference_id": "e9c4-2bb8-12ee-cd1b"
+              }
+            ],
+            "minSelection": "1",
+            "maxSelection": "1"
+          },
+          {
+            "id": "be75-9ce5-95d5-a03f",
+            "name": "Psycannon",
+            "cost": "",
+            "range": "24\"",
+            "attacks": "3",
+            "weapon_skill": "2+",
+            "armor_penetration": "-1",
+            "damage": "2",
+            "keywords": "Psychic",
+            "additional_rules": [
+              {
+                "id": "b0d7-125e-120b-c870",
+                "name": "Psychic",
+                "type": "rule",
+                "rule_reference_id": "e9c4-2bb8-12ee-cd1b"
+              }
+            ],
+            "minSelection": "1",
+            "maxSelection": "1"
+          },
+          {
+            "id": "aa13-af0a-18e-f507",
+            "name": "Incinerator",
+            "cost": "",
+            "range": "12\"",
+            "attacks": "D6",
+            "weapon_skill": "N/A",
+            "armor_penetration": "-1",
+            "damage": "1",
+            "keywords": "Ignores Cover, Torrent",
+            "additional_rules": [
+              {
+                "id": "f696-eaae-af1e-f976",
+                "name": "Ignores Cover",
+                "type": "rule",
+                "rule_reference_id": "4640-43e7-30b-215a"
+              },
+              {
+                "id": "f699-9f4a-7f97-69a",
+                "name": "Torrent",
+                "type": "rule",
+                "rule_reference_id": "5edf-d619-23e0-9b56"
+              }
+            ],
+            "minSelection": "1",
+            "maxSelection": "1"
+          },
+          {
+            "id": "4d85-10bc-912c-c316",
+            "name": "Psilencer",
+            "cost": "",
+            "range": "24\"",
+            "attacks": "6",
+            "weapon_skill": "2+",
+            "armor_penetration": "0",
+            "damage": "1",
+            "keywords": "Psychic, Sustained Hits 1",
+            "additional_rules": [
+              {
+                "id": "a292-2940-af73-8c7c",
+                "name": "Sustained Hits",
+                "type": "rule",
+                "rule_reference_id": "1897-c22c-9597-12b1"
+              },
+              {
+                "id": "7579-eaad-6016-e7fb",
+                "name": "Psychic",
+                "type": "rule",
+                "rule_reference_id": "e9c4-2bb8-12ee-cd1b"
+              }
+            ],
+            "minSelection": "1",
+            "maxSelection": "1"
+          },
+          {
+            "id": "903a-b2d-bf56-4652",
+            "name": "Storm Bolter",
+            "cost": "",
+            "range": "24\"",
+            "attacks": "2",
+            "weapon_skill": "2+",
+            "armor_penetration": "0",
+            "damage": "1",
+            "keywords": "Rapid Fire 2",
+            "additional_rules": [
+              {
+                "id": "8516-8510-9ec5-bc73",
+                "name": "Rapid Fire",
+                "type": "rule",
+                "rule_reference_id": "c5c8-8b58-b8b6-7786"
+              }
+            ],
+            "maxSelection": "1"
+          }
+        ],
+        "minSelection": "1",
+        "maxSelection": "1",
+        "selection_scope": ""
+      }
+    ],
+    "colors": {},
+    "image": {}
+  },
+  {
+    "name": "Grand Master in Nemesis Dreadknight",
+    "cost": "200",
+    "movement": "8\"",
+    "toughness": "8",
+    "save": "2+",
+    "wounds": "13",
+    "leadership": "6+",
+    "objectiveControl": "4",
+    "abilities": [
+      {
+        "id": "20e2-c65-dd6d-75e",
+        "name": "Invulnerable Save",
+        "cost": "",
+        "description": "This unit has a 4+ Invulnerable Save"
+      },
+      {
+        "id": "1ee5-63a2-6c01-e628",
+        "name": "Surge of Wrath (Psychic)",
+        "cost": "",
+        "description": "Once per battle round, in the Fight phase, one model from your army with this ability can use it before resolving its attacks. If it does, until the end of the phase, each time that model makes an attack that targets a Monster or Vehicle unit, you can re-roll the Hit roll, you can re-roll the Wound roll and you can re-roll the Damage roll."
+      },
+      {
+        "id": "dce-9e37-9f2-5687",
+        "name": "Heroism’s Favour",
+        "cost": "",
+        "description": "Each time you target this model with a Stratagem, it only costs 1CP to use, even if the CP cost is higher"
+      },
+      {
+        "id": "abf6-e340-d8e8-5486",
+        "name": "Damaged: 1-4 Wounds Remaining",
+        "cost": "",
+        "description": "While this model has 1-4 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+      }
+    ],
+    "models": [
+      {
+        "id": "3625-f9f1-122b-bf9d",
+        "name": "Grand Master in Nemesis Dreadknight",
+        "weapons": [
+          {
+            "id": "2eb9-3493-e588-49f4",
+            "name": "Dreadfists",
+            "cost": "",
+            "range": "Melee",
+            "attacks": "6",
+            "weapon_skill": "3+",
+            "armor_penetration": "-1",
+            "damage": "1",
+            "additional_rules": [],
+            "minSelection": "1",
+            "maxSelection": "1"
+          },
+          {
+            "id": "52c4-b7dd-788f-264b",
+            "name": "Nemesis Greatsword",
+            "cost": "",
+            "range": "Melee",
+            "attacks": "5",
+            "weapon_skill": "3+",
+            "armor_penetration": "-2",
+            "damage": "D6",
+            "keywords": "Psychic",
+            "additional_rules": [],
+            "minSelection": "1",
+            "maxSelection": "1"
+          },
+          {
+            "id": "52c4-b7dd-788f-264b",
+            "name": "Nemesis Greatsword",
+            "cost": "",
+            "range": "Melee",
+            "attacks": "5",
+            "weapon_skill": "3+",
+            "armor_penetration": "-2",
+            "damage": "D6",
+            "keywords": "Psychic",
+            "additional_rules": [],
+            "minSelection": "1",
+            "maxSelection": "1"
+          },
+          {
+            "id": "3b80-a160-3eec-4e00",
+            "name": "Nemesis Daemon Greathammer",
+            "cost": "",
+            "range": "Melee",
+            "attacks": "5",
+            "weapon_skill": "4+",
+            "armor_penetration": "-3",
+            "damage": "D6+1",
+            "keywords": "Psychic",
+            "additional_rules": [],
+            "minSelection": "1",
+            "maxSelection": "1"
+          },
+          {
+            "id": "deb-48a9-1858-abdc",
+            "name": "Gatling Psilencer",
+            "cost": "",
+            "range": "24\"",
+            "attacks": "12",
+            "weapon_skill": "3+",
+            "armor_penetration": "0",
+            "damage": "1",
+            "keywords": "Psychic, Sustained Hits 1",
+            "additional_rules": [],
+            "maxSelection": "1"
+          },
+          {
+            "id": "8f86-8d31-fcf8-ea68",
+            "name": "Heavy Incinerator",
+            "cost": "",
+            "range": "18\"",
+            "attacks": "2D6",
+            "weapon_skill": "N/A",
+            "armor_penetration": "-1",
+            "damage": "1",
+            "keywords": "Ignores Cover, Torrent",
+            "additional_rules": [],
+            "maxSelection": "1"
+          },
+          {
+            "id": "b20b-53f6-d6da-c537",
+            "name": "Heavy Psycannon",
+            "cost": "",
+            "range": "24\"",
+            "attacks": "6",
+            "weapon_skill": "3+",
+            "armor_penetration": "-1",
+            "damage": "3",
+            "keywords": "Psychic",
+            "additional_rules": [],
+            "maxSelection": "1"
+          }
+        ],
+        "minSelection": "1",
+        "maxSelection": "1",
+        "selection_scope": ""
+      }
+    ],
+    "colors": {},
+    "image": {}
+  },
+  {
+    "name": "Grand Master Voldus",
+    "cost": "95",
+    "movement": "5\"",
+    "toughness": "5",
+    "save": "2+",
+    "wounds": "6",
+    "leadership": "6+",
+    "objectiveControl": "1",
+    "abilities": [
+      {
+        "id": "8678-79d4-fbb6-5672",
+        "name": "Invulnerable Save",
+        "cost": "",
+        "description": "This unit has a 4+ Invulnerable Save"
+      },
+      {
+        "id": "b513-f80c-9d48-db05",
+        "name": "Sanctuary (Psychic)",
+        "cost": "",
+        "description": "While this model is leading a unit, each time an attack targets that unit, subtract 1 from the Hit roll."
+      },
+      {
+        "id": "bf8c-be10-e632-646d",
+        "name": "Hammer Aflame (Psychic)",
+        "cost": "",
+        "description": "Each time this model’s unit is selected to fight, you can select one enemy unit within Engagement Range of this model’s unit and roll one D6, adding 2 to the result if that unit has the Daemon keyword: on a 4-5, that enemy unit suffers D3 mortal wounds; on a 6+, that enemy unit suffers D3+3 mortal wounds."
+      },
+      {
+        "id": "3de3-b31e-7c05-aba8",
+        "name": "Leader",
+        "cost": "",
+        "description": "This model can be attached to the following units:\n■ Brotherhood Terminator Squad\n■ Paladin Squad"
+      }
+    ],
+    "models": [
+      {
+        "id": "7256-bb3a-3e79-31fe",
+        "name": "Grand Master Voldus",
+        "weapons": [
+          {
+            "id": "90bf-576e-e6e1-34f3",
+            "name": "Storm Bolter",
+            "cost": "",
+            "range": "24\"",
+            "attacks": "2",
+            "weapon_skill": "2+",
+            "armor_penetration": "0",
+            "damage": "1",
+            "keywords": "Rapid Fire 2",
+            "additional_rules": [
+              {
+                "id": "6ac7-e98f-acea-61aa",
+                "name": "Rapid Fire",
+                "type": "rule",
+                "rule_reference_id": "c5c8-8b58-b8b6-7786"
+              }
+            ],
+            "minSelection": "1",
+            "maxSelection": "1"
+          },
+          {
+            "id": "6b5f-a7fc-2a1b-b24e",
+            "name": "Malleus Argyrum",
+            "cost": "",
+            "range": "Melee",
+            "attacks": "5",
+            "weapon_skill": "2+",
+            "armor_penetration": "-2",
+            "damage": "3",
+            "keywords": "Psychic",
+            "additional_rules": [],
+            "minSelection": "1",
+            "maxSelection": "1"
+          }
+        ],
+        "minSelection": "1",
+        "maxSelection": "1",
+        "selection_scope": ""
+      }
+    ],
+    "colors": {},
+    "image": {}
+  },
+  {
+    "name": "Grey Knights Land Raider",
+    "cost": "240",
+    "movement": "10\"",
+    "toughness": "12",
+    "save": "2+",
+    "wounds": "16",
+    "leadership": "6+",
+    "objectiveControl": "5",
+    "abilities": [
+      {
+        "id": "c1d5-950b-12b6-7201",
+        "name": "Assault Ramp",
+        "cost": "",
+        "description": "Each time a unit disembarks from this model after it has made a Normal move, that unit is still eligible to declare a charge this turn."
+      },
+      {
+        "id": "e6a-44ad-c190-51c5",
+        "name": "Damaged: 1-5 Wounds Remaining",
+        "cost": "",
+        "description": "While this model has 1-5 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+      }
+    ],
+    "models": [
+      {
+        "id": "512d-b972-911e-4cac",
+        "name": "Grey Knights Land Raider",
+        "weapons": [
+          {
+            "id": "ff0-5d7d-c73b-9c5f",
+            "name": "Godhammer Lascannon",
+            "cost": "",
+            "range": "48\"",
+            "attacks": "2",
+            "weapon_skill": "3+",
+            "armor_penetration": "-3",
+            "damage": "D6+1",
+            "additional_rules": [],
+            "minSelection": "2",
+            "maxSelection": "2"
+          },
+          {
+            "id": "b9c1-621d-4e2c-ec53",
+            "name": "Hunter-killer Missile",
+            "cost": "",
+            "range": "48\"",
+            "attacks": "1",
+            "weapon_skill": "2+",
+            "armor_penetration": "-3",
+            "damage": "D6",
+            "keywords": "One Shot",
+            "additional_rules": [],
+            "maxSelection": "1"
+          },
+          {
+            "id": "45b2-6705-e24e-4378",
+            "name": "Multi-melta",
+            "cost": "",
+            "range": "18\"",
+            "attacks": "2",
+            "weapon_skill": "3+",
+            "armor_penetration": "-4",
+            "damage": "D6",
+            "keywords": "Melta 2",
+            "additional_rules": [],
+            "maxSelection": "1"
+          },
+          {
+            "id": "a267-d6e8-d2f9-e9e5",
+            "name": "Twin Heavy Bolter",
+            "cost": "",
+            "range": "36\"",
+            "attacks": "3",
+            "weapon_skill": "3+",
+            "armor_penetration": "-1",
+            "damage": "2",
+            "keywords": "Sustained Hits 1, Twin-Linked",
+            "additional_rules": [],
+            "minSelection": "1",
+            "maxSelection": "1"
+          },
+          {
+            "id": "a3fa-1259-f3cb-f873",
+            "name": "Storm Bolter",
+            "cost": "",
+            "range": "24\"",
+            "attacks": "2",
+            "weapon_skill": "3+",
+            "armor_penetration": "0",
+            "damage": "1",
+            "keywords": "Rapid Fire 2",
+            "additional_rules": [
+              {
+                "id": "ae9a-7702-d08d-f8f8",
+                "name": "Rapid Fire",
+                "type": "rule",
+                "rule_reference_id": "c5c8-8b58-b8b6-7786"
+              }
+            ],
+            "maxSelection": "1"
+          },
+          {
+            "id": "cfd1-5e6a-36c3-7997",
+            "name": "Armoured tracks",
+            "cost": "",
+            "range": "Melee",
+            "attacks": "6",
+            "weapon_skill": "4+",
+            "armor_penetration": "0",
+            "damage": "1",
+            "additional_rules": [],
+            "minSelection": "1",
+            "maxSelection": "1"
+          }
+        ],
+        "minSelection": "1",
+        "maxSelection": "1",
+        "selection_scope": ""
+      }
+    ],
+    "colors": {},
+    "image": {}
+  },
+  {
+    "name": "Grey Knights Land Raider Crusader",
+    "cost": "230",
+    "movement": "12\"",
+    "toughness": "12",
+    "save": "2+",
+    "wounds": "16",
+    "leadership": "6+",
+    "objectiveControl": "5",
+    "abilities": [
+      {
+        "id": "c059-84a-5bf2-dcbf",
+        "name": "Assault Ramp",
+        "cost": "",
+        "description": "Each time a unit disembarks from this model after it has made a Normal move, that unit is still eligible to declare a charge this turn."
+      },
+      {
+        "id": "cfb3-a59a-4eb1-1079",
+        "name": "Damaged: 1-5 Wounds Remaining",
+        "cost": "",
+        "description": "While this model has 1-5 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+      }
+    ],
+    "models": [
+      {
+        "id": "4c63-cca-8d26-6330",
+        "name": "Grey Knights Land Raider Crusader",
+        "weapons": [
+          {
+            "id": "3e8f-4409-e8e1-e0f6",
+            "name": "Storm Bolter",
+            "cost": "",
+            "range": "24\"",
+            "attacks": "2",
+            "weapon_skill": "3+",
+            "armor_penetration": "0",
+            "damage": "1",
+            "keywords": "Rapid Fire 2",
+            "additional_rules": [
+              {
+                "id": "dde4-1e5b-532e-c5ac",
+                "name": "Rapid Fire",
+                "type": "rule",
+                "rule_reference_id": "c5c8-8b58-b8b6-7786"
+              }
+            ],
+            "maxSelection": "1"
+          },
+          {
+            "id": "9b02-db16-f3e1-2ba6",
+            "name": "Multi-melta",
+            "cost": "",
+            "range": "18\"",
+            "attacks": "2",
+            "weapon_skill": "3+",
+            "armor_penetration": "-4",
+            "damage": "D6",
+            "keywords": "Melta 2",
+            "additional_rules": [],
+            "maxSelection": "1"
+          },
+          {
+            "id": "826e-a7e2-6487-697f",
+            "name": "Hunter-killer Missile",
+            "cost": "",
+            "range": "48\"",
+            "attacks": "1",
+            "weapon_skill": "2+",
+            "armor_penetration": "-3",
+            "damage": "D6",
+            "keywords": "One Shot",
+            "additional_rules": [],
+            "maxSelection": "1"
+          },
+          {
+            "id": "d6c2-e486-b6f-dcf3",
+            "name": "Armoured tracks",
+            "cost": "",
+            "range": "Melee",
+            "attacks": "6",
+            "weapon_skill": "4+",
+            "armor_penetration": "0",
+            "damage": "1",
+            "additional_rules": [],
+            "minSelection": "1",
+            "maxSelection": "1"
+          },
+          {
+            "id": "ed38-3e46-5c38-39d9",
+            "name": "Hurricane Bolter",
+            "cost": "",
+            "range": "24\"",
+            "attacks": "6",
+            "weapon_skill": "3+",
+            "armor_penetration": "0",
+            "damage": "1",
+            "keywords": "Rapid Fire 6, Twin-Linked",
+            "additional_rules": [],
+            "minSelection": "2",
+            "maxSelection": "2"
+          },
+          {
+            "id": "f061-6db7-ce1a-d3cb",
+            "name": "Twin Assault Cannon",
+            "cost": "",
+            "range": "24\"",
+            "attacks": "6",
+            "weapon_skill": "3+",
+            "armor_penetration": "0",
+            "damage": "1",
+            "keywords": "Devastating Wounds, Twin-Linked",
+            "additional_rules": [],
+            "minSelection": "1",
+            "maxSelection": "1"
+          }
+        ],
+        "minSelection": "1",
+        "maxSelection": "1",
+        "selection_scope": ""
+      }
+    ],
+    "colors": {},
+    "image": {}
+  },
+  {
+    "name": "Grey Knights Land Raider Redeemer",
+    "cost": "260",
+    "movement": "12\"",
+    "toughness": "12",
+    "save": "2+",
+    "wounds": "16",
+    "leadership": "6+",
+    "objectiveControl": "5",
+    "abilities": [
+      {
+        "id": "35e9-caef-a97f-a190",
+        "name": "Assault Ramp",
+        "cost": "",
+        "description": "Each time a unit disembarks from this model after it has made a Normal move, that unit is still eligible to declare a charge this turn."
+      },
+      {
+        "id": "df47-ae30-f628-3d25",
+        "name": "Damaged: 1-5 Wounds Remaining",
+        "cost": "",
+        "description": "While this model has 1-5 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+      }
+    ],
+    "models": [
+      {
+        "id": "ada7-eb0b-c920-d77f",
+        "name": "Grey Knights Land Raider Redeemer",
+        "weapons": [
+          {
+            "id": "7bf6-9fd5-5cd5-c1a6",
+            "name": "Twin Assault Cannon",
+            "cost": "",
+            "range": "24\"",
+            "attacks": "6",
+            "weapon_skill": "3+",
+            "armor_penetration": "0",
+            "damage": "1",
+            "keywords": "Devastating Wounds, Twin-Linked",
+            "additional_rules": [],
+            "minSelection": "1",
+            "maxSelection": "1"
+          },
+          {
+            "id": "c05d-98a6-4648-fb81",
+            "name": "Storm Bolter",
+            "cost": "",
+            "range": "24\"",
+            "attacks": "2",
+            "weapon_skill": "3+",
+            "armor_penetration": "0",
+            "damage": "1",
+            "keywords": "Rapid Fire 2",
+            "additional_rules": [
+              {
+                "id": "1dcf-8a74-283c-1468",
+                "name": "Rapid Fire",
+                "type": "rule",
+                "rule_reference_id": "c5c8-8b58-b8b6-7786"
+              }
+            ],
+            "maxSelection": "1"
+          },
+          {
+            "id": "8dd8-efec-de14-c678",
+            "name": "Multi-melta",
+            "cost": "",
+            "range": "18\"",
+            "attacks": "2",
+            "weapon_skill": "3+",
+            "armor_penetration": "-4",
+            "damage": "D6",
+            "keywords": "Melta 2",
+            "additional_rules": [],
+            "maxSelection": "1"
+          },
+          {
+            "id": "3917-9b44-e861-6f17",
+            "name": "Hunter-killer Missile",
+            "cost": "",
+            "range": "48\"",
+            "attacks": "1",
+            "weapon_skill": "2+",
+            "armor_penetration": "-3",
+            "damage": "D6",
+            "keywords": "One Shot",
+            "additional_rules": [],
+            "maxSelection": "1"
+          },
+          {
+            "id": "8ae2-ca88-19cf-2378",
+            "name": "Armoured tracks",
+            "cost": "",
+            "range": "Melee",
+            "attacks": "6",
+            "weapon_skill": "4+",
+            "armor_penetration": "0",
+            "damage": "1",
+            "additional_rules": [],
+            "minSelection": "1",
+            "maxSelection": "1"
+          },
+          {
+            "id": "47d2-bdb6-a769-cd0f",
+            "name": "Flamestorm Cannon",
+            "cost": "",
+            "range": "12\"",
+            "attacks": "D6+3",
+            "weapon_skill": "N/A",
+            "armor_penetration": "-2",
+            "damage": "2",
+            "keywords": "Ignores Cover, Torrent",
+            "additional_rules": [],
+            "minSelection": "2",
+            "maxSelection": "2"
+          }
+        ],
+        "minSelection": "1",
+        "maxSelection": "1",
+        "selection_scope": ""
+      }
+    ],
+    "colors": {},
+    "image": {}
+  },
+  {
+    "name": "Grey Knights Razorback",
+    "cost": "85",
+    "movement": "12\"",
+    "toughness": "9",
+    "save": "3+",
+    "wounds": "10",
+    "leadership": "6+",
+    "objectiveControl": "2",
+    "abilities": [
+      {
+        "id": "b9fd-80d9-a165-1812",
+        "name": "Fire Support",
+        "cost": "",
+        "description": "In your Shooting phase, after this model has shot, select one enemy unit it scored one or more hits against this phase. Until the end of the phase, each time a friendly model that disembarked from this Transport this turn makes an attack that targets that enemy unit, you can re-roll the Wound roll"
+      }
+    ],
+    "models": [
+      {
+        "id": "841f-98b-fbf3-c8ee",
+        "name": "Grey Knights Razorback",
+        "weapons": [
+          {
+            "id": "c22-6c03-9fcc-6a56",
+            "name": "Armoured tracks",
+            "cost": "",
+            "range": "Melee",
+            "attacks": "3",
+            "weapon_skill": "4+",
+            "armor_penetration": "0",
+            "damage": "1",
+            "additional_rules": [],
+            "minSelection": "1",
+            "maxSelection": "1"
+          },
+          {
+            "id": "e66a-945e-272a-74a2",
+            "name": "Hunter-killer Missile",
+            "cost": "",
+            "range": "48\"",
+            "attacks": "1",
+            "weapon_skill": "2+",
+            "armor_penetration": "-3",
+            "damage": "D6",
+            "keywords": "One Shot",
+            "additional_rules": [],
+            "maxSelection": "1"
+          },
+          {
+            "id": "27b9-1a3e-1c8f-4918",
+            "name": "Storm Bolter",
+            "cost": "",
+            "range": "24\"",
+            "attacks": "2",
+            "weapon_skill": "3+",
+            "armor_penetration": "0",
+            "damage": "1",
+            "keywords": "Rapid Fire 2",
+            "additional_rules": [
+              {
+                "id": "72d9-301-a0d2-f02e",
+                "name": "Rapid Fire",
+                "type": "rule",
+                "rule_reference_id": "c5c8-8b58-b8b6-7786"
+              }
+            ],
+            "maxSelection": "1"
+          },
+          {
+            "id": "4a1e-bc03-a5be-21c3",
+            "name": "Twin Heavy Bolter",
+            "cost": "",
+            "range": "36\"",
+            "attacks": "3",
+            "weapon_skill": "3+",
+            "armor_penetration": "-1",
+            "damage": "2",
+            "keywords": "Sustained Hits 1, Twin-Linked",
+            "additional_rules": [],
+            "minSelection": "1",
+            "maxSelection": "1"
+          },
+          {
+            "id": "d90b-ac39-5ce5-4687",
+            "name": "Twin Assault Cannon",
+            "cost": "",
+            "range": "24\"",
+            "attacks": "6",
+            "weapon_skill": "3+",
+            "armor_penetration": "0",
+            "damage": "1",
+            "keywords": "Devastating Wounds, Twin-Linked",
+            "additional_rules": [],
+            "minSelection": "1",
+            "maxSelection": "1"
+          },
+          {
+            "id": "c756-4d3d-897-c0b0",
+            "name": "Twin lascannon",
+            "cost": "",
+            "range": "48\"",
+            "attacks": "1",
+            "weapon_skill": "3+",
+            "armor_penetration": "-3",
+            "damage": "D6+1",
+            "keywords": "Twin-Linked",
+            "additional_rules": [],
+            "minSelection": "1",
+            "maxSelection": "1"
+          }
+        ],
+        "minSelection": "1",
+        "maxSelection": "1",
+        "selection_scope": ""
+      }
+    ],
+    "colors": {},
+    "image": {}
+  },
+  {
+    "name": "Grey Knights Rhino",
+    "cost": "75",
+    "movement": "12\"",
+    "toughness": "9",
+    "save": "3+",
+    "wounds": "10",
+    "leadership": "6+",
+    "objectiveControl": "2",
+    "abilities": [
+      {
+        "id": "3355-18b8-ee22-87f9",
+        "name": "Self Repair",
+        "cost": "",
+        "description": "At the start of your Command phase, this model regains 1 lost wound."
+      }
+    ],
+    "models": [
+      {
+        "id": "5ffd-f698-a1bb-fba7",
+        "name": "Grey Knights Rhino",
+        "weapons": [
+          {
+            "id": "e994-7f6f-3786-b476",
+            "name": "Armoured tracks",
+            "cost": "",
+            "range": "Melee",
+            "attacks": "3",
+            "weapon_skill": "4+",
+            "armor_penetration": "0",
+            "damage": "1",
+            "additional_rules": [],
+            "minSelection": "1",
+            "maxSelection": "1"
+          },
+          {
+            "id": "37c7-1fb-eb45-8c5b",
+            "name": "Storm Bolter",
+            "cost": "",
+            "range": "24\"",
+            "attacks": "2",
+            "weapon_skill": "3+",
+            "armor_penetration": "0",
+            "damage": "1",
+            "keywords": "Rapid Fire 2",
+            "additional_rules": [
+              {
+                "id": "fc29-1eca-e71c-d93",
+                "name": "Rapid Fire",
+                "type": "rule",
+                "rule_reference_id": "c5c8-8b58-b8b6-7786"
+              }
+            ],
+            "minSelection": "1",
+            "maxSelection": "2"
+          },
+          {
+            "id": "9ee6-9eda-cd98-cd4a",
+            "name": "Hunter-killer Missile",
+            "cost": "",
+            "range": "48\"",
+            "attacks": "1",
+            "weapon_skill": "2+",
+            "armor_penetration": "-3",
+            "damage": "D6",
+            "keywords": "One Shot",
+            "additional_rules": [],
+            "maxSelection": "1"
+          }
+        ],
+        "minSelection": "1",
+        "maxSelection": "1",
+        "selection_scope": ""
+      }
+    ],
+    "colors": {},
+    "image": {}
+  },
+  {
+    "name": "Grey Knights Stormhawk Interceptor",
+    "cost": "160",
+    "movement": "20+\"",
+    "toughness": "9",
+    "save": "3+",
+    "wounds": "10",
+    "leadership": "6+",
+    "objectiveControl": "0",
+    "abilities": [
+      {
+        "id": "f531-b188-9179-2f5a",
+        "name": "Interceptor",
+        "cost": "",
+        "description": "Each time this model makes a ranged attack that targets a unit that can Fly, add 1 to the Hit roll"
+      }
+    ],
+    "models": [
+      {
+        "id": "fa-e288-2107-d22e",
+        "name": "Grey Knights Stormhawk Interceptor",
+        "weapons": [
+          {
+            "id": "b040-e71a-dd4f-98f1",
+            "name": "Twin Assault Cannon",
+            "cost": "",
+            "range": "24\"",
+            "attacks": "6",
+            "weapon_skill": "3+",
+            "armor_penetration": "0",
+            "damage": "1",
+            "keywords": "Devastating Wounds, Twin-Linked",
+            "additional_rules": [],
+            "minSelection": "1",
+            "maxSelection": "1"
+          },
+          {
+            "id": "527c-c236-4376-640b",
+            "name": "Armoured hull",
+            "cost": "",
+            "range": "Melee",
+            "attacks": "3",
+            "weapon_skill": "4+",
+            "armor_penetration": "0",
+            "damage": "1",
+            "additional_rules": [],
+            "minSelection": "1",
+            "maxSelection": "1"
+          },
+          {
+            "id": "8d15-f7a6-1804-ae58",
+            "name": "Las-Talon",
+            "cost": "",
+            "range": "24\"",
+            "attacks": "2",
+            "weapon_skill": "3+",
+            "armor_penetration": "-3",
+            "damage": "D6+1",
+            "additional_rules": [],
+            "minSelection": "1",
+            "maxSelection": "1"
+          },
+          {
+            "id": "d9eb-e3b3-8a2-adba",
+            "name": "Icarus Stormcannon",
+            "cost": "",
+            "range": "48\"",
+            "attacks": "6",
+            "weapon_skill": "3+",
+            "armor_penetration": "-1",
+            "damage": "2",
+            "keywords": "Anti-Fly 2+",
+            "additional_rules": [],
+            "minSelection": "1",
+            "maxSelection": "1"
+          },
+          {
+            "id": "5a7a-d41b-24c9-51f1",
+            "name": "Skyhammer Missile Launcher",
+            "cost": "",
+            "range": "48\"",
+            "attacks": "3",
+            "weapon_skill": "3+",
+            "armor_penetration": "-1",
+            "damage": "D3",
+            "keywords": "Anti-Fly 2+",
+            "additional_rules": [],
+            "minSelection": "1",
+            "maxSelection": "1"
+          },
+          {
+            "id": "ff7c-b295-5e15-57c",
+            "name": "Typhoon Missile Launcher",
+            "cost": "",
+            "range": "48\"",
+            "attacks": "2D6",
+            "weapon_skill": "3+",
+            "armor_penetration": "0",
+            "damage": "1",
+            "keywords": "Blast",
+            "additional_rules": [],
+            "minSelection": "1",
+            "maxSelection": "1"
+          },
+          {
+            "id": "ff7c-b295-5e15-57c",
+            "name": "Typhoon Missile Launcher",
+            "cost": "",
+            "range": "48\"",
+            "attacks": "2D6",
+            "weapon_skill": "3+",
+            "armor_penetration": "0",
+            "damage": "1",
+            "keywords": "Blast",
+            "additional_rules": [],
+            "minSelection": "1",
+            "maxSelection": "1"
+          },
+          {
+            "id": "d93c-7e31-c682-ea2e",
+            "name": "Twin Heavy Bolter",
+            "cost": "",
+            "range": "36\"",
+            "attacks": "3",
+            "weapon_skill": "3+",
+            "armor_penetration": "-1",
+            "damage": "2",
+            "keywords": "Sustained Hits 1, Twin-Linked",
+            "additional_rules": [],
+            "minSelection": "1",
+            "maxSelection": "1"
+          }
+        ],
+        "minSelection": "1",
+        "maxSelection": "1",
+        "selection_scope": ""
+      }
+    ],
+    "colors": {},
+    "image": {}
+  },
+  {
+    "name": "Grey Knights Stormraven Gunship",
+    "cost": "265",
+    "movement": "20+\"",
+    "toughness": "10",
+    "save": "3+",
+    "wounds": "14",
+    "leadership": "6+",
+    "objectiveControl": "0",
+    "abilities": [
+      {
+        "id": "c534-53bb-4d73-23d2",
+        "name": "Armoured Resilience",
+        "cost": "",
+        "description": "Each time an attack is allocated to this model, subtract 1 from the Damage characteristic of that attack"
+      },
+      {
+        "id": "5d24-6acb-2ed-b67",
+        "name": "Damaged: 1-5 Wounds Remaining",
+        "cost": "",
+        "description": "While this model has 1-5 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+      }
+    ],
+    "models": [
+      {
+        "id": "2efe-459b-9562-e7a9",
+        "name": "Grey Knights Stormraven Gunship",
+        "weapons": [
+          {
+            "id": "aef0-cb77-f237-ca6a",
+            "name": "Hurricane Bolter",
+            "cost": "",
+            "range": "24\"",
+            "attacks": "6",
+            "weapon_skill": "3+",
+            "armor_penetration": "0",
+            "damage": "1",
+            "keywords": "Rapid Fire 6, Twin-Linked",
+            "additional_rules": [],
+            "maxSelection": "2"
+          },
+          {
+            "id": "b2ea-93b8-8009-b652",
+            "name": "Stormstrike missile launcher",
+            "cost": "",
+            "range": "48\"",
+            "attacks": "1",
+            "weapon_skill": "3+",
+            "armor_penetration": "-3",
+            "damage": "D6+2",
+            "additional_rules": [],
+            "minSelection": "2",
+            "maxSelection": "2"
+          },
+          {
+            "id": "f1b9-fd0a-b087-2e4c",
+            "name": "Twin Assault Cannon",
+            "cost": "",
+            "range": "24\"",
+            "attacks": "6",
+            "weapon_skill": "3+",
+            "armor_penetration": "0",
+            "damage": "1",
+            "keywords": "Devastating Wounds, Twin-Linked",
+            "additional_rules": [],
+            "minSelection": "1",
+            "maxSelection": "1"
+          },
+          {
+            "id": "716a-c91c-3254-d60c",
+            "name": "Twin lascannon",
+            "cost": "",
+            "range": "48\"",
+            "attacks": "1",
+            "weapon_skill": "3+",
+            "armor_penetration": "-3",
+            "damage": "D6+1",
+            "keywords": "Twin-Linked",
+            "additional_rules": [],
+            "minSelection": "1",
+            "maxSelection": "1"
+          },
+          {
+            "id": "f72d-9efb-2c8e-e95c",
+            "name": "Twin Heavy plasma cannon",
+            "cost": "",
+            "range": "36\"",
+            "attacks": "3",
+            "weapon_skill": "3+",
+            "armor_penetration": "-2",
+            "damage": "2",
+            "keywords": "Blast, Twin-Linked",
+            "additional_rules": [],
+            "minSelection": "1",
+            "maxSelection": "1"
+          },
+          {
+            "id": "f72d-9efb-2c8e-e95c",
+            "name": "Twin Heavy plasma cannon",
+            "cost": "",
+            "range": "36\"",
+            "attacks": "3",
+            "weapon_skill": "3+",
+            "armor_penetration": "-2",
+            "damage": "2",
+            "keywords": "Blast, Twin-Linked",
+            "additional_rules": [],
+            "minSelection": "1",
+            "maxSelection": "1"
+          },
+          {
+            "id": "716a-979a-662c-5fae",
+            "name": "Twin Heavy Bolter",
+            "cost": "",
+            "range": "36\"",
+            "attacks": "3",
+            "weapon_skill": "3+",
+            "armor_penetration": "-1",
+            "damage": "2",
+            "keywords": "Sustained Hits 1, Twin-Linked",
+            "additional_rules": [],
+            "minSelection": "1",
+            "maxSelection": "1"
+          },
+          {
+            "id": "843-6b91-5f47-c3e8",
+            "name": "Typhoon Missile Launcher",
+            "cost": "",
+            "range": "48\"",
+            "attacks": "2D6",
+            "weapon_skill": "3+",
+            "armor_penetration": "0",
+            "damage": "1",
+            "keywords": "Blast",
+            "additional_rules": [],
+            "minSelection": "1",
+            "maxSelection": "1"
+          },
+          {
+            "id": "843-6b91-5f47-c3e8",
+            "name": "Typhoon Missile Launcher",
+            "cost": "",
+            "range": "48\"",
+            "attacks": "2D6",
+            "weapon_skill": "3+",
+            "armor_penetration": "0",
+            "damage": "1",
+            "keywords": "Blast",
+            "additional_rules": [],
+            "minSelection": "1",
+            "maxSelection": "1"
+          },
+          {
+            "id": "865f-4d87-f7c3-2d77",
+            "name": "Twin Multi-melta",
+            "cost": "",
+            "range": "18\"",
+            "attacks": "2",
+            "weapon_skill": "3+",
+            "armor_penetration": "-4",
+            "damage": "D6",
+            "keywords": "Melta 2",
+            "additional_rules": [],
+            "minSelection": "1",
+            "maxSelection": "1"
+          }
+        ],
+        "minSelection": "1",
+        "maxSelection": "1",
+        "selection_scope": ""
+      }
+    ],
+    "colors": {},
+    "image": {}
+  },
+  {
+    "name": "Grey Knights Stormtalon Gunship",
+    "cost": "170",
+    "movement": "20+\"",
+    "toughness": "8",
+    "save": "3+",
+    "wounds": "10",
+    "leadership": "6+",
+    "objectiveControl": "0",
+    "abilities": [
+      {
+        "id": "133a-43b1-cad3-95d6",
+        "name": "Strafing Run",
+        "cost": "",
+        "description": "Each time this model makes a ranged attack that targets a unit that cannot Fly, add 1 to the Hit roll"
+      }
+    ],
+    "models": [
+      {
+        "id": "84ac-b9ea-921f-9082",
+        "name": "Grey Knights Stormtalon Gunship",
+        "weapons": [
+          {
+            "id": "a3b1-ce0b-c208-e325",
+            "name": "Twin Assault Cannon",
+            "cost": "",
+            "range": "24\"",
+            "attacks": "6",
+            "weapon_skill": "3+",
+            "armor_penetration": "0",
+            "damage": "1",
+            "keywords": "Devastating Wounds, Twin-Linked",
+            "additional_rules": [],
+            "minSelection": "1",
+            "maxSelection": "1"
+          },
+          {
+            "id": "b2cb-c9ad-9694-6241",
+            "name": "Armoured hull",
+            "cost": "",
+            "range": "Melee",
+            "attacks": "3",
+            "weapon_skill": "4+",
+            "armor_penetration": "0",
+            "damage": "1",
+            "additional_rules": [],
+            "minSelection": "1",
+            "maxSelection": "1"
+          },
+          {
+            "id": "42a3-8496-18ba-cf11",
+            "name": "Skyhammer Missile Launcher",
+            "cost": "",
+            "range": "48\"",
+            "attacks": "3",
+            "weapon_skill": "3+",
+            "armor_penetration": "-1",
+            "damage": "D3",
+            "keywords": "Anti-Fly 2+",
+            "additional_rules": [],
+            "minSelection": "1",
+            "maxSelection": "1"
+          },
+          {
+            "id": "b1b7-14de-f450-e212",
+            "name": "Typhoon Missile Launcher",
+            "cost": "",
+            "range": "48\"",
+            "attacks": "2D6",
+            "weapon_skill": "3+",
+            "armor_penetration": "0",
+            "damage": "1",
+            "keywords": "Blast",
+            "additional_rules": [],
+            "minSelection": "1",
+            "maxSelection": "1"
+          },
+          {
+            "id": "b1b7-14de-f450-e212",
+            "name": "Typhoon Missile Launcher",
+            "cost": "",
+            "range": "48\"",
+            "attacks": "2D6",
+            "weapon_skill": "3+",
+            "armor_penetration": "0",
+            "damage": "1",
+            "keywords": "Blast",
+            "additional_rules": [],
+            "minSelection": "1",
+            "maxSelection": "1"
+          },
+          {
+            "id": "b184-17b6-1949-5783",
+            "name": "Twin Heavy Bolter",
+            "cost": "",
+            "range": "36\"",
+            "attacks": "3",
+            "weapon_skill": "3+",
+            "armor_penetration": "-1",
+            "damage": "2",
+            "keywords": "Sustained Hits 1, Twin-Linked",
+            "additional_rules": [],
+            "minSelection": "1",
+            "maxSelection": "1"
+          },
+          {
+            "id": "76b3-5347-9b89-ee74",
+            "name": "Twin lascannon",
+            "cost": "",
+            "range": "48\"",
+            "attacks": "1",
+            "weapon_skill": "3+",
+            "armor_penetration": "-3",
+            "damage": "D6+1",
+            "keywords": "Twin-Linked",
+            "additional_rules": [],
+            "minSelection": "1",
+            "maxSelection": "1"
+          }
+        ],
+        "minSelection": "1",
+        "maxSelection": "1",
+        "selection_scope": ""
+      }
+    ],
+    "colors": {},
+    "image": {}
+  },
+  {
+    "name": "Grey Knights Venerable Dreadnought",
+    "cost": "155",
+    "movement": "6\"",
+    "toughness": "9",
+    "save": "2+",
+    "wounds": "8",
+    "leadership": "6+",
+    "objectiveControl": "3",
+    "abilities": [
+      {
+        "id": "9b3c-49ee-2ca0-7bcf",
+        "name": "Wisdom of the Ancients (Aura)",
+        "cost": "",
+        "description": "While a friendly Grey Knights Infantry unit is within 6\" of this model, each time a model in that unit makes an attack, re-roll a Hit roll of 1 and re-roll a Wound roll of 1"
+      }
+    ],
+    "models": [
+      {
+        "id": "bd43-b303-66e0-4c10",
+        "name": "Grey Knights Venerable Dreadnought",
+        "weapons": [
+          {
+            "id": "cac5-3183-6c96-36d1",
+            "name": "Heavy plasma cannon",
+            "cost": "",
+            "range": "36\"",
+            "attacks": "D3",
+            "weapon_skill": "3+",
+            "armor_penetration": "-2",
+            "damage": "2",
+            "keywords": "Blast",
+            "additional_rules": [],
+            "minSelection": "1",
+            "maxSelection": "1"
+          },
+          {
+            "id": "cac5-3183-6c96-36d1",
+            "name": "Heavy plasma cannon",
+            "cost": "",
+            "range": "36\"",
+            "attacks": "D3",
+            "weapon_skill": "3+",
+            "armor_penetration": "-2",
+            "damage": "2",
+            "keywords": "Blast",
+            "additional_rules": [],
+            "minSelection": "1",
+            "maxSelection": "1"
+          },
+          {
+            "id": "f3bc-be4f-ef8b-ee2f",
+            "name": "Multi-melta",
+            "cost": "",
+            "range": "18\"",
+            "attacks": "2",
+            "weapon_skill": "3+",
+            "armor_penetration": "-4",
+            "damage": "D6",
+            "keywords": "Melta 2",
+            "additional_rules": [],
+            "minSelection": "1",
+            "maxSelection": "1"
+          },
+          {
+            "id": "8819-174a-1f7e-2b23",
+            "name": "Twin lascannon",
+            "cost": "",
+            "range": "48\"",
+            "attacks": "1",
+            "weapon_skill": "3+",
+            "armor_penetration": "-3",
+            "damage": "D6+1",
+            "keywords": "Twin-Linked",
+            "additional_rules": [],
+            "minSelection": "1",
+            "maxSelection": "1"
+          },
+          {
+            "id": "ec97-a5a7-8739-1c3d",
+            "name": "Assault cannon",
+            "cost": "",
+            "range": "24\"",
+            "attacks": "6",
+            "weapon_skill": "3+",
+            "armor_penetration": "0",
+            "damage": "1",
+            "keywords": "Devastating Wounds",
+            "additional_rules": [],
+            "minSelection": "1",
+            "maxSelection": "1"
+          },
+          {
+            "id": "f1f5-f250-525-cff1",
+            "name": "Dreadnought combat weapon and heavy flamer",
+            "cost": "",
+            "range": "Melee",
+            "attacks": "5",
+            "weapon_skill": "3+",
+            "armor_penetration": "-2",
+            "damage": "3",
+            "additional_rules": [],
+            "minSelection": "1",
+            "maxSelection": "1"
+          },
+          {
+            "id": "f1f5-f250-525-cff1",
+            "name": "Dreadnought combat weapon and heavy flamer",
+            "cost": "",
+            "range": "Melee",
+            "attacks": "5",
+            "weapon_skill": "3+",
+            "armor_penetration": "-2",
+            "damage": "3",
+            "additional_rules": [],
+            "minSelection": "1",
+            "maxSelection": "1"
+          },
+          {
+            "id": "2dcf-132a-2b1b-32fd",
+            "name": "Dreadnought combat weapon and storm bolter",
+            "cost": "",
+            "range": "Melee",
+            "attacks": "5",
+            "weapon_skill": "3+",
+            "armor_penetration": "-2",
+            "damage": "3",
+            "additional_rules": [],
+            "minSelection": "1",
+            "maxSelection": "1"
+          },
+          {
+            "id": "2dcf-132a-2b1b-32fd",
+            "name": "Dreadnought combat weapon and storm bolter",
+            "cost": "",
+            "range": "Melee",
+            "attacks": "5",
+            "weapon_skill": "3+",
+            "armor_penetration": "-2",
+            "damage": "3",
+            "additional_rules": [],
+            "minSelection": "1",
+            "maxSelection": "1"
+          },
+          {
+            "id": "bbb0-47f7-6953-90f8",
+            "name": "Missile launcher and armoured feet",
+            "cost": "",
+            "range": "48\"",
+            "attacks": "D6",
+            "weapon_skill": "3+",
+            "armor_penetration": "0",
+            "damage": "1",
+            "keywords": "Blast",
+            "additional_rules": [],
+            "minSelection": "1",
+            "maxSelection": "1"
+          },
+          {
+            "id": "bbb0-47f7-6953-90f8",
+            "name": "Missile launcher and armoured feet",
+            "cost": "",
+            "range": "48\"",
+            "attacks": "D6",
+            "weapon_skill": "3+",
+            "armor_penetration": "0",
+            "damage": "1",
+            "keywords": "Blast",
+            "additional_rules": [],
+            "minSelection": "1",
+            "maxSelection": "1"
+          },
+          {
+            "id": "bbb0-47f7-6953-90f8",
+            "name": "Missile launcher and armoured feet",
+            "cost": "",
+            "range": "48\"",
+            "attacks": "D6",
+            "weapon_skill": "3+",
+            "armor_penetration": "0",
+            "damage": "1",
+            "keywords": "Blast",
+            "additional_rules": [],
+            "minSelection": "1",
+            "maxSelection": "1"
+          }
+        ],
+        "minSelection": "1",
+        "maxSelection": "1",
+        "selection_scope": ""
+      }
+    ],
+    "colors": {},
+    "image": {}
+  },
+  {
+    "name": "Interceptor Squad",
+    "cost": "135",
+    "movement": "12\"",
+    "toughness": "4",
+    "save": "2+",
+    "wounds": "2",
+    "leadership": "6+",
+    "objectiveControl": "1",
+    "abilities": [
+      {
+        "id": "8d05-c69c-2572-99ba",
+        "name": "Personal Teleporters",
+        "cost": "",
+        "description": "In your Shooting phase, after this unit has shot, if it is not within Engagement Range of one or more enemy units, it can make a Normal move of up to 6\" as if it were your Movement phase. If it does, until the end of the turn, this unit is not eligible to declare a charge"
+      }
+    ],
+    "models": [
+      {
+        "id": "9ae2-cba2-3df0-81ea",
+        "name": "Justicar",
+        "weapons": [
+          {
+            "id": "cfe2-dc97-7f64-ee2b",
+            "name": "Nemesis Force Weapon",
+            "cost": "",
+            "range": "Melee",
+            "attacks": "3",
+            "weapon_skill": "3+",
+            "armor_penetration": "-2",
+            "damage": "2",
+            "keywords": "Psychic",
+            "additional_rules": [
+              {
+                "id": "e097-4f77-7c57-4afd",
+                "name": "Psychic",
+                "type": "rule",
+                "rule_reference_id": "e9c4-2bb8-12ee-cd1b"
+              }
+            ],
+            "minSelection": "1",
+            "maxSelection": "1"
+          },
+          {
+            "id": "9ac9-3c48-f753-f303",
+            "name": "Storm Bolter",
+            "cost": "",
+            "range": "24\"",
+            "attacks": "2",
+            "weapon_skill": "3+",
+            "armor_penetration": "0",
+            "damage": "1",
+            "keywords": "Rapid Fire 2",
+            "additional_rules": [
+              {
+                "id": "cbce-1f4c-f2f1-c18",
+                "name": "Rapid Fire",
+                "type": "rule",
+                "rule_reference_id": "c5c8-8b58-b8b6-7786"
+              }
+            ],
+            "minSelection": "1",
+            "maxSelection": "1"
+          }
+        ],
+        "minSelection": "1",
+        "maxSelection": "1",
+        "selection_scope": "parent"
+      },
+      {
+        "id": "2906-2dfd-6dbe-ca8",
+        "name": "Interceptor",
+        "weapons": [
+          {
+            "id": "4e6-6d1c-3395-59d5",
+            "name": "Nemesis Force Weapon",
+            "cost": "",
+            "range": "Melee",
+            "attacks": "3",
+            "weapon_skill": "3+",
+            "armor_penetration": "-2",
+            "damage": "2",
+            "keywords": "Psychic",
+            "additional_rules": [
+              {
+                "id": "8b93-2673-9571-7a8",
+                "name": "Psychic",
+                "type": "rule",
+                "rule_reference_id": "e9c4-2bb8-12ee-cd1b"
+              }
+            ],
+            "minSelection": "1",
+            "maxSelection": "1"
+          },
+          {
+            "id": "43d0-c61a-f6da-22a0",
+            "name": "Storm Bolter",
+            "cost": "",
+            "range": "24\"",
+            "attacks": "2",
+            "weapon_skill": "3+",
+            "armor_penetration": "0",
+            "damage": "1",
+            "keywords": "Rapid Fire 2",
+            "additional_rules": [
+              {
+                "id": "962c-d4ec-34f7-f397",
+                "name": "Rapid Fire",
+                "type": "rule",
+                "rule_reference_id": "c5c8-8b58-b8b6-7786"
+              }
+            ],
+            "minSelection": "1",
+            "maxSelection": "1"
+          }
+        ],
+        "minSelection": "1",
+        "maxSelection": "1",
+        "selection_scope": ""
+      },
+      {
+        "id": "2711-ec49-a1b2-d789",
+        "name": "Interceptor w/ incinerator",
+        "weapons": [
+          {
+            "id": "d0e-7460-ee7b-660f",
+            "name": "Close combat weapon",
+            "cost": "",
+            "range": "Melee",
+            "attacks": "3",
+            "weapon_skill": "3+",
+            "armor_penetration": "0",
+            "damage": "1",
+            "keywords": "-",
+            "additional_rules": [],
+            "minSelection": "1",
+            "maxSelection": "1"
+          },
+          {
+            "id": "3c17-244d-6ddd-3062",
+            "name": "Incinerator",
+            "cost": "",
+            "range": "12\"",
+            "attacks": "D6",
+            "weapon_skill": "N/A",
+            "armor_penetration": "-1",
+            "damage": "1",
+            "keywords": "Ignores Cover, Torrent",
+            "additional_rules": [
+              {
+                "id": "5350-f1ef-ee60-7029",
+                "name": "Ignores Cover",
+                "type": "rule",
+                "rule_reference_id": "4640-43e7-30b-215a"
+              },
+              {
+                "id": "ad14-b2a1-216c-9b4d",
+                "name": "Torrent",
+                "type": "rule",
+                "rule_reference_id": "5edf-d619-23e0-9b56"
+              }
+            ],
+            "minSelection": "1",
+            "maxSelection": "1"
+          }
+        ],
+        "maxSelection": "2",
+        "selection_scope": "parent"
+      },
+      {
+        "id": "dbfa-42d3-8ac9-c4dc",
+        "name": "Interceptor w/ psilencer",
+        "weapons": [
+          {
+            "id": "d0e-7460-ee7b-660f",
+            "name": "Close combat weapon",
+            "cost": "",
+            "range": "Melee",
+            "attacks": "3",
+            "weapon_skill": "3+",
+            "armor_penetration": "0",
+            "damage": "1",
+            "keywords": "-",
+            "additional_rules": [],
+            "minSelection": "1",
+            "maxSelection": "1"
+          },
+          {
+            "id": "31f3-fb44-bc7d-8a12",
+            "name": "Psilencer",
+            "cost": "",
+            "range": "24\"",
+            "attacks": "6",
+            "weapon_skill": "3+",
+            "armor_penetration": "0",
+            "damage": "1",
+            "keywords": "Psychic, Sustained Hits 1",
+            "additional_rules": [
+              {
+                "id": "b6a6-11be-9917-a9d",
+                "name": "Sustained Hits",
+                "type": "rule",
+                "rule_reference_id": "1897-c22c-9597-12b1"
+              },
+              {
+                "id": "73d1-1d3c-9ad1-90e4",
+                "name": "Psychic",
+                "type": "rule",
+                "rule_reference_id": "e9c4-2bb8-12ee-cd1b"
+              }
+            ],
+            "minSelection": "1",
+            "maxSelection": "1"
+          }
+        ],
+        "maxSelection": "2",
+        "selection_scope": "parent"
+      },
+      {
+        "id": "ad0c-76b3-3c42-4aff",
+        "name": "Interceptor w/ psycannon",
+        "weapons": [
+          {
+            "id": "d0e-7460-ee7b-660f",
+            "name": "Close combat weapon",
+            "cost": "",
+            "range": "Melee",
+            "attacks": "3",
+            "weapon_skill": "3+",
+            "armor_penetration": "0",
+            "damage": "1",
+            "keywords": "-",
+            "additional_rules": [],
+            "minSelection": "1",
+            "maxSelection": "1"
+          },
+          {
+            "id": "cfe5-513-b46e-9e50",
+            "name": "Psycannon",
+            "cost": "",
+            "range": "24\"",
+            "attacks": "3",
+            "weapon_skill": "3+",
+            "armor_penetration": "-1",
+            "damage": "2",
+            "keywords": "Psychic",
+            "additional_rules": [
+              {
+                "id": "d2fb-2ea8-7a7-9a4",
+                "name": "Psychic",
+                "type": "rule",
+                "rule_reference_id": "e9c4-2bb8-12ee-cd1b"
+              }
+            ],
+            "minSelection": "1",
+            "maxSelection": "1"
+          }
+        ],
+        "maxSelection": "2",
+        "selection_scope": "parent"
+      }
+    ],
+    "colors": {},
+    "image": {}
+  },
+  {
+    "name": "Kaldor Draigo",
+    "cost": "125",
+    "movement": "5\"",
+    "toughness": "5",
+    "save": "2+",
+    "wounds": "7",
+    "leadership": "6+",
+    "objectiveControl": "1",
+    "abilities": [
+      {
+        "id": "7007-7631-f2dc-15f0",
+        "name": "Invulnerable Save",
+        "cost": "",
+        "description": "This unit has a 4+ Invulnerable Save"
+      },
+      {
+        "id": "cf12-2ea5-6834-5031",
+        "name": "Untouchable Purity",
+        "cost": "",
+        "description": "While this model is leading a unit, models in that unit have the Feel No Pain 4+ ability against mortal wounds"
+      },
+      {
+        "id": "c3e8-c9b9-519a-6552",
+        "name": "One With the Warp (Psychic)",
+        "cost": "",
+        "description": "Once per battle, when this model’s unit declares a charge in the same turn it was set up as Reinforcements using the Deep Strike ability, add 3 to the Charge roll."
+      },
+      {
+        "id": "d668-10b1-f5d9-9bd0",
+        "name": "Leader",
+        "cost": "",
+        "description": "This model can be attached to the following units:\n■ Brotherhood Terminator Squad\n■ Paladin Squad"
+      }
+    ],
+    "models": [
+      {
+        "id": "7a19-5235-692b-320d",
+        "name": "Kaldor Draigo",
+        "weapons": [
+          {
+            "id": "1934-6940-4a56-4ac3",
+            "name": "Storm Bolter",
+            "cost": "",
+            "range": "24\"",
+            "attacks": "2",
+            "weapon_skill": "2+",
+            "armor_penetration": "0",
+            "damage": "1",
+            "keywords": "Rapid Fire 2",
+            "additional_rules": [
+              {
+                "id": "24a0-3ca0-de94-f9e9",
+                "name": "Rapid Fire",
+                "type": "rule",
+                "rule_reference_id": "c5c8-8b58-b8b6-7786"
+              }
+            ],
+            "minSelection": "1",
+            "maxSelection": "1"
+          },
+          {
+            "id": "8804-9b5d-14e7-5e2d",
+            "name": "Scourging",
+            "cost": "",
+            "range": "18\"",
+            "attacks": "3",
+            "weapon_skill": "2+",
+            "armor_penetration": "-2",
+            "damage": "2",
+            "keywords": "Anti-Daemon 2+, Ignores Cover, Psychic",
+            "additional_rules": [],
+            "minSelection": "1",
+            "maxSelection": "1"
+          },
+          {
+            "id": "b9fb-d4e1-34ae-d02f",
+            "name": "The Titansword",
+            "cost": "",
+            "range": "Melee",
+            "attacks": "6",
+            "weapon_skill": "2+",
+            "armor_penetration": "-4",
+            "damage": "3",
+            "keywords": "Anti-Daemon 2+, Psychic",
+            "additional_rules": [],
+            "minSelection": "1",
+            "maxSelection": "1"
+          }
+        ],
+        "minSelection": "1",
+        "maxSelection": "1",
+        "selection_scope": ""
+      }
+    ],
+    "colors": {},
+    "image": {}
+  },
+  {
+    "name": "Land Raider Banisher",
+    "cost": "255",
+    "movement": "10\"",
+    "toughness": "12",
+    "save": "2+",
+    "wounds": "16",
+    "leadership": "6+",
+    "objectiveControl": "5",
+    "abilities": [
+      {
+        "id": "a6c4-1b00-1dba-8808",
+        "name": "Damaged: 1-5 Wounds Remaining",
+        "cost": "",
+        "description": "While this model has 1-5 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+      },
+      {
+        "id": "4749-41d6-2cbd-4b70",
+        "name": "Assault Ramp",
+        "cost": "",
+        "description": "Each time a unit disembarks from this model after it has made a Normal move, that unit is still eligible to declare a charge this turn."
+      },
+      {
+        "id": "11a-f6f2-ef6e-1aed",
+        "name": "Land Raider Banisher",
+        "cost": "",
+        "description": "This model has a transport capacity of 12 Grey Knights Infantry models. Each Terminator model takes up the space of 2 models."
+      }
+    ],
+    "models": [
+      {
+        "id": "69d-a656-fde3-6c3e",
+        "name": "Land Raider Banisher",
+        "weapons": [
+          {
+            "id": "69d-a656-fde3-6c3e",
+            "name": "Land Raider Banisher",
+            "cost": "255",
+            "additional_rules": [
+              {
+                "id": "ay84-xp9u-3c5j-z6he",
+                "name": "Deadly Demise",
+                "type": "rule",
+                "rule_reference_id": "b68a-5ded-65ac-98c"
+              }
+            ],
+            "minSelection": "1",
+            "maxSelection": "1"
+          },
+          {
+            "id": "d4b7-cb82-6458-a406",
+            "name": "Heavy Incinerator",
+            "cost": "",
+            "range": "18\"",
+            "attacks": "2D6",
+            "weapon_skill": "N/A",
+            "armor_penetration": "-1",
+            "damage": "1",
+            "keywords": "Ignores Cover, Torrent",
+            "additional_rules": [
+              {
+                "id": "810d-238c-e410-2578",
+                "name": "Ignores Cover",
+                "type": "rule",
+                "rule_reference_id": "4640-43e7-30b-215a"
+              },
+              {
+                "id": "bbbc-1451-86cc-e097",
+                "name": "Torrent",
+                "type": "rule",
+                "rule_reference_id": "5edf-d619-23e0-9b56"
+              }
+            ],
+            "minSelection": "2",
+            "maxSelection": "2"
+          },
+          {
+            "id": "88e0-4fa-8acc-7b7c",
+            "name": "Twin Psycannon",
+            "cost": "",
+            "range": "24\"",
+            "attacks": "3",
+            "weapon_skill": "3+",
+            "armor_penetration": "-1",
+            "damage": "2",
+            "keywords": "Psychic, Sustained Hits 1, Twin-linked",
+            "additional_rules": [
+              {
+                "id": "df36-2c25-8bad-3dcd",
+                "name": "Twin-linked",
+                "type": "rule",
+                "rule_reference_id": "cf93-ad4d-2f08-a79d"
+              },
+              {
+                "id": "e17b-1246-e472-ab2a",
+                "name": "Sustained Hits",
+                "type": "rule",
+                "rule_reference_id": "1897-c22c-9597-12b1"
+              },
+              {
+                "id": "e178-bc33-76ae-c3cd",
+                "name": "Psychic",
+                "type": "rule",
+                "rule_reference_id": "e9c4-2bb8-12ee-cd1b"
+              }
+            ],
+            "minSelection": "1",
+            "maxSelection": "1"
+          },
+          {
+            "id": "2150-6135-3ee3-8eda",
+            "name": "Hunter-killer Missile",
+            "cost": "",
+            "range": "48\"",
+            "attacks": "1",
+            "weapon_skill": "2+",
+            "armor_penetration": "-3",
+            "damage": "D6",
+            "keywords": "One-Shot",
+            "additional_rules": [
+              {
+                "id": "6caf-7fbb-7235-e51b",
+                "name": "One Shot",
+                "type": "rule",
+                "rule_reference_id": "cd26-1611-860a-91e4"
+              }
+            ],
+            "maxSelection": "1"
+          },
+          {
+            "id": "9e63-91f2-e625-cce7",
+            "name": "Storm Bolter",
+            "cost": "",
+            "range": "24\"",
+            "attacks": "2",
+            "weapon_skill": "3+",
+            "armor_penetration": "0",
+            "damage": "1",
+            "keywords": "Rapid Fire 2",
+            "additional_rules": [
+              {
+                "id": "5da9-5d22-1197-b609",
+                "name": "Rapid Fire",
+                "type": "rule",
+                "rule_reference_id": "c5c8-8b58-b8b6-7786"
+              }
+            ],
+            "maxSelection": "1"
+          },
+          {
+            "id": "f3dd-c9b2-d7a-c917",
+            "name": "Multi-Melta",
+            "cost": "",
+            "range": "18\"",
+            "attacks": "2",
+            "weapon_skill": "3+",
+            "armor_penetration": "-4",
+            "damage": "D6",
+            "keywords": "Melta 2",
+            "additional_rules": [
+              {
+                "id": "3178-5121-d2a0-5e88",
+                "name": "Melta",
+                "type": "rule",
+                "rule_reference_id": "7cdb-fb99-44a9-8849"
+              }
+            ],
+            "maxSelection": "1"
+          }
+        ],
+        "minSelection": "1",
+        "maxSelection": "1",
+        "selection_scope": ""
+      }
+    ],
+    "colors": {},
+    "image": {}
+  },
+  {
+    "name": "Nemesis Dreadknight",
+    "cost": "185",
+    "movement": "8\"",
+    "toughness": "8",
+    "save": "2+",
+    "wounds": "13",
+    "leadership": "6+",
+    "objectiveControl": "4",
+    "abilities": [
+      {
+        "id": "5fd5-dbcd-4bb-7b89",
+        "name": "Invulnerable Save",
+        "cost": "",
+        "description": "This unit has a 4+ Invulnerable Save"
+      },
+      {
+        "id": "c53f-7fdc-438d-5dcd",
+        "name": "Empyric Reprisal (Psychic)",
+        "cost": "",
+        "description": "This model is eligible to shoot and declare a charge in a turn in which it Advanced or Fell Back."
+      },
+      {
+        "id": "6980-2489-73f9-24ed",
+        "name": "Damaged: 1-4 Wounds Remaining",
+        "cost": "",
+        "description": "While this model has 1-4 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+      }
+    ],
+    "models": [
+      {
+        "id": "5458-a458-c51d-c4e9",
+        "name": "Nemesis Dreadknight",
+        "weapons": [
+          {
+            "id": "9f7f-ad95-cb89-3df6",
+            "name": "Dreadfists",
+            "cost": "",
+            "range": "Melee",
+            "attacks": "6",
+            "weapon_skill": "3+",
+            "armor_penetration": "-1",
+            "damage": "1",
+            "additional_rules": [],
+            "minSelection": "1",
+            "maxSelection": "1"
+          },
+          {
+            "id": "c87c-a41d-9640-aa1e",
+            "name": "Nemesis Greatsword",
+            "cost": "",
+            "range": "Melee",
+            "attacks": "5",
+            "weapon_skill": "3+",
+            "armor_penetration": "-2",
+            "damage": "D6",
+            "keywords": "Psychic",
+            "additional_rules": [],
+            "minSelection": "1",
+            "maxSelection": "1"
+          },
+          {
+            "id": "c87c-a41d-9640-aa1e",
+            "name": "Nemesis Greatsword",
+            "cost": "",
+            "range": "Melee",
+            "attacks": "5",
+            "weapon_skill": "3+",
+            "armor_penetration": "-2",
+            "damage": "D6",
+            "keywords": "Psychic",
+            "additional_rules": [],
+            "minSelection": "1",
+            "maxSelection": "1"
+          },
+          {
+            "id": "6fe6-97cc-6f34-b23e",
+            "name": "Nemesis Daemon Greathammer",
+            "cost": "",
+            "range": "Melee",
+            "attacks": "5",
+            "weapon_skill": "4+",
+            "armor_penetration": "-3",
+            "damage": "D6+1",
+            "keywords": "Psychic",
+            "additional_rules": [],
+            "minSelection": "1",
+            "maxSelection": "1"
+          },
+          {
+            "id": "eea8-d667-691b-336c",
+            "name": "Gatling Psilencer",
+            "cost": "",
+            "range": "24\"",
+            "attacks": "12",
+            "weapon_skill": "3+",
+            "armor_penetration": "0",
+            "damage": "1",
+            "keywords": "Psychic, Sustained Hits 1",
+            "additional_rules": [],
+            "maxSelection": "1"
+          },
+          {
+            "id": "5e54-2e6d-48a1-5b6e",
+            "name": "Heavy Incinerator",
+            "cost": "",
+            "range": "18\"",
+            "attacks": "2D6",
+            "weapon_skill": "N/A",
+            "armor_penetration": "-1",
+            "damage": "1",
+            "keywords": "Ignores Cover, Torrent",
+            "additional_rules": [],
+            "maxSelection": "1"
+          },
+          {
+            "id": "d93e-2aa1-5f95-72a8",
+            "name": "Heavy Psycannon",
+            "cost": "",
+            "range": "24\"",
+            "attacks": "6",
+            "weapon_skill": "3+",
+            "armor_penetration": "-1",
+            "damage": "3",
+            "keywords": "Psychic",
+            "additional_rules": [],
+            "maxSelection": "1"
+          }
+        ],
+        "minSelection": "1",
+        "maxSelection": "1",
+        "selection_scope": ""
+      }
+    ],
+    "colors": {},
+    "image": {}
+  },
+  {
+    "name": "Paladin Squad",
+    "cost": "225",
+    "movement": "5\"",
+    "toughness": "5",
+    "save": "2+",
+    "wounds": "3",
+    "leadership": "6+",
+    "objectiveControl": "1",
+    "abilities": [
+      {
+        "id": "b387-ef7a-6d18-c328",
+        "name": "Invulnerable Save",
+        "cost": "",
+        "description": "This unit has a 4+ Invulnerable Save"
+      },
+      {
+        "id": "935d-fb65-54d-274f",
+        "name": "Inner Fortitude (Psychic)",
+        "cost": "",
+        "description": "Each time an attack targets this unit, if the Strength characteristic of that attack is greater than the Toughness characteristic of this unit, subtract 1 from the Wound roll"
+      }
+    ],
+    "models": [
+      {
+        "id": "7eaa-bc4d-e325-6767",
+        "name": "Paragon",
+        "weapons": [
+          {
+            "id": "1207-d408-edb8-7e91",
+            "name": "Nemesis Force Weapon",
+            "cost": "",
+            "range": "Melee",
+            "attacks": "4",
+            "weapon_skill": "2+",
+            "armor_penetration": "-2",
+            "damage": "2",
+            "keywords": "Psychic",
+            "additional_rules": [
+              {
+                "id": "1b41-b14-f414-bbd9",
+                "name": "Psychic",
+                "type": "rule",
+                "rule_reference_id": "e9c4-2bb8-12ee-cd1b"
+              }
+            ],
+            "minSelection": "1",
+            "maxSelection": "1"
+          },
+          {
+            "id": "c93f-d27c-e74f-be19",
+            "name": "Storm Bolter",
+            "cost": "",
+            "range": "24\"",
+            "attacks": "2",
+            "weapon_skill": "2+",
+            "armor_penetration": "0",
+            "damage": "1",
+            "keywords": "Rapid Fire 2",
+            "additional_rules": [
+              {
+                "id": "b488-e942-7ede-3fe2",
+                "name": "Rapid Fire",
+                "type": "rule",
+                "rule_reference_id": "c5c8-8b58-b8b6-7786"
+              }
+            ],
+            "minSelection": "1",
+            "maxSelection": "1"
+          }
+        ],
+        "minSelection": "1",
+        "maxSelection": "1",
+        "selection_scope": "parent"
+      },
+      {
+        "id": "d1b3-96e2-43e6-6bf4",
+        "name": "Paladin",
+        "weapons": [
+          {
+            "id": "6187-c075-7bd0-2a9b",
+            "name": "Nemesis Force Weapon",
+            "cost": "",
+            "range": "Melee",
+            "attacks": "4",
+            "weapon_skill": "2+",
+            "armor_penetration": "-2",
+            "damage": "2",
+            "keywords": "Psychic",
+            "additional_rules": [
+              {
+                "id": "4d62-c396-aa37-f328",
+                "name": "Psychic",
+                "type": "rule",
+                "rule_reference_id": "e9c4-2bb8-12ee-cd1b"
+              }
+            ],
+            "minSelection": "1",
+            "maxSelection": "1"
+          },
+          {
+            "id": "abb5-3b05-887d-41c6",
+            "name": "Storm Bolter",
+            "cost": "",
+            "range": "24\"",
+            "attacks": "2",
+            "weapon_skill": "2+",
+            "armor_penetration": "0",
+            "damage": "1",
+            "keywords": "Rapid Fire 2",
+            "additional_rules": [
+              {
+                "id": "5ee7-63c7-1692-43e4",
+                "name": "Rapid Fire",
+                "type": "rule",
+                "rule_reference_id": "c5c8-8b58-b8b6-7786"
+              }
+            ],
+            "minSelection": "1",
+            "maxSelection": "1"
+          }
+        ],
+        "minSelection": "1",
+        "maxSelection": "1",
+        "selection_scope": ""
+      },
+      {
+        "id": "c782-acdd-ccd7-6cc0",
+        "name": "Paladin with Ancient's Banner",
+        "weapons": [
+          {
+            "id": "ee61-209f-1887-6c7a",
+            "name": "Nemesis Force Weapon",
+            "cost": "",
+            "range": "Melee",
+            "attacks": "4",
+            "weapon_skill": "2+",
+            "armor_penetration": "-2",
+            "damage": "2",
+            "keywords": "Psychic",
+            "additional_rules": [
+              {
+                "id": "22f8-6e38-ab76-797f",
+                "name": "Psychic",
+                "type": "rule",
+                "rule_reference_id": "e9c4-2bb8-12ee-cd1b"
+              }
+            ],
+            "minSelection": "1",
+            "maxSelection": "1"
+          },
+          {
+            "id": "d970-7af-8ceb-f662",
+            "name": "Psycannon",
+            "cost": "",
+            "range": "24\"",
+            "attacks": "3",
+            "weapon_skill": "2+",
+            "armor_penetration": "-1",
+            "damage": "2",
+            "keywords": "Psychic",
+            "additional_rules": [
+              {
+                "id": "69e1-eb07-bec0-1f7d",
+                "name": "Psychic",
+                "type": "rule",
+                "rule_reference_id": "e9c4-2bb8-12ee-cd1b"
+              }
+            ],
+            "minSelection": "1",
+            "maxSelection": "1"
+          },
+          {
+            "id": "e308-5d95-ccfe-a490",
+            "name": "Incinerator",
+            "cost": "",
+            "range": "12\"",
+            "attacks": "D6",
+            "weapon_skill": "N/A",
+            "armor_penetration": "-1",
+            "damage": "1",
+            "keywords": "Ignores Cover, Torrent",
+            "additional_rules": [
+              {
+                "id": "9cdd-d607-55a9-bc6f",
+                "name": "Ignores Cover",
+                "type": "rule",
+                "rule_reference_id": "4640-43e7-30b-215a"
+              },
+              {
+                "id": "25af-e18b-3623-51f9",
+                "name": "Torrent",
+                "type": "rule",
+                "rule_reference_id": "5edf-d619-23e0-9b56"
+              }
+            ],
+            "minSelection": "1",
+            "maxSelection": "1"
+          },
+          {
+            "id": "548f-f4dd-7e32-9d31",
+            "name": "Psilencer",
+            "cost": "",
+            "range": "24\"",
+            "attacks": "6",
+            "weapon_skill": "2+",
+            "armor_penetration": "0",
+            "damage": "1",
+            "keywords": "Psychic, Sustained Hits 1",
+            "additional_rules": [
+              {
+                "id": "3dda-8316-3011-ffbb",
+                "name": "Sustained Hits",
+                "type": "rule",
+                "rule_reference_id": "1897-c22c-9597-12b1"
+              },
+              {
+                "id": "2387-5bb2-eb96-73af",
+                "name": "Psychic",
+                "type": "rule",
+                "rule_reference_id": "e9c4-2bb8-12ee-cd1b"
+              }
+            ],
+            "minSelection": "1",
+            "maxSelection": "1"
+          },
+          {
+            "id": "1202-d63-2028-ab5c",
+            "name": "Storm Bolter",
+            "cost": "",
+            "range": "24\"",
+            "attacks": "2",
+            "weapon_skill": "2+",
+            "armor_penetration": "0",
+            "damage": "1",
+            "keywords": "Rapid Fire 2",
+            "additional_rules": [
+              {
+                "id": "9d14-9791-f609-797e",
+                "name": "Rapid Fire",
+                "type": "rule",
+                "rule_reference_id": "c5c8-8b58-b8b6-7786"
+              }
+            ],
+            "maxSelection": "1"
+          }
+        ],
+        "maxSelection": "1",
+        "selection_scope": "parent"
+      },
+      {
+        "id": "7f57-9a5a-c5bf-851a",
+        "name": "Paladin with Heavy Weapon",
+        "weapons": [
+          {
+            "id": "81c3-5e9-d8b1-63c7",
+            "name": "Nemesis Force Weapon",
+            "cost": "",
+            "range": "Melee",
+            "attacks": "4",
+            "weapon_skill": "2+",
+            "armor_penetration": "-2",
+            "damage": "2",
+            "keywords": "Psychic",
+            "additional_rules": [
+              {
+                "id": "f9da-e420-1163-d0a6",
+                "name": "Psychic",
+                "type": "rule",
+                "rule_reference_id": "e9c4-2bb8-12ee-cd1b"
+              }
+            ],
+            "minSelection": "1",
+            "maxSelection": "1"
+          },
+          {
+            "id": "e1fa-34a1-5580-b7c8",
+            "name": "Psycannon",
+            "cost": "",
+            "range": "24\"",
+            "attacks": "3",
+            "weapon_skill": "2+",
+            "armor_penetration": "-1",
+            "damage": "2",
+            "keywords": "Psychic",
+            "additional_rules": [
+              {
+                "id": "f07e-72c1-76ec-d5d4",
+                "name": "Psychic",
+                "type": "rule",
+                "rule_reference_id": "e9c4-2bb8-12ee-cd1b"
+              }
+            ],
+            "minSelection": "1",
+            "maxSelection": "1"
+          },
+          {
+            "id": "5c0-5677-cffb-374c",
+            "name": "Incinerator",
+            "cost": "",
+            "range": "12\"",
+            "attacks": "D6",
+            "weapon_skill": "N/A",
+            "armor_penetration": "-1",
+            "damage": "1",
+            "keywords": "Ignores Cover, Torrent",
+            "additional_rules": [
+              {
+                "id": "a7cb-5a53-1b98-8ea5",
+                "name": "Ignores Cover",
+                "type": "rule",
+                "rule_reference_id": "4640-43e7-30b-215a"
+              },
+              {
+                "id": "63b3-2e2f-4608-4aa1",
+                "name": "Torrent",
+                "type": "rule",
+                "rule_reference_id": "5edf-d619-23e0-9b56"
+              }
+            ],
+            "minSelection": "1",
+            "maxSelection": "1"
+          },
+          {
+            "id": "f2a4-ccdb-517c-9e67",
+            "name": "Psilencer",
+            "cost": "",
+            "range": "24\"",
+            "attacks": "6",
+            "weapon_skill": "2+",
+            "armor_penetration": "0",
+            "damage": "1",
+            "keywords": "Psychic, Sustained Hits 1",
+            "additional_rules": [
+              {
+                "id": "6c1-2672-56af-718a",
+                "name": "Sustained Hits",
+                "type": "rule",
+                "rule_reference_id": "1897-c22c-9597-12b1"
+              },
+              {
+                "id": "26c5-677d-efa8-edbe",
+                "name": "Psychic",
+                "type": "rule",
+                "rule_reference_id": "e9c4-2bb8-12ee-cd1b"
+              }
+            ],
+            "minSelection": "1",
+            "maxSelection": "1"
+          }
+        ],
+        "maxSelection": "2",
+        "selection_scope": "parent"
+      }
+    ],
+    "colors": {},
+    "image": {}
+  },
+  {
+    "name": "Grey Knights Thunderhawk Gunship",
+    "cost": "805",
+    "movement": "20+\"",
+    "toughness": "12",
+    "save": "2+",
+    "wounds": "30",
+    "leadership": "6+",
+    "objectiveControl": "0",
+    "abilities": [
+      {
+        "id": "dae-a965-1e6d-d79a",
+        "name": "Damaged: 1-10 Wounds Remaining",
+        "cost": "",
+        "description": "While this model has 1-10 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+      },
+      {
+        "id": "86b2-1076-cbe6-c46b",
+        "name": "Aerial Assault",
+        "cost": "",
+        "description": "Each time a unit with the Deep Strike ability disembarks from this model after it has made a Normal move, that unit is still eligible to declare a charge this turn"
+      }
+    ],
+    "models": [
+      {
+        "id": "8989-2fd2-4d29-e795",
+        "name": "Grey Knights Thunderhawk Gunship",
+        "weapons": [
+          {
+            "id": "8989-2fd2-4d29-e795",
+            "name": "Grey Knights Thunderhawk Gunship",
+            "cost": "805",
+            "additional_rules": [
+              {
+                "id": "a2aa-126f-6713-a2a4",
+                "name": "Hover",
+                "type": "rule",
+                "rule_reference_id": "eec5-5f54-9c03-c305"
+              },
+              {
+                "id": "1n5y-a8k0-z3t6-zzo1",
+                "name": "Deadly Demise",
+                "type": "rule",
+                "rule_reference_id": "b68a-5ded-65ac-98c"
+              }
+            ],
+            "minSelection": "1",
+            "maxSelection": "1"
+          },
+          {
+            "id": "a62e-6c83-e169-20ec",
+            "name": "Lascannon",
+            "cost": "",
+            "range": "48\"",
+            "attacks": "1",
+            "weapon_skill": "3+",
+            "armor_penetration": "-3",
+            "damage": "D6+1",
+            "additional_rules": [],
+            "minSelection": "2",
+            "maxSelection": "2"
+          },
+          {
+            "id": "e0b3-6c91-4b73-f83b",
+            "name": "Twin Heavy Bolter",
+            "cost": "",
+            "range": "36\"",
+            "attacks": "3",
+            "weapon_skill": "3+",
+            "armor_penetration": "-1",
+            "damage": "2",
+            "keywords": "Sustained hits 1, Twin-linked",
+            "additional_rules": [
+              {
+                "id": "df0e-10bf-b64d-325a",
+                "name": "Twin-linked",
+                "type": "rule",
+                "rule_reference_id": "cf93-ad4d-2f08-a79d"
+              },
+              {
+                "id": "4120-21e3-736-d4a0",
+                "name": "Sustained Hits",
+                "type": "rule",
+                "rule_reference_id": "1897-c22c-9597-12b1"
+              }
+            ],
+            "minSelection": "4",
+            "maxSelection": "4"
+          },
+          {
+            "id": "df1c-ece9-8eb1-3097",
+            "name": "Hellstrike Missile Battery",
+            "cost": "",
+            "range": "72\"",
+            "attacks": "4",
+            "weapon_skill": "3+",
+            "armor_penetration": "-2",
+            "damage": "3",
+            "keywords": "Anti-Fly 4+",
+            "additional_rules": [
+              {
+                "id": "78d7-8aa-e1eb-9b3c",
+                "name": "Anti-",
+                "type": "rule",
+                "rule_reference_id": "4111-82e3-9444-e942"
+              }
+            ],
+            "minSelection": "1",
+            "maxSelection": "1"
+          },
+          {
+            "id": "3c9f-6ed1-99f7-463b",
+            "name": "Thunderhawk Heavy Cannon",
+            "cost": "",
+            "range": "48\"",
+            "attacks": "D6+6",
+            "weapon_skill": "3+",
+            "armor_penetration": "-2",
+            "damage": "3",
+            "keywords": "Blast",
+            "additional_rules": [
+              {
+                "id": "f253-20cb-fad8-c292",
+                "name": "Blast",
+                "type": "rule",
+                "rule_reference_id": "6c1f-1cf7-ff25-c99e"
+              }
+            ],
+            "minSelection": "1",
+            "maxSelection": "1"
+          },
+          {
+            "id": "dfd7-add7-ed5a-f2f",
+            "name": "Turbo-Laser Destructor",
+            "cost": "",
+            "range": "96\"",
+            "attacks": "D3+1",
+            "weapon_skill": "3+",
+            "armor_penetration": "-4",
+            "damage": "D6+6",
+            "keywords": "Blast",
+            "additional_rules": [
+              {
+                "id": "e672-9b28-7031-6a72",
+                "name": "Blast",
+                "type": "rule",
+                "rule_reference_id": "6c1f-1cf7-ff25-c99e"
+              }
+            ],
+            "minSelection": "1",
+            "maxSelection": "1"
+          }
+        ],
+        "minSelection": "1",
+        "maxSelection": "1",
+        "selection_scope": ""
+      }
+    ],
+    "colors": {},
+    "image": {}
+  },
+  {
+    "name": "Purgation Squad",
+    "cost": "135",
+    "movement": "6\"",
+    "toughness": "4",
+    "save": "2+",
+    "wounds": "2",
+    "leadership": "6+",
+    "objectiveControl": "1",
+    "abilities": [
+      {
+        "id": "6515-217f-6031-85ce",
+        "name": "Astral Aim (Psychic)",
+        "cost": "",
+        "description": "In your Shooting phase, ranged weapons equipped by models in this unit have the [INDIRECT FIRE] ability, provided the target of that weapon is visible to one or more other friendly Grey Knights Psyker units"
+      }
+    ],
+    "models": [
+      {
+        "id": "5f9-7ef3-ba5b-6352",
+        "name": "Justicar",
+        "weapons": [
+          {
+            "id": "e23c-c956-54ae-96bf",
+            "name": "Nemesis Force Weapon",
+            "cost": "",
+            "range": "Melee",
+            "attacks": "3",
+            "weapon_skill": "3+",
+            "armor_penetration": "-2",
+            "damage": "2",
+            "keywords": "Psychic",
+            "additional_rules": [
+              {
+                "id": "1b32-df22-859-ec62",
+                "name": "Psychic",
+                "type": "rule",
+                "rule_reference_id": "e9c4-2bb8-12ee-cd1b"
+              }
+            ],
+            "minSelection": "1",
+            "maxSelection": "1"
+          },
+          {
+            "id": "d791-32c3-c5ec-29e0",
+            "name": "Storm Bolter",
+            "cost": "",
+            "range": "24\"",
+            "attacks": "2",
+            "weapon_skill": "3+",
+            "armor_penetration": "0",
+            "damage": "1",
+            "keywords": "Rapid Fire 2",
+            "additional_rules": [
+              {
+                "id": "5c75-9bd2-11aa-3957",
+                "name": "Rapid Fire",
+                "type": "rule",
+                "rule_reference_id": "c5c8-8b58-b8b6-7786"
+              }
+            ],
+            "minSelection": "1",
+            "maxSelection": "1"
+          }
+        ],
+        "minSelection": "1",
+        "maxSelection": "1",
+        "selection_scope": "parent"
+      },
+      {
+        "id": "ee3b-2ec2-2841-7e66",
+        "name": "Purgator",
+        "weapons": [
+          {
+            "id": "3f2f-f59d-6aba-cf85",
+            "name": "Nemesis Force Weapon",
+            "cost": "",
+            "range": "Melee",
+            "attacks": "3",
+            "weapon_skill": "3+",
+            "armor_penetration": "-2",
+            "damage": "2",
+            "keywords": "Psychic",
+            "additional_rules": [
+              {
+                "id": "fd2a-8d8-632-af51",
+                "name": "Psychic",
+                "type": "rule",
+                "rule_reference_id": "e9c4-2bb8-12ee-cd1b"
+              }
+            ],
+            "minSelection": "1",
+            "maxSelection": "1"
+          },
+          {
+            "id": "b398-1281-6d4e-2eed",
+            "name": "Storm Bolter",
+            "cost": "",
+            "range": "24\"",
+            "attacks": "2",
+            "weapon_skill": "3+",
+            "armor_penetration": "0",
+            "damage": "1",
+            "keywords": "Rapid Fire 2",
+            "additional_rules": [
+              {
+                "id": "5b43-4239-3dff-666c",
+                "name": "Rapid Fire",
+                "type": "rule",
+                "rule_reference_id": "c5c8-8b58-b8b6-7786"
+              }
+            ],
+            "minSelection": "1",
+            "maxSelection": "1"
+          }
+        ],
+        "minSelection": "1",
+        "maxSelection": "1",
+        "selection_scope": ""
+      },
+      {
+        "id": "74a8-a54f-98b9-4d09",
+        "name": "Purgator w/ incinerator",
+        "weapons": [
+          {
+            "id": "d0e-7460-ee7b-660f",
+            "name": "Close combat weapon",
+            "cost": "",
+            "range": "Melee",
+            "attacks": "3",
+            "weapon_skill": "3+",
+            "armor_penetration": "0",
+            "damage": "1",
+            "keywords": "-",
+            "additional_rules": [],
+            "minSelection": "1",
+            "maxSelection": "1"
+          },
+          {
+            "id": "c71f-f97a-a5f-313a",
+            "name": "Incinerator",
+            "cost": "",
+            "range": "12\"",
+            "attacks": "D6",
+            "weapon_skill": "N/A",
+            "armor_penetration": "-1",
+            "damage": "1",
+            "keywords": "Ignores Cover, Torrent",
+            "additional_rules": [
+              {
+                "id": "ce0a-862d-8ccd-d59c",
+                "name": "Ignores Cover",
+                "type": "rule",
+                "rule_reference_id": "4640-43e7-30b-215a"
+              },
+              {
+                "id": "c350-e4ab-69a3-bb24",
+                "name": "Torrent",
+                "type": "rule",
+                "rule_reference_id": "5edf-d619-23e0-9b56"
+              }
+            ],
+            "minSelection": "1",
+            "maxSelection": "1"
+          }
+        ],
+        "maxSelection": "4",
+        "selection_scope": "parent"
+      },
+      {
+        "id": "ce96-29f0-f79e-907d",
+        "name": "Purgator w/ psilencer",
+        "weapons": [
+          {
+            "id": "d0e-7460-ee7b-660f",
+            "name": "Close combat weapon",
+            "cost": "",
+            "range": "Melee",
+            "attacks": "3",
+            "weapon_skill": "3+",
+            "armor_penetration": "0",
+            "damage": "1",
+            "keywords": "-",
+            "additional_rules": [],
+            "minSelection": "1",
+            "maxSelection": "1"
+          },
+          {
+            "id": "367c-89e9-771a-99e6",
+            "name": "Psilencer",
+            "cost": "",
+            "range": "24\"",
+            "attacks": "6",
+            "weapon_skill": "3+",
+            "armor_penetration": "0",
+            "damage": "1",
+            "keywords": "Psychic, Sustained Hits 1",
+            "additional_rules": [
+              {
+                "id": "7422-314e-bd96-af6c",
+                "name": "Sustained Hits",
+                "type": "rule",
+                "rule_reference_id": "1897-c22c-9597-12b1"
+              },
+              {
+                "id": "9d80-8561-e791-465f",
+                "name": "Psychic",
+                "type": "rule",
+                "rule_reference_id": "e9c4-2bb8-12ee-cd1b"
+              }
+            ],
+            "minSelection": "1",
+            "maxSelection": "1"
+          }
+        ],
+        "maxSelection": "4",
+        "selection_scope": "parent"
+      },
+      {
+        "id": "f0ad-a5ac-154b-e21d",
+        "name": "Purgator w/ psycannon",
+        "weapons": [
+          {
+            "id": "d0e-7460-ee7b-660f",
+            "name": "Close combat weapon",
+            "cost": "",
+            "range": "Melee",
+            "attacks": "3",
+            "weapon_skill": "3+",
+            "armor_penetration": "0",
+            "damage": "1",
+            "keywords": "-",
+            "additional_rules": [],
+            "minSelection": "1",
+            "maxSelection": "1"
+          },
+          {
+            "id": "eb06-2a1b-48c0-c353",
+            "name": "Psycannon",
+            "cost": "",
+            "range": "24\"",
+            "attacks": "3",
+            "weapon_skill": "3+",
+            "armor_penetration": "-1",
+            "damage": "2",
+            "keywords": "Psychic",
+            "additional_rules": [
+              {
+                "id": "e33c-2223-f8c7-65e6",
+                "name": "Psychic",
+                "type": "rule",
+                "rule_reference_id": "e9c4-2bb8-12ee-cd1b"
+              }
+            ],
+            "minSelection": "1",
+            "maxSelection": "1"
+          }
+        ],
+        "maxSelection": "4",
+        "selection_scope": "parent"
+      }
+    ],
+    "colors": {},
+    "image": {}
+  },
+  {
+    "name": "Purifier Squad",
+    "cost": "130",
+    "movement": "6\"",
+    "toughness": "4",
+    "save": "2+",
+    "wounds": "2",
+    "leadership": "6+",
+    "objectiveControl": "1",
+    "abilities": [
+      {
+        "id": "f2c4-c894-81d4-d126",
+        "name": "Sanctity of Purpose",
+        "cost": "",
+        "description": "Each time a model in this unit makes an attack, add 1 to the Hit roll if this unit is below its Starting Strength, and add 1 to the Wound roll as well if this unit is Below Half-strength."
+      }
+    ],
+    "models": [
+      {
+        "id": "d27-4455-b0d4-3250",
+        "name": "Knight of the Flame",
+        "weapons": [
+          {
+            "id": "2d25-3fc9-a477-6a9e",
+            "name": "Nemesis Force Weapon",
+            "cost": "",
+            "range": "Melee",
+            "attacks": "3",
+            "weapon_skill": "3+",
+            "armor_penetration": "-2",
+            "damage": "2",
+            "keywords": "Psychic",
+            "additional_rules": [
+              {
+                "id": "131a-5b0a-cbcd-a9ff",
+                "name": "Psychic",
+                "type": "rule",
+                "rule_reference_id": "e9c4-2bb8-12ee-cd1b"
+              }
+            ],
+            "minSelection": "1",
+            "maxSelection": "1"
+          },
+          {
+            "id": "afbf-1390-b3c2-34e5",
+            "name": "Storm Bolter",
+            "cost": "",
+            "range": "24\"",
+            "attacks": "2",
+            "weapon_skill": "3+",
+            "armor_penetration": "0",
+            "damage": "1",
+            "keywords": "Rapid Fire 2",
+            "additional_rules": [
+              {
+                "id": "451c-69a-4cb3-1d5f",
+                "name": "Rapid Fire",
+                "type": "rule",
+                "rule_reference_id": "c5c8-8b58-b8b6-7786"
+              }
+            ],
+            "minSelection": "1",
+            "maxSelection": "1"
+          },
+          {
+            "id": "7806-2692-1a7b-e5ac",
+            "name": "Purifying Flame",
+            "cost": "",
+            "range": "18\"",
+            "attacks": "1",
+            "weapon_skill": "3+",
+            "armor_penetration": "-1",
+            "damage": "1",
+            "keywords": "Anti-Infantry 2+, Ignores Cover, Psychic",
+            "additional_rules": [
+              {
+                "id": "2ea9-4251-52bd-c35f",
+                "name": "Ignores Cover",
+                "type": "rule",
+                "rule_reference_id": "4640-43e7-30b-215a"
+              },
+              {
+                "id": "ccdb-ad3-c9b1-68f1",
+                "name": "Psychic",
+                "type": "rule",
+                "rule_reference_id": "e9c4-2bb8-12ee-cd1b"
+              },
+              {
+                "id": "a47c-3e7f-d682-860d",
+                "name": "Anti-",
+                "type": "rule",
+                "rule_reference_id": "4111-82e3-9444-e942"
+              }
+            ],
+            "minSelection": "1",
+            "maxSelection": "1"
+          }
+        ],
+        "minSelection": "1",
+        "maxSelection": "1",
+        "selection_scope": "parent"
+      },
+      {
+        "id": "2105-9372-a043-df0c",
+        "name": "Purifier",
+        "weapons": [
+          {
+            "id": "1cfa-f820-e633-36ef",
+            "name": "Nemesis Force Weapon",
+            "cost": "",
+            "range": "Melee",
+            "attacks": "3",
+            "weapon_skill": "3+",
+            "armor_penetration": "-2",
+            "damage": "2",
+            "keywords": "Psychic",
+            "additional_rules": [
+              {
+                "id": "6672-3ad5-3d08-bc81",
+                "name": "Psychic",
+                "type": "rule",
+                "rule_reference_id": "e9c4-2bb8-12ee-cd1b"
+              }
+            ],
+            "minSelection": "1",
+            "maxSelection": "1"
+          },
+          {
+            "id": "71f6-9d16-87ce-ad59",
+            "name": "Storm Bolter",
+            "cost": "",
+            "range": "24\"",
+            "attacks": "2",
+            "weapon_skill": "3+",
+            "armor_penetration": "0",
+            "damage": "1",
+            "keywords": "Rapid Fire 2",
+            "additional_rules": [
+              {
+                "id": "83c4-93e2-2f7f-b4ae",
+                "name": "Rapid Fire",
+                "type": "rule",
+                "rule_reference_id": "c5c8-8b58-b8b6-7786"
+              }
+            ],
+            "minSelection": "1",
+            "maxSelection": "1"
+          },
+          {
+            "id": "915e-b169-5d19-d77b",
+            "name": "Purifying Flame",
+            "cost": "",
+            "range": "18\"",
+            "attacks": "1",
+            "weapon_skill": "3+",
+            "armor_penetration": "-1",
+            "damage": "1",
+            "keywords": "Anti-Infantry 2+, Ignores Cover, Psychic",
+            "additional_rules": [
+              {
+                "id": "a584-94b7-5817-3bb",
+                "name": "Ignores Cover",
+                "type": "rule",
+                "rule_reference_id": "4640-43e7-30b-215a"
+              },
+              {
+                "id": "aec5-e2c1-40ee-1fd3",
+                "name": "Psychic",
+                "type": "rule",
+                "rule_reference_id": "e9c4-2bb8-12ee-cd1b"
+              },
+              {
+                "id": "f5a0-605b-ad0f-b0ab",
+                "name": "Anti-",
+                "type": "rule",
+                "rule_reference_id": "4111-82e3-9444-e942"
+              }
+            ],
+            "minSelection": "1",
+            "maxSelection": "1"
+          }
+        ],
+        "minSelection": "1",
+        "maxSelection": "1",
+        "selection_scope": ""
+      },
+      {
+        "id": "a555-f09-9aa6-db71",
+        "name": "Purifier w/ incinerator",
+        "weapons": [
+          {
+            "id": "d0e-7460-ee7b-660f",
+            "name": "Close combat weapon",
+            "cost": "",
+            "range": "Melee",
+            "attacks": "3",
+            "weapon_skill": "3+",
+            "armor_penetration": "0",
+            "damage": "1",
+            "keywords": "-",
+            "additional_rules": [],
+            "minSelection": "1",
+            "maxSelection": "1"
+          },
+          {
+            "id": "a6c0-754c-4ad1-618",
+            "name": "Incinerator",
+            "cost": "",
+            "range": "12\"",
+            "attacks": "D6",
+            "weapon_skill": "N/A",
+            "armor_penetration": "-1",
+            "damage": "1",
+            "keywords": "Ignores Cover, Torrent",
+            "additional_rules": [
+              {
+                "id": "3953-f017-d6e9-8510",
+                "name": "Ignores Cover",
+                "type": "rule",
+                "rule_reference_id": "4640-43e7-30b-215a"
+              },
+              {
+                "id": "c0e8-3539-991c-13b",
+                "name": "Torrent",
+                "type": "rule",
+                "rule_reference_id": "5edf-d619-23e0-9b56"
+              }
+            ],
+            "minSelection": "1",
+            "maxSelection": "1"
+          },
+          {
+            "id": "541f-dcb9-e0a7-ae43",
+            "name": "Purifying Flame",
+            "cost": "",
+            "range": "18\"",
+            "attacks": "1",
+            "weapon_skill": "3+",
+            "armor_penetration": "-1",
+            "damage": "1",
+            "keywords": "Anti-Infantry 2+, Ignores Cover, Psychic",
+            "additional_rules": [
+              {
+                "id": "3b81-297c-37da-8dfc",
+                "name": "Ignores Cover",
+                "type": "rule",
+                "rule_reference_id": "4640-43e7-30b-215a"
+              },
+              {
+                "id": "6ba9-69e6-7069-73f9",
+                "name": "Psychic",
+                "type": "rule",
+                "rule_reference_id": "e9c4-2bb8-12ee-cd1b"
+              },
+              {
+                "id": "d10d-80ab-f6ba-ed47",
+                "name": "Anti-",
+                "type": "rule",
+                "rule_reference_id": "4111-82e3-9444-e942"
+              }
+            ],
+            "minSelection": "1",
+            "maxSelection": "1"
+          }
+        ],
+        "maxSelection": "4",
+        "selection_scope": "parent"
+      },
+      {
+        "id": "efc9-77c8-f86a-878d",
+        "name": "Purifier w/ psilencer",
+        "weapons": [
+          {
+            "id": "d0e-7460-ee7b-660f",
+            "name": "Close combat weapon",
+            "cost": "",
+            "range": "Melee",
+            "attacks": "3",
+            "weapon_skill": "3+",
+            "armor_penetration": "0",
+            "damage": "1",
+            "keywords": "-",
+            "additional_rules": [],
+            "minSelection": "1",
+            "maxSelection": "1"
+          },
+          {
+            "id": "87af-3056-395b-55ef",
+            "name": "Purifying Flame",
+            "cost": "",
+            "range": "18\"",
+            "attacks": "1",
+            "weapon_skill": "3+",
+            "armor_penetration": "-1",
+            "damage": "1",
+            "keywords": "Anti-Infantry 2+, Ignores Cover, Psychic",
+            "additional_rules": [
+              {
+                "id": "710a-fc95-179d-c303",
+                "name": "Ignores Cover",
+                "type": "rule",
+                "rule_reference_id": "4640-43e7-30b-215a"
+              },
+              {
+                "id": "ded0-765f-f964-f638",
+                "name": "Psychic",
+                "type": "rule",
+                "rule_reference_id": "e9c4-2bb8-12ee-cd1b"
+              },
+              {
+                "id": "6193-596b-f5a8-5f00",
+                "name": "Anti-",
+                "type": "rule",
+                "rule_reference_id": "4111-82e3-9444-e942"
+              }
+            ],
+            "minSelection": "1",
+            "maxSelection": "1"
+          },
+          {
+            "id": "63b3-b175-dd2d-d9bd",
+            "name": "Psilencer",
+            "cost": "",
+            "range": "24\"",
+            "attacks": "6",
+            "weapon_skill": "3+",
+            "armor_penetration": "0",
+            "damage": "1",
+            "keywords": "Psychic, Sustained Hits 1",
+            "additional_rules": [
+              {
+                "id": "76c4-9af5-3152-c2be",
+                "name": "Sustained Hits",
+                "type": "rule",
+                "rule_reference_id": "1897-c22c-9597-12b1"
+              },
+              {
+                "id": "f2d9-4a9d-4ac2-1819",
+                "name": "Psychic",
+                "type": "rule",
+                "rule_reference_id": "e9c4-2bb8-12ee-cd1b"
+              }
+            ],
+            "minSelection": "1",
+            "maxSelection": "1"
+          }
+        ],
+        "maxSelection": "4",
+        "selection_scope": "parent"
+      },
+      {
+        "id": "d518-3382-8614-960b",
+        "name": "Purifier w/ psycannon",
+        "weapons": [
+          {
+            "id": "d0e-7460-ee7b-660f",
+            "name": "Close combat weapon",
+            "cost": "",
+            "range": "Melee",
+            "attacks": "3",
+            "weapon_skill": "3+",
+            "armor_penetration": "0",
+            "damage": "1",
+            "keywords": "-",
+            "additional_rules": [],
+            "minSelection": "1",
+            "maxSelection": "1"
+          },
+          {
+            "id": "6ef7-1774-e655-9480",
+            "name": "Purifying Flame",
+            "cost": "",
+            "range": "18\"",
+            "attacks": "1",
+            "weapon_skill": "3+",
+            "armor_penetration": "-1",
+            "damage": "1",
+            "keywords": "Anti-Infantry 2+, Ignores Cover, Psychic",
+            "additional_rules": [
+              {
+                "id": "b128-ff8-c7e5-a21e",
+                "name": "Ignores Cover",
+                "type": "rule",
+                "rule_reference_id": "4640-43e7-30b-215a"
+              },
+              {
+                "id": "968c-3cb5-4eef-a3e2",
+                "name": "Psychic",
+                "type": "rule",
+                "rule_reference_id": "e9c4-2bb8-12ee-cd1b"
+              },
+              {
+                "id": "73e9-c4e8-932b-e742",
+                "name": "Anti-",
+                "type": "rule",
+                "rule_reference_id": "4111-82e3-9444-e942"
+              }
+            ],
+            "minSelection": "1",
+            "maxSelection": "1"
+          },
+          {
+            "id": "28a-e8f4-7397-9e36",
+            "name": "Psycannon",
+            "cost": "",
+            "range": "24\"",
+            "attacks": "3",
+            "weapon_skill": "3+",
+            "armor_penetration": "-1",
+            "damage": "2",
+            "keywords": "Psychic",
+            "additional_rules": [
+              {
+                "id": "fb66-230b-d8f8-6180",
+                "name": "Psychic",
+                "type": "rule",
+                "rule_reference_id": "e9c4-2bb8-12ee-cd1b"
+              }
+            ],
+            "minSelection": "1",
+            "maxSelection": "1"
+          }
+        ],
+        "maxSelection": "4",
+        "selection_scope": "parent"
+      }
+    ],
+    "colors": {},
+    "image": {}
+  },
+  {
+    "name": "Servitors",
+    "cost": "50",
+    "movement": "6\"",
+    "toughness": "4",
+    "save": "4+",
+    "wounds": "1",
+    "leadership": "8+",
+    "objectiveControl": "0",
+    "abilities": [
+      {
+        "id": "290c-4f4a-2c2d-a095",
+        "name": "Invulnerable Save",
+        "cost": "",
+        "description": "This unit has a 6+ Invulnerable Save"
+      },
+      {
+        "id": "685-c0a5-139e-a916",
+        "name": "Mindlock",
+        "cost": "",
+        "description": "While a Brotherhood Techmarine model is leading this unit, improve the Ballistic Skill and Weapon Skill characteristics of ranged and melee weapons equipped by Servitor models in this unit by 1"
+      },
+      {
+        "id": "ae16-1ed-ea16-9713",
+        "name": "Retinue",
+        "cost": "",
+        "description": "While a Brotherhood Techmarine model is leading this unit, models in this unit have the Deep Strike and Teleport Assault abilities"
+      }
+    ],
+    "models": [
+      {
+        "id": "54c6-2506-f109-dd",
+        "name": "Servitor with Servo Arm",
+        "weapons": [
+          {
+            "id": "54c6-2506-f109-dd",
+            "name": "Servitor with Servo Arm",
+            "cost": "",
+            "range": "Melee",
+            "attacks": "1",
+            "weapon_skill": "5+",
+            "armor_penetration": "-2",
+            "damage": "3",
+            "additional_rules": [],
+            "minSelection": "1",
+            "maxSelection": "1"
+          }
+        ],
+        "minSelection": "1",
+        "maxSelection": "1",
+        "selection_scope": ""
+      },
+      {
+        "id": "89c9-ccee-d41e-7489",
+        "name": "Servitor with Heavy Bolter",
+        "weapons": [
+          {
+            "id": "89c9-ccee-d41e-7489",
+            "name": "Servitor with Heavy Bolter",
+            "cost": "",
+            "range": "36\"",
+            "attacks": "3",
+            "weapon_skill": "4+",
+            "armor_penetration": "-1",
+            "damage": "2",
+            "keywords": "Heavy, Sustained Hits 1",
+            "additional_rules": [],
+            "minSelection": "1",
+            "maxSelection": "1"
+          }
+        ],
+        "minSelection": "1",
+        "maxSelection": "1",
+        "selection_scope": ""
+      },
+      {
+        "id": "51b4-7283-dda-f124",
+        "name": "Servitor with Multi Melta",
+        "weapons": [
+          {
+            "id": "51b4-7283-dda-f124",
+            "name": "Servitor with Multi Melta",
+            "cost": "",
+            "range": "18\"",
+            "attacks": "2",
+            "weapon_skill": "4+",
+            "armor_penetration": "-4",
+            "damage": "D6",
+            "keywords": "Heavy, Melta 2",
+            "additional_rules": [],
+            "minSelection": "1",
+            "maxSelection": "1"
+          }
+        ],
+        "minSelection": "1",
+        "maxSelection": "1",
+        "selection_scope": ""
+      },
+      {
+        "id": "40ff-1eb6-2299-f733",
+        "name": "Servitor with Plasma Cannon",
+        "weapons": [
+          {
+            "id": "40ff-1eb6-2299-f733",
+            "name": "Servitor with Plasma Cannon",
+            "cost": "",
+            "range": "36\"",
+            "attacks": "D3",
+            "weapon_skill": "4+",
+            "armor_penetration": "-2",
+            "damage": "1",
+            "keywords": "Blast, Heavy",
+            "additional_rules": [],
+            "minSelection": "1",
+            "maxSelection": "1"
+          },
+          {
+            "id": "40ff-1eb6-2299-f733",
+            "name": "Servitor with Plasma Cannon",
+            "cost": "",
+            "range": "36\"",
+            "attacks": "D3",
+            "weapon_skill": "4+",
+            "armor_penetration": "-2",
+            "damage": "1",
+            "keywords": "Blast, Heavy",
+            "additional_rules": [],
+            "minSelection": "1",
+            "maxSelection": "1"
+          }
+        ],
+        "minSelection": "1",
+        "maxSelection": "1",
+        "selection_scope": ""
+      }
+    ],
+    "colors": {},
+    "image": {}
+  },
+  {
+    "name": "Strike Squad",
+    "cost": "125",
+    "movement": "6\"",
+    "toughness": "4",
+    "save": "2+",
+    "wounds": "2",
+    "leadership": "6+",
+    "objectiveControl": "2",
+    "abilities": [
+      {
+        "id": "e301-c532-9ade-1060",
+        "name": "Sanctifying Ritual (Psychic)",
+        "cost": "",
+        "description": "If you control an objective marker at the end of your Command phase and this unit is within range of that objective marker, that objective marker remains under you control, even if you have no models within range of it, until your opponent controls it at the start or end of any turn"
+      }
+    ],
+    "models": [
+      {
+        "id": "e94e-2f1d-3d5b-dad8",
+        "name": "Justicar",
+        "weapons": [
+          {
+            "id": "a2ae-bf4f-7273-439",
+            "name": "Nemesis Force Weapon",
+            "cost": "",
+            "range": "Melee",
+            "attacks": "3",
+            "weapon_skill": "3+",
+            "armor_penetration": "-2",
+            "damage": "2",
+            "keywords": "Psychic",
+            "additional_rules": [
+              {
+                "id": "b49c-a7cd-1f9f-7951",
+                "name": "Psychic",
+                "type": "rule",
+                "rule_reference_id": "e9c4-2bb8-12ee-cd1b"
+              }
+            ],
+            "minSelection": "1",
+            "maxSelection": "1"
+          },
+          {
+            "id": "b26a-29d2-ce3f-6f95",
+            "name": "Storm Bolter",
+            "cost": "",
+            "range": "24\"",
+            "attacks": "2",
+            "weapon_skill": "3+",
+            "armor_penetration": "0",
+            "damage": "1",
+            "keywords": "Rapid Fire 2",
+            "additional_rules": [
+              {
+                "id": "8396-e701-957d-1ead",
+                "name": "Rapid Fire",
+                "type": "rule",
+                "rule_reference_id": "c5c8-8b58-b8b6-7786"
+              }
+            ],
+            "minSelection": "1",
+            "maxSelection": "1"
+          }
+        ],
+        "minSelection": "1",
+        "maxSelection": "1",
+        "selection_scope": "parent"
+      },
+      {
+        "id": "2e8c-d8a7-b77c-d2ad",
+        "name": "Grey Knight",
+        "weapons": [
+          {
+            "id": "d183-5a5f-7559-66ad",
+            "name": "Nemesis Force Weapon",
+            "cost": "",
+            "range": "Melee",
+            "attacks": "3",
+            "weapon_skill": "3+",
+            "armor_penetration": "-2",
+            "damage": "2",
+            "keywords": "Psychic",
+            "additional_rules": [
+              {
+                "id": "5f92-6738-1cae-94eb",
+                "name": "Psychic",
+                "type": "rule",
+                "rule_reference_id": "e9c4-2bb8-12ee-cd1b"
+              }
+            ],
+            "minSelection": "1",
+            "maxSelection": "1"
+          },
+          {
+            "id": "2ba5-c2d6-adb5-77f4",
+            "name": "Storm Bolter",
+            "cost": "",
+            "range": "24\"",
+            "attacks": "2",
+            "weapon_skill": "3+",
+            "armor_penetration": "0",
+            "damage": "1",
+            "keywords": "Rapid Fire 2",
+            "additional_rules": [
+              {
+                "id": "3a16-a314-f235-8a79",
+                "name": "Rapid Fire",
+                "type": "rule",
+                "rule_reference_id": "c5c8-8b58-b8b6-7786"
+              }
+            ],
+            "minSelection": "1",
+            "maxSelection": "1"
+          }
+        ],
+        "minSelection": "1",
+        "maxSelection": "1",
+        "selection_scope": ""
+      },
+      {
+        "id": "b953-5c1a-5d31-192f",
+        "name": "Grey Knight with Heavy Weapon",
+        "weapons": [
+          {
+            "id": "9f4a-4baa-324c-7904",
+            "name": "Psycannon",
+            "cost": "",
+            "range": "24\"",
+            "attacks": "3",
+            "weapon_skill": "3+",
+            "armor_penetration": "-1",
+            "damage": "2",
+            "keywords": "Psychic",
+            "additional_rules": [
+              {
+                "id": "1911-b2e8-28f9-5d9a",
+                "name": "Psychic",
+                "type": "rule",
+                "rule_reference_id": "e9c4-2bb8-12ee-cd1b"
+              }
+            ],
+            "minSelection": "1",
+            "maxSelection": "1"
+          },
+          {
+            "id": "f37f-228a-a9-1b00",
+            "name": "Incinerator",
+            "cost": "",
+            "range": "12\"",
+            "attacks": "D6",
+            "weapon_skill": "N/A",
+            "armor_penetration": "-1",
+            "damage": "1",
+            "keywords": "Ignores Cover, Torrent",
+            "additional_rules": [
+              {
+                "id": "1d05-eeaa-b570-9e3f",
+                "name": "Ignores Cover",
+                "type": "rule",
+                "rule_reference_id": "4640-43e7-30b-215a"
+              },
+              {
+                "id": "54d2-93d4-1b97-ce46",
+                "name": "Torrent",
+                "type": "rule",
+                "rule_reference_id": "5edf-d619-23e0-9b56"
+              }
+            ],
+            "minSelection": "1",
+            "maxSelection": "1"
+          },
+          {
+            "id": "d045-399e-966c-c019",
+            "name": "Psilencer",
+            "cost": "",
+            "range": "24\"",
+            "attacks": "6",
+            "weapon_skill": "3+",
+            "armor_penetration": "0",
+            "damage": "1",
+            "keywords": "Psychic, Sustained Hits 1",
+            "additional_rules": [
+              {
+                "id": "cfe5-5fd0-933a-77ef",
+                "name": "Sustained Hits",
+                "type": "rule",
+                "rule_reference_id": "1897-c22c-9597-12b1"
+              },
+              {
+                "id": "5b4a-9b8d-50f8-1357",
+                "name": "Psychic",
+                "type": "rule",
+                "rule_reference_id": "e9c4-2bb8-12ee-cd1b"
+              }
+            ],
+            "minSelection": "1",
+            "maxSelection": "1"
+          }
+        ],
+        "maxSelection": "1",
+        "selection_scope": "parent"
+      }
+    ],
+    "colors": {},
+    "image": {}
+  },
+  {
+    "name": "Grey Knights Relic Razorback [Legends]",
+    "cost": "95",
+    "movement": "12\"",
+    "toughness": "9",
+    "save": "3+",
+    "wounds": "10",
+    "leadership": "6+",
+    "objectiveControl": "2",
+    "abilities": [
+      {
+        "id": "8a33-f995-5228-9577",
+        "name": "Fire Support",
+        "cost": "",
+        "description": "In your Shooting phase, after this model has shot, select one enemy unit it scored one or more hits against this phase. Until the end of the phase, each time a friendly model that disembarked from this Transport this turn makes an attack that targets that enemy unit, you can re-roll the Wound roll"
+      }
+    ],
+    "models": [
+      {
+        "id": "54f0-4b3f-3abe-081b",
+        "name": "Grey Knights Relic Razorback [Legends]",
+        "weapons": [
+          {
+            "id": "54f0-4b3f-3abe-081b",
+            "name": "Grey Knights Relic Razorback [Legends]",
+            "cost": "95",
+            "additional_rules": [
+              {
+                "id": "9b21-200-6422-70f8",
+                "name": "Deadly Demise",
+                "type": "rule",
+                "rule_reference_id": "b68a-5ded-65ac-98c"
+              }
+            ],
+            "minSelection": "1",
+            "maxSelection": "1"
+          },
+          {
+            "id": "23e0-78c1-6f77-e985",
+            "name": "Hunter-killer Missile",
+            "cost": "0",
+            "range": "48\"",
+            "attacks": "1",
+            "weapon_skill": "2+",
+            "armor_penetration": "-3",
+            "damage": "D6",
+            "keywords": "One Shot",
+            "additional_rules": [],
+            "maxSelection": "1"
+          },
+          {
+            "id": "7ee9-e9ac-b677-24a9",
+            "name": "Storm Bolter",
+            "cost": "0",
+            "range": "24\"",
+            "attacks": "2",
+            "weapon_skill": "3+",
+            "armor_penetration": "0",
+            "damage": "1",
+            "keywords": "Rapid Fire 2",
+            "additional_rules": [
+              {
+                "id": "257d-4fe8-fb46-c6a",
+                "name": "Rapid Fire",
+                "type": "rule",
+                "rule_reference_id": "c5c8-8b58-b8b6-7786"
+              }
+            ],
+            "maxSelection": "1"
+          },
+          {
+            "id": "d639-d780-425c-67d9",
+            "name": "Twin Heavy Bolter",
+            "cost": "0",
+            "range": "36\"",
+            "attacks": "3",
+            "weapon_skill": "3+",
+            "armor_penetration": "-1",
+            "damage": "2",
+            "keywords": "Sustained Hits 1, Twin-Linked",
+            "additional_rules": [],
+            "minSelection": "1",
+            "maxSelection": "1"
+          },
+          {
+            "id": "850e-b813-8e4a-1314",
+            "name": "Twin Assault Cannon",
+            "cost": "0",
+            "range": "24\"",
+            "attacks": "6",
+            "weapon_skill": "3+",
+            "armor_penetration": "0",
+            "damage": "1",
+            "keywords": "Devastating Wounds, Twin-Linked",
+            "additional_rules": [],
+            "minSelection": "1",
+            "maxSelection": "1"
+          },
+          {
+            "id": "f9d6-568b-0b7a-7770",
+            "name": "Twin lascannon",
+            "cost": "0",
+            "range": "48\"",
+            "attacks": "1",
+            "weapon_skill": "3+",
+            "armor_penetration": "-3",
+            "damage": "D6+1",
+            "keywords": "Twin-Linked",
+            "additional_rules": [],
+            "minSelection": "1",
+            "maxSelection": "1"
+          },
+          {
+            "id": "9cd8-d57e-2c72-1b6e",
+            "name": "Heavy psycannon",
+            "cost": "0",
+            "range": "24\"",
+            "attacks": "6",
+            "weapon_skill": "3+",
+            "armor_penetration": "-1",
+            "damage": "2",
+            "keywords": "Psychic",
+            "additional_rules": [],
+            "minSelection": "1",
+            "maxSelection": "1"
+          }
+        ],
+        "minSelection": "1",
+        "maxSelection": "1",
+        "selection_scope": ""
+      }
+    ],
+    "colors": {},
+    "image": {}
+  },
+  {
+    "name": "Grey Knights Dreadnought [Legends]",
+    "cost": "160",
+    "movement": "6\"",
+    "toughness": "9",
+    "save": "2+",
+    "wounds": "8",
+    "leadership": "6+",
+    "objectiveControl": "3",
+    "abilities": [
+      {
+        "id": "ddd3-a2ef-d91d-d153",
+        "name": "Wisdom of the Ancients (Aura)",
+        "cost": "",
+        "description": "While a friendly Grey Knights Infantry unit is within 6\" of this model, each time a model in that unit makes an attack, re-roll a Hit roll of 1 and re-roll a Wound roll of 1"
+      }
+    ],
+    "models": [
+      {
+        "id": "28d0-5a52-501a-441d",
+        "name": "Grey Knights Dreadnought [Legends]",
+        "weapons": [
+          {
+            "id": "2c39-9ddf-60f3-bb15",
+            "name": "Dreadnought combat weapon and heavy flamer",
+            "cost": "0",
+            "range": "Melee",
+            "attacks": "5",
+            "weapon_skill": "3+",
+            "armor_penetration": "-2",
+            "damage": "3",
+            "additional_rules": [],
+            "minSelection": "1",
+            "maxSelection": "1"
+          },
+          {
+            "id": "2c39-9ddf-60f3-bb15",
+            "name": "Dreadnought combat weapon and heavy flamer",
+            "cost": "0",
+            "range": "Melee",
+            "attacks": "5",
+            "weapon_skill": "3+",
+            "armor_penetration": "-2",
+            "damage": "3",
+            "additional_rules": [],
+            "minSelection": "1",
+            "maxSelection": "1"
+          },
+          {
+            "id": "aa02-2e73-1439-6345",
+            "name": "Dreadnought combat weapon and storm bolter",
+            "cost": "0",
+            "range": "Melee",
+            "attacks": "5",
+            "weapon_skill": "3+",
+            "armor_penetration": "-2",
+            "damage": "3",
+            "additional_rules": [],
+            "minSelection": "1",
+            "maxSelection": "1"
+          },
+          {
+            "id": "aa02-2e73-1439-6345",
+            "name": "Dreadnought combat weapon and storm bolter",
+            "cost": "0",
+            "range": "Melee",
+            "attacks": "5",
+            "weapon_skill": "3+",
+            "armor_penetration": "-2",
+            "damage": "3",
+            "additional_rules": [],
+            "minSelection": "1",
+            "maxSelection": "1"
+          },
+          {
+            "id": "948f-cee9-86ad-47f0",
+            "name": "Missile launcher and armoured feet",
+            "cost": "0",
+            "range": "48\"",
+            "attacks": "D6",
+            "weapon_skill": "3+",
+            "armor_penetration": "0",
+            "damage": "1",
+            "keywords": "Blast",
+            "additional_rules": [],
+            "minSelection": "1",
+            "maxSelection": "1"
+          },
+          {
+            "id": "948f-cee9-86ad-47f0",
+            "name": "Missile launcher and armoured feet",
+            "cost": "0",
+            "range": "48\"",
+            "attacks": "D6",
+            "weapon_skill": "3+",
+            "armor_penetration": "0",
+            "damage": "1",
+            "keywords": "Blast",
+            "additional_rules": [],
+            "minSelection": "1",
+            "maxSelection": "1"
+          },
+          {
+            "id": "948f-cee9-86ad-47f0",
+            "name": "Missile launcher and armoured feet",
+            "cost": "0",
+            "range": "48\"",
+            "attacks": "D6",
+            "weapon_skill": "3+",
+            "armor_penetration": "0",
+            "damage": "1",
+            "keywords": "Blast",
+            "additional_rules": [],
+            "minSelection": "1",
+            "maxSelection": "1"
+          },
+          {
+            "id": "19ce-493d-f42e-f034",
+            "name": "Nemesis doomglaive and incinerator",
+            "cost": "0",
+            "range": "12\"",
+            "attacks": "D6",
+            "weapon_skill": "N/A",
+            "armor_penetration": "-1",
+            "damage": "1",
+            "keywords": "Ignores Cover, Torrent",
+            "additional_rules": [],
+            "minSelection": "1",
+            "maxSelection": "1"
+          },
+          {
+            "id": "19ce-493d-f42e-f034",
+            "name": "Nemesis doomglaive and incinerator",
+            "cost": "0",
+            "range": "12\"",
+            "attacks": "D6",
+            "weapon_skill": "N/A",
+            "armor_penetration": "-1",
+            "damage": "1",
+            "keywords": "Ignores Cover, Torrent",
+            "additional_rules": [],
+            "minSelection": "1",
+            "maxSelection": "1"
+          },
+          {
+            "id": "3145-7464-4b5-1a18",
+            "name": "Nemesis doomglaive and storm bolter",
+            "cost": "0",
+            "range": "Melee",
+            "attacks": "5",
+            "weapon_skill": "3+",
+            "armor_penetration": "-3",
+            "damage": "3",
+            "keywords": "Psychic",
+            "additional_rules": [],
+            "minSelection": "1",
+            "maxSelection": "1"
+          },
+          {
+            "id": "3145-7464-4b5-1a18",
+            "name": "Nemesis doomglaive and storm bolter",
+            "cost": "0",
+            "range": "Melee",
+            "attacks": "5",
+            "weapon_skill": "3+",
+            "armor_penetration": "-3",
+            "damage": "3",
+            "keywords": "Psychic",
+            "additional_rules": [],
+            "minSelection": "1",
+            "maxSelection": "1"
+          },
+          {
+            "id": "52a2-574b-f679-fba4",
+            "name": "Assault cannon",
+            "cost": "0",
+            "range": "24\"",
+            "attacks": "6",
+            "weapon_skill": "3+",
+            "armor_penetration": "0",
+            "damage": "1",
+            "keywords": "Devastating Wounds",
+            "additional_rules": [],
+            "minSelection": "1",
+            "maxSelection": "1"
+          },
+          {
+            "id": "4307-f0eb-4e2b-a53a",
+            "name": "Heavy plasma cannon",
+            "cost": "0",
+            "range": "36\"",
+            "attacks": "D3",
+            "weapon_skill": "3+",
+            "armor_penetration": "-2",
+            "damage": "2",
+            "keywords": "Blast",
+            "additional_rules": [],
+            "minSelection": "1",
+            "maxSelection": "1"
+          },
+          {
+            "id": "4307-f0eb-4e2b-a53a",
+            "name": "Heavy plasma cannon",
+            "cost": "0",
+            "range": "36\"",
+            "attacks": "D3",
+            "weapon_skill": "3+",
+            "armor_penetration": "-2",
+            "damage": "2",
+            "keywords": "Blast",
+            "additional_rules": [],
+            "minSelection": "1",
+            "maxSelection": "1"
+          },
+          {
+            "id": "9e68-33b-95cd-304d",
+            "name": "Multi-melta",
+            "cost": "0",
+            "range": "18\"",
+            "attacks": "2",
+            "weapon_skill": "3+",
+            "armor_penetration": "-4",
+            "damage": "D6",
+            "keywords": "Melta 2",
+            "additional_rules": [],
+            "minSelection": "1",
+            "maxSelection": "1"
+          },
+          {
+            "id": "d4df-bdd-649c-9bd5",
+            "name": "Twin lascannon",
+            "cost": "0",
+            "range": "48\"",
+            "attacks": "1",
+            "weapon_skill": "3+",
+            "armor_penetration": "-3",
+            "damage": "D6+1",
+            "keywords": "Twin-Linked",
+            "additional_rules": [],
+            "minSelection": "1",
+            "maxSelection": "1"
+          },
+          {
+            "id": "b687-7f63-dd41-b373",
+            "name": "Heavy psycannon",
+            "cost": "0",
+            "range": "24\"",
+            "attacks": "6",
+            "weapon_skill": "3+",
+            "armor_penetration": "-1",
+            "damage": "2",
+            "keywords": "Psychic",
+            "additional_rules": [],
+            "minSelection": "1",
+            "maxSelection": "1"
+          }
+        ],
+        "minSelection": "1",
+        "maxSelection": "1",
+        "selection_scope": ""
+      }
+    ],
+    "colors": {},
+    "image": {}
+  }
+]

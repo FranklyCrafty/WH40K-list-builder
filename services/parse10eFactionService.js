@@ -1,8 +1,19 @@
+// TODO: add testing by passing in all .cat files
+// TODO: Add support for colors
+// TODO: Add support for images
+// TODO: Add support for modifiers
+// TODO: Add support for additional rules
+
 const fs = require("fs");
 const path = require("path");
 const xml2js = require("xml2js");
-const armyLocation = //"../data/Orks.cat";
-                        "../data/Imperium - Grey Knights.cat";
+var xpath = require("xml2js-xpath");
+const { DOMParser } = require('xmldom');
+
+const armyLocation = "C:/Users/frank.ashcraft/Development/wh40k-10e/Imperium - Grey Knights.cat";
+const filename = armyLocation.split("/")[armyLocation.split("/").length - 1].replace(".cat", ".json");
+
+const jsonFilePath = path.resolve(__dirname, `../data/${filename}`);
 
 // Parser for the XML data
 const parser = new xml2js.Parser();
@@ -41,7 +52,7 @@ parser.parseString(xmlData, (err, result) => {
 
   // Save as JSON
   fs.writeFileSync(
-    path.resolve(__dirname, "../data/greyKnightsData.json"),
+    path.resolve(jsonFilePath),
     JSON.stringify(units, null, 2)
   );
 });
@@ -68,11 +79,6 @@ function getUnitList(entryLinks) {
  */
 function findCharacteristic(entry, charName) {
   console.log(charName);
-  if (!entry.profiles) {
-    return entry.characteristics[0].characteristic.find(
-      (char) => char.$.name === charName
-    )?._;;
-  }
   return entry.profiles[0].profile[0].characteristics[0].characteristic.find(
     (char) => char.$.name === charName
   )?._;
@@ -117,18 +123,7 @@ function parseUnit(unitEntry) {
     image: {}, //TODO: Add support for images
   };
 
-
   findAndParseModels(unitEntry, unitData);
-  /*
-  // TODO: Fix this logic
-  if (unitEntry.$.type === "unit") {
-    const modelChoices = entry.selectionEntryGroups
-      ? entry.selectionEntryGroups[0].selectionEntryGroup[0].selectionEntries[0]
-      : entry.selectionEntries[0];
-    unitData.models = modelChoices.selectionEntry.map(parseModel);
-  } else if (unitEntry.$.type === "model") {
-    unitData.models = parseModel(unitEntry);
-  }*/
 
   return unitData;
 }
@@ -143,7 +138,7 @@ function parseModel(modelEntry) {
   const modelData = {
     id: modelEntry.$.id,
     name: modelEntry.$.name,
-    cost: modelEntry.costs ? modelEntry.costs[0].cost[0].$.value : "",
+    //cost: modelEntry.costs ? modelEntry.costs[0].cost[0].$.value : "",  //Don't think this is needed for models
     weapons: [],
     minSelection: modelEntry.constraints
       ? modelEntry.constraints[0].constraint.find(
@@ -218,6 +213,7 @@ function parseAbility(abilityEntry) {
     description: abilityEntry.characteristics[0].characteristic.find(
       (char) => char.$.name === "Description"
     )?._,
+
   };
 }
 
@@ -258,18 +254,27 @@ function parseModifier(modifierEntry) {
  */
 function findAndParseWeapons(entry, modelData) {
   var profiles = [];
+
+  if (entry.entryLinks) {
+    const entryLinks = entry.entryLinks[0].entryLink;
+
+    for (const entryLink of entryLinks) {
+      const targetId = entryLink.$.targetId;
+      const targetEntry = findWeaponEntryLink(targetId);
+      if (targetEntry) {
+        findAndParseWeapons(targetEntry, modelData);
+      }
+    }
+  }
+  
   if (entry.profiles) {
     profiles = entry.profiles[0].profile;
-  }
-  if (entry.entryLinks) {
-    profiles = entry.entryLinks[0].entryLink;
   }
 
   for (const profile of profiles) {
     const typeName = profile.$.typeName;
     if (typeName === "Melee Weapons" || typeName === "Ranged Weapons") {
-      // This is a weapon profile
-      modelData.weapons.push(parseWeapon(profile));
+      modelData.weapons.push(parseWeapon(entry)); // was a weapon profile
     }
   }
 
@@ -298,26 +303,53 @@ function findAndParseWeapons(entry, modelData) {
 function findAndParseModels(entry, unitData) {
 
   var models = [];
-  if (entry.selectionEntries) {
+  if (entry.$.type === "model") {
+    models = [entry];
+  }
+  else if (entry.selectionEntries) {
     models = [...entry.selectionEntries[0].selectionEntry];
   }
 
   for (const model of models) {
     if (model.$.type === "model") {
-      // This is a model
       unitData.models.push(parseModel(model));
     }
   }
-  //catalogue/sharedSelectionEntries/selectionEntry[21]/selectionEntryGroups/selectionEntryGroup/selectionEntryGroups
+  
   // Recursively check child entries
   if (entry.selectionEntryGroups) {
     const childEntries = [...entry.selectionEntryGroups[0].selectionEntryGroup];
     
-
     for (const childEntry of childEntries) {
       findAndParseModels(childEntry, unitData); // Recursively search for weapons
     }
   }
 
   return;
+}
+
+function findWeaponEntryLink(targetId) {
+  var parsedresult = null;
+
+  // Parse the XML string.
+  xml2js.parseString(xmlData, (err, result) => {
+    if (err) {
+      console.error("Error parsing XML:", err);
+      return;
+    }
+  
+    // Use XPath to find the selectionEntry with a matching id attribute.
+    const query = `//selectionEntry[@id='${targetId}']`;
+    parsedresult = xpath.find(result, query);
+
+  });
+  
+  // If a selectionEntry with a matching id is found, return it as a JSON object.
+  if (parsedresult && parsedresult.length > 0) {
+    // Convert the found selectionEntry back to a JSON object.
+    return parsedresult[0];
+  } else {
+    // If no matching selectionEntry is found, return null.
+    return null;
+  }
 }
