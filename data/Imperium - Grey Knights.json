@@ -311,6 +311,12 @@
                 "name": "Psychic",
                 "type": "rule",
                 "rule_reference_id": "e9c4-2bb8-12ee-cd1b"
+              },
+              {
+                "id": "383-ed8e-fe7e-532c",
+                "name": "Precision",
+                "type": "rule",
+                "rule_reference_id": "9143-31ae-e0a6-6007"
               }
             ],
             "minSelection": "1",
@@ -500,7 +506,26 @@
             "armor_penetration": "-2",
             "damage": "3",
             "keywords": "Psychic",
-            "additional_rules": [],
+            "additional_rules": [
+              {
+                "id": "7171-9d6f-574-c03d",
+                "name": "Psychic",
+                "type": "rule",
+                "rule_reference_id": "e9c4-2bb8-12ee-cd1b"
+              },
+              {
+                "id": "efad-4c6e-5824-10ab",
+                "name": "Precision",
+                "type": "rule",
+                "rule_reference_id": "9143-31ae-e0a6-6007"
+              },
+              {
+                "id": "fd19-c75a-61ed-22e4",
+                "name": "Hazardous",
+                "type": "rule",
+                "rule_reference_id": "8367-374c-f87-c627"
+              }
+            ],
             "minSelection": "1",
             "maxSelection": "1"
           },
@@ -514,7 +539,26 @@
             "armor_penetration": "-2",
             "damage": "3",
             "keywords": "Psychic",
-            "additional_rules": [],
+            "additional_rules": [
+              {
+                "id": "7171-9d6f-574-c03d",
+                "name": "Psychic",
+                "type": "rule",
+                "rule_reference_id": "e9c4-2bb8-12ee-cd1b"
+              },
+              {
+                "id": "efad-4c6e-5824-10ab",
+                "name": "Precision",
+                "type": "rule",
+                "rule_reference_id": "9143-31ae-e0a6-6007"
+              },
+              {
+                "id": "fd19-c75a-61ed-22e4",
+                "name": "Hazardous",
+                "type": "rule",
+                "rule_reference_id": "8367-374c-f87-c627"
+              }
+            ],
             "minSelection": "1",
             "maxSelection": "1"
           },
@@ -1142,7 +1186,20 @@
             "armor_penetration": "-2",
             "damage": "2",
             "keywords": "Devastating Wounds, Precision",
-            "additional_rules": [],
+            "additional_rules": [
+              {
+                "id": "211-3235-289-ad06",
+                "name": "Devastating Wounds",
+                "type": "rule",
+                "rule_reference_id": "be1e-ac8e-1e2c-3528"
+              },
+              {
+                "id": "89a7-3b44-39c3-6eca",
+                "name": "Precision",
+                "type": "rule",
+                "rule_reference_id": "9143-31ae-e0a6-6007"
+              }
+            ],
             "minSelection": "1",
             "maxSelection": "1"
           }

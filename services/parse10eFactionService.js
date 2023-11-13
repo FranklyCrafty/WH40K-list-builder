@@ -2,6 +2,7 @@
 // TODO: Add support for colors
 // TODO: Add support for images
 // TODO: Add support for modifiers
+  // for modifiers and conditions, store them in a separate set of JSON objects
 // TODO: Add support for additional rules
 
 const fs = require("fs");
@@ -33,7 +34,9 @@ parser.parseString(xmlData, (err, result) => {
 
   // Get List of all possible units
   const unitList = getUnitList(result.catalogue.entryLinks);
+  var faction = [];
   var units = [];
+  var constraints = [];
 
   for (let i = 0; i < unitList.length; i++) {
     console.log(i);
@@ -49,6 +52,7 @@ parser.parseString(xmlData, (err, result) => {
       units.push(parseUnit(unitEntry));
     }
   }
+  
 
   // Save as JSON
   fs.writeFileSync(
@@ -300,6 +304,11 @@ function findAndParseWeapons(entry, modelData) {
   return;
 }
 
+/**
+ * Recursive function to find and parse models
+ * @param {object} entry - The current XML entry to search for a model`
+ * @param {object} unitData - The unit data to store found model in
+ */
 function findAndParseModels(entry, unitData) {
 
   var models = [];
@@ -328,6 +337,12 @@ function findAndParseModels(entry, unitData) {
   return;
 }
 
+/**
+ * If there is a weapon that is added as an entry link, then the information for 
+ * that model is stored elsewhere in the file.  This searches the file fo the 
+ * information about the weapon
+ * @param {object} targetID - the ID of the entry link with the weapon information.
+ */
 function findWeaponEntryLink(targetId) {
   var parsedresult = null;
 
