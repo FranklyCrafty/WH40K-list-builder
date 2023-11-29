@@ -1,7 +1,10 @@
 [
   {
+    "id": "dce9-6eb4-fa33-e869",
     "name": "Brother-Captain",
     "cost": "90",
+    "costId": "51b2-306e-1021-d207",
+    "modifiers": [],
     "movement": "5\"",
     "toughness": "5",
     "save": "2+",
@@ -58,7 +61,8 @@
               }
             ],
             "minSelection": "1",
-            "maxSelection": "1"
+            "maxSelection": "1",
+            "modifiers": []
           },
           {
             "id": "5d2c-27fb-8ec3-bb05",
@@ -79,7 +83,8 @@
               }
             ],
             "minSelection": "1",
-            "maxSelection": "1"
+            "maxSelection": "1",
+            "modifiers": []
           },
           {
             "id": "da68-aa2c-9e7c-3ca2",
@@ -106,7 +111,8 @@
               }
             ],
             "minSelection": "1",
-            "maxSelection": "1"
+            "maxSelection": "1",
+            "modifiers": []
           },
           {
             "id": "70a0-b88a-6d05-3706",
@@ -133,7 +139,8 @@
               }
             ],
             "minSelection": "1",
-            "maxSelection": "1"
+            "maxSelection": "1",
+            "modifiers": []
           },
           {
             "id": "26b7-e7cf-33d8-9abe",
@@ -153,20 +160,25 @@
                 "rule_reference_id": "c5c8-8b58-b8b6-7786"
               }
             ],
-            "maxSelection": "1"
+            "maxSelection": "1",
+            "modifiers": []
           }
         ],
         "minSelection": "1",
         "maxSelection": "1",
-        "selection_scope": ""
+        "selection_scope": "",
+        "modifiers": []
       }
     ],
     "colors": {},
     "image": {}
   },
   {
+    "id": "aec2-ded6-fa0-3b75",
     "name": "Brother-Captain Stern",
     "cost": "90",
+    "costId": "51b2-306e-1021-d207",
+    "modifiers": [],
     "movement": "5\"",
     "toughness": "5",
     "save": "2+",
@@ -223,7 +235,8 @@
               }
             ],
             "minSelection": "1",
-            "maxSelection": "1"
+            "maxSelection": "1",
+            "modifiers": []
           },
           {
             "id": "5a29-5086-d86-9553",
@@ -244,20 +257,25 @@
               }
             ],
             "minSelection": "1",
-            "maxSelection": "1"
+            "maxSelection": "1",
+            "modifiers": []
           }
         ],
         "minSelection": "1",
         "maxSelection": "1",
-        "selection_scope": ""
+        "selection_scope": "",
+        "modifiers": []
       }
     ],
     "colors": {},
     "image": {}
   },
   {
+    "id": "2c81-4e74-8707-3117",
     "name": "Brotherhood Champion",
     "cost": "80",
+    "costId": "51b2-306e-1021-d207",
+    "modifiers": [],
     "movement": "6\"",
     "toughness": "4",
     "save": "2+",
@@ -320,7 +338,8 @@
               }
             ],
             "minSelection": "1",
-            "maxSelection": "1"
+            "maxSelection": "1",
+            "modifiers": []
           },
           {
             "id": "2ff3-9667-2277-c8e6",
@@ -341,20 +360,25 @@
               }
             ],
             "minSelection": "1",
-            "maxSelection": "1"
+            "maxSelection": "1",
+            "modifiers": []
           }
         ],
         "minSelection": "1",
         "maxSelection": "1",
-        "selection_scope": ""
+        "selection_scope": "",
+        "modifiers": []
       }
     ],
     "colors": {},
     "image": {}
   },
   {
+    "id": "b9b1-d698-1e98-da45",
     "name": "Brotherhood Chaplain",
     "cost": "75",
+    "costId": "51b2-306e-1021-d207",
+    "modifiers": [],
     "movement": "5\"",
     "toughness": "5",
     "save": "2+",
@@ -411,7 +435,8 @@
               }
             ],
             "minSelection": "1",
-            "maxSelection": "1"
+            "maxSelection": "1",
+            "modifiers": []
           },
           {
             "id": "4e88-c580-e5fa-ae6c",
@@ -424,20 +449,25 @@
             "damage": "2",
             "additional_rules": [],
             "minSelection": "1",
-            "maxSelection": "1"
+            "maxSelection": "1",
+            "modifiers": []
           }
         ],
         "minSelection": "1",
         "maxSelection": "1",
-        "selection_scope": ""
+        "selection_scope": "",
+        "modifiers": []
       }
     ],
     "colors": {},
     "image": {}
   },
   {
+    "id": "5412-1f01-b7cc-bf12",
     "name": "Brotherhood Librarian",
     "cost": "100",
+    "costId": "51b2-306e-1021-d207",
+    "modifiers": [],
     "movement": "5\"",
     "toughness": "5",
     "save": "2+",
@@ -494,7 +524,8 @@
               }
             ],
             "minSelection": "1",
-            "maxSelection": "1"
+            "maxSelection": "1",
+            "modifiers": []
           },
           {
             "id": "3aa5-b3f3-8ec2-8559",
@@ -527,7 +558,8 @@
               }
             ],
             "minSelection": "1",
-            "maxSelection": "1"
+            "maxSelection": "1",
+            "modifiers": []
           },
           {
             "id": "3aa5-b3f3-8ec2-8559",
@@ -560,7 +592,8 @@
               }
             ],
             "minSelection": "1",
-            "maxSelection": "1"
+            "maxSelection": "1",
+            "modifiers": []
           },
           {
             "id": "f6ec-2a11-5ca6-344b",
@@ -580,7 +613,8 @@
                 "rule_reference_id": "c5c8-8b58-b8b6-7786"
               }
             ],
-            "maxSelection": "1"
+            "maxSelection": "1",
+            "modifiers": []
           },
           {
             "id": "a0ce-78-c636-3bc6",
@@ -613,20 +647,25 @@
               }
             ],
             "minSelection": "1",
-            "maxSelection": "1"
+            "maxSelection": "1",
+            "modifiers": []
           }
         ],
         "minSelection": "1",
         "maxSelection": "1",
-        "selection_scope": ""
+        "selection_scope": "",
+        "modifiers": []
       }
     ],
     "colors": {},
     "image": {}
   },
   {
+    "id": "f667-5267-f241-37",
     "name": "Brotherhood Techmarine",
     "cost": "60",
+    "costId": "51b2-306e-1021-d207",
+    "modifiers": [],
     "movement": "5\"",
     "toughness": "4",
     "save": "2+",
@@ -675,7 +714,8 @@
             "damage": "2",
             "additional_rules": [],
             "minSelection": "1",
-            "maxSelection": "1"
+            "maxSelection": "1",
+            "modifiers": []
           },
           {
             "id": "78d0-de33-2a42-edef",
@@ -689,7 +729,8 @@
             "keywords": "Ignores Cover, Torrent",
             "additional_rules": [],
             "minSelection": "1",
-            "maxSelection": "1"
+            "maxSelection": "1",
+            "modifiers": []
           },
           {
             "id": "3549-7e11-cc13-6991",
@@ -703,7 +744,8 @@
             "keywords": "Extra Attacks",
             "additional_rules": [],
             "minSelection": "1",
-            "maxSelection": "1"
+            "maxSelection": "1",
+            "modifiers": []
           },
           {
             "id": "3549-7e11-cc13-6991",
@@ -717,7 +759,8 @@
             "keywords": "Extra Attacks",
             "additional_rules": [],
             "minSelection": "1",
-            "maxSelection": "1"
+            "maxSelection": "1",
+            "modifiers": []
           },
           {
             "id": "56a2-d965-8a31-8eec",
@@ -731,7 +774,8 @@
             "keywords": "Extra Attacks",
             "additional_rules": [],
             "minSelection": "1",
-            "maxSelection": "1"
+            "maxSelection": "1",
+            "modifiers": []
           },
           {
             "id": "3116-6dc9-27ee-97bb",
@@ -744,7 +788,8 @@
             "damage": "1",
             "additional_rules": [],
             "minSelection": "1",
-            "maxSelection": "1"
+            "maxSelection": "1",
+            "modifiers": []
           },
           {
             "id": "24a3-f6c0-3ca7-ae59",
@@ -758,20 +803,39 @@
             "keywords": "Pistol",
             "additional_rules": [],
             "minSelection": "1",
-            "maxSelection": "1"
+            "maxSelection": "1",
+            "modifiers": []
           }
         ],
         "minSelection": "1",
         "maxSelection": "1",
-        "selection_scope": ""
+        "selection_scope": "",
+        "modifiers": []
       }
     ],
     "colors": {},
     "image": {}
   },
   {
+    "id": "a037-a89c-f59f-8b1e",
     "name": "Brotherhood Terminator Squad",
     "cost": "210",
+    "costId": "51b2-306e-1021-d207",
+    "modifiers": [
+      {
+        "modifierType": "set",
+        "modifierValue": "420",
+        "modiferTargetField": "51b2-306e-1021-d207",
+        "conditions": [
+          {
+            "conditionScope": "a037-a89c-f59f-8b1e",
+            "conditionsType": "atLeast",
+            "conditionCheckValue": "6",
+            "conditionChildId": "model"
+          }
+        ]
+      }
+    ],
     "movement": "5\"",
     "toughness": "5",
     "save": "2+",
@@ -816,7 +880,8 @@
               }
             ],
             "minSelection": "1",
-            "maxSelection": "1"
+            "maxSelection": "1",
+            "modifiers": []
           },
           {
             "id": "3937-81ba-e034-15b6",
@@ -837,12 +902,14 @@
               }
             ],
             "minSelection": "1",
-            "maxSelection": "1"
+            "maxSelection": "1",
+            "modifiers": []
           }
         ],
         "minSelection": "1",
         "maxSelection": "1",
-        "selection_scope": "parent"
+        "selection_scope": "parent",
+        "modifiers": []
       },
       {
         "id": "f5c5-56fd-51ec-d1a6",
@@ -867,7 +934,8 @@
               }
             ],
             "minSelection": "1",
-            "maxSelection": "1"
+            "maxSelection": "1",
+            "modifiers": []
           },
           {
             "id": "aa86-238b-9ca6-7504",
@@ -888,12 +956,14 @@
               }
             ],
             "minSelection": "1",
-            "maxSelection": "1"
+            "maxSelection": "1",
+            "modifiers": []
           }
         ],
         "minSelection": "1",
         "maxSelection": "1",
-        "selection_scope": ""
+        "selection_scope": "",
+        "modifiers": []
       },
       {
         "id": "6215-3f01-f844-585",
@@ -918,7 +988,8 @@
               }
             ],
             "minSelection": "1",
-            "maxSelection": "1"
+            "maxSelection": "1",
+            "modifiers": []
           },
           {
             "id": "186c-825d-4e37-6b5d",
@@ -939,11 +1010,13 @@
               }
             ],
             "minSelection": "1",
-            "maxSelection": "1"
+            "maxSelection": "1",
+            "modifiers": []
           }
         ],
         "maxSelection": "1",
-        "selection_scope": "parent"
+        "selection_scope": "parent",
+        "modifiers": []
       },
       {
         "id": "22fd-3d1b-9957-2d5f",
@@ -968,11 +1041,13 @@
               }
             ],
             "minSelection": "1",
-            "maxSelection": "1"
+            "maxSelection": "1",
+            "modifiers": []
           }
         ],
         "maxSelection": "1",
-        "selection_scope": "parent"
+        "selection_scope": "parent",
+        "modifiers": []
       },
       {
         "id": "77d3-d321-bb86-dabe",
@@ -997,7 +1072,8 @@
               }
             ],
             "minSelection": "1",
-            "maxSelection": "1"
+            "maxSelection": "1",
+            "modifiers": []
           },
           {
             "id": "c694-9e9d-faf1-87b7",
@@ -1018,7 +1094,8 @@
               }
             ],
             "minSelection": "1",
-            "maxSelection": "1"
+            "maxSelection": "1",
+            "modifiers": []
           },
           {
             "id": "93a3-e2fc-bb5a-a7ae",
@@ -1045,7 +1122,8 @@
               }
             ],
             "minSelection": "1",
-            "maxSelection": "1"
+            "maxSelection": "1",
+            "modifiers": []
           },
           {
             "id": "bf84-2a13-b47c-7",
@@ -1072,19 +1150,38 @@
               }
             ],
             "minSelection": "1",
-            "maxSelection": "1"
+            "maxSelection": "1",
+            "modifiers": []
           }
         ],
         "maxSelection": "1",
-        "selection_scope": "parent"
+        "selection_scope": "parent",
+        "modifiers": [
+          {
+            "modifierType": "set",
+            "modifierValue": "2",
+            "modiferTargetField": "702-d447-314b-a3f6",
+            "conditions": [
+              {
+                "conditionScope": "a037-a89c-f59f-8b1e",
+                "conditionsType": "atLeast",
+                "conditionCheckValue": "10",
+                "conditionChildId": "model"
+              }
+            ]
+          }
+        ]
       }
     ],
     "colors": {},
     "image": {}
   },
   {
+    "id": "9ddb-760d-8cf7-1c8a",
     "name": "Castellan Crowe",
     "cost": "75",
+    "costId": "51b2-306e-1021-d207",
+    "modifiers": [],
     "movement": "6\"",
     "toughness": "4",
     "save": "2+",
@@ -1153,7 +1250,8 @@
               }
             ],
             "minSelection": "1",
-            "maxSelection": "1"
+            "maxSelection": "1",
+            "modifiers": []
           },
           {
             "id": "9a7a-e845-e81f-6b87",
@@ -1174,7 +1272,8 @@
               }
             ],
             "minSelection": "1",
-            "maxSelection": "1"
+            "maxSelection": "1",
+            "modifiers": []
           },
           {
             "id": "9bcc-8f6e-67ea-6c75",
@@ -1201,20 +1300,25 @@
               }
             ],
             "minSelection": "1",
-            "maxSelection": "1"
+            "maxSelection": "1",
+            "modifiers": []
           }
         ],
         "minSelection": "1",
         "maxSelection": "1",
-        "selection_scope": ""
+        "selection_scope": "",
+        "modifiers": []
       }
     ],
     "colors": {},
     "image": {}
   },
   {
+    "id": "1a56-706b-a8f1-631a",
     "name": "Grand Master",
     "cost": "95",
+    "costId": "51b2-306e-1021-d207",
+    "modifiers": [],
     "movement": "5\"",
     "toughness": "5",
     "save": "2+",
@@ -1271,7 +1375,8 @@
               }
             ],
             "minSelection": "1",
-            "maxSelection": "1"
+            "maxSelection": "1",
+            "modifiers": []
           },
           {
             "id": "be75-9ce5-95d5-a03f",
@@ -1292,7 +1397,8 @@
               }
             ],
             "minSelection": "1",
-            "maxSelection": "1"
+            "maxSelection": "1",
+            "modifiers": []
           },
           {
             "id": "aa13-af0a-18e-f507",
@@ -1319,7 +1425,8 @@
               }
             ],
             "minSelection": "1",
-            "maxSelection": "1"
+            "maxSelection": "1",
+            "modifiers": []
           },
           {
             "id": "4d85-10bc-912c-c316",
@@ -1346,7 +1453,8 @@
               }
             ],
             "minSelection": "1",
-            "maxSelection": "1"
+            "maxSelection": "1",
+            "modifiers": []
           },
           {
             "id": "903a-b2d-bf56-4652",
@@ -1366,20 +1474,25 @@
                 "rule_reference_id": "c5c8-8b58-b8b6-7786"
               }
             ],
-            "maxSelection": "1"
+            "maxSelection": "1",
+            "modifiers": []
           }
         ],
         "minSelection": "1",
         "maxSelection": "1",
-        "selection_scope": ""
+        "selection_scope": "",
+        "modifiers": []
       }
     ],
     "colors": {},
     "image": {}
   },
   {
+    "id": "3625-f9f1-122b-bf9d",
     "name": "Grand Master in Nemesis Dreadknight",
     "cost": "200",
+    "costId": "51b2-306e-1021-d207",
+    "modifiers": [],
     "movement": "8\"",
     "toughness": "8",
     "save": "2+",
@@ -1428,7 +1541,8 @@
             "damage": "1",
             "additional_rules": [],
             "minSelection": "1",
-            "maxSelection": "1"
+            "maxSelection": "1",
+            "modifiers": []
           },
           {
             "id": "52c4-b7dd-788f-264b",
@@ -1442,7 +1556,8 @@
             "keywords": "Psychic",
             "additional_rules": [],
             "minSelection": "1",
-            "maxSelection": "1"
+            "maxSelection": "1",
+            "modifiers": []
           },
           {
             "id": "52c4-b7dd-788f-264b",
@@ -1456,7 +1571,8 @@
             "keywords": "Psychic",
             "additional_rules": [],
             "minSelection": "1",
-            "maxSelection": "1"
+            "maxSelection": "1",
+            "modifiers": []
           },
           {
             "id": "3b80-a160-3eec-4e00",
@@ -1470,7 +1586,8 @@
             "keywords": "Psychic",
             "additional_rules": [],
             "minSelection": "1",
-            "maxSelection": "1"
+            "maxSelection": "1",
+            "modifiers": []
           },
           {
             "id": "deb-48a9-1858-abdc",
@@ -1483,7 +1600,8 @@
             "damage": "1",
             "keywords": "Psychic, Sustained Hits 1",
             "additional_rules": [],
-            "maxSelection": "1"
+            "maxSelection": "1",
+            "modifiers": []
           },
           {
             "id": "8f86-8d31-fcf8-ea68",
@@ -1496,7 +1614,8 @@
             "damage": "1",
             "keywords": "Ignores Cover, Torrent",
             "additional_rules": [],
-            "maxSelection": "1"
+            "maxSelection": "1",
+            "modifiers": []
           },
           {
             "id": "b20b-53f6-d6da-c537",
@@ -1509,20 +1628,25 @@
             "damage": "3",
             "keywords": "Psychic",
             "additional_rules": [],
-            "maxSelection": "1"
+            "maxSelection": "1",
+            "modifiers": []
           }
         ],
         "minSelection": "1",
         "maxSelection": "1",
-        "selection_scope": ""
+        "selection_scope": "",
+        "modifiers": []
       }
     ],
     "colors": {},
     "image": {}
   },
   {
+    "id": "7256-bb3a-3e79-31fe",
     "name": "Grand Master Voldus",
     "cost": "95",
+    "costId": "51b2-306e-1021-d207",
+    "modifiers": [],
     "movement": "5\"",
     "toughness": "5",
     "save": "2+",
@@ -1579,7 +1703,8 @@
               }
             ],
             "minSelection": "1",
-            "maxSelection": "1"
+            "maxSelection": "1",
+            "modifiers": []
           },
           {
             "id": "6b5f-a7fc-2a1b-b24e",
@@ -1593,20 +1718,25 @@
             "keywords": "Psychic",
             "additional_rules": [],
             "minSelection": "1",
-            "maxSelection": "1"
+            "maxSelection": "1",
+            "modifiers": []
           }
         ],
         "minSelection": "1",
         "maxSelection": "1",
-        "selection_scope": ""
+        "selection_scope": "",
+        "modifiers": []
       }
     ],
     "colors": {},
     "image": {}
   },
   {
+    "id": "512d-b972-911e-4cac",
     "name": "Grey Knights Land Raider",
     "cost": "240",
+    "costId": "51b2-306e-1021-d207",
+    "modifiers": [],
     "movement": "10\"",
     "toughness": "12",
     "save": "2+",
@@ -1643,7 +1773,8 @@
             "damage": "D6+1",
             "additional_rules": [],
             "minSelection": "2",
-            "maxSelection": "2"
+            "maxSelection": "2",
+            "modifiers": []
           },
           {
             "id": "b9c1-621d-4e2c-ec53",
@@ -1656,7 +1787,8 @@
             "damage": "D6",
             "keywords": "One Shot",
             "additional_rules": [],
-            "maxSelection": "1"
+            "maxSelection": "1",
+            "modifiers": []
           },
           {
             "id": "45b2-6705-e24e-4378",
@@ -1669,7 +1801,8 @@
             "damage": "D6",
             "keywords": "Melta 2",
             "additional_rules": [],
-            "maxSelection": "1"
+            "maxSelection": "1",
+            "modifiers": []
           },
           {
             "id": "a267-d6e8-d2f9-e9e5",
@@ -1683,7 +1816,8 @@
             "keywords": "Sustained Hits 1, Twin-Linked",
             "additional_rules": [],
             "minSelection": "1",
-            "maxSelection": "1"
+            "maxSelection": "1",
+            "modifiers": []
           },
           {
             "id": "a3fa-1259-f3cb-f873",
@@ -1703,7 +1837,8 @@
                 "rule_reference_id": "c5c8-8b58-b8b6-7786"
               }
             ],
-            "maxSelection": "1"
+            "maxSelection": "1",
+            "modifiers": []
           },
           {
             "id": "cfd1-5e6a-36c3-7997",
@@ -1716,20 +1851,25 @@
             "damage": "1",
             "additional_rules": [],
             "minSelection": "1",
-            "maxSelection": "1"
+            "maxSelection": "1",
+            "modifiers": []
           }
         ],
         "minSelection": "1",
         "maxSelection": "1",
-        "selection_scope": ""
+        "selection_scope": "",
+        "modifiers": []
       }
     ],
     "colors": {},
     "image": {}
   },
   {
+    "id": "4c63-cca-8d26-6330",
     "name": "Grey Knights Land Raider Crusader",
     "cost": "230",
+    "costId": "51b2-306e-1021-d207",
+    "modifiers": [],
     "movement": "12\"",
     "toughness": "12",
     "save": "2+",
@@ -1773,7 +1913,8 @@
                 "rule_reference_id": "c5c8-8b58-b8b6-7786"
               }
             ],
-            "maxSelection": "1"
+            "maxSelection": "1",
+            "modifiers": []
           },
           {
             "id": "9b02-db16-f3e1-2ba6",
@@ -1786,7 +1927,8 @@
             "damage": "D6",
             "keywords": "Melta 2",
             "additional_rules": [],
-            "maxSelection": "1"
+            "maxSelection": "1",
+            "modifiers": []
           },
           {
             "id": "826e-a7e2-6487-697f",
@@ -1799,7 +1941,8 @@
             "damage": "D6",
             "keywords": "One Shot",
             "additional_rules": [],
-            "maxSelection": "1"
+            "maxSelection": "1",
+            "modifiers": []
           },
           {
             "id": "d6c2-e486-b6f-dcf3",
@@ -1812,7 +1955,8 @@
             "damage": "1",
             "additional_rules": [],
             "minSelection": "1",
-            "maxSelection": "1"
+            "maxSelection": "1",
+            "modifiers": []
           },
           {
             "id": "ed38-3e46-5c38-39d9",
@@ -1826,7 +1970,8 @@
             "keywords": "Rapid Fire 6, Twin-Linked",
             "additional_rules": [],
             "minSelection": "2",
-            "maxSelection": "2"
+            "maxSelection": "2",
+            "modifiers": []
           },
           {
             "id": "f061-6db7-ce1a-d3cb",
@@ -1840,20 +1985,25 @@
             "keywords": "Devastating Wounds, Twin-Linked",
             "additional_rules": [],
             "minSelection": "1",
-            "maxSelection": "1"
+            "maxSelection": "1",
+            "modifiers": []
           }
         ],
         "minSelection": "1",
         "maxSelection": "1",
-        "selection_scope": ""
+        "selection_scope": "",
+        "modifiers": []
       }
     ],
     "colors": {},
     "image": {}
   },
   {
+    "id": "ada7-eb0b-c920-d77f",
     "name": "Grey Knights Land Raider Redeemer",
     "cost": "260",
+    "costId": "51b2-306e-1021-d207",
+    "modifiers": [],
     "movement": "12\"",
     "toughness": "12",
     "save": "2+",
@@ -1891,7 +2041,8 @@
             "keywords": "Devastating Wounds, Twin-Linked",
             "additional_rules": [],
             "minSelection": "1",
-            "maxSelection": "1"
+            "maxSelection": "1",
+            "modifiers": []
           },
           {
             "id": "c05d-98a6-4648-fb81",
@@ -1911,7 +2062,8 @@
                 "rule_reference_id": "c5c8-8b58-b8b6-7786"
               }
             ],
-            "maxSelection": "1"
+            "maxSelection": "1",
+            "modifiers": []
           },
           {
             "id": "8dd8-efec-de14-c678",
@@ -1924,7 +2076,8 @@
             "damage": "D6",
             "keywords": "Melta 2",
             "additional_rules": [],
-            "maxSelection": "1"
+            "maxSelection": "1",
+            "modifiers": []
           },
           {
             "id": "3917-9b44-e861-6f17",
@@ -1937,7 +2090,8 @@
             "damage": "D6",
             "keywords": "One Shot",
             "additional_rules": [],
-            "maxSelection": "1"
+            "maxSelection": "1",
+            "modifiers": []
           },
           {
             "id": "8ae2-ca88-19cf-2378",
@@ -1950,7 +2104,8 @@
             "damage": "1",
             "additional_rules": [],
             "minSelection": "1",
-            "maxSelection": "1"
+            "maxSelection": "1",
+            "modifiers": []
           },
           {
             "id": "47d2-bdb6-a769-cd0f",
@@ -1964,20 +2119,25 @@
             "keywords": "Ignores Cover, Torrent",
             "additional_rules": [],
             "minSelection": "2",
-            "maxSelection": "2"
+            "maxSelection": "2",
+            "modifiers": []
           }
         ],
         "minSelection": "1",
         "maxSelection": "1",
-        "selection_scope": ""
+        "selection_scope": "",
+        "modifiers": []
       }
     ],
     "colors": {},
     "image": {}
   },
   {
+    "id": "841f-98b-fbf3-c8ee",
     "name": "Grey Knights Razorback",
     "cost": "85",
+    "costId": "51b2-306e-1021-d207",
+    "modifiers": [],
     "movement": "12\"",
     "toughness": "9",
     "save": "3+",
@@ -2008,7 +2168,8 @@
             "damage": "1",
             "additional_rules": [],
             "minSelection": "1",
-            "maxSelection": "1"
+            "maxSelection": "1",
+            "modifiers": []
           },
           {
             "id": "e66a-945e-272a-74a2",
@@ -2021,7 +2182,8 @@
             "damage": "D6",
             "keywords": "One Shot",
             "additional_rules": [],
-            "maxSelection": "1"
+            "maxSelection": "1",
+            "modifiers": []
           },
           {
             "id": "27b9-1a3e-1c8f-4918",
@@ -2041,7 +2203,8 @@
                 "rule_reference_id": "c5c8-8b58-b8b6-7786"
               }
             ],
-            "maxSelection": "1"
+            "maxSelection": "1",
+            "modifiers": []
           },
           {
             "id": "4a1e-bc03-a5be-21c3",
@@ -2055,7 +2218,8 @@
             "keywords": "Sustained Hits 1, Twin-Linked",
             "additional_rules": [],
             "minSelection": "1",
-            "maxSelection": "1"
+            "maxSelection": "1",
+            "modifiers": []
           },
           {
             "id": "d90b-ac39-5ce5-4687",
@@ -2069,7 +2233,8 @@
             "keywords": "Devastating Wounds, Twin-Linked",
             "additional_rules": [],
             "minSelection": "1",
-            "maxSelection": "1"
+            "maxSelection": "1",
+            "modifiers": []
           },
           {
             "id": "c756-4d3d-897-c0b0",
@@ -2083,20 +2248,25 @@
             "keywords": "Twin-Linked",
             "additional_rules": [],
             "minSelection": "1",
-            "maxSelection": "1"
+            "maxSelection": "1",
+            "modifiers": []
           }
         ],
         "minSelection": "1",
         "maxSelection": "1",
-        "selection_scope": ""
+        "selection_scope": "",
+        "modifiers": []
       }
     ],
     "colors": {},
     "image": {}
   },
   {
+    "id": "5ffd-f698-a1bb-fba7",
     "name": "Grey Knights Rhino",
     "cost": "75",
+    "costId": "51b2-306e-1021-d207",
+    "modifiers": [],
     "movement": "12\"",
     "toughness": "9",
     "save": "3+",
@@ -2127,7 +2297,8 @@
             "damage": "1",
             "additional_rules": [],
             "minSelection": "1",
-            "maxSelection": "1"
+            "maxSelection": "1",
+            "modifiers": []
           },
           {
             "id": "37c7-1fb-eb45-8c5b",
@@ -2148,7 +2319,8 @@
               }
             ],
             "minSelection": "1",
-            "maxSelection": "2"
+            "maxSelection": "2",
+            "modifiers": []
           },
           {
             "id": "9ee6-9eda-cd98-cd4a",
@@ -2161,20 +2333,25 @@
             "damage": "D6",
             "keywords": "One Shot",
             "additional_rules": [],
-            "maxSelection": "1"
+            "maxSelection": "1",
+            "modifiers": []
           }
         ],
         "minSelection": "1",
         "maxSelection": "1",
-        "selection_scope": ""
+        "selection_scope": "",
+        "modifiers": []
       }
     ],
     "colors": {},
     "image": {}
   },
   {
+    "id": "fa-e288-2107-d22e",
     "name": "Grey Knights Stormhawk Interceptor",
     "cost": "160",
+    "costId": "51b2-306e-1021-d207",
+    "modifiers": [],
     "movement": "20+\"",
     "toughness": "9",
     "save": "3+",
@@ -2206,7 +2383,8 @@
             "keywords": "Devastating Wounds, Twin-Linked",
             "additional_rules": [],
             "minSelection": "1",
-            "maxSelection": "1"
+            "maxSelection": "1",
+            "modifiers": []
           },
           {
             "id": "527c-c236-4376-640b",
@@ -2219,7 +2397,8 @@
             "damage": "1",
             "additional_rules": [],
             "minSelection": "1",
-            "maxSelection": "1"
+            "maxSelection": "1",
+            "modifiers": []
           },
           {
             "id": "8d15-f7a6-1804-ae58",
@@ -2232,7 +2411,8 @@
             "damage": "D6+1",
             "additional_rules": [],
             "minSelection": "1",
-            "maxSelection": "1"
+            "maxSelection": "1",
+            "modifiers": []
           },
           {
             "id": "d9eb-e3b3-8a2-adba",
@@ -2246,7 +2426,8 @@
             "keywords": "Anti-Fly 2+",
             "additional_rules": [],
             "minSelection": "1",
-            "maxSelection": "1"
+            "maxSelection": "1",
+            "modifiers": []
           },
           {
             "id": "5a7a-d41b-24c9-51f1",
@@ -2260,7 +2441,8 @@
             "keywords": "Anti-Fly 2+",
             "additional_rules": [],
             "minSelection": "1",
-            "maxSelection": "1"
+            "maxSelection": "1",
+            "modifiers": []
           },
           {
             "id": "ff7c-b295-5e15-57c",
@@ -2274,7 +2456,8 @@
             "keywords": "Blast",
             "additional_rules": [],
             "minSelection": "1",
-            "maxSelection": "1"
+            "maxSelection": "1",
+            "modifiers": []
           },
           {
             "id": "ff7c-b295-5e15-57c",
@@ -2288,7 +2471,8 @@
             "keywords": "Blast",
             "additional_rules": [],
             "minSelection": "1",
-            "maxSelection": "1"
+            "maxSelection": "1",
+            "modifiers": []
           },
           {
             "id": "d93c-7e31-c682-ea2e",
@@ -2302,20 +2486,25 @@
             "keywords": "Sustained Hits 1, Twin-Linked",
             "additional_rules": [],
             "minSelection": "1",
-            "maxSelection": "1"
+            "maxSelection": "1",
+            "modifiers": []
           }
         ],
         "minSelection": "1",
         "maxSelection": "1",
-        "selection_scope": ""
+        "selection_scope": "",
+        "modifiers": []
       }
     ],
     "colors": {},
     "image": {}
   },
   {
+    "id": "2efe-459b-9562-e7a9",
     "name": "Grey Knights Stormraven Gunship",
     "cost": "265",
+    "costId": "51b2-306e-1021-d207",
+    "modifiers": [],
     "movement": "20+\"",
     "toughness": "10",
     "save": "3+",
@@ -2352,7 +2541,8 @@
             "damage": "1",
             "keywords": "Rapid Fire 6, Twin-Linked",
             "additional_rules": [],
-            "maxSelection": "2"
+            "maxSelection": "2",
+            "modifiers": []
           },
           {
             "id": "b2ea-93b8-8009-b652",
@@ -2365,7 +2555,8 @@
             "damage": "D6+2",
             "additional_rules": [],
             "minSelection": "2",
-            "maxSelection": "2"
+            "maxSelection": "2",
+            "modifiers": []
           },
           {
             "id": "f1b9-fd0a-b087-2e4c",
@@ -2379,7 +2570,8 @@
             "keywords": "Devastating Wounds, Twin-Linked",
             "additional_rules": [],
             "minSelection": "1",
-            "maxSelection": "1"
+            "maxSelection": "1",
+            "modifiers": []
           },
           {
             "id": "716a-c91c-3254-d60c",
@@ -2393,7 +2585,8 @@
             "keywords": "Twin-Linked",
             "additional_rules": [],
             "minSelection": "1",
-            "maxSelection": "1"
+            "maxSelection": "1",
+            "modifiers": []
           },
           {
             "id": "f72d-9efb-2c8e-e95c",
@@ -2407,7 +2600,8 @@
             "keywords": "Blast, Twin-Linked",
             "additional_rules": [],
             "minSelection": "1",
-            "maxSelection": "1"
+            "maxSelection": "1",
+            "modifiers": []
           },
           {
             "id": "f72d-9efb-2c8e-e95c",
@@ -2421,7 +2615,8 @@
             "keywords": "Blast, Twin-Linked",
             "additional_rules": [],
             "minSelection": "1",
-            "maxSelection": "1"
+            "maxSelection": "1",
+            "modifiers": []
           },
           {
             "id": "716a-979a-662c-5fae",
@@ -2435,7 +2630,8 @@
             "keywords": "Sustained Hits 1, Twin-Linked",
             "additional_rules": [],
             "minSelection": "1",
-            "maxSelection": "1"
+            "maxSelection": "1",
+            "modifiers": []
           },
           {
             "id": "843-6b91-5f47-c3e8",
@@ -2449,7 +2645,8 @@
             "keywords": "Blast",
             "additional_rules": [],
             "minSelection": "1",
-            "maxSelection": "1"
+            "maxSelection": "1",
+            "modifiers": []
           },
           {
             "id": "843-6b91-5f47-c3e8",
@@ -2463,7 +2660,8 @@
             "keywords": "Blast",
             "additional_rules": [],
             "minSelection": "1",
-            "maxSelection": "1"
+            "maxSelection": "1",
+            "modifiers": []
           },
           {
             "id": "865f-4d87-f7c3-2d77",
@@ -2477,20 +2675,25 @@
             "keywords": "Melta 2",
             "additional_rules": [],
             "minSelection": "1",
-            "maxSelection": "1"
+            "maxSelection": "1",
+            "modifiers": []
           }
         ],
         "minSelection": "1",
         "maxSelection": "1",
-        "selection_scope": ""
+        "selection_scope": "",
+        "modifiers": []
       }
     ],
     "colors": {},
     "image": {}
   },
   {
+    "id": "84ac-b9ea-921f-9082",
     "name": "Grey Knights Stormtalon Gunship",
     "cost": "170",
+    "costId": "51b2-306e-1021-d207",
+    "modifiers": [],
     "movement": "20+\"",
     "toughness": "8",
     "save": "3+",
@@ -2522,7 +2725,8 @@
             "keywords": "Devastating Wounds, Twin-Linked",
             "additional_rules": [],
             "minSelection": "1",
-            "maxSelection": "1"
+            "maxSelection": "1",
+            "modifiers": []
           },
           {
             "id": "b2cb-c9ad-9694-6241",
@@ -2535,7 +2739,8 @@
             "damage": "1",
             "additional_rules": [],
             "minSelection": "1",
-            "maxSelection": "1"
+            "maxSelection": "1",
+            "modifiers": []
           },
           {
             "id": "42a3-8496-18ba-cf11",
@@ -2549,7 +2754,8 @@
             "keywords": "Anti-Fly 2+",
             "additional_rules": [],
             "minSelection": "1",
-            "maxSelection": "1"
+            "maxSelection": "1",
+            "modifiers": []
           },
           {
             "id": "b1b7-14de-f450-e212",
@@ -2563,7 +2769,8 @@
             "keywords": "Blast",
             "additional_rules": [],
             "minSelection": "1",
-            "maxSelection": "1"
+            "maxSelection": "1",
+            "modifiers": []
           },
           {
             "id": "b1b7-14de-f450-e212",
@@ -2577,7 +2784,8 @@
             "keywords": "Blast",
             "additional_rules": [],
             "minSelection": "1",
-            "maxSelection": "1"
+            "maxSelection": "1",
+            "modifiers": []
           },
           {
             "id": "b184-17b6-1949-5783",
@@ -2591,7 +2799,8 @@
             "keywords": "Sustained Hits 1, Twin-Linked",
             "additional_rules": [],
             "minSelection": "1",
-            "maxSelection": "1"
+            "maxSelection": "1",
+            "modifiers": []
           },
           {
             "id": "76b3-5347-9b89-ee74",
@@ -2605,20 +2814,25 @@
             "keywords": "Twin-Linked",
             "additional_rules": [],
             "minSelection": "1",
-            "maxSelection": "1"
+            "maxSelection": "1",
+            "modifiers": []
           }
         ],
         "minSelection": "1",
         "maxSelection": "1",
-        "selection_scope": ""
+        "selection_scope": "",
+        "modifiers": []
       }
     ],
     "colors": {},
     "image": {}
   },
   {
+    "id": "bd43-b303-66e0-4c10",
     "name": "Grey Knights Venerable Dreadnought",
     "cost": "155",
+    "costId": "51b2-306e-1021-d207",
+    "modifiers": [],
     "movement": "6\"",
     "toughness": "9",
     "save": "2+",
@@ -2650,7 +2864,8 @@
             "keywords": "Blast",
             "additional_rules": [],
             "minSelection": "1",
-            "maxSelection": "1"
+            "maxSelection": "1",
+            "modifiers": []
           },
           {
             "id": "cac5-3183-6c96-36d1",
@@ -2664,7 +2879,8 @@
             "keywords": "Blast",
             "additional_rules": [],
             "minSelection": "1",
-            "maxSelection": "1"
+            "maxSelection": "1",
+            "modifiers": []
           },
           {
             "id": "f3bc-be4f-ef8b-ee2f",
@@ -2678,7 +2894,8 @@
             "keywords": "Melta 2",
             "additional_rules": [],
             "minSelection": "1",
-            "maxSelection": "1"
+            "maxSelection": "1",
+            "modifiers": []
           },
           {
             "id": "8819-174a-1f7e-2b23",
@@ -2692,7 +2909,8 @@
             "keywords": "Twin-Linked",
             "additional_rules": [],
             "minSelection": "1",
-            "maxSelection": "1"
+            "maxSelection": "1",
+            "modifiers": []
           },
           {
             "id": "ec97-a5a7-8739-1c3d",
@@ -2706,7 +2924,8 @@
             "keywords": "Devastating Wounds",
             "additional_rules": [],
             "minSelection": "1",
-            "maxSelection": "1"
+            "maxSelection": "1",
+            "modifiers": []
           },
           {
             "id": "f1f5-f250-525-cff1",
@@ -2719,7 +2938,8 @@
             "damage": "3",
             "additional_rules": [],
             "minSelection": "1",
-            "maxSelection": "1"
+            "maxSelection": "1",
+            "modifiers": []
           },
           {
             "id": "f1f5-f250-525-cff1",
@@ -2732,7 +2952,8 @@
             "damage": "3",
             "additional_rules": [],
             "minSelection": "1",
-            "maxSelection": "1"
+            "maxSelection": "1",
+            "modifiers": []
           },
           {
             "id": "2dcf-132a-2b1b-32fd",
@@ -2745,7 +2966,8 @@
             "damage": "3",
             "additional_rules": [],
             "minSelection": "1",
-            "maxSelection": "1"
+            "maxSelection": "1",
+            "modifiers": []
           },
           {
             "id": "2dcf-132a-2b1b-32fd",
@@ -2758,7 +2980,8 @@
             "damage": "3",
             "additional_rules": [],
             "minSelection": "1",
-            "maxSelection": "1"
+            "maxSelection": "1",
+            "modifiers": []
           },
           {
             "id": "bbb0-47f7-6953-90f8",
@@ -2772,7 +2995,8 @@
             "keywords": "Blast",
             "additional_rules": [],
             "minSelection": "1",
-            "maxSelection": "1"
+            "maxSelection": "1",
+            "modifiers": []
           },
           {
             "id": "bbb0-47f7-6953-90f8",
@@ -2786,7 +3010,8 @@
             "keywords": "Blast",
             "additional_rules": [],
             "minSelection": "1",
-            "maxSelection": "1"
+            "maxSelection": "1",
+            "modifiers": []
           },
           {
             "id": "bbb0-47f7-6953-90f8",
@@ -2800,20 +3025,39 @@
             "keywords": "Blast",
             "additional_rules": [],
             "minSelection": "1",
-            "maxSelection": "1"
+            "maxSelection": "1",
+            "modifiers": []
           }
         ],
         "minSelection": "1",
         "maxSelection": "1",
-        "selection_scope": ""
+        "selection_scope": "",
+        "modifiers": []
       }
     ],
     "colors": {},
     "image": {}
   },
   {
+    "id": "d9f7-71b7-8e67-7f44",
     "name": "Interceptor Squad",
     "cost": "135",
+    "costId": "51b2-306e-1021-d207",
+    "modifiers": [
+      {
+        "modifierType": "set",
+        "modifierValue": "270",
+        "modiferTargetField": "51b2-306e-1021-d207",
+        "conditions": [
+          {
+            "conditionScope": "d9f7-71b7-8e67-7f44",
+            "conditionsType": "atLeast",
+            "conditionCheckValue": "6",
+            "conditionChildId": "model"
+          }
+        ]
+      }
+    ],
     "movement": "12\"",
     "toughness": "4",
     "save": "2+",
@@ -2852,7 +3096,8 @@
               }
             ],
             "minSelection": "1",
-            "maxSelection": "1"
+            "maxSelection": "1",
+            "modifiers": []
           },
           {
             "id": "9ac9-3c48-f753-f303",
@@ -2873,12 +3118,14 @@
               }
             ],
             "minSelection": "1",
-            "maxSelection": "1"
+            "maxSelection": "1",
+            "modifiers": []
           }
         ],
         "minSelection": "1",
         "maxSelection": "1",
-        "selection_scope": "parent"
+        "selection_scope": "parent",
+        "modifiers": []
       },
       {
         "id": "2906-2dfd-6dbe-ca8",
@@ -2903,7 +3150,8 @@
               }
             ],
             "minSelection": "1",
-            "maxSelection": "1"
+            "maxSelection": "1",
+            "modifiers": []
           },
           {
             "id": "43d0-c61a-f6da-22a0",
@@ -2924,12 +3172,14 @@
               }
             ],
             "minSelection": "1",
-            "maxSelection": "1"
+            "maxSelection": "1",
+            "modifiers": []
           }
         ],
         "minSelection": "1",
         "maxSelection": "1",
-        "selection_scope": ""
+        "selection_scope": "",
+        "modifiers": []
       },
       {
         "id": "2711-ec49-a1b2-d789",
@@ -2947,7 +3197,8 @@
             "keywords": "-",
             "additional_rules": [],
             "minSelection": "1",
-            "maxSelection": "1"
+            "maxSelection": "1",
+            "modifiers": []
           },
           {
             "id": "3c17-244d-6ddd-3062",
@@ -2974,11 +3225,13 @@
               }
             ],
             "minSelection": "1",
-            "maxSelection": "1"
+            "maxSelection": "1",
+            "modifiers": []
           }
         ],
         "maxSelection": "2",
-        "selection_scope": "parent"
+        "selection_scope": "parent",
+        "modifiers": []
       },
       {
         "id": "dbfa-42d3-8ac9-c4dc",
@@ -2996,7 +3249,8 @@
             "keywords": "-",
             "additional_rules": [],
             "minSelection": "1",
-            "maxSelection": "1"
+            "maxSelection": "1",
+            "modifiers": []
           },
           {
             "id": "31f3-fb44-bc7d-8a12",
@@ -3023,11 +3277,13 @@
               }
             ],
             "minSelection": "1",
-            "maxSelection": "1"
+            "maxSelection": "1",
+            "modifiers": []
           }
         ],
         "maxSelection": "2",
-        "selection_scope": "parent"
+        "selection_scope": "parent",
+        "modifiers": []
       },
       {
         "id": "ad0c-76b3-3c42-4aff",
@@ -3045,7 +3301,8 @@
             "keywords": "-",
             "additional_rules": [],
             "minSelection": "1",
-            "maxSelection": "1"
+            "maxSelection": "1",
+            "modifiers": []
           },
           {
             "id": "cfe5-513-b46e-9e50",
@@ -3066,19 +3323,24 @@
               }
             ],
             "minSelection": "1",
-            "maxSelection": "1"
+            "maxSelection": "1",
+            "modifiers": []
           }
         ],
         "maxSelection": "2",
-        "selection_scope": "parent"
+        "selection_scope": "parent",
+        "modifiers": []
       }
     ],
     "colors": {},
     "image": {}
   },
   {
+    "id": "7a19-5235-692b-320d",
     "name": "Kaldor Draigo",
     "cost": "125",
+    "costId": "51b2-306e-1021-d207",
+    "modifiers": [],
     "movement": "5\"",
     "toughness": "5",
     "save": "2+",
@@ -3135,7 +3397,8 @@
               }
             ],
             "minSelection": "1",
-            "maxSelection": "1"
+            "maxSelection": "1",
+            "modifiers": []
           },
           {
             "id": "8804-9b5d-14e7-5e2d",
@@ -3149,7 +3412,8 @@
             "keywords": "Anti-Daemon 2+, Ignores Cover, Psychic",
             "additional_rules": [],
             "minSelection": "1",
-            "maxSelection": "1"
+            "maxSelection": "1",
+            "modifiers": []
           },
           {
             "id": "b9fb-d4e1-34ae-d02f",
@@ -3163,20 +3427,25 @@
             "keywords": "Anti-Daemon 2+, Psychic",
             "additional_rules": [],
             "minSelection": "1",
-            "maxSelection": "1"
+            "maxSelection": "1",
+            "modifiers": []
           }
         ],
         "minSelection": "1",
         "maxSelection": "1",
-        "selection_scope": ""
+        "selection_scope": "",
+        "modifiers": []
       }
     ],
     "colors": {},
     "image": {}
   },
   {
+    "id": "69d-a656-fde3-6c3e",
     "name": "Land Raider Banisher",
     "cost": "255",
+    "costId": "51b2-306e-1021-d207",
+    "modifiers": [],
     "movement": "10\"",
     "toughness": "12",
     "save": "2+",
@@ -3221,7 +3490,8 @@
               }
             ],
             "minSelection": "1",
-            "maxSelection": "1"
+            "maxSelection": "1",
+            "modifiers": []
           },
           {
             "id": "d4b7-cb82-6458-a406",
@@ -3248,7 +3518,8 @@
               }
             ],
             "minSelection": "2",
-            "maxSelection": "2"
+            "maxSelection": "2",
+            "modifiers": []
           },
           {
             "id": "88e0-4fa-8acc-7b7c",
@@ -3281,7 +3552,8 @@
               }
             ],
             "minSelection": "1",
-            "maxSelection": "1"
+            "maxSelection": "1",
+            "modifiers": []
           },
           {
             "id": "2150-6135-3ee3-8eda",
@@ -3301,7 +3573,8 @@
                 "rule_reference_id": "cd26-1611-860a-91e4"
               }
             ],
-            "maxSelection": "1"
+            "maxSelection": "1",
+            "modifiers": []
           },
           {
             "id": "9e63-91f2-e625-cce7",
@@ -3321,7 +3594,8 @@
                 "rule_reference_id": "c5c8-8b58-b8b6-7786"
               }
             ],
-            "maxSelection": "1"
+            "maxSelection": "1",
+            "modifiers": []
           },
           {
             "id": "f3dd-c9b2-d7a-c917",
@@ -3341,20 +3615,25 @@
                 "rule_reference_id": "7cdb-fb99-44a9-8849"
               }
             ],
-            "maxSelection": "1"
+            "maxSelection": "1",
+            "modifiers": []
           }
         ],
         "minSelection": "1",
         "maxSelection": "1",
-        "selection_scope": ""
+        "selection_scope": "",
+        "modifiers": []
       }
     ],
     "colors": {},
     "image": {}
   },
   {
+    "id": "5458-a458-c51d-c4e9",
     "name": "Nemesis Dreadknight",
     "cost": "185",
+    "costId": "51b2-306e-1021-d207",
+    "modifiers": [],
     "movement": "8\"",
     "toughness": "8",
     "save": "2+",
@@ -3397,7 +3676,8 @@
             "damage": "1",
             "additional_rules": [],
             "minSelection": "1",
-            "maxSelection": "1"
+            "maxSelection": "1",
+            "modifiers": []
           },
           {
             "id": "c87c-a41d-9640-aa1e",
@@ -3411,7 +3691,8 @@
             "keywords": "Psychic",
             "additional_rules": [],
             "minSelection": "1",
-            "maxSelection": "1"
+            "maxSelection": "1",
+            "modifiers": []
           },
           {
             "id": "c87c-a41d-9640-aa1e",
@@ -3425,7 +3706,8 @@
             "keywords": "Psychic",
             "additional_rules": [],
             "minSelection": "1",
-            "maxSelection": "1"
+            "maxSelection": "1",
+            "modifiers": []
           },
           {
             "id": "6fe6-97cc-6f34-b23e",
@@ -3439,7 +3721,8 @@
             "keywords": "Psychic",
             "additional_rules": [],
             "minSelection": "1",
-            "maxSelection": "1"
+            "maxSelection": "1",
+            "modifiers": []
           },
           {
             "id": "eea8-d667-691b-336c",
@@ -3452,7 +3735,8 @@
             "damage": "1",
             "keywords": "Psychic, Sustained Hits 1",
             "additional_rules": [],
-            "maxSelection": "1"
+            "maxSelection": "1",
+            "modifiers": []
           },
           {
             "id": "5e54-2e6d-48a1-5b6e",
@@ -3465,7 +3749,8 @@
             "damage": "1",
             "keywords": "Ignores Cover, Torrent",
             "additional_rules": [],
-            "maxSelection": "1"
+            "maxSelection": "1",
+            "modifiers": []
           },
           {
             "id": "d93e-2aa1-5f95-72a8",
@@ -3478,20 +3763,39 @@
             "damage": "3",
             "keywords": "Psychic",
             "additional_rules": [],
-            "maxSelection": "1"
+            "maxSelection": "1",
+            "modifiers": []
           }
         ],
         "minSelection": "1",
         "maxSelection": "1",
-        "selection_scope": ""
+        "selection_scope": "",
+        "modifiers": []
       }
     ],
     "colors": {},
     "image": {}
   },
   {
+    "id": "6528-4634-c2cf-2840",
     "name": "Paladin Squad",
     "cost": "225",
+    "costId": "51b2-306e-1021-d207",
+    "modifiers": [
+      {
+        "modifierType": "set",
+        "modifierValue": "450",
+        "modiferTargetField": "51b2-306e-1021-d207",
+        "conditions": [
+          {
+            "conditionScope": "6528-4634-c2cf-2840",
+            "conditionsType": "atLeast",
+            "conditionCheckValue": "6",
+            "conditionChildId": "model"
+          }
+        ]
+      }
+    ],
     "movement": "5\"",
     "toughness": "5",
     "save": "2+",
@@ -3536,7 +3840,8 @@
               }
             ],
             "minSelection": "1",
-            "maxSelection": "1"
+            "maxSelection": "1",
+            "modifiers": []
           },
           {
             "id": "c93f-d27c-e74f-be19",
@@ -3557,12 +3862,14 @@
               }
             ],
             "minSelection": "1",
-            "maxSelection": "1"
+            "maxSelection": "1",
+            "modifiers": []
           }
         ],
         "minSelection": "1",
         "maxSelection": "1",
-        "selection_scope": "parent"
+        "selection_scope": "parent",
+        "modifiers": []
       },
       {
         "id": "d1b3-96e2-43e6-6bf4",
@@ -3587,7 +3894,8 @@
               }
             ],
             "minSelection": "1",
-            "maxSelection": "1"
+            "maxSelection": "1",
+            "modifiers": []
           },
           {
             "id": "abb5-3b05-887d-41c6",
@@ -3608,12 +3916,14 @@
               }
             ],
             "minSelection": "1",
-            "maxSelection": "1"
+            "maxSelection": "1",
+            "modifiers": []
           }
         ],
         "minSelection": "1",
         "maxSelection": "1",
-        "selection_scope": ""
+        "selection_scope": "",
+        "modifiers": []
       },
       {
         "id": "c782-acdd-ccd7-6cc0",
@@ -3638,7 +3948,8 @@
               }
             ],
             "minSelection": "1",
-            "maxSelection": "1"
+            "maxSelection": "1",
+            "modifiers": []
           },
           {
             "id": "d970-7af-8ceb-f662",
@@ -3659,7 +3970,8 @@
               }
             ],
             "minSelection": "1",
-            "maxSelection": "1"
+            "maxSelection": "1",
+            "modifiers": []
           },
           {
             "id": "e308-5d95-ccfe-a490",
@@ -3686,7 +3998,8 @@
               }
             ],
             "minSelection": "1",
-            "maxSelection": "1"
+            "maxSelection": "1",
+            "modifiers": []
           },
           {
             "id": "548f-f4dd-7e32-9d31",
@@ -3713,7 +4026,8 @@
               }
             ],
             "minSelection": "1",
-            "maxSelection": "1"
+            "maxSelection": "1",
+            "modifiers": []
           },
           {
             "id": "1202-d63-2028-ab5c",
@@ -3733,11 +4047,13 @@
                 "rule_reference_id": "c5c8-8b58-b8b6-7786"
               }
             ],
-            "maxSelection": "1"
+            "maxSelection": "1",
+            "modifiers": []
           }
         ],
         "maxSelection": "1",
-        "selection_scope": "parent"
+        "selection_scope": "parent",
+        "modifiers": []
       },
       {
         "id": "7f57-9a5a-c5bf-851a",
@@ -3762,7 +4078,8 @@
               }
             ],
             "minSelection": "1",
-            "maxSelection": "1"
+            "maxSelection": "1",
+            "modifiers": []
           },
           {
             "id": "e1fa-34a1-5580-b7c8",
@@ -3783,7 +4100,8 @@
               }
             ],
             "minSelection": "1",
-            "maxSelection": "1"
+            "maxSelection": "1",
+            "modifiers": []
           },
           {
             "id": "5c0-5677-cffb-374c",
@@ -3810,7 +4128,8 @@
               }
             ],
             "minSelection": "1",
-            "maxSelection": "1"
+            "maxSelection": "1",
+            "modifiers": []
           },
           {
             "id": "f2a4-ccdb-517c-9e67",
@@ -3837,19 +4156,38 @@
               }
             ],
             "minSelection": "1",
-            "maxSelection": "1"
+            "maxSelection": "1",
+            "modifiers": []
           }
         ],
         "maxSelection": "2",
-        "selection_scope": "parent"
+        "selection_scope": "parent",
+        "modifiers": [
+          {
+            "modifierType": "set",
+            "modifierValue": "4",
+            "modiferTargetField": "702-d447-314b-a3f6",
+            "conditions": [
+              {
+                "conditionScope": "6528-4634-c2cf-2840",
+                "conditionsType": "atLeast",
+                "conditionCheckValue": "10",
+                "conditionChildId": "model"
+              }
+            ]
+          }
+        ]
       }
     ],
     "colors": {},
     "image": {}
   },
   {
+    "id": "8989-2fd2-4d29-e795",
     "name": "Grey Knights Thunderhawk Gunship",
     "cost": "805",
+    "costId": "51b2-306e-1021-d207",
+    "modifiers": [],
     "movement": "20+\"",
     "toughness": "12",
     "save": "2+",
@@ -3894,7 +4232,8 @@
               }
             ],
             "minSelection": "1",
-            "maxSelection": "1"
+            "maxSelection": "1",
+            "modifiers": []
           },
           {
             "id": "a62e-6c83-e169-20ec",
@@ -3907,7 +4246,8 @@
             "damage": "D6+1",
             "additional_rules": [],
             "minSelection": "2",
-            "maxSelection": "2"
+            "maxSelection": "2",
+            "modifiers": []
           },
           {
             "id": "e0b3-6c91-4b73-f83b",
@@ -3934,7 +4274,8 @@
               }
             ],
             "minSelection": "4",
-            "maxSelection": "4"
+            "maxSelection": "4",
+            "modifiers": []
           },
           {
             "id": "df1c-ece9-8eb1-3097",
@@ -3955,7 +4296,8 @@
               }
             ],
             "minSelection": "1",
-            "maxSelection": "1"
+            "maxSelection": "1",
+            "modifiers": []
           },
           {
             "id": "3c9f-6ed1-99f7-463b",
@@ -3976,7 +4318,8 @@
               }
             ],
             "minSelection": "1",
-            "maxSelection": "1"
+            "maxSelection": "1",
+            "modifiers": []
           },
           {
             "id": "dfd7-add7-ed5a-f2f",
@@ -3997,20 +4340,39 @@
               }
             ],
             "minSelection": "1",
-            "maxSelection": "1"
+            "maxSelection": "1",
+            "modifiers": []
           }
         ],
         "minSelection": "1",
         "maxSelection": "1",
-        "selection_scope": ""
+        "selection_scope": "",
+        "modifiers": []
       }
     ],
     "colors": {},
     "image": {}
   },
   {
+    "id": "e8ad-bd40-5952-6859",
     "name": "Purgation Squad",
     "cost": "135",
+    "costId": "51b2-306e-1021-d207",
+    "modifiers": [
+      {
+        "modifierType": "set",
+        "modifierValue": "270",
+        "modiferTargetField": "51b2-306e-1021-d207",
+        "conditions": [
+          {
+            "conditionScope": "e8ad-bd40-5952-6859",
+            "conditionsType": "atLeast",
+            "conditionCheckValue": "6",
+            "conditionChildId": "model"
+          }
+        ]
+      }
+    ],
     "movement": "6\"",
     "toughness": "4",
     "save": "2+",
@@ -4049,7 +4411,8 @@
               }
             ],
             "minSelection": "1",
-            "maxSelection": "1"
+            "maxSelection": "1",
+            "modifiers": []
           },
           {
             "id": "d791-32c3-c5ec-29e0",
@@ -4070,12 +4433,14 @@
               }
             ],
             "minSelection": "1",
-            "maxSelection": "1"
+            "maxSelection": "1",
+            "modifiers": []
           }
         ],
         "minSelection": "1",
         "maxSelection": "1",
-        "selection_scope": "parent"
+        "selection_scope": "parent",
+        "modifiers": []
       },
       {
         "id": "ee3b-2ec2-2841-7e66",
@@ -4100,7 +4465,8 @@
               }
             ],
             "minSelection": "1",
-            "maxSelection": "1"
+            "maxSelection": "1",
+            "modifiers": []
           },
           {
             "id": "b398-1281-6d4e-2eed",
@@ -4121,12 +4487,14 @@
               }
             ],
             "minSelection": "1",
-            "maxSelection": "1"
+            "maxSelection": "1",
+            "modifiers": []
           }
         ],
         "minSelection": "1",
         "maxSelection": "1",
-        "selection_scope": ""
+        "selection_scope": "",
+        "modifiers": []
       },
       {
         "id": "74a8-a54f-98b9-4d09",
@@ -4144,7 +4512,8 @@
             "keywords": "-",
             "additional_rules": [],
             "minSelection": "1",
-            "maxSelection": "1"
+            "maxSelection": "1",
+            "modifiers": []
           },
           {
             "id": "c71f-f97a-a5f-313a",
@@ -4171,11 +4540,13 @@
               }
             ],
             "minSelection": "1",
-            "maxSelection": "1"
+            "maxSelection": "1",
+            "modifiers": []
           }
         ],
         "maxSelection": "4",
-        "selection_scope": "parent"
+        "selection_scope": "parent",
+        "modifiers": []
       },
       {
         "id": "ce96-29f0-f79e-907d",
@@ -4193,7 +4564,8 @@
             "keywords": "-",
             "additional_rules": [],
             "minSelection": "1",
-            "maxSelection": "1"
+            "maxSelection": "1",
+            "modifiers": []
           },
           {
             "id": "367c-89e9-771a-99e6",
@@ -4220,11 +4592,13 @@
               }
             ],
             "minSelection": "1",
-            "maxSelection": "1"
+            "maxSelection": "1",
+            "modifiers": []
           }
         ],
         "maxSelection": "4",
-        "selection_scope": "parent"
+        "selection_scope": "parent",
+        "modifiers": []
       },
       {
         "id": "f0ad-a5ac-154b-e21d",
@@ -4242,7 +4616,8 @@
             "keywords": "-",
             "additional_rules": [],
             "minSelection": "1",
-            "maxSelection": "1"
+            "maxSelection": "1",
+            "modifiers": []
           },
           {
             "id": "eb06-2a1b-48c0-c353",
@@ -4263,19 +4638,38 @@
               }
             ],
             "minSelection": "1",
-            "maxSelection": "1"
+            "maxSelection": "1",
+            "modifiers": []
           }
         ],
         "maxSelection": "4",
-        "selection_scope": "parent"
+        "selection_scope": "parent",
+        "modifiers": []
       }
     ],
     "colors": {},
     "image": {}
   },
   {
+    "id": "8865-df22-1629-bf02",
     "name": "Purifier Squad",
     "cost": "130",
+    "costId": "51b2-306e-1021-d207",
+    "modifiers": [
+      {
+        "modifierType": "set",
+        "modifierValue": "260",
+        "modiferTargetField": "51b2-306e-1021-d207",
+        "conditions": [
+          {
+            "conditionScope": "8865-df22-1629-bf02",
+            "conditionsType": "atLeast",
+            "conditionCheckValue": "6",
+            "conditionChildId": "model"
+          }
+        ]
+      }
+    ],
     "movement": "6\"",
     "toughness": "4",
     "save": "2+",
@@ -4314,7 +4708,8 @@
               }
             ],
             "minSelection": "1",
-            "maxSelection": "1"
+            "maxSelection": "1",
+            "modifiers": []
           },
           {
             "id": "afbf-1390-b3c2-34e5",
@@ -4335,7 +4730,8 @@
               }
             ],
             "minSelection": "1",
-            "maxSelection": "1"
+            "maxSelection": "1",
+            "modifiers": []
           },
           {
             "id": "7806-2692-1a7b-e5ac",
@@ -4368,12 +4764,14 @@
               }
             ],
             "minSelection": "1",
-            "maxSelection": "1"
+            "maxSelection": "1",
+            "modifiers": []
           }
         ],
         "minSelection": "1",
         "maxSelection": "1",
-        "selection_scope": "parent"
+        "selection_scope": "parent",
+        "modifiers": []
       },
       {
         "id": "2105-9372-a043-df0c",
@@ -4398,7 +4796,8 @@
               }
             ],
             "minSelection": "1",
-            "maxSelection": "1"
+            "maxSelection": "1",
+            "modifiers": []
           },
           {
             "id": "71f6-9d16-87ce-ad59",
@@ -4419,7 +4818,8 @@
               }
             ],
             "minSelection": "1",
-            "maxSelection": "1"
+            "maxSelection": "1",
+            "modifiers": []
           },
           {
             "id": "915e-b169-5d19-d77b",
@@ -4452,12 +4852,14 @@
               }
             ],
             "minSelection": "1",
-            "maxSelection": "1"
+            "maxSelection": "1",
+            "modifiers": []
           }
         ],
         "minSelection": "1",
         "maxSelection": "1",
-        "selection_scope": ""
+        "selection_scope": "",
+        "modifiers": []
       },
       {
         "id": "a555-f09-9aa6-db71",
@@ -4475,7 +4877,8 @@
             "keywords": "-",
             "additional_rules": [],
             "minSelection": "1",
-            "maxSelection": "1"
+            "maxSelection": "1",
+            "modifiers": []
           },
           {
             "id": "a6c0-754c-4ad1-618",
@@ -4502,7 +4905,8 @@
               }
             ],
             "minSelection": "1",
-            "maxSelection": "1"
+            "maxSelection": "1",
+            "modifiers": []
           },
           {
             "id": "541f-dcb9-e0a7-ae43",
@@ -4535,11 +4939,13 @@
               }
             ],
             "minSelection": "1",
-            "maxSelection": "1"
+            "maxSelection": "1",
+            "modifiers": []
           }
         ],
         "maxSelection": "4",
-        "selection_scope": "parent"
+        "selection_scope": "parent",
+        "modifiers": []
       },
       {
         "id": "efc9-77c8-f86a-878d",
@@ -4557,7 +4963,8 @@
             "keywords": "-",
             "additional_rules": [],
             "minSelection": "1",
-            "maxSelection": "1"
+            "maxSelection": "1",
+            "modifiers": []
           },
           {
             "id": "87af-3056-395b-55ef",
@@ -4590,7 +4997,8 @@
               }
             ],
             "minSelection": "1",
-            "maxSelection": "1"
+            "maxSelection": "1",
+            "modifiers": []
           },
           {
             "id": "63b3-b175-dd2d-d9bd",
@@ -4617,11 +5025,13 @@
               }
             ],
             "minSelection": "1",
-            "maxSelection": "1"
+            "maxSelection": "1",
+            "modifiers": []
           }
         ],
         "maxSelection": "4",
-        "selection_scope": "parent"
+        "selection_scope": "parent",
+        "modifiers": []
       },
       {
         "id": "d518-3382-8614-960b",
@@ -4639,7 +5049,8 @@
             "keywords": "-",
             "additional_rules": [],
             "minSelection": "1",
-            "maxSelection": "1"
+            "maxSelection": "1",
+            "modifiers": []
           },
           {
             "id": "6ef7-1774-e655-9480",
@@ -4672,7 +5083,8 @@
               }
             ],
             "minSelection": "1",
-            "maxSelection": "1"
+            "maxSelection": "1",
+            "modifiers": []
           },
           {
             "id": "28a-e8f4-7397-9e36",
@@ -4693,19 +5105,24 @@
               }
             ],
             "minSelection": "1",
-            "maxSelection": "1"
+            "maxSelection": "1",
+            "modifiers": []
           }
         ],
         "maxSelection": "4",
-        "selection_scope": "parent"
+        "selection_scope": "parent",
+        "modifiers": []
       }
     ],
     "colors": {},
     "image": {}
   },
   {
+    "id": "35ed-7890-6c56-18b7",
     "name": "Servitors",
     "cost": "50",
+    "costId": "51b2-306e-1021-d207",
+    "modifiers": [],
     "movement": "6\"",
     "toughness": "4",
     "save": "4+",
@@ -4748,12 +5165,14 @@
             "damage": "3",
             "additional_rules": [],
             "minSelection": "1",
-            "maxSelection": "1"
+            "maxSelection": "1",
+            "modifiers": []
           }
         ],
         "minSelection": "1",
         "maxSelection": "1",
-        "selection_scope": ""
+        "selection_scope": "",
+        "modifiers": []
       },
       {
         "id": "89c9-ccee-d41e-7489",
@@ -4771,12 +5190,14 @@
             "keywords": "Heavy, Sustained Hits 1",
             "additional_rules": [],
             "minSelection": "1",
-            "maxSelection": "1"
+            "maxSelection": "1",
+            "modifiers": []
           }
         ],
         "minSelection": "1",
         "maxSelection": "1",
-        "selection_scope": ""
+        "selection_scope": "",
+        "modifiers": []
       },
       {
         "id": "51b4-7283-dda-f124",
@@ -4794,12 +5215,14 @@
             "keywords": "Heavy, Melta 2",
             "additional_rules": [],
             "minSelection": "1",
-            "maxSelection": "1"
+            "maxSelection": "1",
+            "modifiers": []
           }
         ],
         "minSelection": "1",
         "maxSelection": "1",
-        "selection_scope": ""
+        "selection_scope": "",
+        "modifiers": []
       },
       {
         "id": "40ff-1eb6-2299-f733",
@@ -4817,7 +5240,8 @@
             "keywords": "Blast, Heavy",
             "additional_rules": [],
             "minSelection": "1",
-            "maxSelection": "1"
+            "maxSelection": "1",
+            "modifiers": []
           },
           {
             "id": "40ff-1eb6-2299-f733",
@@ -4831,20 +5255,39 @@
             "keywords": "Blast, Heavy",
             "additional_rules": [],
             "minSelection": "1",
-            "maxSelection": "1"
+            "maxSelection": "1",
+            "modifiers": []
           }
         ],
         "minSelection": "1",
         "maxSelection": "1",
-        "selection_scope": ""
+        "selection_scope": "",
+        "modifiers": []
       }
     ],
     "colors": {},
     "image": {}
   },
   {
+    "id": "d81f-c9ac-e338-ba37",
     "name": "Strike Squad",
     "cost": "125",
+    "costId": "51b2-306e-1021-d207",
+    "modifiers": [
+      {
+        "modifierType": "set",
+        "modifierValue": "250",
+        "modiferTargetField": "51b2-306e-1021-d207",
+        "conditions": [
+          {
+            "conditionScope": "d81f-c9ac-e338-ba37",
+            "conditionsType": "atLeast",
+            "conditionCheckValue": "6",
+            "conditionChildId": "model"
+          }
+        ]
+      }
+    ],
     "movement": "6\"",
     "toughness": "4",
     "save": "2+",
@@ -4883,7 +5326,8 @@
               }
             ],
             "minSelection": "1",
-            "maxSelection": "1"
+            "maxSelection": "1",
+            "modifiers": []
           },
           {
             "id": "b26a-29d2-ce3f-6f95",
@@ -4904,12 +5348,14 @@
               }
             ],
             "minSelection": "1",
-            "maxSelection": "1"
+            "maxSelection": "1",
+            "modifiers": []
           }
         ],
         "minSelection": "1",
         "maxSelection": "1",
-        "selection_scope": "parent"
+        "selection_scope": "parent",
+        "modifiers": []
       },
       {
         "id": "2e8c-d8a7-b77c-d2ad",
@@ -4934,7 +5380,8 @@
               }
             ],
             "minSelection": "1",
-            "maxSelection": "1"
+            "maxSelection": "1",
+            "modifiers": []
           },
           {
             "id": "2ba5-c2d6-adb5-77f4",
@@ -4955,12 +5402,14 @@
               }
             ],
             "minSelection": "1",
-            "maxSelection": "1"
+            "maxSelection": "1",
+            "modifiers": []
           }
         ],
         "minSelection": "1",
         "maxSelection": "1",
-        "selection_scope": ""
+        "selection_scope": "",
+        "modifiers": []
       },
       {
         "id": "b953-5c1a-5d31-192f",
@@ -4985,7 +5434,8 @@
               }
             ],
             "minSelection": "1",
-            "maxSelection": "1"
+            "maxSelection": "1",
+            "modifiers": []
           },
           {
             "id": "f37f-228a-a9-1b00",
@@ -5012,7 +5462,8 @@
               }
             ],
             "minSelection": "1",
-            "maxSelection": "1"
+            "maxSelection": "1",
+            "modifiers": []
           },
           {
             "id": "d045-399e-966c-c019",
@@ -5039,19 +5490,52 @@
               }
             ],
             "minSelection": "1",
-            "maxSelection": "1"
+            "maxSelection": "1",
+            "modifiers": []
           }
         ],
         "maxSelection": "1",
-        "selection_scope": "parent"
+        "selection_scope": "parent",
+        "modifiers": [
+          {
+            "modifierType": "set",
+            "modifierValue": "2",
+            "modiferTargetField": "702-d447-314b-a3f6",
+            "conditions": [
+              {
+                "conditionScope": "d81f-c9ac-e338-ba37",
+                "conditionsType": "atLeast",
+                "conditionCheckValue": "10",
+                "conditionChildId": "model"
+              }
+            ]
+          }
+        ]
       }
     ],
     "colors": {},
     "image": {}
   },
   {
+    "id": "54f0-4b3f-3abe-081b",
     "name": "Grey Knights Relic Razorback [Legends]",
     "cost": "95",
+    "costId": "51b2-306e-1021-d207",
+    "modifiers": [
+      {
+        "modifierType": "set",
+        "modifierValue": "true",
+        "modiferTargetField": "hidden",
+        "conditions": [
+          {
+            "conditionScope": "roster",
+            "conditionsType": "lessThan",
+            "conditionCheckValue": "1",
+            "conditionChildId": "9ed-cbf4-bfe5-90bf"
+          }
+        ]
+      }
+    ],
     "movement": "12\"",
     "toughness": "9",
     "save": "3+",
@@ -5084,7 +5568,22 @@
               }
             ],
             "minSelection": "1",
-            "maxSelection": "1"
+            "maxSelection": "1",
+            "modifiers": [
+              {
+                "modifierType": "set",
+                "modifierValue": "true",
+                "modiferTargetField": "hidden",
+                "conditions": [
+                  {
+                    "conditionScope": "roster",
+                    "conditionsType": "lessThan",
+                    "conditionCheckValue": "1",
+                    "conditionChildId": "9ed-cbf4-bfe5-90bf"
+                  }
+                ]
+              }
+            ]
           },
           {
             "id": "23e0-78c1-6f77-e985",
@@ -5097,7 +5596,8 @@
             "damage": "D6",
             "keywords": "One Shot",
             "additional_rules": [],
-            "maxSelection": "1"
+            "maxSelection": "1",
+            "modifiers": []
           },
           {
             "id": "7ee9-e9ac-b677-24a9",
@@ -5117,7 +5617,8 @@
                 "rule_reference_id": "c5c8-8b58-b8b6-7786"
               }
             ],
-            "maxSelection": "1"
+            "maxSelection": "1",
+            "modifiers": []
           },
           {
             "id": "d639-d780-425c-67d9",
@@ -5131,7 +5632,8 @@
             "keywords": "Sustained Hits 1, Twin-Linked",
             "additional_rules": [],
             "minSelection": "1",
-            "maxSelection": "1"
+            "maxSelection": "1",
+            "modifiers": []
           },
           {
             "id": "850e-b813-8e4a-1314",
@@ -5145,7 +5647,8 @@
             "keywords": "Devastating Wounds, Twin-Linked",
             "additional_rules": [],
             "minSelection": "1",
-            "maxSelection": "1"
+            "maxSelection": "1",
+            "modifiers": []
           },
           {
             "id": "f9d6-568b-0b7a-7770",
@@ -5159,7 +5662,8 @@
             "keywords": "Twin-Linked",
             "additional_rules": [],
             "minSelection": "1",
-            "maxSelection": "1"
+            "maxSelection": "1",
+            "modifiers": []
           },
           {
             "id": "9cd8-d57e-2c72-1b6e",
@@ -5173,20 +5677,53 @@
             "keywords": "Psychic",
             "additional_rules": [],
             "minSelection": "1",
-            "maxSelection": "1"
+            "maxSelection": "1",
+            "modifiers": []
           }
         ],
         "minSelection": "1",
         "maxSelection": "1",
-        "selection_scope": ""
+        "selection_scope": "",
+        "modifiers": [
+          {
+            "modifierType": "set",
+            "modifierValue": "true",
+            "modiferTargetField": "hidden",
+            "conditions": [
+              {
+                "conditionScope": "roster",
+                "conditionsType": "lessThan",
+                "conditionCheckValue": "1",
+                "conditionChildId": "9ed-cbf4-bfe5-90bf"
+              }
+            ]
+          }
+        ]
       }
     ],
     "colors": {},
     "image": {}
   },
   {
+    "id": "28d0-5a52-501a-441d",
     "name": "Grey Knights Dreadnought [Legends]",
     "cost": "160",
+    "costId": "51b2-306e-1021-d207",
+    "modifiers": [
+      {
+        "modifierType": "set",
+        "modifierValue": "true",
+        "modiferTargetField": "hidden",
+        "conditions": [
+          {
+            "conditionScope": "roster",
+            "conditionsType": "lessThan",
+            "conditionCheckValue": "1",
+            "conditionChildId": "9ed-cbf4-bfe5-90bf"
+          }
+        ]
+      }
+    ],
     "movement": "6\"",
     "toughness": "9",
     "save": "2+",
@@ -5217,7 +5754,8 @@
             "damage": "3",
             "additional_rules": [],
             "minSelection": "1",
-            "maxSelection": "1"
+            "maxSelection": "1",
+            "modifiers": []
           },
           {
             "id": "2c39-9ddf-60f3-bb15",
@@ -5230,7 +5768,8 @@
             "damage": "3",
             "additional_rules": [],
             "minSelection": "1",
-            "maxSelection": "1"
+            "maxSelection": "1",
+            "modifiers": []
           },
           {
             "id": "aa02-2e73-1439-6345",
@@ -5243,7 +5782,8 @@
             "damage": "3",
             "additional_rules": [],
             "minSelection": "1",
-            "maxSelection": "1"
+            "maxSelection": "1",
+            "modifiers": []
           },
           {
             "id": "aa02-2e73-1439-6345",
@@ -5256,7 +5796,8 @@
             "damage": "3",
             "additional_rules": [],
             "minSelection": "1",
-            "maxSelection": "1"
+            "maxSelection": "1",
+            "modifiers": []
           },
           {
             "id": "948f-cee9-86ad-47f0",
@@ -5270,7 +5811,8 @@
             "keywords": "Blast",
             "additional_rules": [],
             "minSelection": "1",
-            "maxSelection": "1"
+            "maxSelection": "1",
+            "modifiers": []
           },
           {
             "id": "948f-cee9-86ad-47f0",
@@ -5284,7 +5826,8 @@
             "keywords": "Blast",
             "additional_rules": [],
             "minSelection": "1",
-            "maxSelection": "1"
+            "maxSelection": "1",
+            "modifiers": []
           },
           {
             "id": "948f-cee9-86ad-47f0",
@@ -5298,7 +5841,8 @@
             "keywords": "Blast",
             "additional_rules": [],
             "minSelection": "1",
-            "maxSelection": "1"
+            "maxSelection": "1",
+            "modifiers": []
           },
           {
             "id": "19ce-493d-f42e-f034",
@@ -5312,7 +5856,8 @@
             "keywords": "Ignores Cover, Torrent",
             "additional_rules": [],
             "minSelection": "1",
-            "maxSelection": "1"
+            "maxSelection": "1",
+            "modifiers": []
           },
           {
             "id": "19ce-493d-f42e-f034",
@@ -5326,7 +5871,8 @@
             "keywords": "Ignores Cover, Torrent",
             "additional_rules": [],
             "minSelection": "1",
-            "maxSelection": "1"
+            "maxSelection": "1",
+            "modifiers": []
           },
           {
             "id": "3145-7464-4b5-1a18",
@@ -5340,7 +5886,8 @@
             "keywords": "Psychic",
             "additional_rules": [],
             "minSelection": "1",
-            "maxSelection": "1"
+            "maxSelection": "1",
+            "modifiers": []
           },
           {
             "id": "3145-7464-4b5-1a18",
@@ -5354,7 +5901,8 @@
             "keywords": "Psychic",
             "additional_rules": [],
             "minSelection": "1",
-            "maxSelection": "1"
+            "maxSelection": "1",
+            "modifiers": []
           },
           {
             "id": "52a2-574b-f679-fba4",
@@ -5368,7 +5916,8 @@
             "keywords": "Devastating Wounds",
             "additional_rules": [],
             "minSelection": "1",
-            "maxSelection": "1"
+            "maxSelection": "1",
+            "modifiers": []
           },
           {
             "id": "4307-f0eb-4e2b-a53a",
@@ -5382,7 +5931,8 @@
             "keywords": "Blast",
             "additional_rules": [],
             "minSelection": "1",
-            "maxSelection": "1"
+            "maxSelection": "1",
+            "modifiers": []
           },
           {
             "id": "4307-f0eb-4e2b-a53a",
@@ -5396,7 +5946,8 @@
             "keywords": "Blast",
             "additional_rules": [],
             "minSelection": "1",
-            "maxSelection": "1"
+            "maxSelection": "1",
+            "modifiers": []
           },
           {
             "id": "9e68-33b-95cd-304d",
@@ -5410,7 +5961,8 @@
             "keywords": "Melta 2",
             "additional_rules": [],
             "minSelection": "1",
-            "maxSelection": "1"
+            "maxSelection": "1",
+            "modifiers": []
           },
           {
             "id": "d4df-bdd-649c-9bd5",
@@ -5424,7 +5976,8 @@
             "keywords": "Twin-Linked",
             "additional_rules": [],
             "minSelection": "1",
-            "maxSelection": "1"
+            "maxSelection": "1",
+            "modifiers": []
           },
           {
             "id": "b687-7f63-dd41-b373",
@@ -5438,12 +5991,28 @@
             "keywords": "Psychic",
             "additional_rules": [],
             "minSelection": "1",
-            "maxSelection": "1"
+            "maxSelection": "1",
+            "modifiers": []
           }
         ],
         "minSelection": "1",
         "maxSelection": "1",
-        "selection_scope": ""
+        "selection_scope": "",
+        "modifiers": [
+          {
+            "modifierType": "set",
+            "modifierValue": "true",
+            "modiferTargetField": "hidden",
+            "conditions": [
+              {
+                "conditionScope": "roster",
+                "conditionsType": "lessThan",
+                "conditionCheckValue": "1",
+                "conditionChildId": "9ed-cbf4-bfe5-90bf"
+              }
+            ]
+          }
+        ]
       }
     ],
     "colors": {},
