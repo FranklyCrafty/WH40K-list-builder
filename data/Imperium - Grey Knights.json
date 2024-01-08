@@ -2,8 +2,10 @@
   {
     "id": "dce9-6eb4-fa33-e869",
     "name": "Brother-Captain",
-    "cost": "90",
-    "costId": "51b2-306e-1021-d207",
+    "costs": {
+      "cost": "90",
+      "id": "51b2-306e-1021-d207"
+    },
     "modifiers": [],
     "movement": "5\"",
     "toughness": "5",
@@ -176,8 +178,10 @@
   {
     "id": "aec2-ded6-fa0-3b75",
     "name": "Brother-Captain Stern",
-    "cost": "90",
-    "costId": "51b2-306e-1021-d207",
+    "costs": {
+      "cost": "90",
+      "id": "51b2-306e-1021-d207"
+    },
     "modifiers": [],
     "movement": "5\"",
     "toughness": "5",
@@ -273,8 +277,10 @@
   {
     "id": "2c81-4e74-8707-3117",
     "name": "Brotherhood Champion",
-    "cost": "80",
-    "costId": "51b2-306e-1021-d207",
+    "costs": {
+      "cost": "80",
+      "id": "51b2-306e-1021-d207"
+    },
     "modifiers": [],
     "movement": "6\"",
     "toughness": "4",
@@ -376,8 +382,10 @@
   {
     "id": "b9b1-d698-1e98-da45",
     "name": "Brotherhood Chaplain",
-    "cost": "75",
-    "costId": "51b2-306e-1021-d207",
+    "costs": {
+      "cost": "75",
+      "id": "51b2-306e-1021-d207"
+    },
     "modifiers": [],
     "movement": "5\"",
     "toughness": "5",
@@ -465,8 +473,10 @@
   {
     "id": "5412-1f01-b7cc-bf12",
     "name": "Brotherhood Librarian",
-    "cost": "100",
-    "costId": "51b2-306e-1021-d207",
+    "costs": {
+      "cost": "100",
+      "id": "51b2-306e-1021-d207"
+    },
     "modifiers": [],
     "movement": "5\"",
     "toughness": "5",
@@ -663,8 +673,10 @@
   {
     "id": "f667-5267-f241-37",
     "name": "Brotherhood Techmarine",
-    "cost": "60",
-    "costId": "51b2-306e-1021-d207",
+    "costs": {
+      "cost": "60",
+      "id": "51b2-306e-1021-d207"
+    },
     "modifiers": [],
     "movement": "5\"",
     "toughness": "4",
@@ -819,8 +831,10 @@
   {
     "id": "a037-a89c-f59f-8b1e",
     "name": "Brotherhood Terminator Squad",
-    "cost": "210",
-    "costId": "51b2-306e-1021-d207",
+    "costs": {
+      "cost": "210",
+      "id": "51b2-306e-1021-d207"
+    },
     "modifiers": [
       {
         "modifierType": "set",
@@ -1179,8 +1193,10 @@
   {
     "id": "9ddb-760d-8cf7-1c8a",
     "name": "Castellan Crowe",
-    "cost": "75",
-    "costId": "51b2-306e-1021-d207",
+    "costs": {
+      "cost": "75",
+      "id": "51b2-306e-1021-d207"
+    },
     "modifiers": [],
     "movement": "6\"",
     "toughness": "4",
@@ -1316,8 +1332,10 @@
   {
     "id": "1a56-706b-a8f1-631a",
     "name": "Grand Master",
-    "cost": "95",
-    "costId": "51b2-306e-1021-d207",
+    "costs": {
+      "cost": "95",
+      "id": "51b2-306e-1021-d207"
+    },
     "modifiers": [],
     "movement": "5\"",
     "toughness": "5",
@@ -1490,8 +1508,10 @@
   {
     "id": "3625-f9f1-122b-bf9d",
     "name": "Grand Master in Nemesis Dreadknight",
-    "cost": "200",
-    "costId": "51b2-306e-1021-d207",
+    "costs": {
+      "cost": "200",
+      "id": "51b2-306e-1021-d207"
+    },
     "modifiers": [],
     "movement": "8\"",
     "toughness": "8",
@@ -1644,8 +1664,10 @@
   {
     "id": "7256-bb3a-3e79-31fe",
     "name": "Grand Master Voldus",
-    "cost": "95",
-    "costId": "51b2-306e-1021-d207",
+    "costs": {
+      "cost": "95",
+      "id": "51b2-306e-1021-d207"
+    },
     "modifiers": [],
     "movement": "5\"",
     "toughness": "5",
@@ -1734,8 +1756,10 @@
   {
     "id": "512d-b972-911e-4cac",
     "name": "Grey Knights Land Raider",
-    "cost": "240",
-    "costId": "51b2-306e-1021-d207",
+    "costs": {
+      "cost": "240",
+      "id": "51b2-306e-1021-d207"
+    },
     "modifiers": [],
     "movement": "10\"",
     "toughness": "12",
@@ -1867,8 +1891,10 @@
   {
     "id": "4c63-cca-8d26-6330",
     "name": "Grey Knights Land Raider Crusader",
-    "cost": "230",
-    "costId": "51b2-306e-1021-d207",
+    "costs": {
+      "cost": "230",
+      "id": "51b2-306e-1021-d207"
+    },
     "modifiers": [],
     "movement": "12\"",
     "toughness": "12",
@@ -2001,8 +2027,10 @@
   {
     "id": "ada7-eb0b-c920-d77f",
     "name": "Grey Knights Land Raider Redeemer",
-    "cost": "260",
-    "costId": "51b2-306e-1021-d207",
+    "costs": {
+      "cost": "260",
+      "id": "51b2-306e-1021-d207"
+    },
     "modifiers": [],
     "movement": "12\"",
     "toughness": "12",
@@ -2135,8 +2163,10 @@
   {
     "id": "841f-98b-fbf3-c8ee",
     "name": "Grey Knights Razorback",
-    "cost": "85",
-    "costId": "51b2-306e-1021-d207",
+    "costs": {
+      "cost": "85",
+      "id": "51b2-306e-1021-d207"
+    },
     "modifiers": [],
     "movement": "12\"",
     "toughness": "9",
@@ -2264,8 +2294,10 @@
   {
     "id": "5ffd-f698-a1bb-fba7",
     "name": "Grey Knights Rhino",
-    "cost": "75",
-    "costId": "51b2-306e-1021-d207",
+    "costs": {
+      "cost": "75",
+      "id": "51b2-306e-1021-d207"
+    },
     "modifiers": [],
     "movement": "12\"",
     "toughness": "9",
@@ -2349,8 +2381,10 @@
   {
     "id": "fa-e288-2107-d22e",
     "name": "Grey Knights Stormhawk Interceptor",
-    "cost": "160",
-    "costId": "51b2-306e-1021-d207",
+    "costs": {
+      "cost": "160",
+      "id": "51b2-306e-1021-d207"
+    },
     "modifiers": [],
     "movement": "20+\"",
     "toughness": "9",
@@ -2502,8 +2536,10 @@
   {
     "id": "2efe-459b-9562-e7a9",
     "name": "Grey Knights Stormraven Gunship",
-    "cost": "265",
-    "costId": "51b2-306e-1021-d207",
+    "costs": {
+      "cost": "265",
+      "id": "51b2-306e-1021-d207"
+    },
     "modifiers": [],
     "movement": "20+\"",
     "toughness": "10",
@@ -2691,8 +2727,10 @@
   {
     "id": "84ac-b9ea-921f-9082",
     "name": "Grey Knights Stormtalon Gunship",
-    "cost": "170",
-    "costId": "51b2-306e-1021-d207",
+    "costs": {
+      "cost": "170",
+      "id": "51b2-306e-1021-d207"
+    },
     "modifiers": [],
     "movement": "20+\"",
     "toughness": "8",
@@ -2830,8 +2868,10 @@
   {
     "id": "bd43-b303-66e0-4c10",
     "name": "Grey Knights Venerable Dreadnought",
-    "cost": "155",
-    "costId": "51b2-306e-1021-d207",
+    "costs": {
+      "cost": "155",
+      "id": "51b2-306e-1021-d207"
+    },
     "modifiers": [],
     "movement": "6\"",
     "toughness": "9",
@@ -3041,8 +3081,10 @@
   {
     "id": "d9f7-71b7-8e67-7f44",
     "name": "Interceptor Squad",
-    "cost": "135",
-    "costId": "51b2-306e-1021-d207",
+    "costs": {
+      "cost": "135",
+      "id": "51b2-306e-1021-d207"
+    },
     "modifiers": [
       {
         "modifierType": "set",
@@ -3338,8 +3380,10 @@
   {
     "id": "7a19-5235-692b-320d",
     "name": "Kaldor Draigo",
-    "cost": "125",
-    "costId": "51b2-306e-1021-d207",
+    "costs": {
+      "cost": "125",
+      "id": "51b2-306e-1021-d207"
+    },
     "modifiers": [],
     "movement": "5\"",
     "toughness": "5",
@@ -3443,8 +3487,10 @@
   {
     "id": "69d-a656-fde3-6c3e",
     "name": "Land Raider Banisher",
-    "cost": "255",
-    "costId": "51b2-306e-1021-d207",
+    "costs": {
+      "cost": "255",
+      "id": "51b2-306e-1021-d207"
+    },
     "modifiers": [],
     "movement": "10\"",
     "toughness": "12",
@@ -3631,8 +3677,10 @@
   {
     "id": "5458-a458-c51d-c4e9",
     "name": "Nemesis Dreadknight",
-    "cost": "185",
-    "costId": "51b2-306e-1021-d207",
+    "costs": {
+      "cost": "185",
+      "id": "51b2-306e-1021-d207"
+    },
     "modifiers": [],
     "movement": "8\"",
     "toughness": "8",
@@ -3779,8 +3827,10 @@
   {
     "id": "6528-4634-c2cf-2840",
     "name": "Paladin Squad",
-    "cost": "225",
-    "costId": "51b2-306e-1021-d207",
+    "costs": {
+      "cost": "225",
+      "id": "51b2-306e-1021-d207"
+    },
     "modifiers": [
       {
         "modifierType": "set",
@@ -4185,8 +4235,10 @@
   {
     "id": "8989-2fd2-4d29-e795",
     "name": "Grey Knights Thunderhawk Gunship",
-    "cost": "805",
-    "costId": "51b2-306e-1021-d207",
+    "costs": {
+      "cost": "805",
+      "id": "51b2-306e-1021-d207"
+    },
     "modifiers": [],
     "movement": "20+\"",
     "toughness": "12",
@@ -4356,8 +4408,10 @@
   {
     "id": "e8ad-bd40-5952-6859",
     "name": "Purgation Squad",
-    "cost": "135",
-    "costId": "51b2-306e-1021-d207",
+    "costs": {
+      "cost": "135",
+      "id": "51b2-306e-1021-d207"
+    },
     "modifiers": [
       {
         "modifierType": "set",
@@ -4653,8 +4707,10 @@
   {
     "id": "8865-df22-1629-bf02",
     "name": "Purifier Squad",
-    "cost": "130",
-    "costId": "51b2-306e-1021-d207",
+    "costs": {
+      "cost": "130",
+      "id": "51b2-306e-1021-d207"
+    },
     "modifiers": [
       {
         "modifierType": "set",
@@ -5120,8 +5176,10 @@
   {
     "id": "35ed-7890-6c56-18b7",
     "name": "Servitors",
-    "cost": "50",
-    "costId": "51b2-306e-1021-d207",
+    "costs": {
+      "cost": "50",
+      "id": "51b2-306e-1021-d207"
+    },
     "modifiers": [],
     "movement": "6\"",
     "toughness": "4",
@@ -5271,8 +5329,10 @@
   {
     "id": "d81f-c9ac-e338-ba37",
     "name": "Strike Squad",
-    "cost": "125",
-    "costId": "51b2-306e-1021-d207",
+    "costs": {
+      "cost": "125",
+      "id": "51b2-306e-1021-d207"
+    },
     "modifiers": [
       {
         "modifierType": "set",
@@ -5519,8 +5579,10 @@
   {
     "id": "54f0-4b3f-3abe-081b",
     "name": "Grey Knights Relic Razorback [Legends]",
-    "cost": "95",
-    "costId": "51b2-306e-1021-d207",
+    "costs": {
+      "cost": "95",
+      "id": "51b2-306e-1021-d207"
+    },
     "modifiers": [
       {
         "modifierType": "set",
@@ -5707,8 +5769,10 @@
   {
     "id": "28d0-5a52-501a-441d",
     "name": "Grey Knights Dreadnought [Legends]",
-    "cost": "160",
-    "costId": "51b2-306e-1021-d207",
+    "costs": {
+      "cost": "160",
+      "id": "51b2-306e-1021-d207"
+    },
     "modifiers": [
       {
         "modifierType": "set",

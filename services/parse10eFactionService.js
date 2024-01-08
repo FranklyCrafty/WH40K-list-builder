@@ -1,8 +1,7 @@
 // TODO: add testing by passing in all .cat files
 // TODO: Add support for colors
 // TODO: Add support for images
-// TODO: Add support for modifiers
-  // for modifiers and conditions, store them in a separate set of JSON objects
+// TODO: catalogueLink to add other catalogues to the same army
 // TODO: Add support for additional rules
 
 const fs = require("fs");
@@ -11,55 +10,61 @@ const xml2js = require("xml2js");
 var xpath = require("xml2js-xpath");
 const { DOMParser } = require('xmldom');
 
-const armyLocation = "C:/Users/frank.ashcraft/Development/wh40k-10e/Imperium - Grey Knights.cat";
-const filename = armyLocation.split("/")[armyLocation.split("/").length - 1].replace(".cat", ".json");
+const armyLocation = "C:/Users/frank.ashcraft/Development/wh40k-10e/Chaos - Chaos Daemons Library.cat";
 
-const jsonFilePath = path.resolve(__dirname, `../data/${filename}`);
+parseArmy(armyLocation);
 
-// Parser for the XML data
-const parser = new xml2js.Parser();
+function parseArmy(armyFileLocation) {
 
-//Read XML data
-const xmlData = fs.readFileSync(
-  path.resolve(__dirname, armyLocation),
-  "utf-8"
-);
+  const filename = armyFileLocation.split("/")[armyFileLocation.split("/").length - 1].replace(".cat", ".json");
+  const jsonFilePath = path.resolve(__dirname, `../data/${filename}`);
 
-// Parse the XML data
-parser.parseString(xmlData, (err, result) => {
-  if (err) {
-    console.error("Error parsing XML:", err);
-    return;
-  }
+  // Parser for the XML data
+  const parser = new xml2js.Parser();
 
-  // Get List of all possible units
-  const unitList = getUnitList(result.catalogue.entryLinks);
-  var faction = [];
-  var units = [];
-  var constraints = [];
-
-  for (let i = 0; i < unitList.length; i++) {
-    console.log(i);
-    const unit = unitList[i];
-    const unitEntry = result.catalogue.sharedSelectionEntries[0].selectionEntry.find(
-      (entry) => entry.$.id === unit.id
-    );
-
-    if (
-      unitEntry &&
-      (unitEntry.$.type == "unit" || unitEntry.$.type == "model")
-    ) {
-      units.push(parseUnit(unitEntry));
-    }
-  }
-  
-
-  // Save as JSON
-  fs.writeFileSync(
-    path.resolve(jsonFilePath),
-    JSON.stringify(units, null, 2)
+  //Read XML data
+  const xmlData = fs.readFileSync(
+    path.resolve(__dirname, armyFileLocation),
+    "utf-8"
   );
-});
+
+  // Parse the XML data
+  parser.parseString(xmlData, (err, result) => {
+    if (err) {
+      console.error("Error parsing XML:", err);
+      return;
+    }
+
+    // Get List of all possible units
+    parseSupportingArmy(result.catalogue.catalogueLinks);
+    const unitList = getUnitList(result.catalogue.entryLinks);
+    var faction = [];
+    var units = [];
+    var constraints = [];
+
+    for (let i = 0; i < unitList.length; i++) {
+      console.log(i);
+      const unit = unitList[i];
+      const unitEntry = result.catalogue.sharedSelectionEntries[0].selectionEntry.find(
+        (entry) => entry.$.id === unit.id
+      );
+
+      if (
+        unitEntry &&
+        (unitEntry.$.type == "unit" || unitEntry.$.type == "model")
+      ) {
+        units.push(parseUnit(unitEntry));
+      }
+    }
+    
+
+    // Save as JSON
+    fs.writeFileSync(
+      path.resolve(jsonFilePath),
+      JSON.stringify(units, null, 2)
+    );
+  });
+}
 
 /**
  * Function to get a list of all possible units
@@ -73,6 +78,21 @@ function getUnitList(entryLinks) {
       name: entry.$.name,
     };
   });
+}
+
+/**
+ * 
+ */
+function parseSupportingArmy(catalogueLinks) {
+  const supportingArmies = catalogueLinks[0].catalogueLink.map((entry) => {
+    return {
+      id: entry.$.Id,
+      name: entry.$.name,
+    };
+  });
+  for (const supportingArmy of supportingArmies) {
+    parseArmy("C:/Users/frank.ashcraft/Development/wh40k-10e/" + supportingArmy.name + ".cat");
+  }  
 }
 
 /**
@@ -111,8 +131,10 @@ function parseUnit(unitEntry) {
   const unitData = {
     id: unitEntry.$.id,
     name: unitEntry.$.name,
-    cost: unitEntry.costs ? unitEntry.costs[0].cost[0].$.value : "",
-    costId: unitEntry.costs ? unitEntry.costs[0].cost[0].$.typeId : "",
+    costs: {
+      cost: unitEntry.costs ? unitEntry.costs[0].cost[0].$.value : "",
+      id: unitEntry.costs ? unitEntry.costs[0].cost[0].$.typeId : "",
+    },
     modifiers: parseModifiers(unitEntry),
     movement: findCharacteristic(unitEntry, "M"),
     toughness: findCharacteristic(unitEntry, "T"),
@@ -358,19 +380,16 @@ function findWeaponEntryLink(targetId) {
   }
 }
 
-/* TODO: Add support for modifiers
-//  for modifiers and conditions, store them in a separate set of JSON objects
-//example:
-    <modifiers>
-      <modifier type="set" value="2" field="702-d447-314b-a3f6">
-        <conditions>
-          <condition type="atLeast" value="10" field="selections" scope="a037-a89c-f59f-8b1e" childId="model" shared="true"/>
-        </conditions>
-      </modifier>
-    </modifiers>
-*/ 
+
+/**
+ * Parses the modifiers of an entry.
+ * 
+ * @param {Object} entry - The entry object containing modifiers.
+ * @returns {Array} - An array of modifier entries.
+ */
 function parseModifiers(entry) {
   var modifierEntries = [];
+  var modifiers = [];
   if (entry.modifiers) {
     modifiers = entry.modifiers[0].modifier;
   
@@ -400,8 +419,11 @@ function parseModifiers(entry) {
 
 }
 
+//TODO: Condition Groups have and & or types
 function parseConditions(entry) {
   var conditionEntries = [];
+  var conditions = [];
+
   if (entry.conditions) {
     conditions = entry.conditions[0].condition;
 
@@ -421,9 +443,12 @@ function parseConditions(entry) {
   // Recursively check child entries
   if (entry.conditionGroups) {
     const childEntries = [...entry.conditionGroups[0].conditionGroup];
-    
+
     for (const childEntry of childEntries) {
-      conditionEntries.push(parseConditions(childEntry)); // Recursively search for weapons
+      conditionEntries.push({
+        conditionGroupType: childEntry.$.type ?? "",
+        conditions: parseConditions(childEntry), // Recursively search for entries
+      });
     }
   }
 
