@@ -2,6 +2,8 @@
 // TODO: Add support for colors
 // TODO: Add support for images
 // TODO: catalogueLink to add other catalogues to the same army
+// TODO: Entry Links not working for weapons fully (ie. servitor's tools)
+//        - Also need entry links to other catalogues
 // TODO: Add support for additional rules
 
 const fs = require("fs");
@@ -12,10 +14,13 @@ const { DOMParser } = require('xmldom');
 
 const armyLocation = "C:/Users/frank.ashcraft/Development/wh40k-10e/Chaos - Chaos Daemons Library.cat";
 
+var  WeaponEntries = [];
+
 parseArmy(armyLocation);
 
 function parseArmy(armyFileLocation) {
 
+  // File Locations
   const filename = armyFileLocation.split("/")[armyFileLocation.split("/").length - 1].replace(".cat", ".json");
   const jsonFilePath = path.resolve(__dirname, `../data/${filename}`);
 
@@ -36,7 +41,9 @@ function parseArmy(armyFileLocation) {
     }
 
     // Get List of all possible units
-    parseSupportingArmy(result.catalogue.catalogueLinks);
+    if (result.catalogue.catalogueLinks) {
+      parseSupportingArmy(result.catalogue.catalogueLinks);
+    }
     const unitList = getUnitList(result.catalogue.entryLinks);
     var faction = [];
     var units = [];
@@ -81,7 +88,9 @@ function getUnitList(entryLinks) {
 }
 
 /**
- * 
+ * Function to get a list of all additional army catalogues listed on the main army
+ * @param {string} catalogueLinks - The catalogueLinks from the XML data
+ * @returns {object} - The list of all supporting armies
  */
 function parseSupportingArmy(catalogueLinks) {
   const supportingArmies = catalogueLinks[0].catalogueLink.map((entry) => {
@@ -346,6 +355,27 @@ function findAndParseModels(entry, unitData) {
   }
 
   return;
+}
+
+/**
+ * If there is a weapon that is added as an entry link, then the information for 
+ * that model is stored elsewhere in the file.  This searches the file fo the 
+ * information about the weapon
+ * @param {object} targetID - the ID of the entry link with the weapon information.
+ */
+function gatherWeaponEntryLinks(parsedXMLData) {
+  var parsedresult = null;
+    // Use XPath to find the selectionEntry with a matching id attribute.
+    const query = `//entryLink[@id='${targetId}']`;
+    parsedresult = xpath.find(parsedXMLData, query);
+
+  // If a selectionEntry with a matching id is found, return it
+  if (parsedresult && parsedresult.length > 0) {
+    return parsedresult[0];
+  } else {
+    // If no matching selectionEntry is found, return null.
+    return null;
+  }
 }
 
 /**
