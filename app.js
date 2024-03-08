@@ -1,5 +1,5 @@
 const express = require('express');
-const parseXML = require('./services/parse10eFactionService');
+const parseXML = require('./services/parseUnitModels');
 const apiRoutes = require('./routes/apiRoutes');
 
 const app = express();

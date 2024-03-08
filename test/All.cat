@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" id="dfcf-1214-b57-2205" name="All" revision="36" battleScribeVersion="2.03" library="true" gameSystemId="sys-352e-adc2-7639-d6a9" gameSystemRevision="1" type="catalogue">
+  <catalogueLinks>
+    <catalogueLink type="catalogue" name="Aeldari - Aeldari Library" id="c17a-dd67-8900-8c6" targetId="581a-46b9-5b86-44b7" importRootEntries="true"/>
+    <catalogueLink type="catalogue" name="Aeldari - Craftworlds" id="c17a-dd67-8900-8c6" targetId="581a-46b9-5b86-44b7" importRootEntries="true"/>
+    <catalogueLink type="catalogue" name="Aeldari - Drukhari" id="c17a-dd67-8900-8c6" targetId="581a-46b9-5b86-44b7" importRootEntries="true"/>
+    <catalogueLink type="catalogue" name="Aeldari - Ynnari" id="c17a-dd67-8900-8c6" targetId="581a-46b9-5b86-44b7" importRootEntries="true"/>
+    <catalogueLink type="catalogue" name="Chaos - Chaos Daemons Library" id="c17a-dd67-8900-8c6" targetId="581a-46b9-5b86-44b7" importRootEntries="true"/>
+    <catalogueLink type="catalogue" name="Chaos - Chaos Daemons" id="c17a-dd67-8900-8c6" targetId="581a-46b9-5b86-44b7" importRootEntries="true"/>
+    <catalogueLink type="catalogue" name="Chaos - Chaos Knights Library" id="c17a-dd67-8900-8c6" targetId="581a-46b9-5b86-44b7" importRootEntries="true"/>
+    <catalogueLink type="catalogue" name="Chaos - Chaos Knights" id="c17a-dd67-8900-8c6" targetId="581a-46b9-5b86-44b7" importRootEntries="true"/>
+    <catalogueLink type="catalogue" name="Chaos Space Marines" id="c17a-dd67-8900-8c6" targetId="581a-46b9-5b86-44b7" importRootEntries="true"/>
+    <catalogueLink type="catalogue" name="Chaos - Death Guard" id="c17a-dd67-8900-8c6" targetId="581a-46b9-5b86-44b7" importRootEntries="true"/>
+    <catalogueLink type="catalogue" name="Chaos - Thousand Sons" id="c17a-dd67-8900-8c6" targetId="581a-46b9-5b86-44b7" importRootEntries="true"/>
+    <catalogueLink type="catalogue" name="Chaos - Titanicus Traitoris" id="c17a-dd67-8900-8c6" targetId="581a-46b9-5b86-44b7" importRootEntries="true"/>
+    <catalogueLink type="catalogue" name="Chaos - World Eaters" id="c17a-dd67-8900-8c6" targetId="581a-46b9-5b86-44b7" importRootEntries="true"/>
+    <catalogueLink type="catalogue" name="Genestealer Cults" id="c17a-dd67-8900-8c6" targetId="581a-46b9-5b86-44b7" importRootEntries="true"/>
+    <catalogueLink type="catalogue" name="Imperium - Adepta Sororitas" id="c17a-dd67-8900-8c6" targetId="581a-46b9-5b86-44b7" importRootEntries="true"/>
+    <catalogueLink type="catalogue" name="Imperium - Adeptus Custodes" id="c17a-dd67-8900-8c6" targetId="581a-46b9-5b86-44b7" importRootEntries="true"/>
+    <catalogueLink type="catalogue" name="Imperium - Adeptus Mechanicus" id="c17a-dd67-8900-8c6" targetId="581a-46b9-5b86-44b7" importRootEntries="true"/>
+    <catalogueLink type="catalogue" name="Imperium - Adeptus Titanicus" id="c17a-dd67-8900-8c6" targetId="581a-46b9-5b86-44b7" importRootEntries="true"/>
+    <catalogueLink type="catalogue" name="Imperium - Agents of the Imperium" id="c17a-dd67-8900-8c6" targetId="581a-46b9-5b86-44b7" importRootEntries="true"/>
+    <catalogueLink type="catalogue" name="Imperium - Astra Militarum - Library" id="c17a-dd67-8900-8c6" targetId="581a-46b9-5b86-44b7" importRootEntries="true"/>
+    <catalogueLink type="catalogue" name="Imperium - Astra Militarum" id="c17a-dd67-8900-8c6" targetId="581a-46b9-5b86-44b7" importRootEntries="true"/>
+    <catalogueLink type="catalogue" name="Imperium - Black Templars" id="c17a-dd67-8900-8c6" targetId="581a-46b9-5b86-44b7" importRootEntries="true"/>
+    <catalogueLink type="catalogue" name="Imperium - Blood Angels" id="c17a-dd67-8900-8c6" targetId="581a-46b9-5b86-44b7" importRootEntries="true"/>
+    <catalogueLink type="catalogue" name="Imperium - Dark Angel" id="c17a-dd67-8900-8c6" targetId="581a-46b9-5b86-44b7" importRootEntries="true"/>
+    <catalogueLink type="catalogue" name="Imperium - Deathwatch" id="c17a-dd67-8900-8c6" targetId="581a-46b9-5b86-44b7" importRootEntries="true"/>
+    <catalogueLink type="catalogue" name="Imperium - Grey Knights" id="c17a-dd67-8900-8c6" targetId="581a-46b9-5b86-44b7" importRootEntries="true"/>
+    <catalogueLink type="catalogue" name="Imperium - Imperial Fists" id="c17a-dd67-8900-8c6" targetId="581a-46b9-5b86-44b7" importRootEntries="true"/>
+    <catalogueLink type="catalogue" name="Imperium - Imperial Knights - Library" id="c17a-dd67-8900-8c6" targetId="581a-46b9-5b86-44b7" importRootEntries="true"/>
+    <catalogueLink type="catalogue" name="Imperium - Imperial Knights" id="c17a-dd67-8900-8c6" targetId="581a-46b9-5b86-44b7" importRootEntries="true"/>
+    <catalogueLink type="catalogue" name="Imperium - Iron Hands" id="c17a-dd67-8900-8c6" targetId="581a-46b9-5b86-44b7" importRootEntries="true"/>
+    <catalogueLink type="catalogue" name="Imperium - Raven Guard" id="c17a-dd67-8900-8c6" targetId="581a-46b9-5b86-44b7" importRootEntries="true"/>
+    <catalogueLink type="catalogue" name="Imperium - Salamanders" id="c17a-dd67-8900-8c6" targetId="581a-46b9-5b86-44b7" importRootEntries="true"/>
+    <catalogueLink type="catalogue" name="Imperium - Space Marines" id="c17a-dd67-8900-8c6" targetId="581a-46b9-5b86-44b7" importRootEntries="true"/>
+    <catalogueLink type="catalogue" name="Imperium - Space Wolves" id="c17a-dd67-8900-8c6" targetId="581a-46b9-5b86-44b7" importRootEntries="true"/>
+    <catalogueLink type="catalogue" name="Imperium - Ultramarines" id="c17a-dd67-8900-8c6" targetId="581a-46b9-5b86-44b7" importRootEntries="true"/>
+    <catalogueLink type="catalogue" name="Imperium - White Scars" id="c17a-dd67-8900-8c6" targetId="581a-46b9-5b86-44b7" importRootEntries="true"/>
+    <catalogueLink type="catalogue" name="Leagues of Votann" id="c17a-dd67-8900-8c6" targetId="581a-46b9-5b86-44b7" importRootEntries="true"/>
+    <catalogueLink type="catalogue" name="Library - Astartes Heresy Legends" id="c17a-dd67-8900-8c6" targetId="581a-46b9-5b86-44b7" importRootEntries="true"/>
+    <catalogueLink type="catalogue" name="Library - Titans" id="c17a-dd67-8900-8c6" targetId="581a-46b9-5b86-44b7" importRootEntries="true"/>
+    <catalogueLink type="catalogue" name="Necrons" id="c17a-dd67-8900-8c6" targetId="581a-46b9-5b86-44b7" importRootEntries="true"/>
+    <catalogueLink type="catalogue" name="Orks" id="c17a-dd67-8900-8c6" targetId="581a-46b9-5b86-44b7" importRootEntries="true"/>
+    <catalogueLink type="catalogue" name="T'au Empire" id="c17a-dd67-8900-8c6" targetId="581a-46b9-5b86-44b7" importRootEntries="true"/>
+    <catalogueLink type="catalogue" name="Tyranids" id="c17a-dd67-8900-8c6" targetId="581a-46b9-5b86-44b7" importRootEntries="true"/>
+    <catalogueLink type="catalogue" name="Unaligned Forces" id="c17a-dd67-8900-8c6" targetId="581a-46b9-5b86-44b7" importRootEntries="true"/>
+    <catalogueLink type="catalogue" name="Orks" id="c17a-dd67-8900-8c6" targetId="581a-46b9-5b86-44b7" importRootEntries="true"/>
+  </catalogueLinks>
+  <entryLinks><entryLink></entryLink></entryLinks>
+</catalogue>
