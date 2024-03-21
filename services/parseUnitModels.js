@@ -13,8 +13,8 @@ const xml2js = require("xml2js");
 var xpath = require("xml2js-xpath");
 const { DOMParser } = require('xmldom');
 const e = require('express');
-const armyLocation = "C:/Users/frank.ashcraft/Development/WH40K-list-builder/test/All.cat";
-//const armyLocation = "C:/Users/frank.ashcraft/Development/wh40k-10e/Imperium - Space Marines.cat";
+//const armyLocation = "C:/Users/frank.ashcraft/Development/WH40K-list-builder/test/All.cat";
+const armyLocation = "C:/Users/frank.ashcraft/Development/wh40k-10e/Aeldari - Ynnari.cat";
 //const armyLocation = "C:/Users/frank.ashcraft/Development/wh40k-10e/Chaos - Chaos Knights Library.cat";
 //C:\Users\frank.ashcraft\Development\wh40k-10e\Imperium - Space Marines.cat
 
